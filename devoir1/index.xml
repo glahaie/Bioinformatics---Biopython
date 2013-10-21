@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jobState SYSTEM "file:///local/bioweb/Mobyle/mobyle.dtd">
+<?xml-stylesheet href="job.xsl" type="text/xsl"?>
+<jobState>
+  <name>cap3</name>
+  <host>http://mobyle.pasteur.fr</host>
+  <id>http://mobyle.pasteur.fr/Mobyle/Results/cap3/M05552436290979</id>
+  <date>09/17/08  20:43:54</date>
+  <status>
+    <value>finished</value>
+  </status>
+  <email>banire@gmail.com</email>
+  <sessionKey>C05536579765081</sessionKey>
+<data>
+    <input>
+      <parameter>
+        <name>seq</name>
+        <type>
+          <biotype>Nucleic</biotype>
+          <datatype>
+            <class>Sequence</class>
+          </datatype>
+          <acceptedDataFormats>
+            <dataFormat>FASTA</dataFormat>
+          </acceptedDataFormats>
+          <card>2,n</card>
+        </type>
+        <prompt lang="en">File of reads</prompt>
+      </parameter>
+      <file fmt="FASTA" size="4149983">seq.data</file>
+      <fmtProgram>squizz</fmtProgram>
+    </input>
+  <output>
+      <parameter>
+        <name>info</name>
+        <type>
+          <datatype>
+            <class>Text</class>
+          </datatype>
+        </type>
+        <prompt lang="en">Assembly informations</prompt>
+      </parameter>
+      <file size="24487595">seq.data.cap.info</file>
+    </output>
+    <output>
+      <parameter>
+        <name>ace</name>
+        <type>
+          <datatype>
+            <class>AceAssembly</class>
+            <superclass>AbstractText</superclass>
+          </datatype>
+        </type>
+        <prompt lang="en">Assembly in ace format</prompt>
+      </parameter>
+      <file size="2260812">seq.data.cap.ace</file>
+    </output>
+    <output>
+      <parameter>
+        <name>stdout</name>
+        <type>
+          <datatype>
+            <class>Text</class>
+          </datatype>
+        </type>
+        <prompt lang="en">standard output</prompt>
+      </parameter>
+      <file size="2210783">cap3.out</file>
+    </output>
+    <output>
+      <parameter>
+        <name>contig_qual</name>
+        <type>
+          <datatype>
+            <class>Text</class>
+          </datatype>
+        </type>
+        <prompt lang="en">Quality of contigs</prompt>
+      </parameter>
+      <file size="705532">seq.data.cap.contigs.qual</file>
+    </output>
+    <output>
+      <parameter>
+        <name>singlet</name>
+        <type>
+          <biotype>Nucleic</biotype>
+          <datatype>
+            <class>Sequence</class>
+          </datatype>
+          <card>0,n</card>
+        </type>
+        <prompt lang="en">Singlets</prompt>
+      </parameter>
+      <file size="3115413">seq.data.cap.singlets</file>
+    </output>
+    <output>
+      <parameter>
+        <name>contig</name>
+        <type>
+          <biotype>Nucleiq</biotype>
+          <datatype>
+            <class>Sequence</class>
+          </datatype>
+          <card>0,n</card>
+        </type>
+        <prompt lang="en">Contigs</prompt>
+      </parameter>
+      <file size="238793">seq.data.cap.contigs</file>
+    </output>
+  </data>
+<commandLine>cap3 seq.data</commandLine>
+</jobState>

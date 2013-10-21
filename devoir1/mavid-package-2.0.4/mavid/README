@@ -1,0 +1,101 @@
+IMPORTANT: If you are using MAVID on Macintosh OS X, you must run the
+command "unlimit stacksize" before running the MAVID program.
+
+This package includes the MAVID alignment program together with auxiliary
+programs which make it easier to use. If you know the phylogenetic tree for
+your sequences, then you just want to use the MAVID program. If you don't
+know the phylogenetic tree, then you can use the mavid.pl script to iteratively
+align the sequences and estimate a tree for them. More information about each
+component is given below. If you use results from MAVID in a paper, please
+cite the paper:
+
+MAVID: Constrained Ancestral Alignment of Multiple Sequences
+N. Bray and L. Pachter
+Genome Research 14, 693-699 (2004)
+
+Copyright information is given in the file 'Copyright'. If you have any
+questions or comments, please contact the authors at mavid@math.berkeley.edu
+
+
+Installing MAVID
+-------------------------------------------------------------------------------
+
+The MAVID program is ready to run and its usage is described below. To use
+the mavid.pl script, you must have CLUSTALW and fastDNAml installed on your
+system and must edit the mavid.pl file to specify the locations of CLUSTALW
+and fastDNAml on your system. If you do not have CLUSTALW or fastDNAml, they
+can be obtained from the following sites:
+
+http://geta.life.uiuc.edu/~gary/programs/fastDNAml/
+ftp://ftp.ebi.ac.uk/pub/software/unix/clustalw/
+
+Please remember to cite these programs if you use results from the mavid.pl
+script in a publication.
+
+
+
+The MAVID Program
+-------------------------------------------------------------------------------
+
+MAVID is a program for computing global alignments of multiple homologous
+sequences. The usage is as follows:
+
+mavid tree_file sequence_file
+
+where tree_file is a binary, rooted phylogenetic tree in Newick format with
+branch lengths and sequence_file is a file containing two or more sequences in
+multi-FASTA format. MAVID also requires a repeat masking file
+sequence_file.masked which is the .masked file from RepeatMasker.
+
+More information about Newick and multi-FASTA formats, can be found at
+these addresses:
+
+http://evolution.genetics.washington.edu/phylip/newicktree.html
+http://baboon.math.berkeley.edu/mavid/multifasta.html
+
+
+The tree file specifies the phylogenetic relationship between the sequences
+in the sequence file. A sequence is identified by the first word of its
+FASTA line and so the FASTA lines for the different sequences must begin
+with different words.
+
+If the "-r" option is used, then after performing an initial alignment, each
+sequence is pulled out of the alignment and realigned to the others with the
+goal of fixing errors in the alignment. The "-c" option allows the user to
+specify a file containing constraints on the alignment, i.e. regions in the
+sequences which are already known to correspond to each other. Each line of
+the constraint file should be of the form:
+
+<fasta id 1> <start 1> <end 1> <fasta id 2> <start 2> <end 2>
+
+for example, "DroAna 34805 35213 DroMel 50319 50727"
+
+As an example, you can download the files:
+
+http://baboon.math.berkeley.edu/mavid/hmr.fasta
+http://baboon.math.berkeley.edu/mavid/hmr.fasta.masked
+http://baboon.math.berkeley.edu/mavid/hmr.tree
+
+and run "mavid hmr.tree hmr.fasta".
+
+The output of the program consists of two files:
+
+mavid.phy - the multiple alignment in Phyllip format
+mavid.mfa - the multiple alignment in multi-FASTA alignment format.
+
+
+
+
+The mavid.pl Script
+------------------------------------------------------------------------------
+
+The mavid.pl script iteratively aligns a collection of sequences and estimates
+a tree for them. To use the script, you must have either fastDNAml or CLUSTALW
+installed on your machine. Before running mavid.pl for the first time, you
+must edit the mavid.pl file and specify the location of these programs.
+
+Given a sequence file, mavid.pl randomly chooses an initial tree and then
+aligns the sequences with MAVID using that tree. From this alignment, a
+phylogenetic tree is estimated using either fastDNAml or CLUSTALW. The
+sequences are then aligned using the estimated tree and the process is repeated
+a given number of times.

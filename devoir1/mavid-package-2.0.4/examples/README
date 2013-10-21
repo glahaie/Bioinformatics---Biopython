@@ -1,0 +1,83 @@
+
+
+This file assumes that you have compiled the MAVID package according to the
+instructions in the INSTALL file. All of the programs, if run with no
+arguments, will explain what they do and give instructions for usage. But
+examples are good so we are providing some.
+
+
+MAVID
+----------------------
+To align the sequences in the file "seqs", simply run
+
+../mavid/mavid tree seqs
+
+The alignment can be refined using an iterative refinement by using the "-r"
+option. For example:
+
+../mavid/mavid -r tree seqs
+
+although in this (simple) example, refinement does not make a difference.
+
+
+checkfasta
+---------------------
+If the given file is a valid fasta sequence file, checkfasta prints (and
+returns) the number of sequences in it. If not (or if the file is not found),
+then it prints (and returns) zero.
+
+
+cut_alignment
+--------------------
+Having aligned the file "seqs" as above, try:
+
+../utils/cut_alignment/cut_alignment mavid.mfa 1 2
+../utils/cut_alignment/cut_alignment mavid.mfa 1 2 Yak
+
+
+extract_seq
+---------------------
+../utils/extract_seq/extract_seq seqs Mel[1,-1] Yak[1,4]
+../utils/extract_seq/extract_seq -i seqs Mel[1,-1] Yak[1,4]
+../utils/extract_seq/extract_seq seqs Mel[1,-1] Yak[1,4] Yak[5,9]
+
+
+extract_tree
+---------------------
+../utils/extract_tree/extract_tree tree Vir Pse Yak
+../utils/extract_tree/extract_tree tree Vir Pse Yak Ere
+
+
+project_alignment
+---------------------
+Having aligned the file "seqs" as above, try:
+
+../utils/project_alignment/project_alignment mavid.mfa Vir Moj
+../utils/project_alignment/project_alignment -so mavid.mfa Yak Pse
+
+
+randtree
+---------------------
+Try:
+
+../utils/randtree/randtree seqs
+../utils/randtree/randtree seqs
+../utils/randtree/randtree seqs
+
+
+root_tree
+---------------------
+The root_tree program takes as input an unrooted tree in Newick format
+(such as those produced by the clustalw program) and roots the tree at
+the midpoint between the two most distant leaves of the tree. For example,
+
+../utils/root_tree/root_tree unrooted_tree
+
+will output the same tree as in the file "tree".
+
+
+tree_dists
+---------------------
+../utils/tree_dists/tree_dists tree Vir Moj
+../utils/tree_dists/tree_dists tree Ana Mel Yak
+../utils/tree_dists/tree_dists tree
