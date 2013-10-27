@@ -1,0 +1,190 @@
+%Critique.tex
+%Par Guillaume Lahaie
+%LAHG04077707
+%
+%Critique du SRS Gestion de centre sportif fourni dans le cours. J'utilise un gabarit de tex pour l'écriture
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Default font size is 12pt, it can be changed here
+\renewcommand{\familydefault}{\rmdefault}
+
+%Pour l'encodage avec accents
+\usepackage[utf8]{inputenc}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{afterpage}
+
+\usepackage[left=2.2cm,top=2.2cm,right=2.2cm,bottom=2.2cm,nohead]{geometry} % Required to change the page size to A4
+\geometry{letterpaper} % Set the page size to be A4 as opposed to the default US Letter
+
+\usepackage{graphicx} % Required for including pictures
+
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+
+\linespread{1.2} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{./Pictures/}} % Specifies the directory where pictures are stored
+\usepackage[french,english]{babel}
+
+%Comportement d'un paragraphe
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+
+%Widows/orphans
+\widowpenalty10000
+\clubpenalty10000
+
+\usepackage[hidelinks]{hyperref}
+
+%Meta-info
+\title{INM5151 - Autoévaluation}
+\author{Guillaume Lahaie}
+\date{Remise: 23 juillet 2013}
+
+\hypersetup{
+  pdftitle={INM5151 - Rapport d'autoévaluation},
+  pdfauthor={Guillaume Lahaie}
+}
+
+\newcommand\blankpage{%
+  \null
+  \thispagestyle{empty}%
+  \addtocounter{page}{-1}%
+  \newpage}
+
+\begin{document}
+\selectlanguage{french}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\textsc{\LARGE Université du Québec à Montréal}\\[1.5cm] % Name of your university/college
+\textsc{\Large INM5151}\\[0.5cm] % Major heading such as course name
+
+\HRule \\[1.5cm]
+{ \huge \bfseries Rapport d'autoévaluation}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Par:}\\
+Guillaume Lahaie \\ LAHG04077707 % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Remis à:} \\
+Jacques Berger % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[4cm]
+
+{\large \emph{Date de remise:} \\ Le 23 juillet 2013}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+\blankpage
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Include a table of contents
+
+\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+
+%%----------------------------------------------------------------------------------------
+% INTRODUCTION
+%----------------------------------------------------------------------------------------
+ 
+\section{Autoévaluation} % Major section
+
+{\LARGE Note: 95 / 100}
+
+En regardant les suivis de chaque semaine, je crois que j'ai bien participer à toutes les étapes du projet, toutefois j'ai travaillé
+sur le prototype seulement en fin de projet, j'aurais probablement pu m'impliquer un peu plus tôt. En contrepartie, je crois que j'ai
+participé un peu plus à la rédaction et l'édition du SRS. 
+
+À certains moments durant le projet, je crois que j'aurais dû être un peu plus claire dans mes communications, et répondre aux courriels
+plus rapidement. J'aurais aussi du tenir compte de l'importance du prototype un peu plus.
+
+
+%----------------------------------------------------------------------------------------
+% SECTIONS DU DOCUMENT
+%----------------------------------------------------------------------------------------
+ 
+\section{Éric Fournier (chef d'équipe)}
+
+{\LARGE Note: 100 / 100}
+ 
+Rien à redire sur son travail. A pris en charge le SRS au début de la session, et ensuite a
+fait une bonne partie du prototype, en s'occupant aussi des suivis hebdomadaires, et aussi
+faire le suivi avec chaque membre.
+ 
+%----------------------------------------------------------------------------------------
+% SECTION VALIDATION
+%----------------------------------------------------------------------------------------
+ 
+\section{Maxime Girard}
+
+{\LARGE Note: 90 / 100}
+
+Il s'est occupé d'une des parties importantes du prototype surtout. Je pense qu'il aurait pu nous donner un
+peu plus de feedback sur ses progrès, généralement j'ai l'impression que c'était surtout ça avance, ça avance pas, 
+pas plus de détail que ça.
+
+
+%----------------------------------------------------------------------------------------
+% CONCLUSION
+%----------------------------------------------------------------------------------------
+ 
+\section{Marco Gagliano} 
+ 
+{\LARGE Note: 80 / 100}
+
+Malgré qu'il ait participé à toutes les réunions et qu'il ait faite une grande partie du protoype, c'était
+difficile de prévoir quand le travail serait fait. Il y a eu quelques semaines où il n'a rien fait. Au moins,
+à une reprise, il nous en a averti à l'avance. À certains moments, il disait n'avoir plus le temps
+de faire certains parties du projet, mais finalement il les faisait, c'était donc un peu difficile
+d'organiser les tâches.
+
+J'ai trouvé aussi qu'on avait des attentes différentes à propos du projet. Il a dit à quelques reprises
+que ce n'était pas nécessaire de trop se forcer, que si on avait un B+ pour le cours c'était assez. J'avais
+une opinion différente.
+ 
+\end{document}
