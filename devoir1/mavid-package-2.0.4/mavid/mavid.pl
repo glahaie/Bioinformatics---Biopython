@@ -40,11 +40,11 @@ use Cwd;
 
 ## Locations of the required executable files - make sure they're in your path
 my %exe = (
-  fastDNAml => "$FASTDNAML_DIRECTORY/fastDNAml",
-  clustalw  => "$CLUSTALW_DIRECTORY/clustalw",
-  mavid     => "$MAVID_DIRECTORY/mavid",
-  randtree  => "$MAVID_DIRECTORY/randtree",
-  root_tree      => "$MAVID_DIRECTORY/root_tree"
+  fastDNAml => "../utils/fasta2phylip/fasta2phylip",
+  clustalw  => "clustalw2",
+  mavid     => "./mavid",
+  randtree  => "../utils/randtree/randtree",
+  root_tree      => "../utils/root_tree/root_tree"
 );
 warn "$0: WARNING: can't run all required executables\n" if(checkExes(\%exe));
 
