@@ -136,7 +136,8 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
-
+%TODO: bibliographie - NCBI
+%TODO: vérifier si mes orientations sont corrects.
 \section{Question 1} % Major section
 
 \subsection[Description du gène ALS2]{Donnez une description sommaire de ce locus chez l'humain. Celle-ci devra 
@@ -184,6 +185,38 @@ J'ai ensuite écrit un script en biopython afin de calculer la distribution des 
  \hline
 \end{tabular}
 \end{center}
+
+\subsection[Loci voisins du gène ALS2]{Utilisez MapViewer du NCBI pour déterminer les loci voisins du ALS2. Comparez leur 
+description à celle du ALS2. Existe t-il une relation entre ces loci? Si oui, décrivez la, Sinon commentez les différences.}
+
+La première vue que j'ai consulté pour déterminer les loci voisins du ALS2 (annexe \ref{4}) a été trouvée à partir de la
+description du gène ALS2 de la banque de données des gènes de NCBI.
+
+Cette vue permet d'identifer deux loci voisins, le premier contenant le gène MPP4, le second le gène RPS2P16. Examinons
+d'abord le gène MPP4. Le nom complet de ce gène est \emph{membrane protein, palmitoylated 4 (MAGUK p55 subfamily 4)}. Ce gène est aussi connu sous les noms DLG6 et ALS2CR5. C'est
+un gène qui sert à coder une protéine, tout comme le gène ALS2. Selon la description fournie, ce gène servirait à produire une
+protéine membre de la famille MAGUK, qui se retrouve surtout dans la rétine. On pense que cette protéine jouerait un rôle
+dans l'organisation de cellules spécialisées, ou encore un rôle dans la photoréception. 
+
+Il ne semble donc pas que les deux gènes aient une fonction similaire. Toutefois, ils ont en commun une location très 
+rapprochée. Le gène MPP4 se retrouve à la position 2q33.2, il est donc lui aussi sur le brin 3' $->$ 5'. Le gène a une 
+taille de 53 821 pairs de nucléotides, et il contient 22 exons. 
+%TODO Comparer la distribution des nucléotides.
+
+La base de données des gènes de NCBI contient peu d'information sur le gène RPS2P16. Le nom complet de ce gène est
+\emph{ribosomal protein S2 pseudogene 16}. Il est situé à la location 2q33.1 du chromosome 2, et il est orienté
+5' $->$ 3'. Plus précisément, il occupe la séquence 202627437..202628333 du chromosome 2, et a une taille de 896 pairs de 
+nucléotides. Il s'agit d'un pseudogène, il serait donc inactif dans le génome humain. Donc, la seule relation entre ce locus
+et le locus du gène ALS2 est la location sur le chromosome.
+
+Examinons maintenant les loci situés un peu plus loin du locus du gène ALS2. Pour ce faire, j'ai changé la vue affichée de
+MapViewer à 202M - 203M (annexe \ref{5}). Pour compléter l'analyse des voisins, nous examinerons les loci des gènes CDK15,
+TMEM237 et ENO1P4.
+
+Le gène CDK15 porte le nom complet \emph{cyclin-dependant kinase 15}. Il est situé à la location 2q33.2, plus précisément
+à la séquence 202655177..202760273 du chromosome 2, il a donc une taille de 105096 bp. Il est sur le brin complémentaire, dans la direction 5' $->$ 3'. Ce gène est aussi connu sous les noms PFTK2, ALS2CR7, PFTAIRE2. Il serait impliqué dans le contrôle du cycle "eucaryotique" des cellules, qui est controlé par ...
+
+Le gène 
 
 
 
@@ -269,6 +302,11 @@ for seq in seq_record:
     print "total = " + str(dist_a+dist_c+dist_g+dist_t)
 \end{lstlisting}
 
+\subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202,555 à 202,656.}\label{4}
+\includegraphics[width=\linewidth]{annexes/annexe1b_mapviewer_202555-202656.png}
+
+\subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202M à 203M.}\label{4}
+\includegraphics[width=\linewidth]{annexes/annexe1b_mapviewer_202M-203M.png}
 \endgroup
 
 %
@@ -281,7 +319,11 @@ for seq in seq_record:
 \bibitem{Genetics Home Reference}
     National Library of Medicine (US). Genetics Home Reference [Internet]. Bethesda (MD): The Library; 2013 Oct 26. ALS2; [reviewed 2012 Aug; cited 2013 Oct 26]. Available from: http://ghr.nlm.nih.gov/gene/ALS2
 \bibitem{Wikipedia-SAL}
-  Sclérose latérale amyotrophique. In Wikipedia. Retrieved October 26, 2013, from http://fr.wikipedia.org/wiki/Scl%C3%A9rose_lat%C3%A9rale_amyotrophique
+  Sclérose latérale amyotrophique. In Wikipedia. Retrieved October 26, 2013, from \url{http://fr.wikipedia.org/wiki/Sclerose_laterale_amyotrophique}
+\bibitem{MPP4}
+  Stohr, H., Weber, B. H. F. Cloning and characterization of the human retina-specific gene MPP4, a novel member of the p55 subfamily of MAGUK proteins. Genomics 74: 377-384, 2001. [PubMed: 11414766] [Full Text: Elsevier Science]
+\bibitem{Wikipedia-pseudo}
+  Pseudogène. In Wikipedia. Retrieved October 26, 2013, from \url{http://fr.wikipedia.org/wiki/Pseudogene}
 
 \end{thebibliography}
 \end{document}
