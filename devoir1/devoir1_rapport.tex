@@ -389,41 +389,58 @@ pour le contig 214, on retrouve les formes, ExoN1, HKU-39849, ou encore seulemen
 les reads obtenus sont biens du séquençage d'un virus de la famile Betacoronavirus.
 
 %----------------------------------------------------------------------------------------
-% SECTION VALIDATION
+% SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
  
-\section{Maxime Girard}
+\section{Question 3} % Major section
 
-{\LARGE Note: 90 / 100}
+{\bf Vous disposez d'un vecteur fictif, nommé pANNE, fourni par Madame Bergeron. Ce vecteur contient 6627bp et provient
+d'une combinaison de plusieurs séquences de vecteurs employées en laboratoire. Vous trouverez une copie de ce vecteur
+dans le fichier pANNE.txt. Identifiez la composition précise de ce vecteur, en indiquant les différentes régions, le
+sens des séquences, les chevauchements, etc. Vous pouvez présenter vos résultats de façon imagée (soyez créatif).}
 
-Il s'est occupé d'une des parties importantes du prototype surtout. Je pense qu'il aurait pu nous donner un
-peu plus de feedback sur ses progrès, généralement j'ai l'impression que c'était surtout ça avance, ça avance pas, 
-pas plus de détail que ça.
+Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fera une script de blast. Pour chaque
+blast, j'enlève les régions du vecteur déjà connus pour tenter d'obtenir des résultats dans les zones non-identifiées.
 
 
 %----------------------------------------------------------------------------------------
-% CONCLUSION
+% SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
  
-\section{Marco Gagliano} 
- 
-{\LARGE Note: 80 / 100}
+\section{Question 4} % Major section
 
-Malgré qu'il ait participé à toutes les réunions et qu'il ait faite une grande partie du protoype, c'était
-difficile de prévoir quand le travail serait fait. Il y a eu quelques semaines où il n'a rien fait. Au moins,
-à une reprise, il nous en a averti à l'avance. À certains moments, il disait n'avoir plus le temps
-de faire certains parties du projet, mais finalement il les faisait, c'était donc un peu difficile
-d'organiser les tâches.
+{\bf Utilisez blast pour trouver des orthologues du FOXP4. Récupérer le CDS de huit orthologues.}
 
-J'ai trouvé aussi qu'on avait des attentes différentes à propos du projet. Il a dit à quelques reprises
-que ce n'était pas nécessaire de trop se forcer, que si on avait un B+ pour le cours c'était assez. J'avais
-une opinion différente.
+\subsection[Alignement multiple]{Alignez ces CDS en utilisant ClustalW, dialign et Mavid}
 
+Afin de trouver huit orthologues du gène FOXP4, j'ai tout d'abord cherché ce gène dans la base de données des
+gènes de NCBI. Une série de résultat était disponible pour ce gène, chez différentes espèces. J'ai choisi de
+trouver des orthologues du gène chez l'humain. J'ai donc choisi la page du gène FOXP4 chez l'homo sapiens,
+et j'ai ensuite chargé le fichier genbank de la séquence référence de ce gène.
 
+À partir du fichier genbank, j'ai demandé à NCBI de blaster la région sur la base de données nr. J'ai tout
+d'abord tenter d'utiliser blastn, toutefois après cinq minutes NCBI a arrêté la recherche car elle prenait
+trop de mémoire. J'ai alors utilisé l'option megablast pour avoir des séquences hautement similaire
+(graphique du résultat en annexe \ref{15}). J'ai alors analysé les résultats pour obtenir les CDS de huit 
+orthologues. J'ai donc laissé de côté tous les résultats chez l'humain, et aussi tous les résultats dont
+les fichiers genbank ne contenait pas d'annotation pour des CDS. Pour les séquences choisies, j'ai aussi
+ignorer les courtes séquences, et je me suis concentrer sur le résultat principal.
+
+Les huit séquences choisies proviennent des expèces suivantes: Pan troglodytes, Pan paniscus, Gorilla gorilla,
+Pongo abelii, Nomascus Leucogenys, Macaca fascicularis, Macaca mulatta et Saimiri bolivensis. Pour chacune
+des espèces, j'ai vérifié les annotations du fichier genbank pour m'assurer que le CDS du fichier correspondait
+au gène FOXP4. J'ai ensuite téléchargé les CDS en format fasta, tel qu'offert par l'interface de NCBI.
+Finalement, j'ai créé un fichier multiple fasta pour ces 8 séquences en copiant/collant dans un nouveau fichier
+le contenu des 8 fichiers.
+
+J'ai ensuite installé les trois logiciels sur mon ordinateur (information sur le système en annexe \ref{16}).
+
+\subsection[Facilité et rapidité des programmes]{Discutez de la performance en terme de facilité d'utilisation
+et de rapidité des différents programmes.}
 
 \begingroup
 \renewcommand{\appendix}{%
-    \renewcommand{\thesubsection}{\arabic{subsection}}
+    \renewcommand{\thesubsection}{Annexe \arabic{subsection}}
 }
 
 \appendix
@@ -893,6 +910,17 @@ with open(path_fichier) as fichier:
         if i > 10:
             break
 \end{lstlisting}
+
+\subsection{Résultat graphique bu blast du gène FOXP4.}\label{15}
+\includegraphics[width=\linewidth]{annexes/question4/FOXP4_megablast_result.png}
+
+\subsection{Information du système qui a fait les alignements multiples.}\label{16}
+
+Système d'exploitation et processeurs\\
+\includegraphics[width=\linewidth]{annexes/question4/systeme_1.png}
+
+Mémoire\\
+\includegraphics[width=\linewidth]{annexes/question4/systeme_2.png}
 
 Voici un tableau des informations sur les positions des STS et des exons de ce locus
 \begin{center}
