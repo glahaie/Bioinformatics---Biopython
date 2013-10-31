@@ -136,7 +136,7 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
-%TODO: bibliographie - NCBI
+%TODO: bibliographie - NCBI - tous les fichiers d'accessions, mais aussi pour les protéines, blast est ok
 %TODO: vérifier si mes orientations sont corrects.
 \section{Question 1} % Major section
 
@@ -214,25 +214,180 @@ MapViewer à 202M - 203M (annexe \ref{5}). Pour compléter l'analyse des voisins
 TMEM237 et ENO1P4.
 
 Le gène CDK15 porte le nom complet \emph{cyclin-dependant kinase 15}. Il est situé à la location 2q33.2, plus précisément
-à la séquence 202655177..202760273 du chromosome 2, il a donc une taille de 105096 bp. Il est sur le brin complémentaire, dans la direction 5' $->$ 3'. Ce gène est aussi connu sous les noms PFTK2, ALS2CR7, PFTAIRE2. Il serait impliqué dans le contrôle du cycle "eucaryotique" des cellules, qui est controlé par ...
+à la séquence 202655177..202760273 du chromosome 2, il a donc une taille de 105096 bp. Il est sur le brin complémentaire, dans la direction 5' $->$ 3'. 
+Ce gène est aussi connu sous les noms PFTK2, ALS2CR7, PFTAIRE2. Il serait impliqué dans le contrôle du cycle "eucaryotique" des cellules, qui est controlé par ...
 
-Le gène 
+Le gène TMEM237 (nom complet: \emph{transmembrane protein 237}) est situé à la location 2q33.2, plus précisément il sur la séquence de
+référence du chromosome 2, il est situé aux nucléotides 202484907 à 202508252, sur le brin complémentaire. Ce gène est aussi 
+connu sous les noms JBYS14 et ALSCR4. Selon Huang et al. (2011), ce gène contient 14 exons et a une taille de 23kb. La protéine
+encodée par ce gène semble être impliqué dans "WNT signaling" (refseq 2012). Les relations entre ce gène et le gène ALS2 semblent
+se limiter à leur position, leur orientation et à leur fonction: ce sont tous les deux des gènes qui codent une protéine. Sinon, ces 2
+gènes ont des tailles différentes, et les protéines ne semblent pas avoir des fonctions reliées.
 
+Finalement, regardons le loci du gène ENO1P4 (\emph{enolase 1, (alpha) pseudogene 4}. Ce gène est situé  à la location
+2q33.1, plus précisément la séquence 202486369 à 202488153 de la séquence de référence du chromosome 2 de l'humain. Il est
+donc situé sur le brin complémentaire, et a une orientation 3' $->$ 5'. Il s'agit d'un autre pseudogène, il n'est plus
+exprimé chez l'humain, et donc il n'a pas de fonction connue. Ce gène est donc très différent du gène ALS2, encore une fois
+ils n'ont comme relation que leur location dans le génome humain.
 
+\subsection[Annotations du gène ALS2]{Utilisez MapViewer du NCBI pour donner une description des différentes annotations
+assignées au locus ALS2.}
 
+Afin de décrire les annotations du locus du gène ALS2, Je prendrai la vue de MapViewer en annexe \ref{3}. La première annotation envoie
+vers OMIM, un catalogue des gènes humains et des maladies génétiques. On obtient quatre résultats. Trois des résultats
+sont des maladies génétiques reliées au gène ALS2. La première est \emph{Primal Lateral Sclerosis Juvenile} (PLSJ), une maladie
+se rapprochant de ALS, mais qui est généralement moins sévère. La seconde maladie est la sclérose amyotrophique latérale, que nous
+avons déjà décrite dans une première description du gène. La dernière maladie est \emph{Spastic paralysis, infantile-onset, ascending}
+ (IAHSP). Elle affecte les enfants lors durant les deux premières années de la vie, en débutant par la paraplégie, qui progresse
+en tétraplégie durant les prochaines années. Toutefois cette maladie n'affecte pas la durée de vie. 
+
+Le dernier résultat de la recherche OMIM présente des informations à propos de l'alsin, la protéine encodée par le gène ALS2. Selon
+Yang et al. et Hadano et al., ce gène comporte 34 exons dans une région de 83kb.
+
+La prochaine annotation envoie vers HGNC, un site offrant des liens utiles à propos du gène ALS2. Ensuite, l'annotion suivante 
+est un lien vers sequence viewer, une représentation graphique de la séquence nucléotidique du gène, selon les informations
+du fichier genbank de référence de cette séquence.La prochaine annotation effectue une recherche dans la banque de données
+des protéines de la protéine encodée par ce gène. On y retrouve 19 résultats, la majorité reliée à la protéine alsin, qui est
+encodée par ALS2, ou encore sur la protéine obtenue par ALS2. 
+
+On peut ensuite, à partir de la prochaine annotation, obtenir un fichier contenant la séquence nucléotidique exacte du gène.
+Il est possible d'obtenir le fichier en format fasta, qui contient seulement la séquence, ou encore en format genbank, contenant
+des annotations à propos de la séquence. La prochaine annotation permet de visualiser les données biologiques permettant
+de donner la fonction du gène, toutefois il n'y a aucune données disponibles pour le gène ALS2. La prochaine annotation permet
+de vérifier l'histoire phylogénique du gène ALS2, nous reviendrons sur cette annotation au point e. Le dernière annotation, sts
+nous permet de trouver les 9 STS contenus dans le locus du gène ALS2. Ces séquences peuvent être utilisées comme primer lors
+du séquençage de l'ADN.
+
+\subsection[Fichier genbank du gène ALS2]{Analysez le fichier genbank du NCBI correspondant à ce locus. Que pouvez dire des
+régions codantes, des STS et des CDS?}
+
+Afin de trouver le fichier genbank associé au locus du gène ALS2, je prends le lien vers le fichier genbank situé dans la section
+\emph{Genomic regions, transcripts, and products} de la page du gène. Le fichier genbank obtenu représente une région plus
+grande que celle du gène ALS2, donc j'ai cherché la "feature" du gène ALS2 particulièrement.
+
+Regardons tout d'abord les informations générales du fichier.La première ligne nous donne quelques informations de base: le numéro
+d'accession (NC\_000002), le nombre de pairs de nucléotides dans le fichier (80 910 bp), que la séquence représentée est une séquence
+d'ADN, que cet ADN est linéaire et que la dernière modification date du 13 août 2013. On voit ensuite que cette séquence apparait 
+dans le génome de l'humain, et qu'elle est situé sur la région complémentaire du chromsome 2, et qu'il s'agit de la version 11 de la
+séquence.
+
+La feature du gène ALS2 nous indique que la région de ce gène se situe dans la sous-séquence 12136 à  93045 de la séquence. On y 
+remarque quatre variantes de la transcription en ARN messager, et donc quatree CDS particuliers pour ces variantes.
+Chacune de ces variantes a comme note que le gène est dérivé d'une analyse automatisée, les résultats de forme X1 et X2 ont été
+obtenue à partir de la méthode Gnomon, tandis que les résultats de forme 1 et 2 ont été obtenues à partir de la méthode
+bestrefseq. On indique pour chaque région les synonymes du gène ALS2, qui sont ALS2CR6, ALSJ, IAHSP et PLSJ. Chaque feature CDS
+du gène ALS2 indique le codon de début de la transcription, qui est le codon 1 pour les quatre variantes. On indique aussi la
+protéine encodée, qui est une forme de la protéine alsin pour les quatre CDS. Finalement poru chaque CDS, on indique la
+chaine d'acide aminée obtenue suite à la transcrition. Comme il y a plusieurs formes les transcriptions sont différentes.
+
+Ce fichier genbank ne comprend pas les annotations STS, alors pour vérifier ces propriétés, j'ai effectué une recherche dans la
+base de données de nucléotides de ncbi pour trouver un contig contenant plus d'informations. J'ai trouvé le fichier ayant le
+numéro d'accession NG\_008775.1, qui contient une information plus complète. Ce fichier ne comprend qu'une seule annotation mRNA
+et CDS pour le gène ALS2, on y retrouve toutefois la position de tous les exons du gène, ainsi que les STS. Ce locus contient
+9 STS, et 34 exons pour le gène ALS2. 
+
+\subsection[Homologues du gène ALS2]{Est-ce que ce gène a des homologues chez d'autres mammifères? Si oui, lesquels? Ont-ils les
+mêmes rôles dans ces organisme?}
+
+Afin de vérifier si ce gène a des homologues, j'ai consulté l'annotation \emph{hm} de Map Viewer pour le gène ALS2. (Il aurait
+été aussi possible de faire une recherche blast pour trouver le résultat.) On retrouve un homologue de ALS2 chez les espèces suivantes:
+le chimpazé (Pan troglodytes), le macaque rhésus (Macaca mulatta), le chien (Canis lupus familiaris), le boeuf (Bos taurus), la souris
+(Mus musculus), le rat de Norvège (Rattus norvegicus), le poulet (Gallus gallus) et le poisson zèbre (Danio rerio). 
+
+En regardant le fichier du gène homologue, on ne retrouve pas d'information sur le rôle que ce gène occupe
+chez l'espèce. On peut toutefois regarder la protéine obtenue pour tenter de répondre à la question du rôle joué.
+On remarque que ce gène produit une forme de la protéine alsin chez tous les homologues. De plus, on peut aussi remarqué
+que le nombre d'acides aminées des protéines obtenues est très similaires: il varie de 1649 à 1681 acides aminées. Il semble
+donc que ces protéines jouent des rôles similaires chez ces espèces, mais il faut obtenir plus de données à ce sujet pour être 
+certains que les rôles sont similaires.
 
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
  
-\section{Éric Fournier (chef d'équipe)}
+\section{Question 2} % Major section
 
-{\LARGE Note: 100 / 100}
- 
-Rien à redire sur son travail. A pris en charge le SRS au début de la session, et ensuite a
-fait une bonne partie du prototype, en s'occupant aussi des suivis hebdomadaires, et aussi
-faire le suivi avec chaque membre.
- 
+Utilisez le programme CAP3 pour assembler les reads du SARS. Vous obtiendrez comme résultat plusieurs contigs. Concentrez
+votre analyse sur cinq contigs que vous choisirez.
+
+\subsection[Qualité des contigs]{Que pouvez-vous dire de la qualité des contigs?}
+
+Afin de créer les contigs à partir des reads, j'ai utilisé la version de CAP3 disponible sur le serveur Mobyle@Pasteur.
+L'application a produite 216 contigs à partir des données. J'ai ensuite écrit un script byopython (annexe \ref{7}) permettant de choisir
+au hasard 5 contigs et d'effectuer un blast sur ces contigs. Le script a choisi au hasard (à l'aide d'un générateur de
+nombres pseudoaléatoires) les contigs 7, 132, 195, 209 et 214.
+
+Avant d'analyser les résultats du blast, regardons tout d'abord la qualité de ces contigs. Pour le contig 7 (résultat annexe \ref{8}),
+la grande majorité des valeurs est 25, avec quelques endroits ayant une valeur de 10, et à certains endroits des 5 ou des 0.
+Ces valeurs sont basées sur l'échelle Phred, qui est un score ayant une relation logarithmique. Avec une valeur de 25, 
+la probabilité d'une identification incorrecte se situe à plus de 99\%, alors qu'une valeur de 10 indique qu'il y a 90\% de chance
+d'un bon choix . Il semble donc que le contig est de bonne qualité, avec quelques endroits où la qualité est plus basse. Ces endroits
+se situent surtout au début et à fin du contig.
+
+Le résultat de qualité du contig 132 (annexe \ref{9}) est plus bas que le précédent. La majorité du contig a une valeur de qualité
+de 20, et il y a une séquence d'environs 400 nucléotides à la fin du contig ayant une qualité variant de 0 à 15, ainsi qu'une séquence
+d'environ 80 nucléotides au début ayant une qualité de 10 ou 15. Le résultat est quand même généralement acceptable, avec une moyenne de
+99\% de précision, sauf aux extrémités, où le résultat a environ 90\% de précision.
+
+Le contig 195 (résultat de qualité annexe \ref{10}) a une qualité assez faible. La première moitié du contig a un score de
+qualité de 15 en moyenne, alors que la seconde moitié a un score de 10, avec une très petite séquence au milieu du contig
+ayant un résultat de 20 ou plus. Ce contig a donc un résultat de précision beaucoup plus que les deux autres contigs choisis.
+
+Le contig 209 (résultat de qualité annexe \ref{11})a un résultat de qualité similaire au contig 7. Les scores des nucléotides 
+sont majoritairement 25, avec une séquence à la fin ayant un score plus faible, entre 10 et 15. La précision pour ce contig est
+donc très haute.
+
+Finalement, le contig 214 (résultat de qualité annexe \ref{12}) a une très grande variation de qualité. On retrouve au milieu
+de contig une qualité très élevé, avec certaines séquences ayant un score de qualité de 30 ou même 35. Toutefois, le début et
+la fin du contig souffre d'une qualité beaucoup plus basse, avec une séquence ayant un score de 0, et une séquence ayant un score
+de 10 à la fin du contig.
+
+\subsection[Blast des contigs]{Blastez vos contigs}
+
+Les 5 contigs choisis ont été blastés avec le script biopython en annexe \ref{7}. Les résultats ont été enregistés dans des
+fichiers en format xml. Afin d'obtenir une interprétation graphique des résultats, j'ai aussi effectué le blast à partir de
+l'interface web de NCBI. Pour les deux séries de blast, j'ai choisi comme option de blaster contre la base de données nr, 
+et d'utiliser blastn, c'est-à-dire de rechercher des séquences assez similaire.
+
+Le résultat graphique des 5 contigs est disponible à l'annexe \ref{13}. Au premier regard, on remarque que tous les résultats
+sont à peu près pareils. Un regard rapide aux fichiers xml confirment ce fait. Tous les résultats ont le même total score,
+environ la même longueur de hit, et ont tous une e-value de 0.
+
+\subsection[Fonctions prédites des contigs]{Quelles sont les fonctions prédites par les différents contigs choisis?}
+
+Pour essayer de prédire les fonctions, je vais regarder les informations des fichiers genbank des dix premiers résultats
+blast de chaque contig choisi. Pour ce faire, j'utilise le script en annexe \ref{14}.
+
+Quatre des contigs choisis semblent avoir une fonction commune. En effet, pour les contigs 7, 196, 209 et 214, on retrouve
+des annotations semblables dans les fichiers genbank obtenus des résultats des blast. On y retrouve des annotations pour deux
+gènes et deux CDS encodant les protéines suivantes: \emph{orf1ab polyprotein} ou \emph{polyprotein orf1ab} (PP1ab), ou encore
+\emph{orf1a polyprotein} ou \emph{polyprotein orf1a} (PP1a). Les fichiers genbank commençant par JX ont tous les annotations
+de gène et de CDS, tandis que les fichiers commençant par d'autres lettres ont seulement les annotations CDS. De plus,
+comme les résulats des blasts sont tous différentes formes du virus, chaque annotation des protéines encodées fait référence
+à un fichier genbank différent dans la base de données des protéines.
+
+Les fichiers dénotent aussi que les résultats du blast ne représentent qu'une partie de ces deux formes du gène. En effet,
+la séquence couverte par les résultats du blast du contig 7 fait 799bp (query cover de 89\%), celle du contig 195 fait
+1368bp (query cover de 89\%), les résultats du contig 209 font 762bp (query cover de 89\%) et finalement les résultats du
+contig 214 font 1042bp (query cover de 86\%), alors que la taille de la protéine, selon les fichiers consultés, est de
+7013 acides aminées, donc beaucoup plus grand. Aucune information précise n'est disponible concernant le rôle possible
+de ces deux protéines.
+
+Les annotations des résultats du blast du contig 132 font aussi référence à une région génomique (?), mais cette fois-ci
+à seulement un gène, le gène ayant comme nom "S" et encodant la protéine \emph{spike glycoprotein precursor [SARS coronavirus]}.
+Toutefois, un des dix fichiers consultés (AY559090.gb) n'a aucune annotation concernant ce gène ou cette région codante.
+Encore une fois, le contig ne représenterait qu'une partie de la région codante ou du gène, car la protéine encodée a une
+taille de 1255 acides aminées. On peut toutefois prédire la fonction de ce contig, qui ferait donc partie d'un gène encodant
+cette protéine. On ne peut affirmer quel rôle cette protéine peut jouer toutefois.
+
+\subsection[Génome des séquences fortement similaires]{Quel(s) sont le(s) génome(s) dans lesquels vous trouvez des séquences
+fortement similaires? Que pouvez-vous en déduire?}
+
+Tous les résultats de blast consultés pour ces contigs ont la même information concernant l'organisme: tous les résultats
+font parti de la famille des Betacoronavirus. Les résultats font toutefois référence à différentes formes du virus. Par exemple,
+pour le contig 214, on retrouve les formes, ExoN1, HKU-39849, ou encore seulement un numéro. Nous pouvons donc déduire que
+les reads obtenus sont biens du séquençage d'un virus de la famile Betacoronavirus.
+
 %----------------------------------------------------------------------------------------
 % SECTION VALIDATION
 %----------------------------------------------------------------------------------------
@@ -305,8 +460,464 @@ for seq in seq_record:
 \subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202,555 à 202,656.}\label{4}
 \includegraphics[width=\linewidth]{annexes/annexe1b_mapviewer_202555-202656.png}
 
-\subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202M à 203M.}\label{4}
+\subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202M à 203M.}\label{5}
 \includegraphics[width=\linewidth]{annexes/annexe1b_mapviewer_202M-203M.png}
+
+\subsection{Vue de SequenceViewer du locus du gène ALS2.}\label{6}
+\includegraphics[width=\linewidth]{annexes/annexe1_c_sw.png}
+
+\subsection{Script biopython Pour choisir 5 contigs au hasard à partir du résulat de CAP3, et d'effectuer
+un blast sur ces contigs}\label{7}
+\begin{lstlisting}[frame=single,numbers=left,language=Python]
+# *- coding:utf-8 -* #
+import random
+from Bio.Blast import NCBIWWW
+
+contigs = {}
+contig_no = None
+contig_seq = ""
+contig_size = 0
+
+with open("seq.data.cap.contigs", "r") as f:
+    for line in f:
+        # on regarde d'abord si c'est un contig ou non
+        if line[0] == '>':
+            if contig_no == None:
+                contig_no = int(line[7:])
+            if contig_seq != "":
+                contigs.update({contig_no:contig_seq})
+                contig_seq = ""
+                contig_no = int(line[7:])
+                contig_size+= 1
+        else :
+            contig_seq = contig_seq + line.replace("\n","")
+    contigs.update({contig_no:contig_seq})
+    contig_size +=1
+
+# Maintenant, on a nos contigs, on en choisit 5 au hasard
+random_contig = []
+
+#Je m'assure ici de ne pas avoir de doublon
+for i in range(5):
+    random_c = random.randint(1, contig_size)
+    while random_c in random_contig:
+        random_c = random.randint(1,contig_size)
+    random_contig.append(random_c)
+
+#On blast maintenant les contigs choisis:
+for i in random_contig:
+    result_handle = NCBIWWW.qblast("blastn", "nr", contigs[i])
+
+    #on enregistre le résultat
+    nom_fichier = "blast_contig_" + str(i) + ".xml"
+    save_file = open(nom_fichier, "w")
+    save_file.write(result_handle.read())
+    save_file.close()
+    result_handle.close()
+
+print "5 contigs cherchés"
+\end{lstlisting}
+
+\subsection{Information à propos de la qualité du contig 7}\label{8}
+\begin{verbatim}
+>Contig7
+10 25 25 25 10 0 25 25 25 25 25 25 25 25 25 25 25 25 10 25 
+10 25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 10 10 10 10 10 10 10 10 10 10 10 
+10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 10 10 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 10 25 10 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 10 10 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 0 25 25 25 0 25 25 10 
+10 10 25 10 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 
+25 25 25 10 25 25 10 25 25 25 25 10 25 10 25 25 10 0 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 0 25 25 25 25 10 0 10 10 25 25 25 10 25 
+0 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 10 
+0 25 25 25 25 10 25 25 25 25 25 25 25 25 10 25 25 10 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 10 25 25 0 25 
+25 25 10 25 25 25 10 25 25 25 25 25 25 25 25 10 25 25 25 10 
+10 25 10 25 25 25 25 25 25 25 25 10 25 10 25 25 25 25 25 25 
+0 5 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 10 10 
+10 10 10 10 10 10 10 10 
+
+\end{verbatim}
+\subsection{Information à propos de la qualité du contig 132}\label{9}
+\begin{verbatim}
+>Contig132
+10 10 10 10 10 10 10 10 10 10 10 10 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 0 0 0 0 0 15 15 15 15 
+15 15 15 15 15 15 15 15 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 5 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 0 20 20 5 20 20 20 20 20 20 20 20 20 
+20 5 20 20 20 20 15 15 15 15 0 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+0 15 15 15 15 15 15 15 0 0 15 15 15 0 15 15 15 0 15 15 
+15 15 15 15 15 15 15 0 0 0 0 15 15 15 15 15 15 15 15 15 
+15 15 0 15 15 15 15 15 15 15 15 0 15 15 0 15 15 15 15 0 
+15 15 15 0 15 15 15 15 15 15 15 15 0 15 15 15 15 0 15 15 
+15 0 15 0 15 15 15 15 0 15 15 15 15 15 15 15 15 15 15 15 
+15 0 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 0 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 0 15 15 15 
+0 15 15 15 15 15 15 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+\end{verbatim}
+\subsection{Information à propos de la qualité du contig 195}\label{10}
+\begin{verbatim}
+>Contig195
+15 0 15 15 15 15 0 15 15 15 15 15 15 15 15 15 15 0 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 0 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 0 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 0 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+0 15 15 15 15 15 15 15 15 15 0 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 0 15 15 0 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 25 25 25 25 25 25 25 25 25 20 20 20 20 20 20 20 20 
+20 20 20 0 0 20 20 20 20 20 0 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 
+\end{verbatim}
+
+\subsection{Information à propos de la qualité du contig 209}\label{11}
+\begin{verbatim}
+>Contig209
+10 10 25 25 10 25 10 25 25 25 25 25 25 25 25 25 25 10 25 0 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 10 10 10 10 10 10 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 10 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 
+25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 10 25 25 25 25 25 10 25 25 25 25 10 25 25 
+25 25 25 25 25 10 25 25 25 25 25 25 25 10 25 25 25 25 10 10 
+25 25 10 10 10 25 25 25 25 0 0 25 10 10 10 25 25 25 10 25 
+25 25 25 25 25 25 0 10 25 25 25 25 25 25 25 10 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 20 20 20 20 20 
+20 20 20 20 20 20 20 5 20 5 20 20 20 5 20 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+\end{verbatim}
+
+\subsection{Information à propos de la qualité du contig 214}\label{12}
+\begin{verbatim}
+>Contig214
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 5 5 20 20 
+5 10 0 0 10 0 10 25 10 25 0 25 10 25 25 0 0 0 25 0 
+25 0 0 10 0 0 10 0 25 0 0 0 0 0 0 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 10 0 25 10 25 10 25 25 25 25 25 25 
+25 25 25 25 10 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
+25 25 25 10 25 25 25 35 35 20 35 35 35 35 35 35 35 35 15 35 
+35 35 15 35 35 35 35 35 15 0 20 15 35 35 35 35 15 35 35 35 
+35 35 35 35 35 35 35 20 15 20 35 35 35 35 35 35 35 15 35 35 
+35 35 35 35 35 35 20 35 35 35 35 15 35 20 35 35 35 35 0 35 
+35 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 30 30 30 30 30 30 30 30 10 30 30 30 30 30 10 10 30 
+30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 10 30 30 
+30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 30 10 30 10 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 15 30 30 
+30 30 30 10 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 25 25 25 25 25 25 0 20 20 20 20 20 20 20 0 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 0 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+0 20 20 20 0 20 20 20 20 0 20 20 20 20 0 20 20 20 20 20 
+0 20 20 20 20 20 20 20 20 20 0 0 20 20 20 20 0 20 20 20 
+20 20 20 20 20 0 20 20 0 20 20 20 20 20 20 20 20 20 0 20 
+20 20 0 20 20 20 20 20 20 20 20 20 20 20 20 20 20 0 20 20 
+20 20 20 20 20 20 20 20 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 
+\end{verbatim}
+
+\subsection{Résultat graphique bu blast des 5 contigs.}\label{13}
+
+Contig 7\\
+\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_7_result.png}
+
+Contig 132\\
+\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_132_result.png}
+
+Contig 195\\
+\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_195_result.png}
+
+Contig 209\\
+\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_209_result.png}
+
+Contig 214\\
+\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_214_result.png}
+
+\subsection{Script Biopython pour obtenir les fichiers d'accession des 10 premiers résultats du blast
+pour un contig donné.}\label{14}
+\begin{lstlisting}[frame=single,numbers=left,language=Python]
+# *- coding:utf-8 -* #
+
+#Parser pour un fichier XML de resultat blast
+#Specifique a la question 2 du devoir 1. Je sais
+#ici que chaque hit a seulement un hsp, donc en 
+#specifiant le # d'accession et le sbjct_start et end,
+#j'obtiens ce que je cherche
+
+import sys
+import os
+from Bio.Blast import NCBIXML
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio import Entrez
+
+#On choisit une E-VALUE
+E_VALUE_THRESH = 0.04
+Entrez.email = "glahaie@gmail.com"
+path = "annexes/question_2/"
+
+path_fichier = path + "blast_contig_"+sys.argv[1] + ".xml"
+
+with open(path_fichier) as fichier:
+    blast_record = NCBIXML.read(fichier)
+    i = 0
+    path_result = path + "contig_"+sys.argv[1]+"/"
+    if not os.path.exists(path_result):
+        os.makedirs(path_result)
+    for alignment in blast_record.alignments:
+        for hsp in alignment.hsps:
+            if hsp.expect < E_VALUE_THRESH:
+#On obtient alors le fichier genbank
+                handle = Entrez.efetch(db="nucleotide", rettype="gb", 
+		  retmode="text", id=alignment.accession, 
+		  seq_start=hsp.sbjct_start, seq_stop=hsp.sbjct_end)
+                seq_record= SeqIO.read(handle, "gb")
+                handle.close()
+                nom_fichier = path_result + alignment.accession + ".gb"
+                SeqIO.write(seq_record, nom_fichier, "gb")
+
+        i += 1
+        if i > 10:
+            break
+\end{lstlisting}
+
+Voici un tableau des informations sur les positions des STS et des exons de ce locus
+\begin{center}
+\begin{tabular}{|c|c|c|}
+ \hline
+ STS, CDS ou exon & Début & Fin \\
+ \hline
+ STS G54487 & 3955 & 5069 \\
+ \hline
+  STS RH92914 & 4113 & 4255\\
+ \hline
+  Gène ALS2 & 5001 & 85910\\
+ \hline
+  Exon 1 & 5001 & 5296\\
+ \hline
+  Exon 2 & 17228 & 17307 \\
+ \hline
+   Exon 3 & 18790& 18944 \\
+ \hline
+   STS SHGC-79895 & 22330 & 22614 \\
+ \hline
+    Exon 4 & 24355 & 25292 \\
+ \hline
+\end{tabular}
+\end{center}
 \endgroup
 
 %
@@ -317,13 +928,52 @@ for seq in seq_record:
     Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, Haussler D. The human genome browser at UCSC. 
     \emph{Genome Res.} 2002 Jun;12(6):996-1006. 
 \bibitem{Genetics Home Reference}
-    National Library of Medicine (US). Genetics Home Reference [Internet]. Bethesda (MD): The Library; 2013 Oct 26. ALS2; [reviewed 2012 Aug; cited 2013 Oct 26]. Available from: http://ghr.nlm.nih.gov/gene/ALS2
+    National Library of Medicine (US). Genetics Home Reference [Internet]. Bethesda (MD): The Library; 2013 Oct 26. ALS2; [reviewed 2012
+    Aug; cited 2013 Oct 26]. Available from: http://ghr.nlm.nih.gov/gene/ALS2
 \bibitem{Wikipedia-SAL}
-  Sclérose latérale amyotrophique. In Wikipedia. Retrieved October 26, 2013, from \url{http://fr.wikipedia.org/wiki/Sclerose_laterale_amyotrophique}
+  Sclérose latérale amyotrophique. In Wikipedia. Retrieved October 26, 2013, from
+  \url{http://fr.wikipedia.org/wiki/Sclerose_laterale_amyotrophique}
 \bibitem{MPP4}
-  Stohr, H., Weber, B. H. F. Cloning and characterization of the human retina-specific gene MPP4, a novel member of the p55 subfamily of MAGUK proteins. Genomics 74: 377-384, 2001. [PubMed: 11414766] [Full Text: Elsevier Science]
+  Stohr, H., Weber, B. H. F. Cloning and characterization of the human retina-specific gene MPP4, a novel member of the p55 subfamily of
+  MAGUK proteins. Genomics 74: 377-384, 2001. [PubMed: 11414766] [Full Text: Elsevier Science]
 \bibitem{Wikipedia-pseudo}
   Pseudogène. In Wikipedia. Retrieved October 26, 2013, from \url{http://fr.wikipedia.org/wiki/Pseudogene}
+\bibitem{TMEM237}
+  Huang, L., Szymanska, K., Jensen, V. L., Janecke, A. R., Innes, A. M., Davis, E. E., Frosk, P., Li, C., Willer, J. R., Chodirker, B. N.,
+  Greenberg, C. R., McLeod, D. R., and 31 others. TMEM237 is mutated in individuals with a Joubert syndrome related disorder and expands
+  the role of the TMEM family at the ciliary transition zone. Am. J. Hum. Genet. 89: 713-730, 2011. [PubMed: 22152675] [Full Text:
+  Elsevier Science]
+\bibitem{OMIM-PLS}
+  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 606353: 03/26/2009: . 
+  World Wide Web URL: http://omim.org/
+\bibitem{OMIM-ALS}
+  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 205100: 07/19/2012: . 
+  World Wide Web URL: http://omim.org/
+\bibitem{OMIM-IAHSP}
+  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 607225: 09/17/2013: . 
+  World Wide Web URL: http://omim.org/
+\bibitem{IAHSP}
+  Eymard-Pierre, E., Lesca, G., Dollet, S., Santorelli, F. M., di Capua, M., Bertini, E., Boespflug-Tanguy, O. Infantile-onset ascending
+  hereditary spastic paralysis is associated with mutations in the alsin gene. Am. J. Hum. Genet. 71: 518-527, 2002. [PubMed: 12145748,
+  images] [Full Text: Elsevier Science]
+\bibitem{OMIM-IAHSP}
+  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 606352: 09/16/2013: . 
+  World Wide Web URL: http://omim.org/
+\bibitem{Yang and al.}
+  Yang, Y., Hentati, A., Deng, H.-X., Dabbagh, O., Sasaki, T., Hirano, M., Hung, W.-Y., Ouahchi, K., Yan, J., Azim, A. C., Cole, N.,
+  Gascon, G., Yagmour, A., Ben-Hamida, M., Pericak-Vance, M., Hentati, F., Siddique, T. The gene encoding alsin, a protein with three
+  guanine-nucleotide exchange factor domains, is mutated in a form of recessive amyotrophic lateral sclerosis. Nature Genet. 29: 160-165,
+  2001. Note: Erratum: Nature Genet. 29: 352 only, 2001. [PubMed: 11586297] [Full Text: Nature Publishing Group]
+\bibitem{Hadano and al.}
+  Hadano, S., Hand, C. K., Osuga, H., Yanagisawa, Y., Otomo, A., Devon, R. S., Miyamoto, N., Showguchi-Miyata, J., Okada, Y., Singaraja,
+  R., Figlewicz, D. A., Kwiatkowski, T., and 9 others. A gene encoding a putative GTPase regulator is mutated in familial amyotrophic
+  lateral sclerosis 2. Nature Genet. 29: 166-173, 2001. Note: Erratum: Nature Genet. 29: 352 only, 2001. [PubMed: 11586298] [Full Text:
+  Nature Publishing Group]
+\bibitem{CAP3}
+  Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program. Genome Research, 9: 868-877.
+\bibitem{BLAST}
+  Basic Local Alignment Search Tool (Altschul et al., J Mol Biol 215:403-410; 1990).
+
 
 \end{thebibliography}
 \end{document}
