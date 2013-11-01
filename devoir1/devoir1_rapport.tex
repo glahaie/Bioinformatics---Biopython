@@ -26,9 +26,9 @@
 \renewcommand{\familydefault}{\rmdefault}
 \renewcommand{\thesubsection}{\alph{subsection}}
 
-
 %Pour l'encodage avec accents
 \usepackage[utf8]{inputenc}
+\usepackage{longtable}
 
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
@@ -41,15 +41,11 @@
 \usepackage[left=2.2cm,top=2.2cm,right=2.2cm,bottom=2.2cm,nohead]{geometry} % Required to change the page size to A4
 \geometry{letterpaper} % Set the page size to be A4 as opposed to the default US Letter
 
-
-
 \usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
 \usepackage{wrapfig} % Allows in-line images such as the example fish picture
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-
-\linespread{1.2} % Line spacing
+\linespread{1.15} % Line spacing
 
 %\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
 
@@ -402,10 +398,17 @@ sens des séquences, les chevauchements, etc. Vous pouvez présenter vos résult
 Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fait un blast, retire le
 meilleur résultat du blast de la séquence, et qui refait un autre blast, jusqu'à ce que la séquence soit trop
 petite pour obtenir un résultat intéressant (\ref{23}). J'ai utilisé l'option mégablast pour le travail, pour 
-obtenir des séquences fortement similaire.
+obtenir des séquences fortement similaire. J'ai aussi modifié le script pour ne pas concaténer les sous-séquences
+restantes, pour vérifier si cela affectait le résultat. J'ai obtenu les mêmes résultats pour la série de blast,
+il était toutefois plus facile de reconstruire un graphique à partir de cette information.
 
 Le vecteur semble donc être la composition de trois séquences différentes. Voici une représentation graphique du
-résultat:
+résultat de l'identification de pANNE. Les couleurs des séquences correspondent à leur équivalent dans la séquence
+du résultat de blast. La flèche indique l'orientation de la séquence. Par exemple, dans le vecteur pHT2, on peut
+remarquer qu'une des hit de blast a été avec une séquence complémentaire de ce vecteur. De plus, on peut y 
+voir un chevauchement pour certains résultats des hits.
+
+\includegraphics[width=\linewidth]{pANNE.eps}
 
 
 %----------------------------------------------------------------------------------------
@@ -527,6 +530,7 @@ point à considérer.
     \renewcommand{\thesubsection}{Annexe \arabic{subsection}}
 }
 
+\newpage
 \appendix
 \section{Annexes}
 \subsection{Image du locus du gène ALS2 chez l'homo sapien du UCSC genome browser}\label{1}
@@ -1259,6 +1263,68 @@ while len(sequence) > LEN_THRESH:
             f.write(sequence)
     i +=1
 \end{lstlisting}
+
+\subsection{Fichiers genbank utilisés pour ce rapport}\label{24}
+
+ \footnotesize{
+\begin{longtable}{|p{4.5cm}|p{3.5cm}|p{4.5cm}|p{3.5cm}|}
+\hline
+ Nom & Numéro d'accession & Nom & Numéro d'accession\\
+ \hline \endhead
+ Cloning Vector EN.Cherry, complete sequence & HM771696.1 & PGeneClip hMGFP Vector, complete sequence & AY744386.1 \\
+ \hline
+ Expression vector pHT2, complete sequence & AY773970.1 & Homo sapiens chromosome 6, GRCh37.p13 Primary Assembly & NC\_000006.11 \\
+ \hline 
+ SARS coronavirus MA15 ExoN1 isolate d3om5, complete genome & JF292906.1 & SARS coronavirus MA15 isolate d2ym4, complete genome & JF292909.1 \\
+ \hline
+  SARS coronavirus MA15 isolate d4ym5, complete genome & JF292915.1 & SARS coronavirus HKU-39849 isolate recSARS-CoV HKU-39849, 
+  complete genome & JN854286 .1 \\
+ \hline
+   SARS coronavirus HKU-39849 isolate UOB, complete genome & JQ316196.1 & SARS coronavirus isolate Tor2/FP1-10912, complete genome & JX163923.1 \\
+ \hline
+ SARS coronavirus isolate Tor2/FP1-10851, complete genome & JX163924.1  & SARS coronavirus isolate Tor2/FP1-10895, complete genome & JX163925.1 \\
+ \hline
+  SARS coronavirus isolate Tor2/FP1-10912, complete genome & JX163926.1  & SARS coronavirus isolate Tor2/FP1-10851, complete genome & JX163927.1 \\
+ \hline
+   SARS coronavirus isolate Tor2/FP1-10895, complete genome & JX163928.1  & SARS coronavirus SinP3, complete genome & AY559090.1 \\
+ \hline
+  SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00001, complete genome & GU553363.1  & SARS coronavirus HKU-39849 isolate recSARS-CoV HKU-39849, complete genome & JN854286.1 \\
+ \hline
+  SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00002, complete genome & GU553364.1  & SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00003, complete genome & GU553365.1 \\
+ \hline
+  SARS coronavirus Sin850, complete genome & AY559096.1  & SARS coronavirus MA15 isolate P3pp3, complete genome & FJ882948.1 \\
+ \hline
+  SARS coronavirus MA15 ExoN1 isolate P3pp3, complete genome & FJ882951.1  & SARS coronavirus MA15 isolate P3pp4, complete genome & FJ882952.1 \\
+ \hline
+  SARS coronavirus MA15, complete genome & FJ882957.1   & SARS coronavirus MA15 isolate P3pp7, complete genome & FJ882958.1 \\
+ \hline
+  SARS coronavirus MA15 ExoN1 isolate P3pp6, complete genome & FJ882959.1   & SARS coronavirus MA15 isolate P3pp5, complete genome & FJ882961.1 \\
+ \hline
+   SARS coronavirus ExoN1 isolate c5P1, complete genome & JF292922.1   & SARS coronavirus ExoN1 isolate c5P10, complete genome & JX162087.1 \\
+ \hline
+ SARS coronavirus ExoN1 strain & KF514407.1   &  PREDICTED: Pan troglodytes forkhead box P4, transcript variant 2 (FOXP4), mRNA & XM\_518463.3  \\
+ \hline
+  PREDICTED: Pan paniscus forkhead box P4, transcript variant 2 (FOXP4), mRNA. & XM\_003833312.1 & PPREDICTED: Gorilla gorilla gorilla forkhead box P4, transcript variant 2 (FOXP4), mRNA. & XM\_004043991.1  \\
+ \hline
+   PREDICTED: Pongo abelii forkhead box P4, transcript variant 1 (FOXP4), mRNA. & XM\_002816867.2 & PREDICTED: Nomascus leucogenys forkhead box P4, transcript variant 2 (FOXP4), mRNA. & XM\_003266293.1  \\
+ \hline
+  PREDICTED: Macaca fascicularis forkhead box P4 (FOXP4), transcript variant X3, mRNA. & XM\_005553053.1 & Macaca mulatta forkhead box P4 (FOXP4), mRNA. & NM\_001266091.1  \\
+ \hline
+   PREDICTED: Saimiri boliviensis boliviensis forkhead box P4, transcript variant 2 (FOXP4), mRNA & XM\_003922988.1 &  Homo sapiens chromosome 2, GRCh37.p13 Primary Assembly &  NC\_000002.11 \\
+ \hline
+   Homo sapiens amyotrophic lateral sclerosis 2 (juvenile) (ALS2), transcript variant 1, mRNA & NM\_020919.3 &  Homo sapiens amyotrophic lateral sclerosis 2 (juvenile) (ALS2), transcript variant 2, mRNA &  NM\_001135745.1 \\
+ \hline
+  Pan troglodytes chromosome 2B, Pan\_troglodytes-2.1.4 & NC\_006470.3 &  Macaca mulatta chromosome 12, Mmul\_051212, whole genome shotgun sequence &  NC\_007869.1 \\
+ \hline
+   Canis lupus familiaris breed boxer chromosome 37, CanFam3.1, whole genome shotgun sequence & NC\_006619.3 &  Bos taurus breed Hereford chromosome 2, Bos\_taurus\_UMD\_3.1, whole genome shotgun sequence &  AC\_000159.1 \\
+ \hline
+    Mus musculus strain C57BL/6J chromosome 1, GRCm38.p1 C57BL/6J & NC\_000067.6 &  Rattus norvegicus strain BN/SsNHsdMCW chromosome 9, Rnor\_5.0 &  NC\_005108.3 \\
+ \hline
+  Gallus gallus isolate \#256 breed Red Jungle fowl, inbred line UCD001 chromosome 7, Gallus\_gallus-4.0, whole genome shotgun sequence & NC\_006094.3 &  Danio rerio strain Tuebingen chromosome 6, Zv9 &  NC\_007117.5 \\
+ \hline
+\end{longtable}
+}
+
 \endgroup
 
 %
@@ -1280,8 +1346,9 @@ while len(sequence) > LEN_THRESH:
 \bibitem{Wikipedia-pseudo}
   Pseudogène. In Wikipedia. Retrieved October 26, 2013, from \url{http://fr.wikipedia.org/wiki/Pseudogene}
 \bibitem{TMEM237}
-  Huang, L., Szymanska, K., Jensen, V. L., Janecke, A. R., Innes, A. M., Davis, E. E., Frosk, P., Li, C., Willer, J. R., Chodirker, B. N.,
-  Greenberg, C. R., McLeod, D. R., and 31 others. TMEM237 is mutated in individuals with a Joubert syndrome related disorder and expands
+  Huang, L., Szymanska, K., Jensen, V. L., Janecke, A. R., Innes, A. M., Davis, E. E., Frosk, P., Li, C., Willer, J. R., Chodirker, 
+  B. N.,  Greenberg, C. R., McLeod, D. R., and 31 others. TMEM237 is mutated in individuals with a Joubert syndrome related disorder
+  and expands
   the role of the TMEM family at the ciliary transition zone. Am. J. Hum. Genet. 89: 713-730, 2011. [PubMed: 22152675] [Full Text:
   Elsevier Science]
 \bibitem{OMIM-PLS}
