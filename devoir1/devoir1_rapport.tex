@@ -29,6 +29,7 @@
 %Pour l'encodage avec accents
 \usepackage[utf8]{inputenc}
 \usepackage{longtable}
+\usepackage{sidecap}
 
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
@@ -132,7 +133,6 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
-%TODO: bibliographie - NCBI - tous les fichiers d'accessions, mais aussi pour les protéines, blast est ok
 %TODO: vérifier si mes orientations sont corrects.
 \section{Question 1} % Major section
 
@@ -140,32 +140,22 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 minimalement contenir les informations suivantes: sa location précise, sa taille, son rôle,
 et toutes autres descriptions que vous jugerez pertinente.}
 
-J'ai consulté deux sources pour obtenir des informations sur la location du gène ALS2 de l'humain. La première source,
-afin d'identifier la location du locus, était le UCSS genome browser. La recherche a été effectuée sur la version GRCh37/hg19
-du génome humain. Comme on peut le voir sur l'image en annexe \ref{1},le
-gène ALS2 est sur le brin q, c'est-à-dire qu'il est sur le brin complémentaire, donc il est orienté 3` $->$ 5`.
+J'ai consulté deux sources pour obtenir des informations sur la location du gène ALS2 (\emph{amyotrophic lateral sclerosis 2 (juvenile)}) de l'humain. La première source,
+afin d'identifier la location du locus, était le UCSC genome browser. La recherche a été effectuée sur la version GRCh37/hg19
+du génome humain. Comme on peut le voir sur l'image en annexe \ref{1}, le gène ALS2 est sur le brin q, c'est-à-dire qu'il est sur le brin complémentaire, donc il est orienté 3` $\rightarrow$ 5`.
 
 Le locus du gène est situé sur le chromosome, à la position 2q33.1. La position précise du gène est chr2:202,564,986-202,645,895.
-Sa taille est donc 80 910 pairs de nucléotides. 
-
-Afin de vérifier la validité de l'information, j'ai effectué la même recherche dans la base de données du
+Sa taille est donc 80 910 pairs de nucléotides. J'ai effectué la même recherche ensuite dans la base de données du
 \emph{National Center for Biotechnology Information} (NCBI). J'ai effectué une recherche dans la base de données des gènes,
 j'insère en annexe \ref{2}  une image de la région du chromosome 2 où se situe le gène. On retrouve les mêmes informations
-à propos du gène ALS2 sur NCBI: il est situé à la location 2q33.1, plus précisemment sur le chromosome 2:202564986..202645895, 
-il a donc la même taille de 80 910 pairs de nucléotides.
-
-NCBI donne un sommaire de la fonction du gène ALS2, toutefois cette description ne donne pas une description pratique.
-Afin d'avoir une meilleure idée de la fonction du gène ALS2, j'ai effectué une recherche sur \emph{Genetics Home Reference} (GHR).
-Le gène ALS2 (amyotrophic lateral sclerosis 2 (juvenile)) a comme fonction la production de la protéine alsin. Cette protéine
-semble avoir plusieurs rôles, entre autres l'activation de protéines de la famille des GTPases, qui joue un rôle important dans
-la division cellulaire, la différentiation.
-
-Selon GHR, au moins huit mutations du gène ALS2 causent la Sclérose latérale amyotropique, aussi connue sous le nom de la
-maladie de Lou Gherig. Toutefois, seulement 5 à 10\% des cas de cette maladie serait de cause génétique. Afin de trouver
-d'autres caractéristiques de ce gène, j'ai téléchargé le fichier genbank de la région particulière du chromosome 2.
-J'ai ensuite écrit un script en biopython afin de calculer la distribution des nucléotides de ce locus (annexe \ref{3}). Voici les résultats:
-\begin{center}
+à propos du gène ALS2: la location, la taille et sa location précise sont les mêmes que UCSC. Afin de trouver la distribution
+des nucléotides dans le gène, j'ai écrit un script biopython (annexe \ref{3}) prenant en entré le fichier genbank de la séquence
+du gène et retournant la distribution. Le résultat de cette analyse est détaillé à la table \ref{tab:first}.
+\begin{table}[b]
+{\small
+\centering
 \begin{tabular}{|c|c|c|}
+
  \hline
  Nucléotides & Compte & Pourcentage \\
  \hline
@@ -179,29 +169,36 @@ J'ai ensuite écrit un script en biopython afin de calculer la distribution des 
  \hline
   Total & 80910 & 100\% \\
  \hline
-\end{tabular}
-\end{center}
+ \end{tabular}
+\caption{{\small Distribution des nucléotides dans le gène ALS2}}
+\label{tab:first}
+}
+\end{table}
 
-\subsection[Loci voisins du gène ALS2]{Utilisez MapViewer du NCBI pour déterminer les loci voisins du ALS2. Comparez leur 
+NCBI donne un sommaire du rôle du gène ALS2. Il encode une protéine, et son nom est donné dans le fichier genbank de la séquence
+nuclétidique: l'alsin. Afin d'avoir une meilleure idée de la fonction du gène ALS2, j'ai effectué une recherche sur 
+\emph{Genetics Home Reference} (GHR). La protéine semble avoir plusieurs rôles, entre autres l'activation de 
+protéines de la famille des GTPases, qui joue un rôle important dans la division cellulaire, la différentiation. Ce gène semble surtout
+connu pour son lien à la Sclérose latérale amyotropique, aussi connue sous le nom de la maladie de Lou Gherig. 
+Toutefois, seulement 5 à 10\% des cas de cette maladie serait de cause génétique. %TODO SOURCE
+
+\subsection[Loci voisins du gène ALS2]{Utilisez Map Viewer du NCBI pour déterminer les loci voisins du ALS2. Comparez leur 
 description à celle du ALS2. Existe t-il une relation entre ces loci? Si oui, décrivez la, Sinon commentez les différences.}
 
-La première vue que j'ai consulté pour déterminer les loci voisins du ALS2 (annexe \ref{4}) a été trouvée à partir de la
-description du gène ALS2 de la banque de données des gènes de NCBI.
+J'ai tout d'abord suivi le lien \emph{Map Viewer} de la description du gène ALS2 pour trouver la location du gène ALS2 (annexe \ref{4}). 
+Cette vue permet d'identifer deux loci voisins immédiats, les loci des gènes MPP4 et RPS2P16. 
 
-Cette vue permet d'identifer deux loci voisins, le premier contenant le gène MPP4, le second le gène RPS2P16. Examinons
-d'abord le gène MPP4. Le nom complet de ce gène est \emph{membrane protein, palmitoylated 4 (MAGUK p55 subfamily 4)}. Ce gène est aussi connu sous les noms DLG6 et ALS2CR5. C'est
-un gène qui sert à coder une protéine, tout comme le gène ALS2. Selon la description fournie, ce gène servirait à produire une
-protéine membre de la famille MAGUK, qui se retrouve surtout dans la rétine. On pense que cette protéine jouerait un rôle
-dans l'organisation de cellules spécialisées, ou encore un rôle dans la photoréception. 
-
-Il ne semble donc pas que les deux gènes aient une fonction similaire. Toutefois, ils ont en commun une location très 
-rapprochée. Le gène MPP4 se retrouve à la position 2q33.2, il est donc lui aussi sur le brin 3' $->$ 5'. Le gène a une 
-taille de 53 821 pairs de nucléotides, et il contient 22 exons. 
-%TODO Comparer la distribution des nucléotides.
+Examinons d'abord le gène MPP4. Le nom complet de ce gène est \emph{membrane protein, palmitoylated 4 (MAGUK p55 subfamily 4)}. 
+Ce gène est aussi connu sous les noms DLG6 et ALS2CR5. C'est un gène qui a comme rôle de coder une protéine, comme ALS2. 
+Ce gène servirait à produire une protéine membre de la famille MAGUK, qui se retrouve surtout dans la rétine. On pense que 
+cette protéine jouerait un rôle dans l'organisation de cellules spécialisées, ou encore un rôle dans la photoréception. 
+Les deux gènes partagent donc le même role, ainsi qu'une location très rapprochée dans le génome. Le gène MPP4 se retrouve 
+à la position 2q33.2, il est donc lui aussi sur le brin 3' $\rightarrow$ 5'. Le gène a une taille de 53 821 pairs de 
+nucléotides, et il contient 22 exons. 
 
 La base de données des gènes de NCBI contient peu d'information sur le gène RPS2P16. Le nom complet de ce gène est
 \emph{ribosomal protein S2 pseudogene 16}. Il est situé à la location 2q33.1 du chromosome 2, et il est orienté
-5' $->$ 3'. Plus précisément, il occupe la séquence 202627437..202628333 du chromosome 2, et a une taille de 896 pairs de 
+5' $\rightarrow$ 3'. Plus précisément, il occupe la séquence 202627437..202628333 du chromosome 2, et a une taille de 896 pairs de 
 nucléotides. Il s'agit d'un pseudogène, il serait donc inactif dans le génome humain. Donc, la seule relation entre ce locus
 et le locus du gène ALS2 est la location sur le chromosome.
 
@@ -210,7 +207,7 @@ MapViewer à 202M - 203M (annexe \ref{5}). Pour compléter l'analyse des voisins
 TMEM237 et ENO1P4.
 
 Le gène CDK15 porte le nom complet \emph{cyclin-dependant kinase 15}. Il est situé à la location 2q33.2, plus précisément
-à la séquence 202655177..202760273 du chromosome 2, il a donc une taille de 105096 bp. Il est sur le brin complémentaire, dans la direction 5' $->$ 3'. 
+à la séquence 202655177..202760273 du chromosome 2, il a donc une taille de 105096 bp. Il est sur le brin complémentaire, dans la direction 5' $\rightarrow$ 3'. 
 Ce gène est aussi connu sous les noms PFTK2, ALS2CR7, PFTAIRE2. Il serait impliqué dans le contrôle du cycle "eucaryotique" des cellules, qui est controlé par ...
 
 Le gène TMEM237 (nom complet: \emph{transmembrane protein 237}) est situé à la location 2q33.2, plus précisément il sur la séquence de
@@ -222,7 +219,7 @@ gènes ont des tailles différentes, et les protéines ne semblent pas avoir des
 
 Finalement, regardons le loci du gène ENO1P4 (\emph{enolase 1, (alpha) pseudogene 4}. Ce gène est situé  à la location
 2q33.1, plus précisément la séquence 202486369 à 202488153 de la séquence de référence du chromosome 2 de l'humain. Il est
-donc situé sur le brin complémentaire, et a une orientation 3' $->$ 5'. Il s'agit d'un autre pseudogène, il n'est plus
+donc situé sur le brin complémentaire, et a une orientation 3' $\rightarrow$ 5'. Il s'agit d'un autre pseudogène, il n'est plus
 exprimé chez l'humain, et donc il n'a pas de fonction connue. Ce gène est donc très différent du gène ALS2, encore une fois
 ils n'ont comme relation que leur location dans le génome humain.
 
@@ -527,7 +524,7 @@ point à considérer.
 
 \begingroup
 \renewcommand{\appendix}{%
-    \renewcommand{\thesubsection}{Annexe \arabic{subsection}}
+    \renewcommand{\thesubsection}{\arabic{subsection}}
 }
 
 \newpage
@@ -1324,13 +1321,13 @@ while len(sequence) > LEN_THRESH:
  \hline
 \end{longtable}
 }
-
 \endgroup
 
 %
 %Bibiographie
 %
 \begin{thebibliography}{99}
+{\small
 \bibitem{UCSC genome browser}
     Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, Haussler D. The human genome browser at UCSC. 
     \emph{Genome Res.} 2002 Jun;12(6):996-1006. 
@@ -1395,5 +1392,7 @@ while len(sequence) > LEN_THRESH:
   Mower, Jeff, Annaiah, Kiran.Multiple Sequence Alignment. A survey of the various programs available and application of MSA in
   addressing certain biological problems. PowerPoint Presentation. School of Informatics, Indiana University. Downloaded on
   2013-10-31. Available at bio.informatics.indiana.edu/L529/papers/kiran-jeff.ppt.
+}
 \end{thebibliography}
+
 \end{document}
