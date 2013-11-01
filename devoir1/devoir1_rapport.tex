@@ -399,8 +399,13 @@ d'une combinaison de plusieurs séquences de vecteurs employées en laboratoire.
 dans le fichier pANNE.txt. Identifiez la composition précise de ce vecteur, en indiquant les différentes régions, le
 sens des séquences, les chevauchements, etc. Vous pouvez présenter vos résultats de façon imagée (soyez créatif).}
 
-Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fera une script de blast. Pour chaque
-blast, j'enlève les régions du vecteur déjà connus pour tenter d'obtenir des résultats dans les zones non-identifiées.
+Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fait un blast, retire le
+meilleur résultat du blast de la séquence, et qui refait un autre blast, jusqu'à ce que la séquence soit trop
+petite pour obtenir un résultat intéressant (\ref{23}). J'ai utilisé l'option mégablast pour le travail, pour 
+obtenir des séquences fortement similaire.
+
+Le vecteur semble donc être la composition de trois séquences différentes. Voici une représentation graphique du
+résultat:
 
 
 %----------------------------------------------------------------------------------------
@@ -437,6 +442,85 @@ J'ai ensuite installé les trois logiciels sur mon ordinateur (information sur l
 
 \subsection[Facilité et rapidité des programmes]{Discutez de la performance en terme de facilité d'utilisation
 et de rapidité des différents programmes.}
+
+J'ai d'abord testé clustalw. J'ai utilisé la commande suivante pour lancer l'alignement: 
+\texttt{time clustalw2 foxp4\_ortho.fa $>$ clustalw.log} (log de l'alignement en annexe \ref{17}). Ensuite,
+j'ai fait le même processus avec dialign. J'ai utilisé la commande suivante pour lancer l'alignement:
+\texttt{time dialign -n foxp4\_ortho.fa}. Ici, le programme ne produit pas de texte pour ce qu'il fait. J'ai
+utilisé l'option -n car je tentais d'aligner des séquences nucléotidiques, et non des séquences de protéine,
+ce qui est le défaut de dialign.
+
+Finalement, j'ai effectué l'alignement avec Mavid. Le processus fut beaucoup plus difficile. J'ai tout d'abord
+tenté de lancé mavid avec seulement le fichier multifasta. Mavid a donné une erreur, car il s'attendait à
+recevoir aussi un fichier d'arbre phylogénique en format Newick. En regardant la documentation, je me
+suis rendu compte que Mavid contient un programme pour créer l'arbre. Il suffisait d'utiliser le script
+Perl pour créer l'arbre et ensuite lancé Mavid. Après avoir mis à jour les chemins dans le script Perl,
+j'ai tenté de nouveau de lancé Mavid. Encore une fois, l'application a donné une erreur, s'attendant à
+avoir un repeat masking file, de RepeatMasker. J'ai alors téléchargé l'application, et j'ai tenté de
+l'installé localement. Toutefois, RepeatMasker doit se connecter sur un moteur de recherche, et je n'ai
+pas réussi à effectuer cette partie de l'installation.
+
+J'ai donc décidé de chercher s'il est possible d'utiliser RepeatMasker en ligne. Le site RepeatMasker permet
+son utilisation en ligne, j'ai donc tenté d'obtenir un fichier de masque pour mes séquences. Toutefois, j'ai
+toujours obtenu le même résultat pour mes recherches: aucune séquence répété dans mon fichier fasta (voir \ref{18}).
+J'ai donc tenté de créer un fichier de masquage vide pour les séquences. Toutefois, avec le peu d'information disponible,
+j'ai mis beaucoup de temps à comprendre qu'un fichier de masquage sans séquences répétés est seulement un fichier
+fasta identique au fichier original, avec l'extension .masked. Finalement, j'ai alors réussi à faire fonctionner
+Mavid (log de l'exécution en annexe \ref{19}). Comme on peut le constater, Mavid fait appel à clustalw durant son
+exécution.
+
+Regardons les temps d'exécution pour chacun des programmes:
+\begin{tabular}{|c|c|}
+ \hline
+ Programme & Temps d'exécution \\
+ \hline
+ ClustalW & real 0m4.840s \\
+ \hline
+ dialign & real 0m18.424s \\
+ \hline
+ Mavid & real 0m0.296s\\
+ \hline
+\end{tabular}
+
+Mavid semble le programme le plus rapide pour créer l'alignement, toutefois son manque de documentation rend son utilisation
+très difficile. Dialign est plus lent, il pourrait aussi donner plus d'information à l'utilisateur sur son fonctionnement.
+ClustalW semble être relativement rapide, tout en étant facile à utiliser.
+
+\subsection[Qualité des alignements]{Analysez et discutez de la qualité de l'alignement donné par chaque méthode.}
+
+Regardons d'abord le résutlat obtenu par ClustalW. À première vue, l'alignement semble être en grande majorité de qualité,
+on y remarque très peu de gap et de mismatch. On peut s'attendre à ce résultat selon l'arbre phylogénique
+créé par ClustalW. En général, ClustalW donne un résultat de qualité si on utilise des séquences partageant un ancêtre commun.
+Comme nous avons choisi des orthologues d'un gène, on peut donc s'attendre à un résultat de qualité. Comme on peut le voir en
+\ref{20}, la distance dans l'arbre phylogénique est assez petite ici, on peut donc s'attendre à un résultat de qualité.
+
+Les repères pour la qualité de dialign sont plus difficiles à évaluer. Le programme crée lui aussi un arbre phylogénique (\ref{21}),
+qui est beaucoup plus balancé que celui de ClustalW. En regardant le fichier de sortie, on peut remarquer des scores 
+d'alignement assez élevé pour la majorité du fichier, on retrouve à quelques endroits une série de gap, mais en général le résultat
+semble très similaire à celui de ClustalW.
+
+Finalement, le fichier d'alignement créé par Mavid ne contient aucune information à propos de l'alignement. Mavid produit un fichier
+mfa, donc multiple fasta, où on peut remarquer des gaps assez long à certains endroits. Pour plus d'information, Mavid produit
+aussi un fichier phylip plus facile à analyser. On y remarque certaines régions de gap, mais il est très difficile
+de remarquer les mismatchs. L'arbre phylogénique produit (\ref{22}) ressemble à celui de Dialign, mais les distances entre les
+espèces n'est pas aussi grand.
+
+\subsection[Meilleur alignement]{Quel est votre meilleur alignement? Justifiez votre choix.}
+
+Le choix d'un alignement dépend de ce qu'on veut en faire. Pour en faire une analyse plus poussée, il est
+généralement nécessaire d'éditer l'alignement multiple, selon les connaissances des séquences qui ont été
+alignées. Un choix d'alignement pourrait donc être basé sur la minimisation du travail d'édition à faire
+sur le résultat.
+
+On peut donc éliminer l'alignement de Mavid, car le format mfa qu'il produit semble nécessiter plus de
+travail, ne serait-ce que pour avoir une représentation montrant clairement où sont les mismatchs.
+
+Il est plus difficile de départager entre les alignements de ClustalW et Dialign. Selon Mower et Annaiah, 
+Dialign semble excellé lorsque les séquences ont une distance évolutive très élevées. Ce n'est pas le cas
+ici, donc il serait préférable de prendre l'alignement multiple produit par ClustalW. De plus, ClustalW
+produit un résultat plus rapidement que Dialign. Ce n'est pas un critère très important ici, car
+les séquences alignées sont assez courtes, mais pour des séquences plus longues, ce serait un
+point à considérer.
 
 \begingroup
 \renewcommand{\appendix}{%
@@ -911,7 +995,7 @@ with open(path_fichier) as fichier:
             break
 \end{lstlisting}
 
-\subsection{Résultat graphique bu blast du gène FOXP4.}\label{15}
+\subsection{Résultat graphique bu blast du gène FOXP4 de l'Homo sapiens.}\label{15}
 \includegraphics[width=\linewidth]{annexes/question4/FOXP4_megablast_result.png}
 
 \subsection{Information du système qui a fait les alignements multiples.}\label{16}
@@ -922,30 +1006,259 @@ Système d'exploitation et processeurs\\
 Mémoire\\
 \includegraphics[width=\linewidth]{annexes/question4/systeme_2.png}
 
-Voici un tableau des informations sur les positions des STS et des exons de ce locus
-\begin{center}
-\begin{tabular}{|c|c|c|}
- \hline
- STS, CDS ou exon & Début & Fin \\
- \hline
- STS G54487 & 3955 & 5069 \\
- \hline
-  STS RH92914 & 4113 & 4255\\
- \hline
-  Gène ALS2 & 5001 & 85910\\
- \hline
-  Exon 1 & 5001 & 5296\\
- \hline
-  Exon 2 & 17228 & 17307 \\
- \hline
-   Exon 3 & 18790& 18944 \\
- \hline
-   STS SHGC-79895 & 22330 & 22614 \\
- \hline
-    Exon 4 & 24355 & 25292 \\
- \hline
-\end{tabular}
-\end{center}
+\subsection{Log de l'exécution de clustalw2.}\label{17}
+\begin{verbatim}
+ CLUSTAL 2.1 Multiple Sequence Alignments
+
+
+Sequence format is Pearson
+Sequence 1: lcl|XM_518463.3_cdsid_XP_518463.2        2058 bp
+Sequence 2: lcl|XM_003833312.1_cdsid_XP_003833360.1  2004 bp
+Sequence 3: lcl|XM_004043991.1_cdsid_XP_004044039.1  2004 bp
+Sequence 4: lcl|XM_002816867.2_cdsid_XP_002816913.1  2043 bp
+Sequence 5: lcl|XM_003266293.1_cdsid_XP_003266341.1  2004 bp
+Sequence 6: lcl|XM_005553053.1_cdsid_XP_005553110.1  2004 bp
+Sequence 7: lcl|NM_001266091.1_cdsid_NP_001253020.1  2043 bp
+Sequence 8: lcl|XM_003922988.1_cdsid_XP_003923037.1  2004 bp
+Start of Pairwise alignments
+Aligning...
+
+Sequences (1:2) Aligned. Score:  98
+Sequences (1:3) Aligned. Score:  97
+Sequences (1:4) Aligned. Score:  97
+Sequences (1:5) Aligned. Score:  97
+Sequences (1:6) Aligned. Score:  96
+Sequences (1:7) Aligned. Score:  96
+Sequences (1:8) Aligned. Score:  96
+Sequences (2:3) Aligned. Score:  99
+Sequences (2:4) Aligned. Score:  98
+Sequences (2:5) Aligned. Score:  98
+Sequences (2:6) Aligned. Score:  97
+Sequences (2:7) Aligned. Score:  97
+Sequences (2:8) Aligned. Score:  97
+Sequences (3:4) Aligned. Score:  98
+Sequences (3:5) Aligned. Score:  98
+Sequences (3:6) Aligned. Score:  98
+Sequences (3:7) Aligned. Score:  97
+Sequences (3:8) Aligned. Score:  96
+Sequences (4:5) Aligned. Score:  98
+Sequences (4:6) Aligned. Score:  98
+Sequences (4:7) Aligned. Score:  98
+Sequences (4:8) Aligned. Score:  97
+Sequences (5:6) Aligned. Score:  98
+Sequences (5:7) Aligned. Score:  98
+Sequences (5:8) Aligned. Score:  96
+Sequences (6:7) Aligned. Score:  99
+Sequences (6:8) Aligned. Score:  96
+Sequences (7:8) Aligned. Score:  96
+Guide tree file created:   [foxp4_ortho.dnd]
+
+There are 7 groups
+Start of Multiple Alignment
+
+Aligning...
+Group 1: Sequences:   2      Score:37737
+Group 2: Sequences:   2      Score:37091
+Group 3: Sequences:   3      Score:37148
+Group 4: Sequences:   4      Score:37047
+Group 5: Sequences:   5      Score:37481
+Group 6: Sequences:   7      Score:37220
+Group 7: Sequences:   8      Score:36779
+Alignment Score 440506
+
+CLUSTAL-Alignment file created  [foxp4_ortho.aln]
+\end{verbatim}
+
+\subsection{Log du travail de RepeatMasker sur le fichier foxp4\_ortho.fa.}\label{18}
+\begin{verbatim}
+There were no repetitive sequences detected in /usr/local/rmserver/tmp/RM2_foxp4_ortho.fa_1383262617
+\end{verbatim}
+
+\subsection{Log de l'exécution de Mavid sur foxp4\_ortho.fa.}\label{19}
+\begin{verbatim}
+./utils/randtree/randtree foxp4_ortho.fa
+./mavid ./mavid.ph foxp4_ortho.fa
+
+*******************************************************
+*                                                     *
+*                  Welcome to MAVID.                  *
+*                  (version 2.0, build 4)             *
+*                                                     *
+*******************************************************
+
+
+Aligning 1 versus 1
+Aligning [0,2003] to [0,2057]
+Aligning 1 versus 2
+Aligning [0,2003] to [0,2058]
+Aligning 1 versus 1
+Aligning [0,2003] to [0,2042]
+Aligning 1 versus 1
+Aligning [0,2003] to [0,2003]
+Aligning 1 versus 2
+Aligning [0,2042] to [0,2003]
+Aligning 2 versus 3
+Aligning [0,2042] to [0,2042]
+Aligning 3 versus 5
+Aligning [0,2058] to [0,2042]
+MAVID worked!
+
+clustalw2 ./mavid.mfa -tree
+
+
+
+ CLUSTAL 2.1 Multiple Sequence Alignments
+
+
+Sequence format is Pearson
+Sequence 1: lcl|XM_004043991.1_cdsid_XP_004044039.1  2059 bp
+Sequence 2: lcl|XM_005553053.1_cdsid_XP_005553110.1  2059 bp
+Sequence 3: lcl|XM_518463.3_cdsid_XP_518463.2        2059 bp
+Sequence 4: lcl|XM_003266293.1_cdsid_XP_003266341.1  2059 bp
+Sequence 5: lcl|NM_001266091.1_cdsid_NP_001253020.1  2059 bp
+Sequence 6: lcl|XM_002816867.2_cdsid_XP_002816913.1  2059 bp
+Sequence 7: lcl|XM_003833312.1_cdsid_XP_003833360.1  2059 bp
+Sequence 8: lcl|XM_003922988.1_cdsid_XP_003923037.1  2059 bp
+
+Phylogenetic tree file created:   [./mavid.ph]
+
+../utils/root_tree/root_tree ./mavid.ph
+./mavid ./mavid.ph foxp4_ortho.fa
+
+*******************************************************
+*                                                     *
+*                  Welcome to MAVID.                  *
+*                  (version 2.0, build 4)             *
+*                                                     *
+*******************************************************
+
+
+Aligning 1 versus 1
+Aligning [0,2003] to [0,2042]
+Aligning 1 versus 1
+Aligning [0,2057] to [0,2003]
+Aligning 1 versus 2
+Aligning [0,2003] to [0,2003]
+Aligning 3 versus 1
+Aligning [0,2003] to [0,2042]
+Aligning 1 versus 4
+Aligning [0,2003] to [0,2042]
+Aligning 2 versus 5
+Aligning [0,2042] to [0,2042]
+Aligning 1 versus 7
+Aligning [0,2003] to [0,2042]
+MAVID worked!
+
+clustalw2 ./mavid.mfa -tree
+
+
+
+ CLUSTAL 2.1 Multiple Sequence Alignments
+
+
+Sequence format is Pearson
+Sequence 1: lcl|XM_003922988.1_cdsid_XP_003923037.1  2098 bp
+Sequence 2: lcl|XM_005553053.1_cdsid_XP_005553110.1  2098 bp
+Sequence 3: lcl|NM_001266091.1_cdsid_NP_001253020.1  2098 bp
+Sequence 4: lcl|XM_003266293.1_cdsid_XP_003266341.1  2098 bp
+Sequence 5: lcl|XM_004043991.1_cdsid_XP_004044039.1  2098 bp
+Sequence 6: lcl|XM_518463.3_cdsid_XP_518463.2        2098 bp
+Sequence 7: lcl|XM_003833312.1_cdsid_XP_003833360.1  2098 bp
+Sequence 8: lcl|XM_002816867.2_cdsid_XP_002816913.1  2098 bp
+
+Phylogenetic tree file created:   [./mavid.ph]
+
+../utils/root_tree/root_tree ./mavid.ph
+\end{verbatim}
+
+\subsection{Arbre phylogénique créé par ClustalW}\label{20}
+\includegraphics{annexes/q4_cds/clustalw/foxp4_ortho.eps}
+
+\subsection{Arbre phylogénique créé par Dialign}\label{21}
+\includegraphics{annexes/q4_cds/dialign/foxp4_ortho.eps}
+
+\subsection{Arbre phylogénique créé par Mavid}\label{22}
+\includegraphics{annexes/q4_cds/Mavid/mavid.eps}
+
+\subsection{Script biopython pour identifier la composition du vecteur pANNE}\label{23}
+\begin{lstlisting}[frame=single,numbers=left,language=Python]
+# *- coding:utf-8 -* #
+
+# Script pour le numéro 3 du devoir 1: Cette partie ne fait
+#qu'envoyer la requête blast au serveur du NCBI, et ensuite
+#enregistre le résultat dans un fichier.
+
+from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIXML
+
+path_fichier = "annexes/question_3/"
+nom_resultat = "blast_fichier"
+LEN_THRESH = 100
+E_THRESH = 1e-50
+# Tout d'abord on ouvre le fichier
+
+sequence = ""
+with open(path_fichier+"pANNE.txt", 'r') as f:
+    for line in f:
+        sequence = sequence + line.strip()
+
+#On enlève les retour de chariot du fichier
+i = 1
+while len(sequence) > LEN_THRESH:
+
+#Maintenant, on fait le blast
+    print "i = " + str(i)
+    print "on fait un blast sur la séquence de longeur " 
+      + str(len(sequence))
+    result_handle = NCBIWWW.qblast("blastn", "nr", 
+      sequence, megablast=True)
+
+#on enregistre le résultat
+    save_file = open(path_fichier+nom_resultat+str(i)+".xml", "w")
+    save_file.write(result_handle.read())
+    save_file.close()
+    result_handle.close()
+
+    list_start = []
+    list_end = []
+    sequences = []
+#Maintenant on enlève de la séquence les zones identifiées
+    with open(path_fichier+nom_resultat+str(i)+".xml", "r") as result:
+        blast_record = NCBIXML.read(result)
+        alignment = blast_record.alignments[0]
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+#On met à jour la séquence pour enlever ce résultat
+                if hsp.expect < E_THRESH:
+                    list_start.append(hsp.query_start)
+                    list_end.append(hsp.query_end)
+                
+            break
+#On a les points à enlever
+#sort sur les listes
+        list_start.sort()
+        list_end.sort()
+        start= -1
+        end = -1
+        for s_start, s_end in zip(list_start, list_end):
+            if end < 0:
+                sequences.append(sequence[: s_start-1])
+                end = s_start-1
+            else:
+                end = s_start-1
+                sequences.append(sequence[start: end])
+            start = s_end -1
+        sequences.append(sequence[start:])
+        sequence = ""
+        for fragment in sequences:
+            sequence +=fragment
+#Pour vérifier les résutats, j'enregistre la nouvelle 
+#séquence dans un fichier
+        print "On écrit le reste de la séquence avec i = " + str(i)
+        with open(path_fichier+"pANNE"+str(i)+".txt", "w") as f:
+            f.write(sequence)
+    i +=1
+\end{lstlisting}
 \endgroup
 
 %
@@ -1001,7 +1314,19 @@ Voici un tableau des informations sur les positions des STS et des exons de ce l
   Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program. Genome Research, 9: 868-877.
 \bibitem{BLAST}
   Basic Local Alignment Search Tool (Altschul et al., J Mol Biol 215:403-410; 1990).
-
-
+\bibitem{CLUSTALW}
+  ClustalW and ClustalX version 2 (2007) Larkin MA, Blackshields G, Brown NP, Chenna R, McGettigan PA, McWilliam H, Valentin F, 
+  Wallace IM, Wilm A, Lopez R, Thompson JD, Gibson TJ and Higgins DG Bioinformatics 2007 23(21): 2947-2948.
+  doi:10.1093/bioinformatics/btm404 
+\bibitem{DIALIGN}
+  A.R. Subramanian, M. Kaufmann, B. Morgenstern (2008)
+  DIALIGN-TX: greedy and progressive approaches for segment-based multiple sequence alignment.
+  Algorithms for Molecular Biology 3,6.
+\bibitem{RepeatMasker}
+ A.F.A. Smit, R. Hubley \& P. Green, unpublished data. Current Version: open-4.0.3 ( RMLib: 20130422 \& Dfam: 1.2 )
+\bibitem{Mower et Annaiah}
+  Mower, Jeff, Annaiah, Kiran.Multiple Sequence Alignment. A survey of the various programs available and application of MSA in
+  addressing certain biological problems. PowerPoint Presentation. School of Informatics, Indiana University. Downloaded on
+  2013-10-31. Available at bio.informatics.indiana.edu/L529/papers/kiran-jeff.ppt.
 \end{thebibliography}
 \end{document}
