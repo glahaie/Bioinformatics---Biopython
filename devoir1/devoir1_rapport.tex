@@ -131,14 +131,13 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
-%TODO: vérifier si mes orientations sont corrects.
 \section{Question 1} % Major section
 
 \subsection[Description du gène ALS2]{Description sommaire du locus du gène ALS2 chez l'\emph{Homo sapiens}.}
 
 J'ai consulté deux sources pour obtenir des informations sur la location du gène ALS2 (\emph{amyotrophic lateral sclerosis 2 (juvenile)}) de l'humain. La première source,
 afin d'identifier la location du locus, était le \emph{UCSC Genome Browser} \cite{UCSC genome browser}. La recherche a été effectuée sur la version GRCh37/hg19
-du génome humain. Comme on peut le voir sur l'image en annexe \ref{1}, le gène ALS2 est sur le brin q, c'est-à-dire qu'il est sur le brin complémentaire, donc il est orienté 3` $\rightarrow$ 5`.
+du génome humain. Comme on peut le voir sur l'image en annexe \ref{1}, le gène ALS2 est sur le brin q, c'est-à-dire qu'il est sur le long bras du chromosome.
 
 Le locus du gène est situé sur le chromosome, à la position 2q33.1. La position précise du gène est la séquence 
 202 564 986 à 202 645 895 du chromosome 2.
@@ -205,27 +204,27 @@ ALS2CR4 pour TMEM237, alors que le gène ALS2 est aussi connu sous le nom ALS2CR
 identifier ce lien n'a pas permis de découvrir un lien précis, cela semble lié à la région du chromosome.
 
 Les fonctions possibles de ces trois gènes semblent différentes de la fonction de ALS2. Le gène 
-MPP4, situé à la position 2q33.2, il est donc lui aussi sur le brin 3' $\rightarrow$ 5'. 
+MPP4, situé à la position 2q33.2, il est donc lui aussi sur le long bras du chromosome 2. 
 Le gène a une taille de 53 821bp. Il 
 produit une protéine membre de la famille MAGUK, qui se retrouve surtout dans la rétine. Le gène CDK15 est situé
 à la location 2q33.2, plus précisément à la séquence 202655177 - 202760273 du chromosome 2, il a donc une taille 
-de 105 096 bp. Il est sur le brin complémentaire, dans la direction 5' $\rightarrow$ 3'. Il serait impliqué 
+de 105 096 bp. Il est situé sur le long bras du chromosome. Il serait impliqué 
 dans le contrôle du cycle "eucaryotique" des cellules. Finalement, le gène TMEM237 est situé à la location 2q33.2,
-donc sur le brin complémentaire, plus précisément à la séquence 202484907 - 202508252 du chromosome 2. Il a donc
+donc sur le long bras du chromosome, plus précisément à la séquence 202484907 - 202508252 du chromosome 2. Il a donc
 une taille de 23345 bp. La protéine encodée par ce gène semble être impliquée dans "WNT signaling" (refseq 2012). 
 
 \subsection[Annotations du gène ALS2]{Description des annotations du locus du gène ALS2.}
 
 Afin de décrire les annotations du locus du gène ALS2, Je prendrai la vue de MapViewer en annexe \ref{3}. La première annotation, 
 donnant des informations du gène, a déjà été décrite en a. La prochaine annotation, celle des OMIM, nous propose quatre résultats. 
-Trois des résultats sont des maladies génétiques reliées au gène ALS2. La première est \emph{Primal Lateral Sclerosis Juvenile} (PLSJ),
-une maladie se rapprochant de ALS, mais qui est généralement moins sévère. La seconde maladie est la sclérose amyotrophique latérale, 
-que nous avons déjà décrite, et la dernière maladie est \emph{Spastic paralysis, infantile-onset, ascending} (IAHSP). 
+Trois des résultats sont des maladies génétiques reliées au gène ALS2. La première est \emph{Primal Lateral Sclerosis Juvenile} (PLSJ) \cite{OMIM-PLS},
+une maladie se rapprochant de ALS, mais qui est généralement moins sévère. La seconde maladie est la sclérose amyotrophique latérale \cite{OMIM-ALS}, 
+que nous avons déjà décrite, et la dernière maladie est \emph{Spastic paralysis, infantile-onset, ascending} (IAHSP) \cite{OMIM-IAHSP}. 
 Ces trois maladies ont un lien avec une mutation du gène ALS2. Le dernier résultat de la recherche OMIM présente des informations à
-propos de l'alsin, la protéine encodée par le gène ALS2. Selon Yang et al. et Hadano et al., ce gène comporte 34 exons 
+propos de l'alsin \cite{OMIM-alsin}, la protéine encodée par le gène ALS2. Selon Yang et al. \cite{Yang and al.} et Hadano et al. \cite{Hadano and al.}, ce gène comporte 34 exons 
 dans une région de 83kb.
 
-La prochaine annotation envoie vers HGNC, un annuaire de liens utiles à propos de ALS2. L'annotation suivante (sv) 
+La prochaine annotation envoie vers HGNC \cite{Genetics Home Reference}, un annuaire de liens utiles à propos de ALS2. L'annotation suivante (sv) 
 est un lien vers sequence viewer, une représentation graphique de la séquence nucléotidique du gène. On peut ainsi voir graphiquement la
 position des features du fichier, par exemple les STS, les CDS. Ensuite, l'annotation pr montre les résultats de la recherche dans la
 banque de données des protéines de la protéine encodée par ce gène. On y retrouve 19 résultats, la majorité reliée à la protéine alsin,
@@ -287,16 +286,16 @@ du rôle précis de ce gène chez ces mammifères.
 résultat plusieurs contigs. Concentrez votre analyse sur cinq contigs que vous choisirez.}
 \subsection[Qualité des contigs]{Que pouvez-vous dire de la qualité des contigs?}
 
-Afin de créer les contigs à partir des reads, j'ai utilisé la version de CAP3 disponible sur le serveur Mobyle@Pasteur.
+Afin de créer les contigs à partir des reads, j'ai utilisé la version de CAP3 \cite{CAP3} disponible sur le serveur Mobyle@Pasteur.
 L'application a produite 216 contigs à partir des données. J'ai ensuite écrit un script byopython (annexe \ref{7}) permettant de choisir
-au hasard 5 contigs et d'effectuer un blast sur ces contigs. Le script a choisi au hasard (à l'aide d'un générateur de
+au hasard 5 contigs et d'effectuer un blast \cite{BLAST} sur ces contigs. Le script a choisi au hasard (à l'aide d'un générateur de
 nombres aléatoires) les contigs 7, 132, 195, 209 et 214.
 
 Regardons tout d'abord la qualité de ces contigs. J'ai évalué la qualité en analysant le fichier\\
 seqs.data.cap.contigs.qual. Pour le contig 7 (résultat annexe \ref{8}),
 la grande majorité des valeurs de qualité est 25, avec quelques endroits ayant une valeur de 10,
 et à certains endroits des 5 ou des 0.
-Ces valeurs sont basées sur l'échelle Phred, qui est un score ayant une relation logarithmique. 
+Ces valeurs sont basées sur l'échelle Phred \cite{Wikipedia-phred}, qui est un score ayant une relation logarithmique. 
 Avec une valeur de 25,  la probabilité d'une identification incorrecte se situe à plus de 99\%, 
 alors qu'une valeur de 10 indique qu'il y a 90\% de chance d'un bon choix . Il semble donc que le
 contig est de bonne qualité, avec quelques endroits où la qualité est plus basse. Ces endroits
@@ -326,7 +325,7 @@ de 10 à la fin du contig.
 
 \subsection[Blast des contigs]{Blastez vos contigs}
 
-Les 5 contigs choisis ont été blastés avec le script biopython en annexe \ref{7}, qui enregistre 
+Les cinq contigs choisis ont été blastés avec le script biopython en annexe \ref{7}, qui enregistre 
 les résultats dans des fichiers xml. Afin d'obtenir une interprétation graphique des résultats, 
 j'ai aussi effectué le blast à partir de l'interface web de NCBI. Pour les deux séries de 
 blast, j'ai choisi comme option de blaster contre la base de données nr, et d'utiliser blastn, 
@@ -448,7 +447,7 @@ j'ai aussi ignoré les courtes séquences, et je me suis concentré sur le résu
 
 Les huit séquences choisies proviennent des espèces suivantes: \emph{Pan troglodytes}, 
 \emph{Pan paniscus}, \emph{Gorilla gorilla gorilla}, \emph{Pongo abelii}, \emph{Nomascus Leucogenys}, 
-Macaca fascicularis, Macaca mulatta et Saimiri bolivensis. Pour chacune des espèces, 
+\emph{Macaca fascicularis}, \emph{Macaca mulatta} et \emph{Saimiri bolivensis}. Pour chacune des espèces, 
 j'ai vérifié les annotations du fichier genbank pour m'assurer que le CDS du fichier 
 correspondait au gène FOXP4. J'ai ensuite téléchargé les CDS en format fasta, tel qu'offert par
 l'interface de NCBI. Finalement, j'ai créé un fichier multiple fasta pour ces huit séquences en
@@ -460,22 +459,22 @@ J'ai ensuite installé ClustalW, Dialign et Mavid sur mon ordinateur
 \subsection[Facilité et rapidité des programmes]{Discutez de la performance en terme de facilité
 d'utilisation et de rapidité des différents programmes.}
 
-J'ai d'abord testé ClustalW. J'ai utilisé la commande suivante pour lancer l'alignement: 
+J'ai d'abord testé ClustalW \cite{CLUSTALW}. J'ai utilisé la commande suivante pour lancer l'alignement: 
 \texttt{time clustalw2}\\ \texttt{foxp4\_ortho.fa $>$ clustalw.log} (log de l'exécution 
-en annexe \ref{17}). Ensuite,j'ai fait le même processus avec dialign. J'ai utilisé la commande
+en annexe \ref{17}). Ensuite,j'ai fait le même processus avec Dialign \cite{DIALIGN}. J'ai utilisé la commande
 suivante pour lancer l'alignement: \texttt{time dialign -n foxp4\_ortho.fa}. Ici, le programme ne
 produit pas de log de son exécution. J'ai utilisé l'option -n car je tentais d'aligner des 
 séquences nucléotidiques, et non des séquences de protéine, ce qui est le défaut de Dialign.
 
-Finalement, j'ai effectué l'alignement avec Mavid. Le processus fut beaucoup plus difficile. 
+Finalement, j'ai effectué l'alignement avec Mavid \cite{Mavid}. Le processus fut beaucoup plus difficile. 
 Pour lancer Mavid, j'ai du modifier le script pour créer l'arbre guide auparavant. Ensuite
 Mavid demandait un fichier de masquage, et j'ai passé plusieurs heures à tenter d'installer
-localement RepeatMasker pour effectuer le masquage, lorsque cela n'a pas fonctionné de
+localement RepeatMasker \cite{RepeatMasker} pour effectuer le masquage, lorsque cela n'a pas fonctionné de
 faire le masquage à l'aide d'une application en ligne, et finalement lorsque le résultat
 de RepeatMasker était qu'il n'y avait pas de séquence répétitive (annexe \ref{18}).
 Après plusieurs recherches, j'ai créé un fichier de masquage vide pour les séquences, c'est-
-à-dire une copie du fichier multifasta avec l'extension .masked, et j'ai ensuite lancé Mavid
-(log de l'exécution en annexe \ref{19}).
+à-dire une copie du fichier multifasta avec l'extension .masked, et j'ai ensuite lancé Mavid avec
+la commande suivante: \texttt{time ./mavid.pl foxp4\_ortho.fa} (log de l'exécution en annexe \ref{19}).
 
 Le temps d'exécution des applications est disponible en annexe \ref{24}. Mavid semble 
 être le programme le plus rapide pour créer l'alignement, toutefois son manque de 
@@ -519,7 +518,7 @@ nécessiter plus de travail, ne serait-ce que pour avoir une représentation mon
 clairement où sont les mismatchs.
 
 Il est plus difficile de départager entre les alignements de ClustalW et Dialign. 
-Selon Mower et Annaiah, Dialign excelle lorsque les séquences ont une distance évolutive 
+Selon Mower et Annaiah \cite{Mower et Annaiah}, Dialign excelle lorsque les séquences ont une distance évolutive 
 très élevée. Ce n'est pas le cas ici, donc il serait préférable de prendre l'alignement
 multiple produit par ClustalW. De plus, ClustalW produit un résultat plus rapidement 
 que Dialign. Ce n'est pas un critère très important ici, car les séquences alignées sont assez
@@ -1436,7 +1435,9 @@ gd_diagram.write("GD_labels_default.eps", "eps")
  \hline
   Gallus gallus isolate \#256 breed Red Jungle fowl, inbred line UCD001 chromosome 7, Gallus\_gallus-4.0, whole genome shotgun sequence & NC\_006094.3 &  Danio rerio strain Tuebingen chromosome 6, Zv9 &  NC\_007117.5 \\
  \hline
- Homo sapiens chromosome 2 genomic contig, GRCh37.p13 Primary Assembly & NT\_005403.17 &  & \\
+ Homo sapiens chromosome 2 genomic contig, GRCh37.p13 Primary Assembly & NT\_005403.17 &  alsin isoform 1 [Homo sapiens] & NP\_065970.2 \\
+ \hline
+  alsin [Pan troglodytes] & NP\_001073389.1 &  forkhead box protein P4 isoform 1 [Homo sapiens] & NP\_001012426.1 \\
  \hline
 \end{longtable}
 }
@@ -1529,6 +1530,10 @@ gd_diagram.write("GD_labels_default.eps", "eps")
   Mower, Jeff, Annaiah, Kiran.Multiple Sequence Alignment. A survey of the various programs available and application of MSA in
   addressing certain biological problems. PowerPoint Presentation. School of Informatics, Indiana University. Downloaded on
   2013-10-31. Available at bio.informatics.indiana.edu/L529/papers/kiran-jeff.ppt.
+  \bibitem{Wikipedia-phred}
+  Score de qualité phred. In Wikipedia. Retrieved November 1, 2013, from \url{http://fr.wikipedia.org/wiki/Score_de_qualite_phred}
+  \bibitem{Mavid}
+  N. Bray and L. Pachter, MAVID: Constrained ancestral alignment of multiple sequences,, Genome Research, 14:693-699 (2004)
 }
 \end{thebibliography}
 
