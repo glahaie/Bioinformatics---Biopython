@@ -1,9 +1,7 @@
-%Critique.tex
+%devoir1_rapport.tex
 %Par Guillaume Lahaie
 %LAHG04077707
 %
-%Critique du SRS Gestion de centre sportif fourni dans le cours. J'utilise un gabarit de tex pour l'écriture
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Simple Sectioned Essay Template
 % LaTeX Template
@@ -22,7 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10.8pt]{article} % Default font size is 12pt, it can be changed here
+\documentclass[10.9pt]{article} % Default font size is 12pt, it can be changed here
 \renewcommand{\familydefault}{\rmdefault}
 \renewcommand{\thesubsection}{\alph{subsection}}
 
@@ -31,8 +29,8 @@
 \usepackage{longtable}
 \usepackage{sidecap}
 
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{afterpage}
 \usepackage{appendix}
@@ -46,7 +44,7 @@
 \usepackage{wrapfig} % Allows in-line images such as the example fish picture
 
 
-\linespread{1.15} % Line spacing
+\linespread{1.2} % Line spacing
 
 %\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
 
@@ -134,7 +132,6 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
 %TODO: vérifier si mes orientations sont corrects.
-%TODO: Vérifier le lien entre les gènes portant les noms ALS2CR...
 \section{Question 1} % Major section
 
 \subsection[Description du gène ALS2]{Description sommaire du locus du gène ALS2 chez l'Homo sapiens.}
@@ -143,7 +140,8 @@ J'ai consulté deux sources pour obtenir des informations sur la location du gè
 afin d'identifier la location du locus, était le UCSC genome browser. La recherche a été effectuée sur la version GRCh37/hg19
 du génome humain. Comme on peut le voir sur l'image en annexe \ref{1}, le gène ALS2 est sur le brin q, c'est-à-dire qu'il est sur le brin complémentaire, donc il est orienté 3` $\rightarrow$ 5`.
 
-Le locus du gène est situé sur le chromosome, à la position 2q33.1. La position précise du gène est chr2:202,564,986-202,645,895.
+Le locus du gène est situé sur le chromosome, à la position 2q33.1. La position précise du gène est la séquence 
+202 564 986 à 202 645 895 du chromosome 2.
 Sa taille est donc 80 910 pairs de nucléotides. J'ai effectué la même recherche ensuite dans la base de données du
 \emph{National Center for Biotechnology Information} (NCBI). J'ai effectué une recherche dans la base de données des gènes,
 j'insère en annexe \ref{2}  une image de la région du chromosome 2 où se situe le gène. On retrouve les mêmes informations
@@ -236,49 +234,47 @@ L'annotation dl permet d'obtenir un fichier contenant la séquence nucléotidiqu
 Il est possible d'obtenir le fichier en format fasta ou genbank. Selon la prochaine annotation (ev), on peut retrouver
 37 exons et 2 gènes dans la séquence de 81 710bp du gène ALS2, Ce résultat provient de l'alignement de 12 modèles. 
 La prochaine annotation (hm) nous donne l'ensemble des gènes homologues au gène ALS2, nous reviendrons sur cette annotation au point e. 
-Finalement, l'annotation sts nous permet de trouver les 9 STS contenus dans le locus du gène ALS2. 
+Finalement, l'annotation sts nous permet de trouver les neuf STS contenus dans le locus du gène ALS2. 
 On remarque ici qu'on obtient un nombre différent de STS que dans l'annotation sv.
 
 \subsection[Fichier genbank du gène ALS2]{Analyse du fichier genbank du locus du gène ALS2.}
 
-Afin de trouver le fichier genbank associé au locus du gène ALS2, je prends le lien vers le fichier genbank situé dans la section
-\emph{Genomic regions, transcripts, and products} de la page du gène. Le fichier genbank obtenu représente une région plus
-grande que celle du gène ALS2, donc j'ai cherché la "feature" du gène ALS2 particulièrement.
+J'ai utilisé le fichier genbank NG\_008775.1 comme représentation de la séquence des nucléotides du gène ALS2. J'ai
+trouvé cette séquence dans Sequence Viewer, c'était une des options offertes pour le gène ALS2. J'ai choisi ce fichier
+car il contient plus de features que le fichier de référence du chromosome 2.
 
-Regardons tout d'abord les informations générales du fichier.La première ligne nous donne quelques informations de base: le numéro
-d'accession (NC\_000002), le nombre de pairs de nucléotides dans le fichier (80 910 bp), que la séquence représentée est une séquence
-d'ADN, que cet ADN est linéaire et que la dernière modification date du 13 août 2013. On voit ensuite que cette séquence apparait 
-dans le génome de l'humain, et qu'elle est situé sur la région complémentaire du chromsome 2, et qu'il s'agit de la version 11 de la
-séquence.
+Regardons tout d'abord les informations générales du fichier. La première ligne nous donne quelques informations de 
+base: le numéro d'accession, la taille de la séquence (87 910 bp), qu'il s'agit d'une séquence linéaire d'ADN, 
+et que la dernière modification date du 20 août 2013. On voit ensuite que cette séquence appartient au génome de l'homo sapiens, et qu'il s'agit de la première version de cette séquence.
 
-La feature du gène ALS2 nous indique que la région de ce gène se situe dans la sous-séquence 12136 à  93045 de la séquence. On y 
-remarque quatre variantes de la transcription en ARN messager, et donc quatree CDS particuliers pour ces variantes.
-Chacune de ces variantes a comme note que le gène est dérivé d'une analyse automatisée, les résultats de forme X1 et X2 ont été
-obtenue à partir de la méthode Gnomon, tandis que les résultats de forme 1 et 2 ont été obtenues à partir de la méthode
-bestrefseq. On indique pour chaque région les synonymes du gène ALS2, qui sont ALS2CR6, ALSJ, IAHSP et PLSJ. Chaque feature CDS
-du gène ALS2 indique le codon de début de la transcription, qui est le codon 1 pour les quatre variantes. On indique aussi la
-protéine encodée, qui est une forme de la protéine alsin pour les quatre CDS. Finalement poru chaque CDS, on indique la
-chaine d'acide aminée obtenue suite à la transcrition. Comme il y a plusieurs formes les transcriptions sont différentes.
+Regardons maintenant les features. Regardons tout d'abord le feature gene. On y retrouve 2 features gene,
+le premier celui du gène ALS2, qui se situe à la sous-séquence 5001..85910. On dénote ensuite un feature pour l'ARNm
+de ce gène, qui est un suivi de join. Ce fichier contient aussi les exons du gène, ce qui semble être
+une annotation plus récente. On dénote 34 exons pour le gène ALS2. Le feature gene comprend aussi le feature CDS,
+indiquant la région codante du gène. Encore une fois, il s'agit d'une série de join. Ce feature donne la
+translation du CDS en séquence d'acide aminé, et donne le nom de la protéine produite: \emph{alsin isoform 1}, ainsi
+que le numéro d'accession et d'autres liens à propos de cette protéine.
 
-Ce fichier genbank ne comprend pas les annotations STS, alors pour vérifier ces propriétés, j'ai effectué une recherche dans la
-base de données de nucléotides de ncbi pour trouver un contig contenant plus d'informations. J'ai trouvé le fichier ayant le
-numéro d'accession NG\_008775.1, qui contient une information plus complète. Ce fichier ne comprend qu'une seule annotation mRNA
-et CDS pour le gène ALS2, on y retrouve toutefois la position de tous les exons du gène, ainsi que les STS. Ce locus contient
-9 STS, et 34 exons pour le gène ALS2. 
+Le second feature gene nous informe qu'une partie de la séquence fait partie du gène MPP4, toutefois seulement
+441bp. On n'a donc très peu d'information sur ce gène dans ce fichier, seulement le feature mRNA, indiquant que la 
+fin de la séquence (87479..$>$87586) transcrit en ARNm. On a donc dans les notes de ce feature le numéro d'accession
+de la séquence en question. Finalement, on retrouve la position de 9 STS dans cette séquence, ce qui correspond
+à l'annotation sts de Map Viewer.
 
 \subsection[Homologues du gène ALS2]{Homologues du gène ALS2.}
 
-Afin de vérifier si ce gène a des homologues, j'ai consulté l'annotation \emph{hm} de Map Viewer pour le gène ALS2. (Il aurait
-été aussi possible de faire une recherche blast pour trouver le résultat.) On retrouve un homologue de ALS2 chez les espèces suivantes:
-le chimpazé (Pan troglodytes), le macaque rhésus (Macaca mulatta), le chien (Canis lupus familiaris), le boeuf (Bos taurus), la souris
-(Mus musculus), le rat de Norvège (Rattus norvegicus), le poulet (Gallus gallus) et le poisson zèbre (Danio rerio). 
+Afin de vérifier si ce gène a des homologues, j'ai consulté l'annotation \emph{hm} de Map Viewer pour le gène ALS2. 
+(Il aurait été aussi possible de faire une recherche blast pour trouver le résultat.) On retrouve un homologue 
+de ALS2 chez les mammifères suivants: le chimpazé (Pan troglodytes), le macaque rhésus (Macaca mulatta), 
+le chien (Canis lupus familiaris), le boeuf (Bos taurus), la souris (Mus musculus) et le rat de Norvège (Rattus norvegicus).
 
-En regardant le fichier du gène homologue, on ne retrouve pas d'information sur le rôle que ce gène occupe
-chez l'espèce. On peut toutefois regarder la protéine obtenue pour tenter de répondre à la question du rôle joué.
-On remarque que ce gène produit une forme de la protéine alsin chez tous les homologues. De plus, on peut aussi remarqué
-que le nombre d'acides aminées des protéines obtenues est très similaires: il varie de 1649 à 1681 acides aminées. Il semble
-donc que ces protéines jouent des rôles similaires chez ces espèces, mais il faut obtenir plus de données à ce sujet pour être 
-certains que les rôles sont similaires.
+J'ai consulté le fichier la fiche du gène pour toutes ces espèces. Le gène ALS2 joue le même rôle chez tous
+ces mammifères, en effet il encode une protéine. Ces pages ne contiennent toutefois pas d'information sur
+la fonction possible de cette protéine chez ces espèces. On peut toutefois remarquer que la protéine obtenue 
+pour chaque espèce est l'alsin. De plus, on peut aussi remarqué que le nombre d'acides aminées des protéines 
+obtenues est très similaires: il varie de 1649 à 1681 acides aminées. Il semble donc que ces protéines jouent 
+des rôles similaires chez ces espèces, mais nous n'avons pas assez d'information disponible pour conclure
+du rôle précis de ce gène chez ces mammifères.
 
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
@@ -286,9 +282,8 @@ certains que les rôles sont similaires.
  
 \section{Question 2} % Major section
 
-Utilisez le programme CAP3 pour assembler les reads du SARS. Vous obtiendrez comme résultat plusieurs contigs. Concentrez
-votre analyse sur cinq contigs que vous choisirez.
-
+{\bf Utilisez le programme CAP3 pour assembler les reads du SARS. Vous obtiendrez comme
+résultat plusieurs contigs. Concentrez votre analyse sur cinq contigs que vous choisirez.}
 \subsection[Qualité des contigs]{Que pouvez-vous dire de la qualité des contigs?}
 
 Afin de créer les contigs à partir des reads, j'ai utilisé la version de CAP3 disponible sur le serveur Mobyle@Pasteur.
@@ -296,76 +291,102 @@ L'application a produite 216 contigs à partir des données. J'ai ensuite écrit
 au hasard 5 contigs et d'effectuer un blast sur ces contigs. Le script a choisi au hasard (à l'aide d'un générateur de
 nombres pseudoaléatoires) les contigs 7, 132, 195, 209 et 214.
 
-Avant d'analyser les résultats du blast, regardons tout d'abord la qualité de ces contigs. Pour le contig 7 (résultat annexe \ref{8}),
-la grande majorité des valeurs est 25, avec quelques endroits ayant une valeur de 10, et à certains endroits des 5 ou des 0.
-Ces valeurs sont basées sur l'échelle Phred, qui est un score ayant une relation logarithmique. Avec une valeur de 25, 
-la probabilité d'une identification incorrecte se situe à plus de 99\%, alors qu'une valeur de 10 indique qu'il y a 90\% de chance
-d'un bon choix . Il semble donc que le contig est de bonne qualité, avec quelques endroits où la qualité est plus basse. Ces endroits
-se situent surtout au début et à fin du contig.
+Regardons tout d'abord la qualité de ces contigs. J'ai évalué la qualité en analysant le fichier\\
+seqs.data.cap.contigs.qual. Pour le contig 7 (résultat annexe \ref{8}),
+la grande majorité des valeurs de qualité est 25, avec quelques endroits ayant une valeur de 10,
+et à certains endroits des 5 ou des 0.
+Ces valeurs sont basées sur l'échelle Phred, qui est un score ayant une relation logarithmique. 
+Avec une valeur de 25,  la probabilité d'une identification incorrecte se situe à plus de 99\%, 
+alors qu'une valeur de 10 indique qu'il y a 90\% de chance d'un bon choix . Il semble donc que le
+contig est de bonne qualité, avec quelques endroits où la qualité est plus basse. Ces endroits
+se situent surtout au début et à fin du contig, ce à quoi on s'attend.
 
-Le résultat de qualité du contig 132 (annexe \ref{9}) est plus bas que le précédent. La majorité du contig a une valeur de qualité
-de 20, et il y a une séquence d'environs 400 nucléotides à la fin du contig ayant une qualité variant de 0 à 15, ainsi qu'une séquence
-d'environ 80 nucléotides au début ayant une qualité de 10 ou 15. Le résultat est quand même généralement acceptable, avec une moyenne de
-99\% de précision, sauf aux extrémités, où le résultat a environ 90\% de précision.
+Le résultat de qualité du contig 132 (annexe \ref{9}) est plus bas que le précédent. 
+La majorité du contig a une valeur de qualité de 20, et il y a une séquence d'environs 400
+nucléotides à la fin du contig ayant une qualité variant de 0 à 15, ainsi qu'une séquence
+d'environ 80 nucléotides au début ayant une qualité de 10 ou 15. Le résultat est quand même
+généralement acceptable, avec une moyenne de 99\% de précision, sauf aux extrémités, 
+où le contig a environ 90\% de précision.
 
-Le contig 195 (résultat de qualité annexe \ref{10}) a une qualité assez faible. La première moitié du contig a un score de
-qualité de 15 en moyenne, alors que la seconde moitié a un score de 10, avec une très petite séquence au milieu du contig
-ayant un résultat de 20 ou plus. Ce contig a donc un résultat de précision beaucoup plus que les deux autres contigs choisis.
+Le contig 195 (résultat de qualité annexe \ref{10}) a une qualité assez faible. La première
+moitié du contig a un score de qualité de 15 en moyenne, alors que la seconde moitié a un
+score de 10, avec une très petite séquence au milieu du contig ayant un résultat de 20 ou plus.
+Ce contig a donc un résultat de précision beaucoup plus que les deux autres contigs choisis.
 
-Le contig 209 (résultat de qualité annexe \ref{11})a un résultat de qualité similaire au contig 7. Les scores des nucléotides 
-sont majoritairement 25, avec une séquence à la fin ayant un score plus faible, entre 10 et 15. La précision pour ce contig est
-donc très haute.
+Le contig 209 (résultat de qualité annexe \ref{11})a un résultat de qualité similaire au contig 7.
+Le score des bases est majoritairement 25, avec une séquence à la fin ayant un score plus faible,
+entre 10 et 15. La précision pour ce contig est donc très haute.
 
-Finalement, le contig 214 (résultat de qualité annexe \ref{12}) a une très grande variation de qualité. On retrouve au milieu
-de contig une qualité très élevé, avec certaines séquences ayant un score de qualité de 30 ou même 35. Toutefois, le début et
-la fin du contig souffre d'une qualité beaucoup plus basse, avec une séquence ayant un score de 0, et une séquence ayant un score
+Finalement, le contig 214 (résultat de qualité annexe \ref{12}) a une très grande variation de
+qualité. On retrouve au milieu de contig une qualité très élevé, avec certaines séquences ayant un
+score de qualité de 30 ou même 35. Toutefois, le début et la fin du contig souffre d'une qualité
+beaucoup plus basse, avec une séquence ayant un score de 0, et une séquence ayant un score
 de 10 à la fin du contig.
 
 \subsection[Blast des contigs]{Blastez vos contigs}
 
-Les 5 contigs choisis ont été blastés avec le script biopython en annexe \ref{7}. Les résultats ont été enregistés dans des
-fichiers en format xml. Afin d'obtenir une interprétation graphique des résultats, j'ai aussi effectué le blast à partir de
-l'interface web de NCBI. Pour les deux séries de blast, j'ai choisi comme option de blaster contre la base de données nr, 
-et d'utiliser blastn, c'est-à-dire de rechercher des séquences assez similaire.
+Les 5 contigs choisis ont été blastés avec le script biopython en annexe \ref{7}, qui enregistre 
+les résultats dans des fichiers xml. Afin d'obtenir une interprétation graphique des résultats, 
+j'ai aussi effectué le blast à partir de l'interface web de NCBI. Pour les deux séries de 
+blast, j'ai choisi comme option de blaster contre la base de données nr, et d'utiliser blastn, 
+c'est-à-dire de rechercher des séquences assez similaire.
 
-Le résultat graphique des 5 contigs est disponible à l'annexe \ref{13}. Au premier regard, on remarque que tous les résultats
-sont à peu près pareils. Un regard rapide aux fichiers xml confirment ce fait. Tous les résultats ont le même total score,
-environ la même longueur de hit, et ont tous une e-value de 0.
+Le résultat graphique du blast des cinq contigs est disponible à l'annexe \ref{13}. 
+Au premier regard, on remarque que tous les résultats sont à peu près pareils. Un regard rapide 
+aux fichiers xml confirment ce fait. Tous les résultats ont le même total score, environ la même
+longueur de hit, et ont tous une e-value de 0.
 
 \subsection[Fonctions prédites des contigs]{Quelles sont les fonctions prédites par les différents contigs choisis?}
 
-Pour essayer de prédire les fonctions, je vais regarder les informations des fichiers genbank des dix premiers résultats
-blast de chaque contig choisi. Pour ce faire, j'utilise le script en annexe \ref{14}.
+Pour essayer de prédire les fonctions, je vais regarder les informations des fichiers
+genbank des onze premiers résultats blast de chaque contig choisi. Pour ce faire, 
+j'utilise le script en annexe \ref{14}.
 
-Quatre des contigs choisis semblent avoir une fonction commune. En effet, pour les contigs 7, 196, 209 et 214, on retrouve
-des annotations semblables dans les fichiers genbank obtenus des résultats des blast. On y retrouve des annotations pour deux
-gènes et deux CDS encodant les protéines suivantes: \emph{orf1ab polyprotein} ou \emph{polyprotein orf1ab} (PP1ab), ou encore
-\emph{orf1a polyprotein} ou \emph{polyprotein orf1a} (PP1a). Les fichiers genbank commençant par JX ont tous les annotations
-de gène et de CDS, tandis que les fichiers commençant par d'autres lettres ont seulement les annotations CDS. De plus,
-comme les résulats des blasts sont tous différentes formes du virus, chaque annotation des protéines encodées fait référence
-à un fichier genbank différent dans la base de données des protéines.
+Quatre des contigs choisis semblent avoir une fonction commune. En effet, pour les contigs 7, 
+195, 209 et 214, on retrouve des annotations semblables dans les fichiers genbank obtenus des
+résultats des blast. On y retrouve des annotations pour deux
+gènes et deux CDS encodant les protéines suivantes: \emph{orf1ab polyprotein} ou 
+\emph{polyprotein orf1ab} (PP1ab), ou encore \emph{orf1a polyprotein} ou 
+\emph{polyprotein orf1a} (PP1a). Les fichiers genbank commençant par JX ont tous les annotations
+de gène et de CDS, tandis que les fichiers commençant par d'autres lettres ont seulement les
+annotations CDS. De plus, comme les résulats des blasts sont tous différentes formes du virus, 
+chaque annotation des protéines encodées fait référence à un fichier genbank différent dans la 
+base de données des protéines.
 
-Les fichiers dénotent aussi que les résultats du blast ne représentent qu'une partie de ces deux formes du gène. En effet,
-la séquence couverte par les résultats du blast du contig 7 fait 799bp (query cover de 89\%), celle du contig 195 fait
-1368bp (query cover de 89\%), les résultats du contig 209 font 762bp (query cover de 89\%) et finalement les résultats du
-contig 214 font 1042bp (query cover de 86\%), alors que la taille de la protéine, selon les fichiers consultés, est de
-7013 acides aminées, donc beaucoup plus grand. Aucune information précise n'est disponible concernant le rôle possible
+Les fichiers dénotent aussi que les résultats du blast ne représentent qu'une partie de ces 
+deux formes du gène. En effet, la séquence couverte par les résultats du blast du contig 7 
+fait 799bp (\emph{query cover} de 89\%), celle du contig 195 fait
+1368bp (\emph{query cover} de 89\%), les résultats du contig 209 font 762bp (\emph{query cover}
+de 89\%) et finalement les résultats du contig 214 font 1042bp (\emph{query cover} de 86\%), 
+alors que la taille de la protéine, selon les fichiers consultés, est de 7013 acides aminées, 
+donc beaucoup plus grand. Aucune information précise n'est disponible concernant le rôle possible
 de ces deux protéines.
 
-Les annotations des résultats du blast du contig 132 font aussi référence à une région génomique (?), mais cette fois-ci
-à seulement un gène, le gène ayant comme nom "S" et encodant la protéine \emph{spike glycoprotein precursor [SARS coronavirus]}.
-Toutefois, un des dix fichiers consultés (AY559090.gb) n'a aucune annotation concernant ce gène ou cette région codante.
-Encore une fois, le contig ne représenterait qu'une partie de la région codante ou du gène, car la protéine encodée a une
-taille de 1255 acides aminées. On peut toutefois prédire la fonction de ce contig, qui ferait donc partie d'un gène encodant
+Les annotations des résultats du blast du contig 132 font aussi référence à un gène, ayant comme 
+nom "S" et encodant la protéine \emph{spike glycoprotein precursor [SARS coronavirus]}. 
+Toutefois, un des dix fichiers consultés (AY559090.gb) n'a aucune annotation concernant ce gène ou
+cette région codante. Encore une fois, le contig ne représenterait qu'une partie de la 
+région codante ou du gène, car la protéine encodée a une taille de 1255 acides aminées. 
+On peut toutefois prédire la fonction de ce contig, qui ferait donc partie d'un gène encodant
 cette protéine. On ne peut affirmer quel rôle cette protéine peut jouer toutefois.
 
-\subsection[Génome des séquences fortement similaires]{Quel(s) sont le(s) génome(s) dans lesquels vous trouvez des séquences
-fortement similaires? Que pouvez-vous en déduire?}
+\subsection[Génome des séquences fortement similaires]{Quel(s) sont le(s) génome(s) dans lesquels
+vous trouvez des séquences fortement similaires? Que pouvez-vous en déduire?}
 
-Tous les résultats de blast consultés pour ces contigs ont la même information concernant l'organisme: tous les résultats
-font parti de la famille des Betacoronavirus. Les résultats font toutefois référence à différentes formes du virus. Par exemple,
-pour le contig 214, on retrouve les formes, ExoN1, HKU-39849, ou encore seulement un numéro. Nous pouvons donc déduire que
-les reads obtenus sont biens du séquençage d'un virus de la famile Betacoronavirus.
+En consultant les fichiers genbank des cinq contigs choisis, j'ai remarqué que certains
+génomes du Virus du SARS apparaissent dans les résutlats de blasts différents. Entre autres,
+deux résultats de blast sont présents dans les cinq contigs, quatre de cinq contigs ont six
+résultats en commun.
+
+Les génomes qui sont communs à tous sont le \emph{SARS coronavirus HKU-39849 
+isolate recSARS-CoV HKU-39849, complete genome} et le \emph{SARS coronavirus HKU-39849 isolate UOB,
+complete genome}, alors que les génomes de \emph{SARS coronavirus isolate Tor2/FP1-10851,
+FP1-10895, FP1-10912, FP1-10851} font parties des résultats de blast des contigs 7, 132, 195 et 214.
+
+Il serait donc intéressant de poursuivre une recherche plus approfondie des contigs avec
+ces génomes, car considérant les scores obtenus pour les blasts, et le fait qu'on retrouve
+ces résultats dans plusieurs contigs, il y a de fortes chances que les contigs proviennent
+de ce génome.
 
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
@@ -375,123 +396,135 @@ les reads obtenus sont biens du séquençage d'un virus de la famile Betacoronav
 
 \subsection[Identification du vecteur pANNE]{Identificateur du vecteur pANNE.}
 
-Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fait un blast, retire le
-meilleur résultat du blast de la séquence, et qui refait un autre blast, jusqu'à ce que la séquence soit trop
-petite pour obtenir un résultat intéressant (\ref{23}). J'ai utilisé l'option mégablast pour le travail, pour 
-obtenir des séquences fortement similaire. J'ai aussi modifié le script pour ne pas concaténer les sous-séquences
-restantes, pour vérifier si cela affectait le résultat. J'ai obtenu les mêmes résultats pour la série de blast,
-il était toutefois plus facile de reconstruire un graphique à partir de cette information.
+Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fait un blast, 
+retire le premier hi du blast du vecteur, et qui refait un autre blast, jusqu'à ce que 
+la séquence soit trop petite pour obtenir un résultat intéressant (\ref{23}). 
+J'ai utilisé l'option mégablast pour obtenir des séquences fortement similaire. 
+J'ai aussi modifié le script pour ne pas concaténer les sous-séquences restantes, 
+pour vérifier si cela affectait le résultat. J'ai obtenu les mêmes résultats pour la série de blast,
+il était toutefois plus facile de reconstruire une représentation graphique du résultat 
+en ne concaténant pas les parties restantes du vecteur.
 
-Le vecteur semble donc être la composition de trois séquences différentes. Voici une représentation graphique du
-résultat de l'identification de pANNE. Les couleurs des séquences correspondent à leur équivalent dans la séquence
-du résultat de blast. La flèche indique l'orientation de la séquence. Par exemple, dans le vecteur pHT2, on peut
-remarquer qu'une des hit de blast a été avec une séquence complémentaire de ce vecteur. De plus, on peut y 
-voir un chevauchement pour certains résultats des hits.
+Le vecteur semble donc être la composition de trois séquences différentes. La figure 
+\ref{fig:first} représente en image ce résultat. Les couleurs des séquences correspondent à leur
+équivalent dans la séquence du résultat de blast. La flèche indique l'orientation de la séquence. 
+Par exemple, dans le vecteur pHT2, on peut remarquer qu'une des hit de blast a été 
+avec une séquence complémentaire de ce vecteur. De plus, on peut y voir un chevauchement 
+pour certains résultats des hits.
 
+Le vecteur pANNE semble provenir en grande partie du \emph{Expression vector pHT2, complete
+sequence}, avec deux petites séquences provenant \emph{PgeneClip hMGFP Vector, complete
+sequence} et \emph{Cloning Vector EN.Cherry, complete sequence}. J'ai créé cette représentation
+à l'aide de la librairie GenomeDiagram, de biopython. Le script est disponible en annexe \ref{27}.
+\begin{figure}
 \includegraphics[width=\linewidth]{pANNE.eps}
-
+\caption{Représentation graphique de la composition du vecteur pANNE}
+\label{fig:first}
+\end{figure}
 
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
- 
-\section{Question 4} % Major section
 
-{\bf Utilisez blast pour trouver des orthologues du FOXP4. Récupérer le CDS de huit orthologues.}
+\section{Question 4} % Major section
 
 \subsection[Alignement multiple]{Alignez ces CDS en utilisant ClustalW, dialign et Mavid}
 
-Afin de trouver huit orthologues du gène FOXP4, j'ai tout d'abord cherché ce gène dans la base de données des
-gènes de NCBI. Une série de résultat était disponible pour ce gène, chez différentes espèces. J'ai choisi de
-trouver des orthologues du gène chez l'humain. J'ai donc choisi la page du gène FOXP4 chez l'homo sapiens,
-et j'ai ensuite chargé le fichier genbank de la séquence référence de ce gène.
+Afin de trouver huit orthologues du gène FOXP4, j'ai tout d'abord cherché ce gène dans la base de
+données des gènes de NCBI. Une série de résultat était disponible pour ce gène, chez différentes
+espèces. J'ai choisi de trouver des orthologues du gène chez l'humain. J'ai donc choisi la page 
+du gène FOXP4 chez l'homo sapiens, et j'ai ensuite chargé le fichier genbank de la séquence 
+référence de ce gène.
 
-À partir du fichier genbank, j'ai demandé à NCBI de blaster la région sur la base de données nr. J'ai tout
-d'abord tenter d'utiliser blastn, toutefois après cinq minutes NCBI a arrêté la recherche car elle prenait
-trop de mémoire. J'ai alors utilisé l'option megablast pour avoir des séquences hautement similaire
-(graphique du résultat en annexe \ref{15}). J'ai alors analysé les résultats pour obtenir les CDS de huit 
-orthologues. J'ai donc laissé de côté tous les résultats chez l'humain, et aussi tous les résultats dont
-les fichiers genbank ne contenait pas d'annotation pour des CDS. Pour les séquences choisies, j'ai aussi
-ignorer les courtes séquences, et je me suis concentrer sur le résultat principal.
+À partir du fichier genbank, j'ai demandé à NCBI de blaster la région sur la base de données nr.
+J'ai tout d'abord tenter d'utiliser blastn, toutefois après cinq minutes NCBI a arrêté la 
+recherche car elle prenait trop de mémoire. J'ai alors utilisé l'option megablast pour avoir 
+des séquences hautement similaire (graphique du résultat en annexe \ref{15}). 
+J'ai alors analysé les résultats pour obtenir les CDS de huit orthologues. 
+J'ai donc laissé de côté tous les résultats chez l'humain, et aussi tous les résultats dont
+les fichiers genbank ne contenait pas d'annotation pour des CDS. Pour les séquences choisies, 
+j'ai aussi ignorer les courtes séquences, et je me suis concentrer sur le résultat principal.
 
-Les huit séquences choisies proviennent des expèces suivantes: Pan troglodytes, Pan paniscus, Gorilla gorilla,
-Pongo abelii, Nomascus Leucogenys, Macaca fascicularis, Macaca mulatta et Saimiri bolivensis. Pour chacune
-des espèces, j'ai vérifié les annotations du fichier genbank pour m'assurer que le CDS du fichier correspondait
-au gène FOXP4. J'ai ensuite téléchargé les CDS en format fasta, tel qu'offert par l'interface de NCBI.
-Finalement, j'ai créé un fichier multiple fasta pour ces 8 séquences en copiant/collant dans un nouveau fichier
-le contenu des 8 fichiers.
+Les huit séquences choisies proviennent des expèces suivantes: Pan troglodytes, 
+Pan paniscus, Gorilla gorilla gorilla, Pongo abelii, Nomascus Leucogenys, 
+Macaca fascicularis, Macaca mulatta et Saimiri bolivensis. Pour chacune des espèces, 
+j'ai vérifié les annotations du fichier genbank pour m'assurer que le CDS du fichier 
+correspondait au gène FOXP4. J'ai ensuite téléchargé les CDS en format fasta, tel qu'offert par
+l'interface de NCBI. Finalement, j'ai créé un fichier multiple fasta pour ces huit séquences en
+copiant/collant dans un nouveau fichier le contenu des huit fichiers.
 
-J'ai ensuite installé les trois logiciels sur mon ordinateur (information sur le système en annexe \ref{16}).
+J'ai ensuite installé ClustalW, Dialign et Mavid sur mon ordinateur 
+(information sur le système en annexe \ref{16}).
 
-\subsection[Facilité et rapidité des programmes]{Discutez de la performance en terme de facilité d'utilisation
-et de rapidité des différents programmes.}
+\subsection[Facilité et rapidité des programmes]{Discutez de la performance en terme de facilité
+d'utilisation et de rapidité des différents programmes.}
 
-J'ai d'abord testé clustalw. J'ai utilisé la commande suivante pour lancer l'alignement: 
-\texttt{time clustalw2 foxp4\_ortho.fa $>$ clustalw.log} (log de l'alignement en annexe \ref{17}). Ensuite,
-j'ai fait le même processus avec dialign. J'ai utilisé la commande suivante pour lancer l'alignement:
-\texttt{time dialign -n foxp4\_ortho.fa}. Ici, le programme ne produit pas de texte pour ce qu'il fait. J'ai
-utilisé l'option -n car je tentais d'aligner des séquences nucléotidiques, et non des séquences de protéine,
-ce qui est le défaut de dialign.
+J'ai d'abord testé ClustalW. J'ai utilisé la commande suivante pour lancer l'alignement: 
+\texttt{time clustalw2}\\ \texttt{foxp4\_ortho.fa $>$ clustalw.log} (log de l'exécution 
+en annexe \ref{17}). Ensuite,j'ai fait le même processus avec dialign. J'ai utilisé la commande
+suivante pour lancer l'alignement: \texttt{time dialign -n foxp4\_ortho.fa}. Ici, le programme ne
+produit pas de log de son exécution. J'ai utilisé l'option -n car je tentais d'aligner des 
+séquences nucléotidiques, et non des séquences de protéine, ce qui est le défaut de Dialign.
 
-Finalement, j'ai effectué l'alignement avec Mavid. Le processus fut beaucoup plus difficile. J'ai tout d'abord
-tenté de lancé mavid avec seulement le fichier multifasta. Mavid a donné une erreur, car il s'attendait à
-recevoir aussi un fichier d'arbre phylogénique en format Newick. En regardant la documentation, je me
-suis rendu compte que Mavid contient un programme pour créer l'arbre. Il suffisait d'utiliser le script
-Perl pour créer l'arbre et ensuite lancé Mavid. Après avoir mis à jour les chemins dans le script Perl,
-j'ai tenté de nouveau de lancé Mavid. Encore une fois, l'application a donné une erreur, s'attendant à
-avoir un repeat masking file, de RepeatMasker. J'ai alors téléchargé l'application, et j'ai tenté de
-l'installé localement. Toutefois, RepeatMasker doit se connecter sur un moteur de recherche, et je n'ai
-pas réussi à effectuer cette partie de l'installation.
+Finalement, j'ai effectué l'alignement avec Mavid. Le processus fut beaucoup plus difficile. 
+Pour lancer Mavid, j'ai du modifier le script pour créer l'arbre guide auparavant. Ensuite
+Mavid demandait un fichier de masquage, et j'ai passé plusieurs heures à tenter d'installer
+localement RepeatMasker pour effectuer le masquage, lorsque cela n'a pas fonctionné de
+faire le masquage à l'aide d'une application en ligne, et finalement lorsque le résultat
+de RepeatMasker était qu'il n'y avait pas de séquence répétitive (annexe \ref{18}).
+Après plusieurs recherches, j'ai créé un fichier de masquage vide pour les séquences, c'est-
+à-dire une copie du fichier multifasta avec l'extension .masked, et j'ai ensuite lancé Mavid
+(log de l'exécution en annexe \ref{19}).
 
-J'ai donc décidé de chercher s'il est possible d'utiliser RepeatMasker en ligne. Le site RepeatMasker permet
-son utilisation en ligne, j'ai donc tenté d'obtenir un fichier de masque pour mes séquences. Toutefois, j'ai
-toujours obtenu le même résultat pour mes recherches: aucune séquence répété dans mon fichier fasta (voir \ref{18}).
-J'ai donc tenté de créer un fichier de masquage vide pour les séquences. Toutefois, avec le peu d'information disponible,
-j'ai mis beaucoup de temps à comprendre qu'un fichier de masquage sans séquences répétés est seulement un fichier
-fasta identique au fichier original, avec l'extension .masked. Finalement, j'ai alors réussi à faire fonctionner
-Mavid (log de l'exécution en annexe \ref{19}). Comme on peut le constater, Mavid fait appel à clustalw durant son
-exécution.
-
-La rapidité d'exécution des applications est disponible en annexe \ref{24}. Mavid semble le programme le plus rapide pour
-créer l'alignement, toutefois son manque de documentation rend son utilisation très difficile. Dialign est plus lent,
-il pourrait aussi donner plus d'information à l'utilisateur sur son fonctionnement. ClustalW semble être relativement
+Le temps d'exécution des applications est disponible en annexe \ref{24}. Mavid semble 
+être le programme le plus rapide pour créer l'alignement, toutefois son manque de 
+documentation rend son utilisation très difficile. De plus, il requiert une étape de
+plus que les autres applications. Dialign est plus lent, il pourrait aussi donner plus
+d'information à l'utilisateur sur son fonctionnement. ClustalW semble être relativement
 rapide, tout en étant facile à utiliser.
 
 \subsection[Qualité des alignements]{Analysez et discutez de la qualité de l'alignement donné par chaque méthode.}
 
-Regardons d'abord le résutlat obtenu par ClustalW. À première vue, l'alignement semble être en grande majorité de qualité,
-on y remarque très peu de gap et de mismatch. On peut s'attendre à ce résultat selon l'arbre phylogénique
-créé par ClustalW. En général, ClustalW donne un résultat de qualité si on utilise des séquences partageant un ancêtre commun.
-Comme nous avons choisi des orthologues d'un gène, on peut donc s'attendre à un résultat de qualité. Comme on peut le voir en
-\ref{20}, la distance dans l'arbre phylogénique est assez petite ici, on peut donc s'attendre à un résultat de qualité.
+Regardons d'abord le résultat obtenu par ClustalW. À première vue, l'alignement semble être
+en grande majorité de qualité, on y remarque très peu de gap et de mismatch. On peut s'attendre
+à ce résultat selon l'arbre guide créé par ClustalW. En général, ClustalW donne un résultat de
+qualité si on utilise des séquences partageant un ancêtre commun. Comme nous avons choisi des
+orthologues d'un gène, on peut donc s'attendre à un résultat de qualité. Comme on peut le voir en
+\ref{20}, la distance dans l'arbre phylogénique est assez petite ici, on peut donc s'attendre à un
+résultat de qualité.
 
-Les repères pour la qualité de dialign sont plus difficiles à évaluer. Le programme crée lui aussi un arbre phylogénique (\ref{21}),
-qui est beaucoup plus balancé que celui de ClustalW. En regardant le fichier de sortie, on peut remarquer des scores 
-d'alignement assez élevé pour la majorité du fichier, on retrouve à quelques endroits une série de gap, mais en général le résultat
+Les repères pour la qualité de dialign sont plus difficiles à évaluer. Le programme crée lui
+aussi un arbre guide (\ref{21}), qui est plus balancé que celui de ClustalW. 
+En regardant le fichier de sortie, on peut remarquer des scores d'alignement assez élevé pour la
+majorité du fichier, on retrouve à quelques endroits une série de gap, mais en général le résultat
 semble très similaire à celui de ClustalW.
 
-Finalement, le fichier d'alignement créé par Mavid ne contient aucune information à propos de l'alignement. Mavid produit un fichier
-mfa, donc multiple fasta, où on peut remarquer des gaps assez long à certains endroits. Pour plus d'information, Mavid produit
-aussi un fichier phylip plus facile à analyser. On y remarque certaines régions de gap, mais il est très difficile
-de remarquer les mismatchs. L'arbre phylogénique produit (\ref{22}) ressemble à celui de Dialign, mais les distances entre les
-espèces n'est pas aussi grand.
+Finalement, le fichier d'alignement créé par Mavid ne contient aucune information à propos de
+l'alignement. Mavid produit un fichier mfa, donc multiple fasta. On peut y remarquer des
+gaps assez long à certains endroits. Pour plus d'information, Mavid produit
+aussi un fichier phylip plus facile à analyser. On y remarque certaines régions de gap, 
+mais il est très difficile de remarquer les mismatchs. L'arbre phylogénique produit (\ref{22})
+ressemble à celui de Dialign, mais les distances entre les espèces ne sont pas aussi grandes.
 
 \subsection[Meilleur alignement]{Quel est votre meilleur alignement? Justifiez votre choix.}
 
-Le choix d'un alignement dépend de ce qu'on veut en faire. Pour en faire une analyse plus poussée, il est
-généralement nécessaire d'éditer l'alignement multiple, selon les connaissances des séquences qui ont été
-alignées. Un choix d'alignement pourrait donc être basé sur la minimisation du travail d'édition à faire
-sur le résultat.
+Le choix d'un alignement dépend de ce qu'on veut en faire. Pour en faire une analyse
+plus poussée, il est généralement nécessaire d'éditer l'alignement multiple, 
+selon les connaissances des séquences qui ont été alignées. Un choix d'alignement pourrait 
+donc être basé sur la minimisation du travail d'édition à faire sur le résultat.
 
-On peut donc éliminer l'alignement de Mavid, car le format mfa qu'il produit semble nécessiter plus de
-travail, ne serait-ce que pour avoir une représentation montrant clairement où sont les mismatchs.
+On peut donc éliminer l'alignement de Mavid, car le format mfa qu'il produit semble
+nécessiter plus de travail, ne serait-ce que pour avoir une représentation montrant 
+clairement où sont les mismatchs.
 
-Il est plus difficile de départager entre les alignements de ClustalW et Dialign. Selon Mower et Annaiah, 
-Dialign semble excellé lorsque les séquences ont une distance évolutive très élevées. Ce n'est pas le cas
-ici, donc il serait préférable de prendre l'alignement multiple produit par ClustalW. De plus, ClustalW
-produit un résultat plus rapidement que Dialign. Ce n'est pas un critère très important ici, car
-les séquences alignées sont assez courtes, mais pour des séquences plus longues, ce serait un
-point à considérer.
+Il est plus difficile de départager entre les alignements de ClustalW et Dialign. 
+Selon Mower et Annaiah, Dialign excelle lorsque les séquences ont une distance évolutive 
+très élevées. Ce n'est pas le cas ici, donc il serait préférable de prendre l'alignement
+multiple produit par ClustalW. De plus, ClustalW produit un résultat plus rapidement 
+que Dialign. Ce n'est pas un critère très important ici, car les séquences alignées sont assez
+courtes, mais pour des séquences plus longues, ce serait un point à considérer.
+
+Je crois donc que le meilleur alignement est celui que ClustalW a produit.
 
 \begingroup
 \renewcommand{\appendix}{%
@@ -968,7 +1001,7 @@ with open(path_fichier) as fichier:
 \end{lstlisting}
 
 \subsection{Résultat graphique bu blast du gène FOXP4 de l'Homo sapiens.}\label{15}
-\includegraphics[width=\linewidth]{annexes/question4/FOXP4_megablast_result.png}
+\includegraphics{annexes/question4/FOXP4_megablast_result.png}
 
 \subsection{Information du système qui a fait les alignements multiples.}\label{16}
 
@@ -1245,7 +1278,106 @@ while len(sequence) > LEN_THRESH:
  \hline
 \end{tabular}
 
-\subsection{Fichiers genbank utilisés pour ce rapport}\label{25}
+\subsection{Script Biopython pour obtenir les fichiers d'accession des 10 premiers résultats du blast
+pour un contig donné.}\label{25}
+\begin{lstlisting}[frame=single,numbers=left,language=Python]
+#- coding:utf-8 -#
+
+from reportlab.lib import colors
+from reportlab.lib.units import cm
+from Bio.Graphics import GenomeDiagram
+from Bio.Graphics.GenomeDiagram import CrossLink
+from reportlab.lib import colors
+
+gd_diagram = GenomeDiagram.Diagram("Composition du vecteur pANNE.txt")
+gd_track_for_features = gd_diagram.new_track(1, name="Annotated Features", 
+  start=0, end=6627)
+gd_feature_set = gd_track_for_features.new_set()
+from Bio.SeqFeature import SeqFeature, FeatureLocation
+
+colors = [colors.green,colors.lightgreen, colors.teal, colors.darkgreen,
+  colors.seagreen,colors.lawngreen,colors.olivedrab]
+
+#Essai à la main, à la lecture des fichiers XML
+#blast #1: pHT2
+feature = SeqFeature(FeatureLocation(1, 1056), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[0],
+  sigil="ARROW", arrowhead_length=0.5,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(5342, 5798), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[1], 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(3495, 5341), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[2], 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(5798, 6627), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[3], 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(3039, 3494), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[4], 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(1742, 2057), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[5], 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(2776, 3039), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[6], 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+
+#blast 2:
+feature = SeqFeature(FeatureLocation(1057, 1741), strand = +1)
+gd_feature_set.add_feature(feature, name="PGeneClip", label=True, color="blue", 
+  sigil="ARROW", arrowhead_length=1)
+
+#blast 3
+feature = SeqFeature(FeatureLocation(2058, 2770), strand = +1)
+gd_feature_set.add_feature(feature, name="Cloning vector EN.Cherry", label=True,
+  color="red", sigil="ARROW",arrowhead_length=1)
+
+#On essai d'ajouter d'autres track pour représenter la position des blasts
+gd_track_for_features = gd_diagram.new_track(1, name="pHT2", start=0, end=4924)
+gd_feature_set = gd_track_for_features.new_set()
+feature = SeqFeature(FeatureLocation(2246, 4092), strand = None)
+gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[2], 
+  sigil="ARROW", arrowhead_length=0.2,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(1, 1058), strand = None)
+gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[0],
+  sigil="ARROW", arrowhead_length=0.2,arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(4093, 4922), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[3], 
+  sigil="ARROW", arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(2795, 2339), strand = -1)
+gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[1], 
+  sigil="ARROW", arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(2340, 2795), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[4], 
+  sigil="ARROW", arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(743, 1058), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[5], 
+  sigil="ARROW", arrowshaft_height=0.1)
+feature = SeqFeature(FeatureLocation(1984, 2246), strand = +1)
+gd_feature_set.add_feature(feature, name="pHT2", label=False,
+  color=colors[6],sigil="ARROW",arrowshaft_height=0.1)
+
+#On essai d'ajouter d'autres track pour représenter la position des blasts
+gd_track_for_features = gd_diagram.new_track(1, name="PGeneClip", start=0, 
+  end=5267)
+gd_feature_set = gd_track_for_features.new_set()
+feature = SeqFeature(FeatureLocation(1879, 2563), strand = +1)
+gd_feature_set.add_feature(feature, name="PGeneClip", label=False, color="blue", 
+  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+
+gd_track_for_features = gd_diagram.new_track(1, 
+  name="Cloning vector EN.Cherry", start=0, end=10649)
+gd_feature_set = gd_track_for_features.new_set()
+feature = SeqFeature(FeatureLocation(7102, 7813), strand = +1)
+gd_feature_set.add_feature(feature, name="Cloning Vector EN.Cherry", label=False, 
+  color="red", sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
+
+gd_diagram.draw(format='linear', pagesize="LETTER", orientation="portrait",
+  fragments=1, start=0, end=10649)
+gd_diagram.write("GD_labels_default.eps", "eps")
+\end{lstlisting}
+
+\subsection{Fichiers genbank utilisés pour ce rapport}\label{26}
 
  \footnotesize{
 \begin{longtable}{|p{4.5cm}|p{3.5cm}|p{4.5cm}|p{3.5cm}|}
@@ -1307,6 +1439,24 @@ while len(sequence) > LEN_THRESH:
  \hline
 \end{longtable}
 }
+
+\subsection{Fichiers de gène de NCBI utilisé pour ce rapport}\label{27}
+
+ \footnotesize{
+\begin{longtable}{|p{4.5cm}|p{3.5cm}|p{4.5cm}|p{3.5cm}|}
+\hline
+ Nom & Gene ID & Nom & Gene ID\\
+ \hline \endhead
+ ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Homo sapiens (human) ]  & 57679 & ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Pan troglodytes (chimpanzee) ]  & 470613 \\
+ \hline
+ ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Macaca mulatta (Rhesus monkey) ] & 703263 & ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Canis lupus familiaris (dog) ] & 100856109 \\
+ \hline
+  ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Bos taurus (cattle) ]  & 535750 & Als2 amyotrophic lateral sclerosis 2 (juvenile) [ Mus musculus (house mouse) ] & 74018 \\
+ \hline
+   Als2 amyotrophic lateral sclerosis 2 (juvenile) [ Rattus norvegicus (Norway rat) ]  & 363235 & FOXP4 forkhead box P4 [ Homo sapiens (human) ] & 116113 \\
+ \hline
+ \end{longtable}
+ }
 \endgroup
 
 %
@@ -1347,7 +1497,7 @@ while len(sequence) > LEN_THRESH:
   Eymard-Pierre, E., Lesca, G., Dollet, S., Santorelli, F. M., di Capua, M., Bertini, E., Boespflug-Tanguy, O. Infantile-onset ascending
   hereditary spastic paralysis is associated with mutations in the alsin gene. Am. J. Hum. Genet. 71: 518-527, 2002. [PubMed: 12145748,
   images] [Full Text: Elsevier Science]
-\bibitem{OMIM-IAHSP}
+\bibitem{OMIM-alsin}
   Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 606352: 09/16/2013: . 
   World Wide Web URL: http://omim.org/
 \bibitem{Yang and al.}
