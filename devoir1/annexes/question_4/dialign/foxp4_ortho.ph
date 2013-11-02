@@ -1,0 +1,1 @@
+(((Pan_troglodytes:0.000531,(((Pan_paniscus:0.000510,Gorilla_gorilla:0.000510):0.000010,Pongo_abelii:0.000520):0.000005,Nomascus_leucogenys:0.000526):0.000006):0.000007,(Macaca_fascicularis:0.000502,Macaca_mulatta:0.000502):0.000036):0.000026,Saimiri_bolivensis:0.000564);

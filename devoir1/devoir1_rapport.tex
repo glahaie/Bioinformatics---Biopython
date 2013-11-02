@@ -156,15 +156,15 @@ du gène et retournant la distribution. Le résultat de cette analyse est détai
  \hline
  Nucléotides & Compte & Pourcentage \\
  \hline
- A & 23361 & 28.87\% \\
+ A & 25414 & 28.91\% \\
  \hline
-  C & 15070 & 18.62\% \\
+  C & 16471 & 18.74\% \\
  \hline
-  G & 15717 & 19.43\% \\
+  G & 17296 & 19.67\% \\
  \hline
-  T & 26762 & 33.08\% \\
+  T & 28729 & 32.68\% \\
  \hline
-  Total & 80910 & 100\% \\
+  Total & 87910 & 100\% \\
  \hline
  \end{tabular}
 \caption{{\small Distribution des nucléotides dans le locus du gène ALS2}}
@@ -179,7 +179,7 @@ protéines de la famille des GTPases, qui joue un rôle important dans la divisi
 connu pour son lien à la Sclérose latérale amyotrophique, aussi connue sous le nom de la maladie de Lou Gherig. 
 Toutefois, seulement 5 à 10\% des cas de cette maladie seraient de cause génétique \cite{Wikipedia-SAL}.
 
-\subsection[Loci voisins du gène ALS2]{Comparaision des loci voisins au gène ALS2.}
+\subsection[Loci voisins du gène ALS2]{Comparaison des loci voisins au gène ALS2.}
 
 J'ai tout d'abord suivi le lien \emph{Map Viewer} de la description du gène ALS2 pour trouver la location 
 du gène ALS2 (annexe \ref{4}).  Cette vue permet d'identifier deux loci voisins immédiats, les loci des gènes 
@@ -536,10 +536,10 @@ Je crois donc que le meilleur alignement est celui que ClustalW a produit.
 \appendix
 \section{Annexes}
 \subsection{Image du locus du gène ALS2 chez l'\emph{Homo sapiens} du UCSC genome browser}\label{1}
-\includegraphics[width=\linewidth]{annexes/annexe1_ucsc.png}
+\includegraphics[width=\linewidth]{annexes/question_1/annexe1_ucsc.png}
 
 \subsection{Image du locus du gène ALS2 chez l'\emph{Homo sapiens} de NCBI}\label{2}
-\includegraphics{annexes/annexe1_ncbi_als2.png}
+\includegraphics{annexes/question_1/annexe1_ncbi_als2.png}
 
 \subsection{Script biopython de calcul des fréquences nucléotidiques}\label{3}
 \begin{lstlisting}[frame=single,numbers=left,language=Python]
@@ -565,10 +565,10 @@ for seq in seq_record:
 \end{lstlisting}
 
 \subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202,555 à 202,656.}\label{4}
-\includegraphics[width=\linewidth]{annexes/annexe1b_mapviewer_202555-202656.png}
+\includegraphics[width=\linewidth]{annexes/question_1/annexe1b_mapviewer_202555-202656.png}
 
 \subsection{Vue de MapViewer du locus du gène ALS2 chez l'humain, 202M à 203M.}\label{5}
-\includegraphics[width=\linewidth]{annexes/annexe1b_mapviewer_202M-203M.png}
+\includegraphics[width=\linewidth]{annexes/question_1/annexe1b_mapviewer_202M-203M.png}
 
 \subsection{Vue de SequenceViewer du locus du gène ALS2.}\label{6}
 %\includegraphics[width=\linewidth]{annexes/annexe1_c_sw.png}
@@ -1002,15 +1002,15 @@ with open(path_fichier) as fichier:
 \end{lstlisting}
 
 \subsection{Résultat graphique bu blast du gène FOXP4 de l'\emph{Homo sapiens}.}\label{15}
-\includegraphics{annexes/question4/FOXP4_megablast_result.png}
+\includegraphics{annexes/question_4/FOXP4_megablast_result.png}
 
 \subsection{Information du système qui a fait les alignements multiples.}\label{16}
 
 Système d'exploitation et processeurs\\
-\includegraphics[width=\linewidth]{annexes/question4/systeme_1.png}
+\includegraphics[width=\linewidth]{annexes/question_4/systeme_1.png}
 
 Mémoire\\
-\includegraphics[width=\linewidth]{annexes/question4/systeme_2.png}
+\includegraphics[width=\linewidth]{annexes/question_4/systeme_2.png}
 
 \subsection{Log de l'exécution de clustalw2.}\label{17}
 \begin{verbatim}
@@ -1178,13 +1178,13 @@ Phylogenetic tree file created:   [./mavid.ph]
 \end{verbatim}
 
 \subsection{Arbre phylogénique créé par ClustalW}\label{20}
-\includegraphics{annexes/q4_cds/clustalw/foxp4_ortho.eps}
+\includegraphics{annexes/question_4/clustalw/foxp4_ortho.eps}
 
 \subsection{Arbre phylogénique créé par Dialign}\label{21}
-\includegraphics{annexes/q4_cds/dialign/foxp4_ortho.eps}
+\includegraphics{annexes/question_4/dialign/foxp4_ortho.eps}
 
 \subsection{Arbre phylogénique créé par Mavid}\label{22}
-\includegraphics{annexes/q4_cds/Mavid/mavid.eps}
+\includegraphics{annexes/question_4/Mavid/mavid.eps}
 
 \subsection{Script biopython pour identifier la composition du vecteur pANNE}\label{23}
 \begin{lstlisting}[frame=single,numbers=left,language=Python]
