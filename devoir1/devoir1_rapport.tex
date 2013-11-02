@@ -134,10 +134,10 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 %TODO: vérifier si mes orientations sont corrects.
 \section{Question 1} % Major section
 
-\subsection[Description du gène ALS2]{Description sommaire du locus du gène ALS2 chez l'Homo sapiens.}
+\subsection[Description du gène ALS2]{Description sommaire du locus du gène ALS2 chez l'\emph{Homo sapiens}.}
 
 J'ai consulté deux sources pour obtenir des informations sur la location du gène ALS2 (\emph{amyotrophic lateral sclerosis 2 (juvenile)}) de l'humain. La première source,
-afin d'identifier la location du locus, était le UCSC genome browser. La recherche a été effectuée sur la version GRCh37/hg19
+afin d'identifier la location du locus, était le \emph{UCSC Genome Browser} \cite{UCSC genome browser}. La recherche a été effectuée sur la version GRCh37/hg19
 du génome humain. Comme on peut le voir sur l'image en annexe \ref{1}, le gène ALS2 est sur le brin q, c'est-à-dire qu'il est sur le brin complémentaire, donc il est orienté 3` $\rightarrow$ 5`.
 
 Le locus du gène est situé sur le chromosome, à la position 2q33.1. La position précise du gène est la séquence 
@@ -146,7 +146,7 @@ Sa taille est donc 80 910 pairs de nucléotides. J'ai effectué la même recherc
 \emph{National Center for Biotechnology Information} (NCBI). J'ai effectué une recherche dans la base de données des gènes,
 j'insère en annexe \ref{2}  une image de la région du chromosome 2 où se situe le gène. On retrouve les mêmes informations
 à propos du gène ALS2: la location, la taille et sa location précise sont les mêmes que UCSC. Afin de trouver la distribution
-des nucléotides dans le gène, j'ai écrit un script biopython (annexe \ref{3}) prenant en entré le fichier genbank de la séquence
+des nucléotides dans le gène, j'ai écrit un script biopython (annexe \ref{3}) prenant en entrée le fichier genbank de la séquence
 du gène et retournant la distribution. Le résultat de cette analyse est détaillé à la table \ref{tab:first}.
 \begin{table}[b]
 {\small
@@ -173,24 +173,24 @@ du gène et retournant la distribution. Le résultat de cette analyse est détai
 \end{table}
 
 NCBI donne un sommaire du rôle du gène ALS2. Il encode une protéine, et son nom est donné dans le fichier genbank de la séquence
-nuclétidique: l'alsin. Afin d'avoir une meilleure idée de la fonction du gène ALS2, j'ai effectué une recherche sur 
-\emph{Genetics Home Reference} (GHR). La protéine semble avoir plusieurs rôles, entre autres l'activation de 
+nucléotidique: l'alsin. Afin d'avoir une meilleure idée de la fonction du gène ALS2, j'ai effectué une recherche sur 
+\emph{Genetics Home Reference} (GHR) \cite{Genetics Home Reference}. La protéine semble avoir plusieurs rôles, entre autres l'activation de 
 protéines de la famille des GTPases, qui joue un rôle important dans la division cellulaire, la différentiation. Ce gène semble surtout
-connu pour son lien à la Sclérose latérale amyotropique, aussi connue sous le nom de la maladie de Lou Gherig. 
-Toutefois, seulement 5 à 10\% des cas de cette maladie serait de cause génétique. %TODO SOURCE
+connu pour son lien à la Sclérose latérale amyotrophique, aussi connue sous le nom de la maladie de Lou Gherig. 
+Toutefois, seulement 5 à 10\% des cas de cette maladie seraient de cause génétique \cite{Wikipedia-SAL}.
 
 \subsection[Loci voisins du gène ALS2]{Comparaision des loci voisins au gène ALS2.}
 
 J'ai tout d'abord suivi le lien \emph{Map Viewer} de la description du gène ALS2 pour trouver la location 
-du gène ALS2 (annexe \ref{4}).  Cette vue permet d'identifer deux loci voisins immédiats, les loci des gènes 
-MPP4 et RPS2P16. J'ai ensuite passé changé les valeurs des nucléotides de début et de fin afin de voir la
-séquence 202M - 203M du chromosome 2 de l'humain (annexe \ref{5}). Cette vue permet de d'observer plusieurs autres
+du gène ALS2 (annexe \ref{4}).  Cette vue permet d'identifier deux loci voisins immédiats, les loci des gènes 
+MPP4 et RPS2P16. J'ai ensuite changé les valeurs des nucléotides de début et de fin afin de voir la
+séquence 202M - 203M du chromosome 2 de l'humain (annexe \ref{5}). Cette vue permet d'observer plusieurs autres
 loci de gènes. J'ai choisi de décrire les loci des gènes MPP4, RPS2P16, CDK15, TMEM237 et ENO1P4.
 
 On peut séparer ces gènes en deux catégories. La première catégorie sont des pseudogènes. En effet,
 Selon la description des gènes RPS2P16 et ENO1P4, il s'agit de deux pseudogènes, c'est-à-dire des
-gènes qui ne sont plus exprimés chez l'humain. Ils ont donc un rôle différent du gène ALS2. Ils ont toutefois
-une relation avec ce gène car ils sont situés à la même location du chromosome 2. Le gène RPS2P16 
+gènes qui ne sont plus exprimés chez l'humain \cite{Wikipedia-pseudo}. Ils ont donc un rôle différent du gène ALS2. Ils ont toutefois
+une relation avec ce gène, car ils sont situés à la même location du chromosome 2. Le gène RPS2P16 
 (\emph{ribosomal protein S2 pseudogene 16}) est situé à la location 2q33.1 du chromosome 2, et il 
 est orienté 5' $\rightarrow$ 3'. Plus précisément, il occupe la séquence 202627437 - 202628333 du 
 chromosome 2, et a une taille de 896 bp. Le gène ENO1P4 (\emph{enolase 1, (alpha) pseudogene 4})
@@ -201,17 +201,18 @@ La deuxième catégorie de gènes est plus similaires à ALS2. En effet, les gè
 (\emph{membrane protein, palmitoylated 4 (MAGUK p55 subfamily 4)}), CDK15 (\emph{cyclin-dependant kinase 15}) et
 TMEM237 (\emph{transmembrane protein 237}) sont tous des gènes qui encodent une protéine. On remarque
 aussi que dans les noms synonymes, ils ont un nom similaire à ALS2. Le nom ALS2CR5 pour MPP4, ALS2CR7 pour CDK15 et
-ALS2CR4 pour TMEM237, alors que le gènes ALS2 est aussi connu sous le nom ALS2CR6. Toutefois une recherche pour
+ALS2CR4 pour TMEM237, alors que le gène ALS2 est aussi connu sous le nom ALS2CR6. Toutefois une recherche pour
 identifier ce lien n'a pas permis de découvrir un lien précis, cela semble lié à la région du chromosome.
 
-Les fonctions possibles de ces trois gènes semblent différentes de la fonction de ALS2. Le gène MPP4, situé à la
-la position 2q33.2, il est donc lui aussi sur le brin 3' $\rightarrow$ 5'. Le gène a une taille de 53 821bp. Il 
+Les fonctions possibles de ces trois gènes semblent différentes de la fonction de ALS2. Le gène 
+MPP4, situé à la position 2q33.2, il est donc lui aussi sur le brin 3' $\rightarrow$ 5'. 
+Le gène a une taille de 53 821bp. Il 
 produit une protéine membre de la famille MAGUK, qui se retrouve surtout dans la rétine. Le gène CDK15 est situé
 à la location 2q33.2, plus précisément à la séquence 202655177 - 202760273 du chromosome 2, il a donc une taille 
 de 105 096 bp. Il est sur le brin complémentaire, dans la direction 5' $\rightarrow$ 3'. Il serait impliqué 
 dans le contrôle du cycle "eucaryotique" des cellules. Finalement, le gène TMEM237 est situé à la location 2q33.2,
 donc sur le brin complémentaire, plus précisément à la séquence 202484907 - 202508252 du chromosome 2. Il a donc
-une taille de 23345 bp. La protéine encodée par ce gène semble être impliqué dans "WNT signaling" (refseq 2012). 
+une taille de 23345 bp. La protéine encodée par ce gène semble être impliquée dans "WNT signaling" (refseq 2012). 
 
 \subsection[Annotations du gène ALS2]{Description des annotations du locus du gène ALS2.}
 
@@ -224,9 +225,9 @@ Ces trois maladies ont un lien avec une mutation du gène ALS2. Le dernier résu
 propos de l'alsin, la protéine encodée par le gène ALS2. Selon Yang et al. et Hadano et al., ce gène comporte 34 exons 
 dans une région de 83kb.
 
-La prochaine annotation envoie vers HGNC, un annuaire de liens utiles à propos de ALS2. L'annotion suivante (sv) 
+La prochaine annotation envoie vers HGNC, un annuaire de liens utiles à propos de ALS2. L'annotation suivante (sv) 
 est un lien vers sequence viewer, une représentation graphique de la séquence nucléotidique du gène. On peut ainsi voir graphiquement la
-position des features du fichier, par exemple les STS, les CDS. Ensuite, l'annotation pr montre les résutlats de la recherche dans la
+position des features du fichier, par exemple les STS, les CDS. Ensuite, l'annotation pr montre les résultats de la recherche dans la
 banque de données des protéines de la protéine encodée par ce gène. On y retrouve 19 résultats, la majorité reliée à la protéine alsin,
 qui est encodée par ALS2. 
 
@@ -245,7 +246,7 @@ car il contient plus de features que le fichier de référence du chromosome 2.
 
 Regardons tout d'abord les informations générales du fichier. La première ligne nous donne quelques informations de 
 base: le numéro d'accession, la taille de la séquence (87 910 bp), qu'il s'agit d'une séquence linéaire d'ADN, 
-et que la dernière modification date du 20 août 2013. On voit ensuite que cette séquence appartient au génome de l'homo sapiens, et qu'il s'agit de la première version de cette séquence.
+et que la dernière modification date du 20 août 2013. On voit ensuite que cette séquence appartient au génome de l'\emph{Homo sapiens}, et qu'il s'agit de la première version de cette séquence.
 
 Regardons maintenant les features. Regardons tout d'abord le feature gene. On y retrouve 2 features gene,
 le premier celui du gène ALS2, qui se situe à la sous-séquence 5001..85910. On dénote ensuite un feature pour l'ARNm
@@ -259,20 +260,20 @@ Le second feature gene nous informe qu'une partie de la séquence fait partie du
 441bp. On n'a donc très peu d'information sur ce gène dans ce fichier, seulement le feature mRNA, indiquant que la 
 fin de la séquence (87479..$>$87586) transcrit en ARNm. On a donc dans les notes de ce feature le numéro d'accession
 de la séquence en question. Finalement, on retrouve la position de 9 STS dans cette séquence, ce qui correspond
-à l'annotation sts de Map Viewer.
+à l'annotation sts de \emph{Map Viewer}.
 
 \subsection[Homologues du gène ALS2]{Homologues du gène ALS2.}
 
-Afin de vérifier si ce gène a des homologues, j'ai consulté l'annotation \emph{hm} de Map Viewer pour le gène ALS2. 
+Afin de vérifier si ces gène a des homologues, j'ai consulté l'annotation \emph{hm} de \emph{Map Viewer} pour le gène ALS2. 
 (Il aurait été aussi possible de faire une recherche blast pour trouver le résultat.) On retrouve un homologue 
-de ALS2 chez les mammifères suivants: le chimpazé (Pan troglodytes), le macaque rhésus (Macaca mulatta), 
-le chien (Canis lupus familiaris), le boeuf (Bos taurus), la souris (Mus musculus) et le rat de Norvège (Rattus norvegicus).
+de ALS2 chez les mammifères suivants: le chimpazé (\emph{Pan troglodytes}), le macaque rhésus (\emph{Macaca mulatta}), 
+le chien (\emph{Canis lupus familiaris}), le boeuf (\emph{Bos taurus}), la souris (\emph{Mus musculus}) et le rat de Norvège (\emph{Rattus norvegicus}).
 
 J'ai consulté le fichier la fiche du gène pour toutes ces espèces. Le gène ALS2 joue le même rôle chez tous
 ces mammifères, en effet il encode une protéine. Ces pages ne contiennent toutefois pas d'information sur
 la fonction possible de cette protéine chez ces espèces. On peut toutefois remarquer que la protéine obtenue 
-pour chaque espèce est l'alsin. De plus, on peut aussi remarqué que le nombre d'acides aminées des protéines 
-obtenues est très similaires: il varie de 1649 à 1681 acides aminées. Il semble donc que ces protéines jouent 
+pour chaque espèce est l'alsin. De plus, on peut aussi remarquer que le nombre d'acides aminés des protéines 
+obtenues est très similaire: il varie de 1649 à 1681 acides aminés. Il semble donc que ces protéines jouent 
 des rôles similaires chez ces espèces, mais nous n'avons pas assez d'information disponible pour conclure
 du rôle précis de ce gène chez ces mammifères.
 
@@ -289,7 +290,7 @@ résultat plusieurs contigs. Concentrez votre analyse sur cinq contigs que vous 
 Afin de créer les contigs à partir des reads, j'ai utilisé la version de CAP3 disponible sur le serveur Mobyle@Pasteur.
 L'application a produite 216 contigs à partir des données. J'ai ensuite écrit un script byopython (annexe \ref{7}) permettant de choisir
 au hasard 5 contigs et d'effectuer un blast sur ces contigs. Le script a choisi au hasard (à l'aide d'un générateur de
-nombres pseudoaléatoires) les contigs 7, 132, 195, 209 et 214.
+nombres aléatoires) les contigs 7, 132, 195, 209 et 214.
 
 Regardons tout d'abord la qualité de ces contigs. J'ai évalué la qualité en analysant le fichier\\
 seqs.data.cap.contigs.qual. Pour le contig 7 (résultat annexe \ref{8}),
@@ -302,7 +303,7 @@ contig est de bonne qualité, avec quelques endroits où la qualité est plus ba
 se situent surtout au début et à fin du contig, ce à quoi on s'attend.
 
 Le résultat de qualité du contig 132 (annexe \ref{9}) est plus bas que le précédent. 
-La majorité du contig a une valeur de qualité de 20, et il y a une séquence d'environs 400
+La majorité du contig a une valeur de qualité de 20, et il y a une séquence d'environ 400
 nucléotides à la fin du contig ayant une qualité variant de 0 à 15, ainsi qu'une séquence
 d'environ 80 nucléotides au début ayant une qualité de 10 ou 15. Le résultat est quand même
 généralement acceptable, avec une moyenne de 99\% de précision, sauf aux extrémités, 
@@ -318,7 +319,7 @@ Le score des bases est majoritairement 25, avec une séquence à la fin ayant un
 entre 10 et 15. La précision pour ce contig est donc très haute.
 
 Finalement, le contig 214 (résultat de qualité annexe \ref{12}) a une très grande variation de
-qualité. On retrouve au milieu de contig une qualité très élevé, avec certaines séquences ayant un
+qualité. On retrouve au milieu de contig une qualité très élevée, avec certaines séquences ayant un
 score de qualité de 30 ou même 35. Toutefois, le début et la fin du contig souffre d'une qualité
 beaucoup plus basse, avec une séquence ayant un score de 0, et une séquence ayant un score
 de 10 à la fin du contig.
@@ -329,11 +330,11 @@ Les 5 contigs choisis ont été blastés avec le script biopython en annexe \ref
 les résultats dans des fichiers xml. Afin d'obtenir une interprétation graphique des résultats, 
 j'ai aussi effectué le blast à partir de l'interface web de NCBI. Pour les deux séries de 
 blast, j'ai choisi comme option de blaster contre la base de données nr, et d'utiliser blastn, 
-c'est-à-dire de rechercher des séquences assez similaire.
+c'est-à-dire de rechercher des séquences assez similaires.
 
 Le résultat graphique du blast des cinq contigs est disponible à l'annexe \ref{13}. 
 Au premier regard, on remarque que tous les résultats sont à peu près pareils. Un regard rapide 
-aux fichiers xml confirment ce fait. Tous les résultats ont le même total score, environ la même
+aux fichiers xml confirme ce fait. Tous les résultats ont le même total score, environ la même
 longueur de hit, et ont tous une e-value de 0.
 
 \subsection[Fonctions prédites des contigs]{Quelles sont les fonctions prédites par les différents contigs choisis?}
@@ -349,7 +350,7 @@ gènes et deux CDS encodant les protéines suivantes: \emph{orf1ab polyprotein} 
 \emph{polyprotein orf1ab} (PP1ab), ou encore \emph{orf1a polyprotein} ou 
 \emph{polyprotein orf1a} (PP1a). Les fichiers genbank commençant par JX ont tous les annotations
 de gène et de CDS, tandis que les fichiers commençant par d'autres lettres ont seulement les
-annotations CDS. De plus, comme les résulats des blasts sont tous différentes formes du virus, 
+annotations CDS. De plus, comme les résultats des blasts sont toutes différentes formes du virus, 
 chaque annotation des protéines encodées fait référence à un fichier genbank différent dans la 
 base de données des protéines.
 
@@ -358,7 +359,7 @@ deux formes du gène. En effet, la séquence couverte par les résultats du blas
 fait 799bp (\emph{query cover} de 89\%), celle du contig 195 fait
 1368bp (\emph{query cover} de 89\%), les résultats du contig 209 font 762bp (\emph{query cover}
 de 89\%) et finalement les résultats du contig 214 font 1042bp (\emph{query cover} de 86\%), 
-alors que la taille de la protéine, selon les fichiers consultés, est de 7013 acides aminées, 
+alors que la taille de la protéine, selon les fichiers consultés, est de 7013 acides aminés, 
 donc beaucoup plus grand. Aucune information précise n'est disponible concernant le rôle possible
 de ces deux protéines.
 
@@ -366,7 +367,7 @@ Les annotations des résultats du blast du contig 132 font aussi référence à 
 nom "S" et encodant la protéine \emph{spike glycoprotein precursor [SARS coronavirus]}. 
 Toutefois, un des dix fichiers consultés (AY559090.gb) n'a aucune annotation concernant ce gène ou
 cette région codante. Encore une fois, le contig ne représenterait qu'une partie de la 
-région codante ou du gène, car la protéine encodée a une taille de 1255 acides aminées. 
+région codante ou du gène, car la protéine encodée a une taille de 1255 acides aminés. 
 On peut toutefois prédire la fonction de ce contig, qui ferait donc partie d'un gène encodant
 cette protéine. On ne peut affirmer quel rôle cette protéine peut jouer toutefois.
 
@@ -374,7 +375,7 @@ cette protéine. On ne peut affirmer quel rôle cette protéine peut jouer toute
 vous trouvez des séquences fortement similaires? Que pouvez-vous en déduire?}
 
 En consultant les fichiers genbank des cinq contigs choisis, j'ai remarqué que certains
-génomes du Virus du SARS apparaissent dans les résutlats de blasts différents. Entre autres,
+génomes du Virus du SARS apparaissent dans les résultats de blasts différents. Entre autres,
 deux résultats de blast sont présents dans les cinq contigs, quatre de cinq contigs ont six
 résultats en commun.
 
@@ -397,9 +398,9 @@ de ce génome.
 \subsection[Identification du vecteur pANNE]{Identificateur du vecteur pANNE.}
 
 Afin d'identifier toutes les régions du vecteur donné, j'ai écrit un script qui fait un blast, 
-retire le premier hi du blast du vecteur, et qui refait un autre blast, jusqu'à ce que 
+retire le premier hit du blast du vecteur, et qui refait un autre blast, jusqu'à ce que 
 la séquence soit trop petite pour obtenir un résultat intéressant (\ref{23}). 
-J'ai utilisé l'option mégablast pour obtenir des séquences fortement similaire. 
+J'ai utilisé l'option megablast pour obtenir des séquences fortement similaire. 
 J'ai aussi modifié le script pour ne pas concaténer les sous-séquences restantes, 
 pour vérifier si cela affectait le résultat. J'ai obtenu les mêmes résultats pour la série de blast,
 il était toutefois plus facile de reconstruire une représentation graphique du résultat 
@@ -408,13 +409,13 @@ en ne concaténant pas les parties restantes du vecteur.
 Le vecteur semble donc être la composition de trois séquences différentes. La figure 
 \ref{fig:first} représente en image ce résultat. Les couleurs des séquences correspondent à leur
 équivalent dans la séquence du résultat de blast. La flèche indique l'orientation de la séquence. 
-Par exemple, dans le vecteur pHT2, on peut remarquer qu'une des hit de blast a été 
-avec une séquence complémentaire de ce vecteur. De plus, on peut y voir un chevauchement 
+Par exemple, dans le vecteur pHT2, on peut remarquer qu'un des hits s'est fait de façon plus/minus,
+donc en prenant la séquence complémentaire. De plus, on peut y voir un chevauchement 
 pour certains résultats des hits.
 
-Le vecteur pANNE semble provenir en grande partie du \emph{Expression vector pHT2, complete
-sequence}, avec deux petites séquences provenant \emph{PgeneClip hMGFP Vector, complete
-sequence} et \emph{Cloning Vector EN.Cherry, complete sequence}. J'ai créé cette représentation
+Le vecteur pANNE semble provenir en grande partie de l'\emph{Expression vector pHT2, complete
+sequence}, avec deux petites séquences provenant de \emph{PgeneClip hMGFP Vector, complete
+sequence} et de \emph{Cloning Vector EN.Cherry, complete sequence}. J'ai créé cette représentation
 à l'aide de la librairie GenomeDiagram, de biopython. Le script est disponible en annexe \ref{27}.
 \begin{figure}
 \includegraphics[width=\linewidth]{pANNE.eps}
@@ -433,20 +434,20 @@ sequence} et \emph{Cloning Vector EN.Cherry, complete sequence}. J'ai créé cet
 Afin de trouver huit orthologues du gène FOXP4, j'ai tout d'abord cherché ce gène dans la base de
 données des gènes de NCBI. Une série de résultat était disponible pour ce gène, chez différentes
 espèces. J'ai choisi de trouver des orthologues du gène chez l'humain. J'ai donc choisi la page 
-du gène FOXP4 chez l'homo sapiens, et j'ai ensuite chargé le fichier genbank de la séquence 
+du gène FOXP4 chez l'\emph{Homo sapiens}, et j'ai ensuite chargé le fichier genbank de la séquence 
 référence de ce gène.
 
 À partir du fichier genbank, j'ai demandé à NCBI de blaster la région sur la base de données nr.
-J'ai tout d'abord tenter d'utiliser blastn, toutefois après cinq minutes NCBI a arrêté la 
+J'ai tout d'abord tenté d'utiliser blastn, toutefois après cinq minutes NCBI a arrêté la 
 recherche car elle prenait trop de mémoire. J'ai alors utilisé l'option megablast pour avoir 
-des séquences hautement similaire (graphique du résultat en annexe \ref{15}). 
+des séquences hautement similaires (graphique du résultat en annexe \ref{15}). 
 J'ai alors analysé les résultats pour obtenir les CDS de huit orthologues. 
 J'ai donc laissé de côté tous les résultats chez l'humain, et aussi tous les résultats dont
 les fichiers genbank ne contenait pas d'annotation pour des CDS. Pour les séquences choisies, 
-j'ai aussi ignorer les courtes séquences, et je me suis concentrer sur le résultat principal.
+j'ai aussi ignoré les courtes séquences, et je me suis concentré sur le résultat principal.
 
-Les huit séquences choisies proviennent des expèces suivantes: Pan troglodytes, 
-Pan paniscus, Gorilla gorilla gorilla, Pongo abelii, Nomascus Leucogenys, 
+Les huit séquences choisies proviennent des espèces suivantes: \emph{Pan troglodytes}, 
+\emph{Pan paniscus}, \emph{Gorilla gorilla gorilla}, \emph{Pongo abelii}, \emph{Nomascus Leucogenys}, 
 Macaca fascicularis, Macaca mulatta et Saimiri bolivensis. Pour chacune des espèces, 
 j'ai vérifié les annotations du fichier genbank pour m'assurer que le CDS du fichier 
 correspondait au gène FOXP4. J'ai ensuite téléchargé les CDS en format fasta, tel qu'offert par
@@ -486,14 +487,14 @@ rapide, tout en étant facile à utiliser.
 \subsection[Qualité des alignements]{Analysez et discutez de la qualité de l'alignement donné par chaque méthode.}
 
 Regardons d'abord le résultat obtenu par ClustalW. À première vue, l'alignement semble être
-en grande majorité de qualité, on y remarque très peu de gap et de mismatch. On peut s'attendre
+de qualité, on y remarque très peu de gap et de mismatch. On peut s'attendre
 à ce résultat selon l'arbre guide créé par ClustalW. En général, ClustalW donne un résultat de
 qualité si on utilise des séquences partageant un ancêtre commun. Comme nous avons choisi des
 orthologues d'un gène, on peut donc s'attendre à un résultat de qualité. Comme on peut le voir en
-\ref{20}, la distance dans l'arbre phylogénique est assez petite ici, on peut donc s'attendre à un
+\ref{20}, la distance dans l'arbre guide est assez petite ici, on peut donc s'attendre à un
 résultat de qualité.
 
-Les repères pour la qualité de dialign sont plus difficiles à évaluer. Le programme crée lui
+Les repères pour la qualité de Dialign sont plus difficiles à évaluer. Le programme crée lui
 aussi un arbre guide (\ref{21}), qui est plus balancé que celui de ClustalW. 
 En regardant le fichier de sortie, on peut remarquer des scores d'alignement assez élevé pour la
 majorité du fichier, on retrouve à quelques endroits une série de gap, mais en général le résultat
@@ -519,7 +520,7 @@ clairement où sont les mismatchs.
 
 Il est plus difficile de départager entre les alignements de ClustalW et Dialign. 
 Selon Mower et Annaiah, Dialign excelle lorsque les séquences ont une distance évolutive 
-très élevées. Ce n'est pas le cas ici, donc il serait préférable de prendre l'alignement
+très élevée. Ce n'est pas le cas ici, donc il serait préférable de prendre l'alignement
 multiple produit par ClustalW. De plus, ClustalW produit un résultat plus rapidement 
 que Dialign. Ce n'est pas un critère très important ici, car les séquences alignées sont assez
 courtes, mais pour des séquences plus longues, ce serait un point à considérer.
@@ -534,10 +535,10 @@ Je crois donc que le meilleur alignement est celui que ClustalW a produit.
 \newpage
 \appendix
 \section{Annexes}
-\subsection{Image du locus du gène ALS2 chez l'homo sapien du UCSC genome browser}\label{1}
+\subsection{Image du locus du gène ALS2 chez l'\emph{Homo sapiens} du UCSC genome browser}\label{1}
 \includegraphics[width=\linewidth]{annexes/annexe1_ucsc.png}
 
-\subsection{Image du locus du gène ALS2 chez l'homo sapien de NCBI}\label{2}
+\subsection{Image du locus du gène ALS2 chez l'\emph{Homo sapiens} de NCBI}\label{2}
 \includegraphics{annexes/annexe1_ncbi_als2.png}
 
 \subsection{Script biopython de calcul des fréquences nucléotidiques}\label{3}
@@ -1000,7 +1001,7 @@ with open(path_fichier) as fichier:
             break
 \end{lstlisting}
 
-\subsection{Résultat graphique bu blast du gène FOXP4 de l'Homo sapiens.}\label{15}
+\subsection{Résultat graphique bu blast du gène FOXP4 de l'\emph{Homo sapiens}.}\label{15}
 \includegraphics{annexes/question4/FOXP4_megablast_result.png}
 
 \subsection{Information du système qui a fait les alignements multiples.}\label{16}
