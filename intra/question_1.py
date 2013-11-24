@@ -42,8 +42,10 @@ def dessinerHisto (fichierDonnees, xlabel, ylabel, titre, fichierHisto):
     gp.hardcopy(fichierHisto,terminal = 'postscript', enhanced=1, color=1) #must come after plot() function
 
 def dessinerMinMaxMoy (fichierDonnees, fichierHisto):
-    gp = Gnuplot.Gnuplot()
+    gp = Gnuplot.Gnuplot(persist=1)
     data = Gnuplot.File(fichierDonnees, using="1:2")
+    gp('set yrange [0:100]')
+    gp('set xrange [-10:360]')
     gp.plot(data)
     gp('min_y = GPVAL_DATA_Y_MIN')
     gp('max_y = GPVAL_DATA_Y_MAX')
@@ -51,10 +53,11 @@ def dessinerMinMaxMoy (fichierDonnees, fichierHisto):
     gp("fit f(x) '"+fichierDonnees+"' u 1:2 via mean_y")
 
 # Plotting the minimum and maximum ranges with a shaded background
-    #gp('set label 1 gprintf("Minimum = %g", min_y) at 2, min_y-0.2')
-    #gp('set label 2 gprintf("Maximum = %g", max_y) at 2, max_y+0.2')
-    #gp('set label 3 gprintf("Mean = %g", mean_y) at 2, max_y+0.35')
-    #gp('plot min_y with filledcurves y1=mean_y lt 1 lc rgb "#bbbbdd", max_y with filledcurves y1=mean_y lt 1 lc rgb "#bbddbb", \''+fichierDonnees'\' u 1:2 w p pt 7 lt 1 ps 1')
+    gp('set label 1 gprintf("Minimum = %g", min_y) at 2, min_y-5')
+    gp('set label 2 gprintf("Maximum = %g", max_y) at 2, max_y+5')
+    gp('set label 3 gprintf("Moyenne = %g", mean_y) at 2, max_y+10')
+    gp('plot min_y with filledcurves y1=mean_y lt 1 lc rgb "#bbbbdd", max_y with filledcurves y1=mean_y lt 1 lc rgb "#bbddbb", \''+fichierDonnees +'\' u 1:2 w p pt 7 lt 1 ps 1')
+    gp.replot()
     gp.hardcopy(fichierHisto,terminal = 'postscript', enhanced=1, color=1) #must come after plot() function
 
 #Enregistre le fichier pour les données d'un histogramme
@@ -132,7 +135,9 @@ saveDataMean(contigs, "contigs_taux.dat", "tauxGC")
 dessinerHisto("histogramme_taux.dat", "Taux de GC (%)", "Nombre de contigs", "Nombre de contigs", "histogramme_taux.eps")
 dessinerHisto("histogramme_taille.dat", "Taille du contig", "Nombre de contigs", "Nombre de contigs", "histogramme_taille.eps")
 
-dessinerMinMaxMoy("contigs_taux.dat", "contigs_taux.eps")
+#On appel le script gnuplot -- essai
+os.system('gnuplot taux.gp')
+#dessinerMinMaxMoy("contigs_taux.dat", "contigs_taux.eps")
 
 ##On dessine un graphique avec gnuplot
 #d = Gnuplot.Data(contigs_plot_taille, contigs_plot_tauxGC, title='Relation entre la taille des contigs et leur taux de GC')
