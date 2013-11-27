@@ -3,7 +3,7 @@
 # Test pour iterations sur des les fichiers d'un répertoire
 import os
 
-intra = os.listdir("intra")
+intra = os.listdir("intra/")
 for fichier in intra:
     with open("intra/"+fichier, "r") as lines:
         for line in lines:
