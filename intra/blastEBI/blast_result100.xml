@@ -1,0 +1,715 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-170851-0509-97344622-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="111" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:09:03+00:00" search="P0Y0M0DT0H0M12.000S" start="2013-11-25T17:08:51+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="18">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=T1N9G3_TRIUA" id="UniRef100_T1N9G3" length="958" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         212
+        </score>
+        <bits>
+         86.3
+        </bits>
+        <expectation>
+         2.0E-18
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </pattern>
+        <matchseq end="822" start="787">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Hordeum vulgare var. distichum RepID=F2D7X1_HORVD" id="UniRef100_F2D7X1" length="1085" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         212
+        </score>
+        <bits>
+         86.3
+        </bits>
+        <expectation>
+         3.0E-18
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </pattern>
+        <matchseq end="949" start="914">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=M0YG53_HORVD" id="UniRef100_M0YG53" length="1097" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         212
+        </score>
+        <bits>
+         86.3
+        </bits>
+        <expectation>
+         3.0E-18
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </pattern>
+        <matchseq end="961" start="926">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative ribonuclease H protein n=1 Tax=Aegilops tauschii RepID=M8BRX5_AEGTA" id="UniRef100_M8BRX5" length="1495" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         209
+        </score>
+        <bits>
+         85.1
+        </bits>
+        <expectation>
+         7.0E-18
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNEPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNYGDETTWNFDDQDT+SVWGSNAMNEPGHHGS
+        </pattern>
+        <matchseq end="1359" start="1324">
+         VFGDNYGDETTWNFDDQDTDSVWGSNAMNEPGHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: uncharacterized protein LOC100827928 isoform 2 n=1 Tax=Brachypodium distachyon RepID=UPI000234E8FF" id="UniRef100_UPI000234E8FF" length="1056" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         175
+        </score>
+        <bits>
+         72.0
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNY DET+WNFDDQDTESVWGSNAMN E  HHGS
+        </pattern>
+        <matchseq end="917" start="881">
+         VFGDNYADETSWNFDDQDTESVWGSNAMNTETDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: uncharacterized protein LOC100827928 isoform 1 n=1 Tax=Brachypodium distachyon RepID=UPI000234E8FE" id="UniRef100_UPI000234E8FE" length="1057" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         175
+        </score>
+        <bits>
+         72.0
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNY DET+WNFDDQDTESVWGSNAMN E  HHGS
+        </pattern>
+        <matchseq end="918" start="882">
+         VFGDNYADETSWNFDDQDTESVWGSNAMNTETDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1HA53_BRADI" id="UniRef100_I1HA53" length="1082" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         175
+        </score>
+        <bits>
+         72.0
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHGS
+        </queryseq>
+        <pattern>
+         VFGDNY DET+WNFDDQDTESVWGSNAMN E  HHGS
+        </pattern>
+        <matchseq end="943" start="907">
+         VFGDNYADETSWNFDDQDTESVWGSNAMNTETDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="ESTs AU031435(E61570) n=1 Tax=Oryza sativa subsp. japonica RepID=Q9SNJ3_ORYSJ" id="UniRef100_Q9SNJ3" length="440" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAM-NEPGHHGS
+        </queryseq>
+        <pattern>
+         +FGD Y DET+WNFDDQDTESVWGSNAM NE  HHGS
+        </pattern>
+        <matchseq end="292" start="256">
+         IFGDKYADETSWNFDDQDTESVWGSNAMNNESDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3LJL3_ORYBR" id="UniRef100_J3LJL3" length="1054" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAM-NEPGHHGS
+        </queryseq>
+        <pattern>
+         VFGD Y DET+WNFDDQDTESVWGSNAM NE  HHGS
+        </pattern>
+        <matchseq end="914" start="878">
+         VFGDKYADETSWNFDDQDTESVWGSNAMNNESDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. japonica RepID=A3ADS4_ORYSJ" id="UniRef100_A3ADS4" length="1051" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAM-NEPGHHGS
+        </queryseq>
+        <pattern>
+         +FGD Y DET+WNFDDQDTESVWGSNAM NE  HHGS
+        </pattern>
+        <matchseq end="911" start="875">
+         IFGDKYADETSWNFDDQDTESVWGSNAMNNESDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="EF hand family protein, expressed n=1 Tax=Oryza sativa subsp. japonica RepID=Q10S92_ORYSJ" id="UniRef100_Q10S92" length="1068" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAM-NEPGHHGS
+        </queryseq>
+        <pattern>
+         +FGD Y DET+WNFDDQDTESVWGSNAM NE  HHGS
+        </pattern>
+        <matchseq end="928" start="892">
+         IFGDKYADETSWNFDDQDTESVWGSNAMNNESDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza glaberrima RepID=I1P774_ORYGL" id="UniRef100_I1P774" length="1068" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAM-NEPGHHGS
+        </queryseq>
+        <pattern>
+         +FGD Y DET+WNFDDQDTESVWGSNAM NE  HHGS
+        </pattern>
+        <matchseq end="928" start="892">
+         IFGDKYADETSWNFDDQDTESVWGSNAMNNESDHHGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K4A583_SETIT" id="UniRef100_K4A583" length="1044" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         7.0E-10
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHG
+        </queryseq>
+        <pattern>
+         VFGD + DET+WNFDDQDT+SVWGS A+N E  HHG
+        </pattern>
+        <matchseq end="911" start="876">
+         VFGDKFADETSWNFDDQDTDSVWGSTALNTETDHHG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: epidermal growth factor receptor substrate 15-like 1-like isoform X1 n=1 Tax=Setaria italica RepID=UPI000350A5BE" id="UniRef100_UPI000350A5BE" length="1045" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         7.0E-10
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHG
+        </queryseq>
+        <pattern>
+         VFGD + DET+WNFDDQDT+SVWGS A+N E  HHG
+        </pattern>
+        <matchseq end="912" start="877">
+         VFGDKFADETSWNFDDQDTDSVWGSTALNTETDHHG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=K7VLM3_MAIZE" id="UniRef100_K7VLM3" length="1054" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHG
+        </queryseq>
+        <pattern>
+         VFGD +GDET+WNFDDQDT+SVWGS A+N E   HG
+        </pattern>
+        <matchseq end="919" start="884">
+         VFGDKFGDETSWNFDDQDTDSVWGSTALNAEADQHG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb01g048350 n=1 Tax=Sorghum bicolor RepID=C5WZW8_SORBI" id="UniRef100_C5WZW8" length="1045" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         8.0E-9
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN-EPGHHG
+        </queryseq>
+        <pattern>
+         VFGD + DET+WNFDDQDT+SVWGS A+N E   HG
+        </pattern>
+        <matchseq end="915" start="880">
+         VFGDKFADETSWNFDDQDTDSVWGSTALNTEADQHG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Zea mays RepID=B7ZX43_MAIZE" id="UniRef100_B7ZX43" length="1045" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         1.0E-7
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="89" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMN
+        </queryseq>
+        <pattern>
+         VFGD + DET+WNFDDQDT+SVWGS  +N
+        </pattern>
+        <matchseq end="905" start="877">
+         VFGDKFADETSWNFDDQDTDSVWGSTVLN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Prevotella micans F0438 RepID=H1Q407_9BACT" id="UniRef100_H1Q407" length="278" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         6.3
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VFGDNYGDETTWNFDDQDTESVWGSNAMNE
+        </queryseq>
+        <pattern>
+         ++G +Y  E TW +DD D   VWG+  +N+
+        </pattern>
+        <matchseq end="151" start="123">
+         LYGTDYS-ERTWTWDDTDPNGVWGNGNLND
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>
