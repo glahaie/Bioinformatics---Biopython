@@ -10,32 +10,52 @@
 # sur la base de données UNIREF100 pour sortir les hits
 
 import os
+import sys
+import re
 from BeautifulSoup import BeautifulSoup
 
 resultat = dict()
 intra = os.listdir("blastEBI/")
+j = 1
 for fichier in intra:
     with open("blastEBI/"+fichier, "r") as f:
-        print("nom de fichier: " + fichier)
-        contig_no = int(fichier[12:15].strip('.'))
-        print(contig_no)
+        print("fichier numéro "+str(j)+": " + fichier)
+        tabNo = re.findall(r'\d+', fichier)
+        contig_no = int(tabNo[0])
         xml = BeautifulSoup(f)
         temp = xml.html.body.ebiapplicationresult.sequencesimilaritysearchresult.hits
-        temp2 = temp.findAll('hit')
-        i = 0
-        for hit in temp2:
-            i +=1
-            print(str(hit['number']) + " : " + hit["id"])
-            print("\tscore: " + str(hit.find('score').contents[0].strip()))
-            print("\texpectation:" + str(hit.find('expectation').contents[0].strip()))
-            print("\tidentity: " + str(hit.find('identity').contents[0].strip()))
-            print("\talignment #: " + str(hit.find('alignment')['number']))
-            if(i > 10):
-                break
-    raw_input("\n\nContinuez")
+        if (int(temp['total']) is 0):
+            print("Aucun résultat")
+            resultat.update({contig_no:None})
+        else:
+            temp2 = temp.findAll('hit')
+            i = 0
+            for hit in temp2:
+                i +=1
+                print(str(hit['number']) + " : " + hit["id"])
+                sys.stdout.write("\tscore: " + str(hit.find('score').contents[0].strip()))
+                sys.stdout.write("\texpectation:" + str(hit.find('expectation').contents[0].strip()))
+                sys.stdout.write("\n\tidentity: " + str(hit.find('identity').contents[0].strip()))
+                sys.stdout.write("\talignment #: " + str(hit.find('alignment')['number']))
+                sys.stdout.write("\tbits: " + str(hit.find('bits').contents[0].strip()) + "\n")
+                if(i > 10):
+                    break
+            while True:
+                choix = raw_input("\n\nChoisir le hit à retenir:  ")
+                match = re.search(r'\d+', choix)
+                if match is None:
+                    print("ERREUR")
+                else:
+                    break
+            for hit in temp2:
+                if int(hit['number']) is choix:
+                    resultat.update({contig_no:hit['id']})
+                    break
+    j += 1
 
+#On écrit les résultats dans un fichier
+with open("resultatEBI.txt", 'w') as r:
+    for k, v in resultat.iteritems():
+        r.write(str(k)+"\t"+str(v)+"\n")
 
-
-#Ça marche pour itérer sur les fichiers, maintenant il faut donc parser le
-#xml, et sortir les infos voulues
 
