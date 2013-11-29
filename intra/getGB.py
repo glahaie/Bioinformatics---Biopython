@@ -20,13 +20,12 @@ with open("resultatNBCI.txt", "r") as f:
     for line in f:
         temp = line.split()
         nom_fichier = save_path + temp[1] + ".gb"
-        if not (os.path.isfile(nom_fichier)):
-            print("Traitement du contig " + str(temp[0]))
+        print("Traitement du contig " + str(temp[0]))
 
-            handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", id=temp[1], seq_start=temp[2], seq_stop=temp[3])
-            seq_record = SeqIO.read(handle, "gb")
-            handle.close()
-            SeqIO.write(seq_record, nom_fichier, "gb")
+        handle = Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", id=temp[1])
+        seq_record = SeqIO.read(handle, "gb")
+        handle.close()
+        SeqIO.write(seq_record, nom_fichier, "gb")
 
-            print("Fichier enregistré")
+        print("Fichier enregistré")
 
