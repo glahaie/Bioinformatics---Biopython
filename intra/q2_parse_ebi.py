@@ -33,7 +33,7 @@ for fichier in intra:
             for hit in temp2:
                 i +=1
                 print(str(hit['number']) + " : " + hit["id"])
-                sys.stdout.write("\tscore: " + str(hit.find('score').contents[0].strip()))
+                sys.stdout.write("\tscore: " + str(hit.find('bits').contents[0].strip()))
                 sys.stdout.write("\texpectation:" + str(hit.find('expectation').contents[0].strip()))
                 sys.stdout.write("\n\tidentity: " + str(hit.find('identity').contents[0].strip()))
                 sys.stdout.write("\talignment #: " + str(hit.find('alignment')['number']))
