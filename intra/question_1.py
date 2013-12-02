@@ -41,24 +41,6 @@ def dessinerHisto (fichierDonnees, xlabel, ylabel, titre, fichierHisto):
     gp.plot(data)
     gp.hardcopy(fichierHisto,terminal = 'postscript', enhanced=1, color=1) #must come after plot() function
 
-def dessinerMinMaxMoy (fichierDonnees, fichierHisto):
-    gp = Gnuplot.Gnuplot(persist=1)
-    data = Gnuplot.File(fichierDonnees, using="1:2")
-    gp('set yrange [0:100]')
-    gp('set xrange [-10:360]')
-    gp.plot(data)
-    gp('min_y = GPVAL_DATA_Y_MIN')
-    gp('max_y = GPVAL_DATA_Y_MAX')
-    gp('f(x) = mean_y')
-    gp("fit f(x) '"+fichierDonnees+"' u 1:2 via mean_y")
-
-# Plotting the minimum and maximum ranges with a shaded background
-    gp('set label 1 gprintf("Minimum = %g", min_y) at 2, min_y-5')
-    gp('set label 2 gprintf("Maximum = %g", max_y) at 2, max_y+5')
-    gp('set label 3 gprintf("Moyenne = %g", mean_y) at 2, max_y+10')
-    gp('plot min_y with filledcurves y1=mean_y lt 1 lc rgb "#bbbbdd", max_y with filledcurves y1=mean_y lt 1 lc rgb "#bbddbb", \''+fichierDonnees +'\' u 1:2 w p pt 7 lt 1 ps 1')
-    gp.replot()
-    gp.hardcopy(fichierHisto,terminal = 'postscript', enhanced=1, color=1) #must come after plot() function
 
 #Enregistre le fichier pour les données d'un histogramme
 def saveData(data, nom_fichier, step):
@@ -107,6 +89,7 @@ if len(sys.argv) < 2:
 
 totalNucleotide = 0
 totalGC = 0
+totalContig = 0
 with zipfile.ZipFile(sys.argv[1], 'r') as cap3Zip:
     fichier_contigs = cap3Zip.open('seq.data.cap.contigs', 'r')
 #Première ligne est toujours un contig
@@ -119,6 +102,7 @@ with zipfile.ZipFile(sys.argv[1], 'r') as cap3Zip:
             totalNucleotide += result["taille"]
             totalGC += result["tauxGC"]
             if not line:
+                totalContig = contig_no
                 break
             else:
                 contig_seq = ""
@@ -135,20 +119,30 @@ saveDataMean(contigs, "contigs_taux.dat", "tauxGC")
 dessinerHisto("histogramme_taux.dat", "Taux de GC (%)", "Nombre de contigs", "Nombre de contigs", "histogramme_taux.eps")
 dessinerHisto("histogramme_taille.dat", "Taille du contig", "Nombre de contigs", "Nombre de contigs", "histogramme_taille.eps")
 
-#On appel le script gnuplot -- essai
+#On appel directement gnuplot - je n'ai pas réussi à obtenir le même
+#résultat directement du module python
 os.system('gnuplot taux.gp')
-#dessinerMinMaxMoy("contigs_taux.dat", "contigs_taux.eps")
+os.system('gnuplot taille.gp')
 
-##On dessine un graphique avec gnuplot
-#d = Gnuplot.Data(contigs_plot_taille, contigs_plot_tauxGC, title='Relation entre la taille des contigs et leur taux de GC')
-#g('set data style points')
-#g.xlabel('Taille des contigs')
-#g.ylabel('Taux de GC')
-#g.plot(d)
-#g.hardcopy('points.ps',enhanced=1,color=1)
+#On calcule la moyenne de taille et de tauxgc
+moyenneTaille = float(totalNucleotide) / totalContig
+moyenneGC = float(totalGC) / totalContig
 
-#On enregistre un fichier de vérification
-with open("contigs_taille_gc.txt", "w") as f:
-    f.write("contig\t\ttaille\tTaux GC\n")
+#On enregistre un fichier de vérification, qui peut être utilisé directement dans latex
+with open("contigs_taille_gc.tex", "w") as f:
+    f.write("\\footnotesize{\n\\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}\n")
+    f.write("\\hline\nContig & Taille & Taux GC & Contig & Taille & Taux GC\\\\\n\hline\n")
+    changeLine = False
     for k, v in contigs.iteritems():
-        f.write("contig " + str(k) + "\t" + str(v["taille"]) + "\t" + str(v["tauxGC"]) + "\n")
+        f.write(str(k) + " & " + str(v["taille"]) + "& %.2f" % v["tauxGC"])
+        if changeLine:
+            f.write("\\\\\n\hline\n")
+            changeLine = False
+        else:
+            f.write(" & ")
+            changeLine = True
+    if changeLine:
+        f.write(" &  & \\\\\n\\hline")
+    f.write("\\end{longtable}\n}\n")
+    f.write(str(totalContig) + " contigs, taille moyenne: " + str(moyenneTaille) + " Taux GC moyen: " + str(moyenneGC))
+print(str(totalContig) + " contigs, taille moyenne: " + str(moyenneTaille) + " Taux GC moyen: " + str(moyenneGC))

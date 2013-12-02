@@ -10,9 +10,9 @@ f(x) = mean_y
 fit f(x) 'contigs_taux.dat' u 1:2 via mean_y
 
 # Plotting the minimum and maximum ranges with a shaded background
-set label 1 gprintf("Minimum = %g", min_y) at 2, min_y-10
-set label 2 gprintf("Maximum = %g", max_y) at 2, max_y+10
-set label 3 gprintf("Moyenne = %g", mean_y) at 2, max_y+20
+set label 1 gprintf("Minimum = %g%%", min_y) at 2, min_y-10
+set label 2 gprintf("Maximum = %g%%", max_y) at 2, max_y+10
+set label 3 gprintf("Moyenne = %g%%", mean_y) at 2, max_y+20
 set label 4 "Taux GC par contig" at 275, max_y+20
 set term postscript
 set output "contigs_taux.eps"
