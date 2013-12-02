@@ -26,7 +26,6 @@ for fichier in intra:
         temp = xml.html.body.ebiapplicationresult.sequencesimilaritysearchresult.hits
         if (int(temp['total']) is 0):
             print("Aucun résultat")
-            resultat.update({contig_no:None})
         else:
             temp2 = temp.findAll('hit')
             i = 0
@@ -47,8 +46,11 @@ for fichier in intra:
                     print("ERREUR")
                 else:
                     break
+            choix = int(choix)
             for hit in temp2:
                 if int(hit['number']) is choix:
+                    print "choix = " + str(choix)
+                    print "uniref = " + hit['id']
                     resultat.update({contig_no:hit['id']})
                     break
     j += 1
