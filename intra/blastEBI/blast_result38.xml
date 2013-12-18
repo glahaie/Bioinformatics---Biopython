@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-160827-0732-60684539-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="153" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:11:24+00:00" search="P0Y0M0DT0H2M57.000S" start="2013-11-25T16:08:27+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="2">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Achromobacter xylosoxidans (strain A8) RepID=E3HMV6_ACHXA" id="UniRef100_E3HMV6" length="81" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         0.59
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         53.0
+        </positives>
+        <gaps>
+         13
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="24" start="128">
+         ICTRITPSLSYGQLSLH-----LLCFTPTTTIP*LVIRLW
+        </queryseq>
+        <pattern>
+         +C R+TP+L    L  H     + CFTP   +P  VIR W
+        </pattern>
+        <matchseq end="75" start="36">
+         LCARLTPALPTTSLDAHDALEAMKCFTPAPAVPHEVIRSW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Theileria annulata RepID=Q4UBH5_THEAN" id="UniRef100_Q4UBH5" length="515" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         8.6
+        </expectation>
+        <identity>
+         35.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="147">
+         KKESQTYMHTYYS*SQLWTT*FTLT--MLYTYYHYTLASYQTMDNLCY
+        </queryseq>
+        <pattern>
+         K+ + T ++ + S S++  T F LT  + Y YYHY L +     +LCY
+        </pattern>
+        <matchseq end="212" start="165">
+         KRPNGTIIYLFLSYSKIQITNFQLTYKLEYLYYHYLLVTVGEFGDLCY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

@@ -1,0 +1,259 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-174132-0917-23708016-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="146" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:41:44+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T17:41:33+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="6">
+     <hit database="UR100" description="Glutamyl-tRNA reductase n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7YLM0" length="666" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         97
+        </score>
+        <bits>
+         42.0
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="103" start="2">
+         DTSAYATVLEDLKIQMRLWFSKCDANACNRDRDS
+        </queryseq>
+        <pattern>
+         D+S YA ++ED K Q+++WFSK   +AC R  +S
+        </pattern>
+        <matchseq end="626" start="593">
+         DSSPYAAIIEDTKYQLKMWFSKWSVSACRRTMNS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W3L2" length="618" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DTSAYATVLEDLKIQMRLWFSKCDANACNRDRDSS
+        </queryseq>
+        <pattern>
+         D S +   L+DLK+Q+  WFS C   AC R+ +S+
+        </pattern>
+        <matchseq end="194" start="160">
+         DCSIHVVELDDLKVQIHTWFSICKVQACRREANSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W2P0" length="334" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="79" start="2">
+         DTSAYATVLEDLKIQMRLWFSKCDAN
+        </queryseq>
+        <pattern>
+         D+SAYA V+ED K Q++LWFS  + N
+        </pattern>
+        <matchseq end="330" start="305">
+         DSSAYAAVIEDTKYQLKLWFSYYEIN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Edhazardia aedis (strain USNM 41457) RepID=" id="UniRef100_J9D3S9" length="171" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         39.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="145" start="32">
+         DLKIQMRLWFSKCDANACNRDRDSSGGPEDTNAFMVLN
+        </queryseq>
+        <pattern>
+         ++ I ++ WF+KCD + C R +D    P D N F+ LN
+        </pattern>
+        <matchseq end="171" start="137">
+         NILILVQDWFTKCDCDKCKRSKDQ---PIDINVFIGLN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8AJ54" length="97" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         3.2
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="70" start="2">
+         DTSAYATVLEDLKIQMRLWFSKC
+        </queryseq>
+        <pattern>
+         D S  A V+ED+K+Q  LWFS C
+        </pattern>
+        <matchseq end="78" start="56">
+         DCSKEAHVIEDVKVQASLWFSSC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1LHG5" length="518" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         3.3
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         DTSAYATVLEDLKIQMRLWF
+        </queryseq>
+        <pattern>
+         D+S YA ++ED+K+Q++LWF
+        </pattern>
+        <matchseq end="26" start="7">
+         DSSPYAAIIEDIKLQLKLWF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

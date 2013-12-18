@@ -131,6 +131,37 @@ Abdoulaye Baniré Diallo % Supervisor's Name
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+Le but de ce travail est d'annoter des contigs du génome du blé. Nous n'avons pas d'information concernant
+la provenance de ces contigs, ou même l'espèce exacte de provenance. Afin de pouvoir fournir une information 
+pertinente, j'ai tout d'abord recherché ce qui est connu concernant le génome du blé.
+
+J'ai tout d'abord cherché à connaitre l'état d'avancement des travaux de séquençage du blé. Pour ce faire, j'ai consulté
+la base de données des génomes de NCBI \cite{Triticum eastivum Genome}. On y apprend des informations de base sur le
+génome du blé. On y apprend que le génome du blé a une taille de 16000 Mb distribué en 21 chromosomes. De plus, les chromosomes
+ont une forme allohexaploid composée de trois sous-génomes. La nature hexaploid de son génome a ralenti les efforts de séquençage.
+
+Une première référence de génome du blé a été créée avec l'espèce Triticum urartu \cite{Triticum urartu}. Ce génome est toutefois
+celui d'un progéniteur du Triticum aestivum, il peut être utile pour aider à améliorer le génome du blé.
+
+On peut obtenir une information plus complète concernant l'avancement du séquençage du Triticum aestivum sur le site du International
+Wheat Genome Sequencing Consortium. On y retrouve deux projets parallèles: en premier lieu, un projet de survey sequencing, afin de
+produire un contenu de gène potentiel et un ordre de gène virtuel \cite{IWGSC-survey}. Un autre projet en cours est de produire une
+séquence de référence pour le génome du Triticum aestivum \cite{IWGSC-reference}. Ce projet semble être à ses débuts, car il semble
+être en cours d'obtention de financement.
+
+D'autres bases de données offrent de l'information à propos du génome du blé, par exemple CerealsDB \cite{cerealsDB}, ayant un génome
+de travail du blé. Il y a aussi beaucoup d'autres projets, considérant la place importante occupée par le blé dans l'agriculture moderne.
+
+Basé sur ces informations, j'ai décidé de concentrer mes recherches pour l'annotation des contigs fournis sur les données déjà
+connues du génome du blé. Je vais donc seulement garder les résultats de Blast provenant du Triticum aestivum. Bien sûr, il s'agit
+ici d'une première étape de recherche, il serait ensuite possible d'élargir la recherche pour identifier des zones fonctionnelles possibles
+des contigs, ce qui ne sera pas fait dans ce travail.
+
+
+\newpage
 \section{Produisez une analyse sommaire de ces contigs en présentant la distribution des tailles et taux de GC} % Major section
 
 Afin de compiler et de représenter la taille et le taux de GC des contigs produits par
@@ -142,9 +173,9 @@ histogramme, un pour la taille des contigs, et un pour le taux de GC des contigs
 alors remarquer la distribution de ces valeurs. Voici les deux histogrammes:
 \begin{figure}[p]
 \centering
-\includegraphics[scale=0.6,angle=270]{histogramme_taille.eps}
+\includegraphics[scale=0.6,angle=270]{question_1/histogramme_taille.eps}
 \caption{Histogramme de la taille des contigs}
-\includegraphics[scale=0.6,angle=270]{histogramme_taux.eps}
+\includegraphics[scale=0.6,angle=270]{question_1/histogramme_taux.eps}
 \caption{Histogramme du taux de GC des contigs}
 \end{figure}
 
@@ -152,18 +183,17 @@ J'ai ensuite produit deux graphiques permettant de visualiser différemment ces 
 y retrouver la moyenne de taille, la moyenne de taux de GC, ainsi que les contigs se situant en
 haut ou en bas ce cette moyenne. On peut aussi voir les valeurs exactes dans le tableau en annexe \ref{1}
 
-La taille moyenne des 346 contigs est de 109 nucléotides, avec un taux de GC moyen de 42,96%.
+La taille moyenne des 346 contigs est de 109 nucléotides, avec un taux de GC moyen de 42,96\%. Ce taux semble
+indiquer une prépondérance de région non-codante dans les contigs, car généralement les séquences codantes ont
+un taux de GC supérieur aux séquences non-codantes \cite{Wikipedia-GC}.
 
 \begin{figure}[p]
 \centering
-\includegraphics[scale=0.6,angle=270]{contigs_taille.eps}
+\includegraphics[scale=0.6,angle=270]{question_1/contigs_taille.eps}
 \caption{Nuage de points de la taille des contigs}
-\includegraphics[scale=0.6,angle=270]{contigs_taux.eps}
+\includegraphics[scale=0.6,angle=270]{question_1/contigs_taux.eps}
 \caption{Nuage de points du taux de GC des contigs}
 \end{figure}
-
-
-
 
 
 %----------------------------------------------------------------------------------------
@@ -172,6 +202,59 @@ La taille moyenne des 346 contigs est de 109 nucléotides, avec un taux de GC mo
 \newpage
 \section{Identifiez les annotations Genbank de ces contigs et présentez les dans une table contenant
 les colonnes: contigs, numéros Accession, description, uniref id} % Major section
+
+Pour trouver les annotations Genbank des contigs, j'ai tout d'abord effectué un blast de chaque contig
+sur la base de données nr/nt de NCBI \cite{BLAST}. J'ai utilisé le script biopython question2.py pour
+effectuer tous les blasts, et enregistrer les résultats.
+
+En examinant les résultats de façon sommaire, on remarque une très grande différence entre la qualité des
+résultats. Certains ont des E-value très haute, alors que certains ont des valeurs indiquant un résultat de
+haute qualité. On peut s'attendre à cela, considérant la grande variabilité des contigs.
+
+Pour traiter les contigs selon leur taille, je calcule la valeur médiane des E-value pour les contigs plus
+petits que la taille moyenne. Je fais le même exercice pour les contigs plus grands que la moyenne. Pour
+le moment, je m'intéresse au meilleur résultat obtenu seulement pour la médiane.
+
+Comme mentionné en introduction, comme cette analyse s'intéresse seulement au contigs ayant des résultats
+pour le Triticum, je ne considère pas dans mes résultats les valeurs de blast pour des espèces différentes
+du blé. Je prends donc, dans les résultats de blast, le premier correspondant à un match avec le blé.
+
+J'ai enregistré les résultats dans les fichiers evalue\_lower.txt et evalue\_higher.txt, à l'aide du script
+q2\_meanEvalue.py. On peut remarquer que la grande majorité des résultats  obtenus ont des E-values de bonne
+qualité, avec un ordre de grandeur permettant d'avoir une grande confiance dans le hit. Basé sur ces données,
+je garderai donc tous les résultats, peu importe la taille du contig, ayant une E-value plus petite que 0.01.
+
+Afin d'obtenir les données de numéro d'accession, j'ai modifié le script précédent pour créer un fichier associant
+le numéro du contig avec le hit gardé (pour le moment, je garde seulement le premier hit de blé du résultat), avec
+le numéro d'accession et la description du hit. Ces données sont gardées seulement si le hit correspond aux
+exigences de E-value et de description de hit.
+
+Pour obtenir un Uniref pour les contigs retenus, j'ai ensuite utilisé le module bioservices de python permettant
+de se connecter au service idmapping de uniprot, pour trouver les identifiants uniref des contigs conservés.
+
+Des 227 contigs restant, 113 ont obtenu des résultats de mapping. Avant de sortir les résultats, j'ai vérifié
+le format des données obtenues par ce mapping. Pour certains contigs, un seul résultat est obtenu, alors que
+pour certains, on obtient plusieurs mappings différents. Les fichiers XML ne comprennent aucune information
+concernant le meilleur résultat, toutefois le service REST utilisé pour le mapping demande de trier les
+résultats selon le meilleur score.
+
+Afin de vérifier le résultat, j'ai tenté de blaster un des contigs directement sur la base de données Uniref100,
+sur le site \url{http://www.uniprot.org}. Le résultat a été surprenant. J'ai utilisé le contig 2 comme essai,
+et le blastx sur Uniref100 n'a retourné aucun hit. Afin de confirmer ce résultat, j'ai effectué le même blastx
+en utilisant le service d'EBI et en blastant sur toutes les bases de données de protéines de uniprot. J'ai obtenu
+le même résultat.
+
+Je crois que ce résutat est dû au mécanisme de mapping. Comme nous avons pu le constater à la questions 1,
+la plupart des contigs donnés ont une longueur moyenne de 109 nucléotides. Toutefois, le numéro d'accession
+donnée pour effectuer le id mapping peut correspondre à une très longue séquence. C'est le cas du numéro
+d'accession pour le contig 2, il s'agit en fait d'un chromosome complet du blé, ce qui explique les nombreux
+résultats du mapping.
+
+J'ai donc décidé de procéder différemment pour obtenir les identifiants uniref correspondant spécifiquement au contig.
+J'ai effectué un blastx directement sur la base de données uniref100 pour chaque contig. Pour ce faire, j'ai utilisé
+le script q2_ebi.py. Encore une fois, j'ai utilisé le module bioservices de python pour cette tâche.
+
+
 
 J'ai produit plusieurs scripts python afin de produire les résultats pour cette question, pour éviter
 d'avoir à refaire certaines étapes plus longues.
@@ -1383,334 +1466,6 @@ for i in random_contig:
 print "5 contigs cherchés"
 \end{lstlisting}
 
-\subsection{Information à propos de la qualité du contig 7}\label{8}
-\begin{verbatim}
->Contig7
-10 25 25 25 10 0 25 25 25 25 25 25 25 25 25 25 25 25 10 25 
-10 25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 10 10 10 10 10 10 10 10 10 10 10 
-10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 10 10 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 10 25 10 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 10 10 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 0 25 25 25 0 25 25 10 
-10 10 25 10 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 
-25 25 25 10 25 25 10 25 25 25 25 10 25 10 25 25 10 0 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 0 25 25 25 25 10 0 10 10 25 25 25 10 25 
-0 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 10 
-0 25 25 25 25 10 25 25 25 25 25 25 25 25 10 25 25 10 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 10 25 25 0 25 
-25 25 10 25 25 25 10 25 25 25 25 25 25 25 25 10 25 25 25 10 
-10 25 10 25 25 25 25 25 25 25 25 10 25 10 25 25 25 25 25 25 
-0 5 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 10 10 
-10 10 10 10 10 10 10 10 
-
-\end{verbatim}
-\subsection{Information à propos de la qualité du contig 132}\label{9}
-\begin{verbatim}
->Contig132
-10 10 10 10 10 10 10 10 10 10 10 10 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 0 0 0 0 0 15 15 15 15 
-15 15 15 15 15 15 15 15 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 5 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 0 20 20 5 20 20 20 20 20 20 20 20 20 
-20 5 20 20 20 20 15 15 15 15 0 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-0 15 15 15 15 15 15 15 0 0 15 15 15 0 15 15 15 0 15 15 
-15 15 15 15 15 15 15 0 0 0 0 15 15 15 15 15 15 15 15 15 
-15 15 0 15 15 15 15 15 15 15 15 0 15 15 0 15 15 15 15 0 
-15 15 15 0 15 15 15 15 15 15 15 15 0 15 15 15 15 0 15 15 
-15 0 15 0 15 15 15 15 0 15 15 15 15 15 15 15 15 15 15 15 
-15 0 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 0 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 0 15 15 15 
-0 15 15 15 15 15 15 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-\end{verbatim}
-\subsection{Information à propos de la qualité du contig 195}\label{10}
-\begin{verbatim}
->Contig195
-15 0 15 15 15 15 0 15 15 15 15 15 15 15 15 15 15 0 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 0 0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 0 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 0 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 0 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-0 15 15 15 15 15 15 15 15 15 0 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 0 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 0 15 15 0 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
-15 15 15 25 25 25 25 25 25 25 25 25 20 20 20 20 20 20 20 20 
-20 20 20 0 0 20 20 20 20 20 0 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 
-\end{verbatim}
-
-\subsection{Information à propos de la qualité du contig 209}\label{11}
-\begin{verbatim}
->Contig209
-10 10 25 25 10 25 10 25 25 25 25 25 25 25 25 25 25 10 25 0 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 10 10 10 10 10 10 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 10 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 
-25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 10 25 25 25 25 25 10 25 25 25 25 10 25 25 
-25 25 25 25 25 10 25 25 25 25 25 25 25 10 25 25 25 25 10 10 
-25 25 10 10 10 25 25 25 25 0 0 25 10 10 10 25 25 25 10 25 
-25 25 25 25 25 25 0 10 25 25 25 25 25 25 25 10 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 20 20 20 20 20 
-20 20 20 20 20 20 20 5 20 5 20 20 20 5 20 15 15 15 15 15 
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 
-\end{verbatim}
-
-\subsection{Information à propos de la qualité du contig 214}\label{12}
-\begin{verbatim}
->Contig214
-15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 5 5 20 20 
-5 10 0 0 10 0 10 25 10 25 0 25 10 25 25 0 0 0 25 0 
-25 0 0 10 0 0 10 0 25 0 0 0 0 0 0 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 10 0 25 10 25 10 25 25 25 25 25 25 
-25 25 25 25 10 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 10 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 25 25 25 
-25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 
-25 25 25 10 25 25 25 35 35 20 35 35 35 35 35 35 35 35 15 35 
-35 35 15 35 35 35 35 35 15 0 20 15 35 35 35 35 15 35 35 35 
-35 35 35 35 35 35 35 20 15 20 35 35 35 35 35 35 35 15 35 35 
-35 35 35 35 35 35 20 35 35 35 35 15 35 20 35 35 35 35 0 35 
-35 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
-30 30 30 30 30 30 30 30 30 30 30 10 30 30 30 30 30 10 10 30 
-30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 10 30 30 
-30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
-30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
-30 30 30 30 10 30 10 30 30 30 30 30 30 30 30 30 30 30 30 30 
-30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 15 30 30 
-30 30 30 10 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
-30 30 30 25 25 25 25 25 25 0 20 20 20 20 20 20 20 0 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 0 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
-0 20 20 20 0 20 20 20 20 0 20 20 20 20 0 20 20 20 20 20 
-0 20 20 20 20 20 20 20 20 20 0 0 20 20 20 20 0 20 20 20 
-20 20 20 20 20 0 20 20 0 20 20 20 20 20 20 20 20 20 0 20 
-20 20 0 20 20 20 20 20 20 20 20 20 20 20 20 20 20 0 20 20 
-20 20 20 20 20 20 20 20 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
-10 10 10 10 10 10 
-\end{verbatim}
-
-\subsection{Résultat graphique bu blast des 5 contigs.}\label{13}
-
-Contig 7\\
-\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_7_result.png}
-
-Contig 132\\
-\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_132_result.png}
-
-Contig 195\\
-\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_195_result.png}
-
-Contig 209\\
-\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_209_result.png}
-
-Contig 214\\
-\includegraphics[width=\linewidth]{annexes/question_2/blast_contig_214_result.png}
-
 \subsection{Script Biopython pour obtenir les fichiers d'accession des 10 premiers résultats du blast
 pour un contig donné.}\label{14}
 \begin{lstlisting}[frame=single,numbers=left,language=Python]
@@ -2205,74 +1960,28 @@ gd_diagram.write("GD_labels_default.eps", "eps")
 %
 \begin{thebibliography}{99}
 {\small
+\bibitem{Triticum eastivum Genome}
+Triticum aestivum (ID 11) - Genome - NCBI (2013). Retrieved December 17, 2013 from http://www.ncbi.nlm.nih.gov/genome/11.
+\bibitem{Triticum urartu}
+Ling HQ, Zhao S, Liu D, Wang J, Sun H, Zhang C, Fan H, Li D, Dong L, Tao Y, et al. Draft genome of the wheat A-genome progenitor Triticum
+urartu. Nature. 2013 Apr 4;496(7443):87-90. doi: 10.1038/nature11997. Epub 2013 Mar 24. PubMed PMID: 23535596. 
+\bibitem{IWGSC-survey}
+Whole Chromosome Survey Sequencing (2013). Retrieved December 17, 2013 from http://www.wheatgenome.org/Projects/IWGSC-Bread-Wheat-
+Projects/Sequencing/Whole-Chromosome-Survey-Sequencing
+\bibitem{IWGSC-reference}
+Sequencing Projects (2013). Retrieved December 17, 2013 from http://www.wheatgenome.org/Projects/IWGSC-Bread-Wheat-Projects/Sequencing
+\bibitem{cerealsDB}
+Wilkinson, P.A., Winfield, M.O., Barker, G.L.A., Allen, A.M., Burridge, A, Coghill, J.A., Burridge, A. and Edwards, K.J. 2012. CerealsDB 2.0:
+an integrated resource for plant breeders and scientists. BMC Bioinformatics 13: 219.
+\bibitem{Wikipedia-GC}
+  GC content. In Wikipedia. Retrieved December 17, 2013, from
+  \url{http://en.wikipedia.org/wiki/GC-content}
+
 \bibitem{UCSC genome browser}
     Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, Haussler D. The human genome browser at UCSC. 
     \emph{Genome Res.} 2002 Jun;12(6):996-1006. 
-\bibitem{Genetics Home Reference}
-    National Library of Medicine (US). Genetics Home Reference [Internet]. Bethesda (MD): The Library; 2013 Oct 26. ALS2; [reviewed 2012
-    Aug; cited 2013 Oct 26]. Available from: http://ghr.nlm.nih.gov/gene/ALS2
-\bibitem{Wikipedia-SAL}
-  Sclérose latérale amyotrophique. In Wikipedia. Retrieved October 26, 2013, from
-  \url{http://fr.wikipedia.org/wiki/Sclerose_laterale_amyotrophique}
-\bibitem{MPP4}
-  Stohr, H., Weber, B. H. F. Cloning and characterization of the human retina-specific gene MPP4, a novel member of the p55 subfamily of
-  MAGUK proteins. Genomics 74: 377-384, 2001. [PubMed: 11414766] [Full Text: Elsevier Science]
-\bibitem{Wikipedia-pseudo}
-  Pseudogène. In Wikipedia. Retrieved October 26, 2013, from \url{http://fr.wikipedia.org/wiki/Pseudogene}
-\bibitem{TMEM237}
-  Huang, L., Szymanska, K., Jensen, V. L., Janecke, A. R., Innes, A. M., Davis, E. E., Frosk, P., Li, C., Willer, J. R., Chodirker, 
-  B. N.,  Greenberg, C. R., McLeod, D. R., and 31 others. TMEM237 is mutated in individuals with a Joubert syndrome related disorder
-  and expands
-  the role of the TMEM family at the ciliary transition zone. Am. J. Hum. Genet. 89: 713-730, 2011. [PubMed: 22152675] [Full Text:
-  Elsevier Science]
-\bibitem{OMIM-PLS}
-  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 606353: 03/26/2009: . 
-  World Wide Web URL: http://omim.org/
-\bibitem{OMIM-ALS}
-  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 205100: 07/19/2012: . 
-  World Wide Web URL: http://omim.org/
-\bibitem{OMIM-IAHSP}
-  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 607225: 09/17/2013: . 
-  World Wide Web URL: http://omim.org/
-\bibitem{IAHSP}
-  Eymard-Pierre, E., Lesca, G., Dollet, S., Santorelli, F. M., di Capua, M., Bertini, E., Boespflug-Tanguy, O. Infantile-onset ascending
-  hereditary spastic paralysis is associated with mutations in the alsin gene. Am. J. Hum. Genet. 71: 518-527, 2002. [PubMed: 12145748,
-  images] [Full Text: Elsevier Science]
-\bibitem{OMIM-alsin}
-  Online Mendelian Inheritance in Man, OMIM®. Johns Hopkins University, Baltimore, MD. MIM Number: 606352: 09/16/2013: . 
-  World Wide Web URL: http://omim.org/
-\bibitem{Yang and al.}
-  Yang, Y., Hentati, A., Deng, H.-X., Dabbagh, O., Sasaki, T., Hirano, M., Hung, W.-Y., Ouahchi, K., Yan, J., Azim, A. C., Cole, N.,
-  Gascon, G., Yagmour, A., Ben-Hamida, M., Pericak-Vance, M., Hentati, F., Siddique, T. The gene encoding alsin, a protein with three
-  guanine-nucleotide exchange factor domains, is mutated in a form of recessive amyotrophic lateral sclerosis. Nature Genet. 29: 160-165,
-  2001. Note: Erratum: Nature Genet. 29: 352 only, 2001. [PubMed: 11586297] [Full Text: Nature Publishing Group]
-\bibitem{Hadano and al.}
-  Hadano, S., Hand, C. K., Osuga, H., Yanagisawa, Y., Otomo, A., Devon, R. S., Miyamoto, N., Showguchi-Miyata, J., Okada, Y., Singaraja,
-  R., Figlewicz, D. A., Kwiatkowski, T., and 9 others. A gene encoding a putative GTPase regulator is mutated in familial amyotrophic
-  lateral sclerosis 2. Nature Genet. 29: 166-173, 2001. Note: Erratum: Nature Genet. 29: 352 only, 2001. [PubMed: 11586298] [Full Text:
-  Nature Publishing Group]
-\bibitem{CAP3}
-  Huang, X. and Madan, A. (1999) CAP3: A DNA Sequence Assembly Program. Genome Research, 9: 868-877.
 \bibitem{BLAST}
   Basic Local Alignment Search Tool (Altschul et al., J Mol Biol 215:403-410; 1990).
-\bibitem{CLUSTALW}
-  ClustalW and ClustalX version 2 (2007) Larkin MA, Blackshields G, Brown NP, Chenna R, McGettigan PA, McWilliam H, Valentin F, 
-  Wallace IM, Wilm A, Lopez R, Thompson JD, Gibson TJ and Higgins DG Bioinformatics 2007 23(21): 2947-2948.
-  doi:10.1093/bioinformatics/btm404 
-\bibitem{DIALIGN}
-  A.R. Subramanian, M. Kaufmann, B. Morgenstern (2008)
-  DIALIGN-TX: greedy and progressive approaches for segment-based multiple sequence alignment.
-  Algorithms for Molecular Biology 3,6.
-\bibitem{RepeatMasker}
- A.F.A. Smit, R. Hubley \& P. Green, unpublished data. Current Version: open-4.0.3 ( RMLib: 20130422 \& Dfam: 1.2 )
-\bibitem{Mower et Annaiah}
-  Mower, Jeff, Annaiah, Kiran.Multiple Sequence Alignment. A survey of the various programs available and application of MSA in
-  addressing certain biological problems. PowerPoint Presentation. School of Informatics, Indiana University. Downloaded on
-  2013-10-31. Available at bio.informatics.indiana.edu/L529/papers/kiran-jeff.ppt.
-  \bibitem{Wikipedia-phred}
-  Score de qualité phred. In Wikipedia. Retrieved November 1, 2013, from \url{http://fr.wikipedia.org/wiki/Score_de_qualite_phred}
-  \bibitem{Mavid}
-  N. Bray and L. Pachter, MAVID: Constrained ancestral alignment of multiple sequences,, Genome Research, 14:693-699 (2004)
 }
 \end{thebibliography}
 

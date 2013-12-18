@@ -1,0 +1,2341 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-161458-0527-66416921-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="96" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:15:18+00:00" search="P0Y0M0DT0H0M20.000S" start="2013-11-25T16:14:58+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="59">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=M8CRT6_AEGTA" id="UniRef100_M8CRT6" length="629" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         180
+        </score>
+        <bits>
+         73.9
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="2">
+         AHPWPGSHGRGQGLLRLGLEDFGHVHGGQGI
+        </queryseq>
+        <pattern>
+         AHPWPGSHGRGQGLLRLGLEDFGHVHGGQGI
+        </pattern>
+        <matchseq end="112" start="82">
+         AHPWPGSHGRGQGLLRLGLEDFGHVHGGQGI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Tetrasphaera elongata Lp2 RepID=N0E0S9_9MICO" id="UniRef100_N0E0S9" length="145" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.027
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWTWPKSSRPSLKRPWPRP---WEPGH
+        </queryseq>
+        <pattern>
+         P W WP + RP ++RP+ RP   W PGH
+        </pattern>
+        <matchseq end="36" start="9">
+         PRWNWPLAPRPRVERPFDRPDTAWAPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative secreted protein (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=L7MC95_9ACAR" id="UniRef100_L7MC95" length="216" number="3">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.043
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         15
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="81" start="7">
+         SMAWLPRPWPRSLEAWP-*RLWPRPW
+        </queryseq>
+        <pattern>
+         S  WLPRPWPR    WP  R WP+PW
+        </pattern>
+        <matchseq end="60" start="38">
+         SQPWLPRPWPR---PWPSPRRWPQPW
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         8.6
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         21
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="90" start="28">
+         PWPRSLEAWP*RLWPRPW---WPR
+        </queryseq>
+        <pattern>
+         PWP  +  WP R WP+PW   WP+
+        </pattern>
+        <matchseq end="115" start="94">
+         PWP--VRPWPIRPWPQPWPQPWPQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative secreted protein n=1 Tax=Rhipicephalus pulchellus RepID=L7LYH8_9ACAR" id="UniRef100_L7LYH8" length="228" number="4">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.045
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         15
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="81" start="7">
+         SMAWLPRPWPRSLEAWP-*RLWPRPW
+        </queryseq>
+        <pattern>
+         S  WLPRPWPR    WP  R WP+PW
+        </pattern>
+        <matchseq end="72" start="50">
+         SQPWLPRPWPR---PWPSPRRWPQPW
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         8.9
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         21
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="90" start="28">
+         PWPRSLEAWP*RLWPRPW---WPR
+        </queryseq>
+        <pattern>
+         PWP  +  WP R WP+PW   WP+
+        </pattern>
+        <matchseq end="127" start="106">
+         PWP--VRPWPIRPWPQPWPQPWPQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Metalloendopeptidase-like membrane protein n=1 Tax=Arthrobacter phenanthrenivorans (strain DSM 18606 / JCM 16027 / LMG 23796 / Sphe3) RepID=F0M776_ARTPP" id="UniRef100_F0M776" length="187" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.066
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWTWPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         P W WP S RP + R   P P+PW PGH
+        </pattern>
+        <matchseq end="78" start="51">
+         PSWQWPLSPRPQVLRDYDPPPKPWLPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Peptidase M23 n=1 Tax=Intrasporangium calvum (strain ATCC 23552 / DSM 43043 / JCM 3097 / NBRC 12989 / 7 KIP) RepID=E6SEZ8_INTC7" id="UniRef100_E6SEZ8" length="188" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.33
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         55.0
+        </positives>
+        <gaps>
+         10
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="87">
+         WPPWTWPKSSRPSLKRPWPRP---WEPGH
+        </queryseq>
+        <pattern>
+         W  W WP +  P ++RP   P   WEPGH
+        </pattern>
+        <matchseq end="80" start="52">
+         WRGWVWPLAPEPEVERPSDAPRRRWEPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="hypothetical protein n=1 Tax=Arthrobacter sp. 131MFCol6.1 RepID=UPI00036C7558" id="UniRef100_UPI00036C7558" length="210" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.37
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         10
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="93">
+         MPWPPWTWPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         +P P W+WP S RP++ R   P  RPW  GH
+        </pattern>
+        <matchseq end="97" start="67">
+         VPEPAWSWPLSPRPAVLRAFDPPARPWLSGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Kocuria rhizophila (strain ATCC 9341 / DSM 348 / NBRC 103217 / DC2201) RepID=B2GKT7_KOCRD" id="UniRef100_B2GKT7" length="187" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         0.62
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         12
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="78">
+         WTWPKSSRPSLKRPWPRP---WEPGH
+        </queryseq>
+        <pattern>
+         W WP S RP+++RP+  P   W PGH
+        </pattern>
+        <matchseq end="76" start="51">
+         WNWPVSPRPAVQRPFEAPVKRWLPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=M4EAI6_BRARP" id="UniRef100_M4EAI6" length="890" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.74
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         9
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="90">
+         PWPPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         PWP   WP  SRP   RPWP PW
+        </pattern>
+        <matchseq end="64" start="44">
+         PWPAGPWP--SRPWPTRPWPFPW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Aspergillus terreus (strain NIH 2624 / FGSC A1156) RepID=Q0CTD6_ASPTN" id="UniRef100_Q0CTD6" length="108" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.84
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         16
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="16" start="90">
+         PWPPWTWPKSSRPSLKRPWPRPWEP
+        </queryseq>
+        <pattern>
+         P+PPW +    RP   RPWPRP+ P
+        </pattern>
+        <matchseq end="62" start="42">
+         PYPPWPY----RPWPPRPWPRPFPP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="hypothetical protein n=1 Tax=Nocardiopsis potens RepID=UPI000363F545" id="UniRef100_UPI000363F545" length="313" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         0.96
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         12
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="78">
+         WTWPKSSRPSLKRPW---PRPWEPGH
+        </queryseq>
+        <pattern>
+         W WP   RP + RP+   P PW PGH
+        </pattern>
+        <matchseq end="91" start="66">
+         WQWPLDGRPRVVRPFSPPPEPWLPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=L7MBC7_9ACAR" id="UniRef100_L7MBC7" length="68" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="16" start="90">
+         PWPPWTWPKSSRPSLKRPWP--RPWEP
+        </queryseq>
+        <pattern>
+         PWPP T P + RP   RP P   PW P
+        </pattern>
+        <matchseq end="59" start="33">
+         PWPPTTTPPAPRPPAPRPPPVAPPWPP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Peptidase M23 n=1 Tax=Arthrobacter chlorophenolicus (strain A6 / ATCC 700700 / DSM 12829 / JCM 12360) RepID=B8HFN4_ARTCA" id="UniRef100_B8HFN4" length="193" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWTWPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         P W WP + RP++ R   P P+PW  GH
+        </pattern>
+        <matchseq end="82" start="55">
+         PSWDWPLAPRPAVLRGFDPPPKPWLSGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative bacteriocin n=1 Tax=Prevotella intermedia (strain 17) RepID=I1YRY3_PREI7" id="UniRef100_I1YRY3" length="636" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         55.0
+        </positives>
+        <gaps>
+         19
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="96" start="22">
+         PRPWPRSLEA-WP*RLWP-----RPWWPRHP
+        </queryseq>
+        <pattern>
+         P+PWP  ++  WP R WP      PWWP  P
+        </pattern>
+        <matchseq end="292" start="262">
+         PKPWPWPVDPWWPPRPWPPIPPVDPWWPPRP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Chromosome 3 SCAF14626, whole genome shotgun sequence n=1 Tax=Tetraodon nigroviridis RepID=Q4SE10_TETNG" id="UniRef100_Q4SE10" length="383" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         2.6
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="96">
+         RMPWPPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         R PW  W   + +R S  RPW RPW
+        </pattern>
+        <matchseq end="339" start="315">
+         RPPWSSWEKTRRTRMSSPRPWMRPW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Cyanobium sp. PCC 7001 RepID=B5IM57_9CHRO" id="UniRef100_B5IM57" length="119" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         2.8
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="13" start="96">
+         RMPWPPWTWPKSSRPSLKRPWPRPWEPG
+        </queryseq>
+        <pattern>
+         R+PWPP  W +   PS  RP PR  +PG
+        </pattern>
+        <matchseq end="57" start="32">
+         RVPWPPGGWLEIYAPSRSRPQPR--QPG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Fumarylacetoacetase n=1 Tax=Pseudomonas aeruginosa VRFPA01 RepID=M2WJN0_PSEAI" id="UniRef100_M2WJN0" length="480" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         2.8
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         52.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="1" start="87">
+         WPPWTWPKSSRPSLKRPWPRPWEPGHGCA
+        </queryseq>
+        <pattern>
+         WP  TW +SS P     W   W PGHG A
+        </pattern>
+        <matchseq end="355" start="329">
+         WPTSTWSRSSTPPSASAW--HWTPGHGSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Metalloendopeptidase-like membrane protein n=1 Tax=Arthrobacter sp. SJCon RepID=L8TS99_9MICC" id="UniRef100_L8TS99" length="192" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         3.1
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWTWPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         P W WP + RP + R   P P+PW  GH
+        </pattern>
+        <matchseq end="81" start="54">
+         PSWQWPLAPRPRVLRAFDPPPKPWLSGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-L-iduronidase (Fragment) n=1 Tax=Homo sapiens RepID=H0Y9R9_HUMAN" id="UniRef100_H0Y9R9" length="196" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         3.1
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         5
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="90" start="28">
+         PWPRSLEAWP*RLWPRPWWPR
+        </queryseq>
+        <pattern>
+         P PR   +WP R WPRP WPR
+        </pattern>
+        <matchseq end="25" start="6">
+         PAPRCWRSWP-RSWPRPRWPR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="hypothetical protein n=1 Tax=Arthrobacter sp. 162MFSha1.1 RepID=UPI0003631459" id="UniRef100_UPI0003631459" length="203" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         3.2
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWTWPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         P W WP + RP + R   P P+PW  GH
+        </pattern>
+        <matchseq end="92" start="65">
+         PSWQWPLAPRPPVLRGFNPPPKPWLSGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin isoform X1 n=2 Tax=Heterocephalus glaber RepID=UPI00035017E9" id="UniRef100_UPI00035017E9" length="1156" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.4
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="966" start="939">
+         PPWTTAASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hyphomonas neptunium (strain ATCC 15444) RepID=Q0C4H2_HYPNA" id="UniRef100_Q0C4H2" length="354" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         3.4
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="96">
+         RMPWPPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         R+P P    PK+ RPSL  PWP  W
+        </pattern>
+        <matchseq end="90" start="66">
+         RLPSPLQALPKAQRPSLVAPWPTVW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 2 of Uncharacterized protein C11orf91 n=1 Tax=Homo sapiens RepID=Q3C1V1-2" id="UniRef100_Q3C1V1-2" length="184" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         4.0
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="13" start="90">
+         PWPPWTWPKSSRPSLKRPWPRPWEPG
+        </queryseq>
+        <pattern>
+         P PP   P    PS +RPWP PW  G
+        </pattern>
+        <matchseq end="97" start="72">
+         PAPPPPPPPGLGPSSERPWPSPWPSG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein C11orf91 n=1 Tax=Homo sapiens RepID=CK091_HUMAN" id="UniRef100_Q3C1V1" length="193" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         4.2
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="13" start="90">
+         PWPPWTWPKSSRPSLKRPWPRPWEPG
+        </queryseq>
+        <pattern>
+         P PP   P    PS +RPWP PW  G
+        </pattern>
+        <matchseq end="97" start="72">
+         PAPPPPPPPGLGPSSERPWPSPWPSG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin isoform X2 n=1 Tax=Microtus ochrogaster RepID=UPI00038C364B" id="UniRef100_UPI00038C364B" length="898" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.4
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGH
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPGH
+        </pattern>
+        <matchseq end="717" start="691">
+         PPWTPGASRPPSSLDGWVSPGPWEPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Anther-specific proline rich protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=A9P3B9_BRARP" id="UniRef100_A9P3B9" length="581" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.4
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         9
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="90">
+         PWPPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         PWP   WP    PS+  PWP PW
+        </pattern>
+        <matchseq end="62" start="42">
+         PWPSIPWPSIPWPSM--PWPYPW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Sulfobacillus acidophilus RepID=F8I897_SULAT" id="UniRef100_F8I897" length="74" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         5.5
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="84" start="4">
+         ASMAWLPRPWPRSLEAWP*RLWPRPWW
+        </queryseq>
+        <pattern>
+         A +AWL RPW +SL  W  R+    WW
+        </pattern>
+        <matchseq end="26" start="2">
+         ARIAWLKRPWWQSLTGWGLRI--NLWW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Mus musculus RepID=Q3TA13_MOUSE" id="UniRef100_Q3TA13" length="900" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="718" start="691">
+         PPWTPAASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 2 of Synaptopodin n=2 Tax=Mus musculus RepID=Q8CC35-2" id="UniRef100_Q8CC35-2" length="901" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="718" start="691">
+         PPWTPAASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Spermophilus tridecemlineatus RepID=I3MV12_SPETR" id="UniRef100_I3MV12" length="912" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="727" start="700">
+         PPWTPSASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Austwickia chelonae NBRC 105200 RepID=K6VIL0_9MICO" id="UniRef100_K6VIL0" length="199" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         12
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="78">
+         WTWPKSSRPSLKRPW---PRPWEPGH
+        </queryseq>
+        <pattern>
+         W WP S +P + RP+   P+PW  GH
+        </pattern>
+        <matchseq end="90" start="65">
+         WQWPLSPKPPVVRPFDAPPQPWLAGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Synaptopodin n=3 Tax=Mus musculus RepID=E9Q3E2_MOUSE" id="UniRef100_E9Q3E2" length="1100" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         6.0
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="917" start="890">
+         PPWTPAASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin n=1 Tax=Octodon degus RepID=UPI000333DC2F" id="UniRef100_UPI000333DC2F" length="1149" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         6.0
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="965" start="938">
+         PPWTPAASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Trichosporon asahii var. asahii (strain CBS 8904) RepID=K1W8C2_TRIAC" id="UniRef100_K1W8C2" length="518" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.1
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="84">
+         PPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         P WTWP SS P    P P PW
+        </pattern>
+        <matchseq end="467" start="447">
+         PGWTWPYSSNPPGYMPAPSPW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Trichosporon asahii var. asahii (strain ATCC 90039 / CBS 2479 / JCM 2466 / KCTC 7840 / NCYC 2677 / UAMH 7654) RepID=J5TSL1_TRIAS" id="UniRef100_J5TSL1" length="525" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.1
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="84">
+         PPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         P WTWP SS P    P P PW
+        </pattern>
+        <matchseq end="467" start="447">
+         PGWTWPYSSNPPGYMPAPSPW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=D7M3W5_ARALL" id="UniRef100_D7M3W5" length="96" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         7.2
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="63">
+         SSRPSLKRPWPRPWEPGH
+        </queryseq>
+        <pattern>
+         SS P LKRPW RP  P H
+        </pattern>
+        <matchseq end="73" start="56">
+         SSDPKLKRPWKRPQHPQH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: guanine nucleotide-binding protein subunit beta-2-like 1 n=1 Tax=Ficedula albicollis RepID=UPI000359BA37" id="UniRef100_UPI000359BA37" length="289" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         7.7
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         52.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="93">
+         MPWPPWTWPKSSRPSLK-RPWPRPWEPGH
+        </queryseq>
+        <pattern>
+         +PWP W WP    P +  RP P P +  H
+        </pattern>
+        <matchseq end="119" start="91">
+         VPWPGWLWPCPHTPEVSPRPCPPPQDESH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: cytochrome P450 2U1-like n=1 Tax=Jaculus jaculus RepID=UPI0003331AAE" id="UniRef100_UPI0003331AAE" length="759" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.7
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="28" start="90">
+         PWPPWTWPKSSRPSLKRPWPR
+        </queryseq>
+        <pattern>
+         PWP W W + +R   +RPW R
+        </pattern>
+        <matchseq end="74" start="54">
+         PWPAWLWMQGARQWRQRPWER
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Canis familiaris RepID=J9P7S2_CANFA" id="UniRef100_J9P7S2" length="786" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.7
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="711" start="684">
+         PPWTPGASRPPSSLDGWVSPGPWEPGQG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin-like n=1 Tax=Mustela putorius furo RepID=UPI0003443BD6" id="UniRef100_UPI0003443BD6" length="845" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.8
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="711" start="684">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Bos taurus RepID=E1BA93_BOVIN" id="UniRef100_E1BA93" length="882" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.8
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="709" start="682">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: synaptopodin n=1 Tax=Tursiops truncatus RepID=UPI0002C3199A" id="UniRef100_UPI0002C3199A" length="897" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="706" start="679">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Callithrix jacchus RepID=F7FG36_CALJA" id="UniRef100_F7FG36" length="897" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="713" start="686">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin isoform X2 n=1 Tax=Mesocricetus auratus RepID=UPI0003596BA7" id="UniRef100_UPI0003596BA7" length="898" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="718" start="691">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin isoform 2 n=1 Tax=Orcinus orca RepID=UPI0002BCD80D" id="UniRef100_UPI0002BCD80D" length="898" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="706" start="679">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin n=1 Tax=Pan troglodytes RepID=UPI000036D33D" id="UniRef100_UPI000036D33D" length="899" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="713" start="686">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: synaptopodin isoform 2 n=1 Tax=Odobenus rosmarus divergens RepID=UPI0002C57D02" id="UniRef100_UPI0002C57D02" length="901" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="711" start="684">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 2 of Synaptopodin n=3 Tax=Homo sapiens RepID=Q8N3V7-2" id="UniRef100_Q8N3V7-2" length="903" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="713" start="686">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: regulator of telomere elongation helicase 1-like n=1 Tax=Ailuropoda melanoleuca RepID=UPI0001DEC183" id="UniRef100_UPI0001DEC183" length="1303" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.9
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="85" start="11">
+         WPGSHGRG-QGLLRLGLEDFGHVHGG
+        </queryseq>
+        <pattern>
+         W  SHGRG QG+L +G E+    HGG
+        </pattern>
+        <matchseq end="1239" start="1214">
+         WGRSHGRGXQGMLAMGAEELPRAHGG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Canis familiaris RepID=E2RG15_CANFA" id="UniRef100_E2RG15" length="1016" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         8.0
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="953" start="926">
+         PPWTPGASRPPSSLDGWVSPGPWEPGQG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Acetyltransferase n=1 Tax=Amycolatopsis azurea DSM 43854 RepID=M2NPA1_9PSEU" id="UniRef100_M2NPA1" length="150" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         8.0
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="14">
+         PGSHGRGQGLLRLGLEDFGHVHGGQGI
+        </queryseq>
+        <pattern>
+         PG HG     LRLG  D G VH GQ I
+        </pattern>
+        <matchseq end="145" start="119">
+         PGEHGPEAFYLRLGFRDTGAVHDGQHI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=3 Tax=Mustela putorius furo RepID=M3YQQ5_MUSPF" id="UniRef100_M3YQQ5" length="1040" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         8.0
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="7" start="84">
+         PPWTWPKSSRPSLKRPW--PRPWEPGHG
+        </queryseq>
+        <pattern>
+         PPWT   S  PS    W  P PWEPG G
+        </pattern>
+        <matchseq end="956" start="929">
+         PPWTPGASRPPSSLDGWVSPGPWEPGRG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Frankia alni (strain ACN14a) RepID=Q0RHT9_FRAAA" id="UniRef100_Q0RHT9" length="341" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         8.3
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         52.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="1" start="75">
+         TWPKSSRPSLKRPWPRPWEPGHGCA
+        </queryseq>
+        <pattern>
+         TWP+   P L  P P PWEP    A
+        </pattern>
+        <matchseq end="168" start="144">
+         TWPRGWLPHLSAPRPAPWEPAAAAA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Tetranychus urticae RepID=T1KNV8_TETUR" id="UniRef100_T1KNV8" length="84" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         12
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="87" start="19">
+         LPRPWP---RSLEAWP*RLWPRPWWP
+        </queryseq>
+        <pattern>
+         LP P P   ++++AWP   WP P WP
+        </pattern>
+        <matchseq end="71" start="46">
+         LPLPVPVLKKTVQAWPEPSWPEPSWP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="peptidase M23 n=1 Tax=Kocuria rhizophila RepID=UPI0002F54D8F" id="UniRef100_UPI0002F54D8F" length="157" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         8.8
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         12
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="78">
+         WTWPKSSRPSLKRPWPRP---WEPGH
+        </queryseq>
+        <pattern>
+         W WP S RP ++R +  P   W PGH
+        </pattern>
+        <matchseq end="39" start="14">
+         WAWPVSPRPGVERAFEAPAQKWLPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="hypothetical protein, partial n=1 Tax=Kribbella catacumbae RepID=UPI00037B1A72" id="UniRef100_UPI00037B1A72" length="230" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         9.0
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         19
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="84">
+         PPWT---WPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         PP T   WP + RP + R   P P+PW PGH
+        </pattern>
+        <matchseq end="56" start="26">
+         PPQTAAVWPLNPRPEIVRGFEPPPKPWLPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Peptidase M23 n=1 Tax=Tsukamurella paurometabola (strain ATCC 8368 / DSM 20162 / JCM 10117 / NBRC 16120 / NCTC 13040) RepID=D5UYH0_TSUPD" id="UniRef100_D5UYH0" length="169" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         9.5
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         12
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="78">
+         WTWPKSSRPSLKRPWPRP---WEPGH
+        </queryseq>
+        <pattern>
+         + WP   RP++ RP+  P   W+PGH
+        </pattern>
+        <matchseq end="50" start="25">
+         YAWPLDPRPAVARPFANPDERWQPGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Populus trichocarpa RepID=B9PES0_POPTR" id="UniRef100_B9PES0" length="256" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         9.7
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="84">
+         PPWTWPKSSRPSLKRPWPRPW
+        </queryseq>
+        <pattern>
+         PP  W   +RP +  PWP PW
+        </pattern>
+        <matchseq end="199" start="179">
+         PPGPWTAGTRPWVLAPWPTPW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Peptidase M23 n=1 Tax=Thermobispora bispora (strain ATCC 19993 / DSM 43833 / CBS 139.67 / JCM 10125 / NBRC 14880 / R51) RepID=D6Y7B6_THEBD" id="UniRef100_D6Y7B6" length="174" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         9.8
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         53.0
+        </positives>
+        <gaps>
+         10
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="10" start="90">
+         PWPPWTWPKSSRPSLKR---PWPRPWEPGH
+        </queryseq>
+        <pattern>
+         P P W WP +  P++ R   P  RPW  GH
+        </pattern>
+        <matchseq end="57" start="28">
+         PAPDWRWPLAGHPNVIRRFDPPARPWLSGH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

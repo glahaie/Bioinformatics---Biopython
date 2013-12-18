@@ -1,0 +1,6579 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-173757-0845-5267527-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="117" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:38:09+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T17:37:58+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Smilax lasioneura RepID=" id="UniRef100_D5LMK7" length="229" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         9.0E-17
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="226" start="190">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Os11g0532750 protein (Fragment) n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_C7J8J3" length="108" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         185
+        </score>
+        <bits>
+         75.9
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARN+GRDLAREGNEIIR+ACKWSPEL
+        </pattern>
+        <matchseq end="86" start="50">
+         ANRVALEACVQARNKGRDLAREGNEIIRSACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Asparagus asparagoides RepID=" id="UniRef100_G0WXX1" length="157" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR ACKWSPEL
+        </pattern>
+        <matchseq end="144" start="108">
+         ANRVALEACVQARNEGRDLAREGNEIIREACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Oryza meridionalis RepID=" id="UniRef100_S6CMV7" length="99" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEII +ACKWSPEL
+        </pattern>
+        <matchseq end="98" start="62">
+         ANRVALEACVQARNEGRDLAREGNEIIXSACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7ZC27" length="370" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="349" start="313">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Os01g0791033 protein n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_C7IXC7" length="262" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         189
+        </score>
+        <bits>
+         77.4
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR+ACKWSPEL
+        </pattern>
+        <matchseq end="240" start="204">
+         ANRVALEACVQARNEGRDLAREGNEIIRSACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 bisphosphate carboxylase oxygenase (Fragment) n=1 Tax=Hemichloris antarctica RepID=" id="UniRef100_I3PX32" length="85" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         182
+        </score>
+        <bits>
+         74.7
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREG ++IRAACKWSPEL
+        </pattern>
+        <matchseq end="65" start="29">
+         ANRVALEACVQARNEGRDLAREGGDVIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 bisphosphate carboxylase oxygenase (Fragment) n=1 Tax=Elliptochloris sp. SAG 2117 RepID=" id="UniRef100_I3PX49" length="113" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREG +IIRAACKWSPEL
+        </pattern>
+        <matchseq end="93" start="57">
+         ANRVALEACVQARNEGRDLAREGGDIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 bisphosphate carboxylase oxygenase (Fragment) n=7 Tax=Elliptochloris marina RepID=" id="UniRef100_I3PX47" length="113" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREG +IIRAACKWSPEL
+        </pattern>
+        <matchseq end="93" start="57">
+         ANRVALEACVQARNEGRDLAREGGDIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Festuca sp. SH-2010 RepID=" id="UniRef100_E0D9R8" length="408" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="405" start="369">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Vigna radiata RepID=" id="UniRef100_A9YSY9" length="85" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         181
+        </score>
+        <bits>
+         74.3
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGN IIR ACKWSPEL
+        </pattern>
+        <matchseq end="84" start="48">
+         ANRVALEACVQARNEGRDLAREGNAIIREACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 bisphosphate carboxylase oxygenase (Fragment) n=2 Tax=Trebouxiophyceae RepID=" id="UniRef100_I3PX26" length="104" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         182
+        </score>
+        <bits>
+         74.7
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREG ++IRAACKWSPEL
+        </pattern>
+        <matchseq end="84" start="48">
+         ANRVALEACVQARNEGRDLAREGGDVIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_P25414" length="421" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="400" start="364">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Aegilops crassa RepID=" id="UniRef100_P25413" length="421" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="400" start="364">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Smilax nipponica RepID=" id="UniRef100_I3NS04" length="431" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="430" start="394">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1HFD0" length="431" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="411" start="375">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 biphosphate carboxylase/oxygenase (Fragment) n=1 Tax=Lachnaea pusilla RepID=" id="UniRef100_Q5K3Y0" length="241" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR ACKWSPEL
+        </pattern>
+        <matchseq end="220" start="184">
+         ANRVALEACVQARNEGRDLAREGNEIIRRACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Harpochloa sp. Hodkinson 579 RepID=" id="UniRef100_B0YIA9" length="438" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="437" start="401">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 biphosphate carboxylase/oxygenase (Fragment) n=1 Tax=Lachnaea uniflora RepID=" id="UniRef100_Q5K3X8" length="242" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR ACKWSPEL
+        </pattern>
+        <matchseq end="221" start="185">
+         ANRVALEACVQARNEGRDLAREGNEIIRRACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 biphosphate carboxylase/oxygenase (Fragment) n=1 Tax=Lachnaea elsieae RepID=" id="UniRef100_Q5K3Z5" length="244" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR ACKWSPEL
+        </pattern>
+        <matchseq end="223" start="187">
+         ANRVALEACVQARNEGRDLAREGNEIIRRACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Pogonarthria squarrosa RepID=" id="UniRef100_H9A044" length="440" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="437" start="401">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=4 Tax=Glyceria RepID=" id="UniRef100_G0WYK8" length="440" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Eragrostis minor RepID=" id="UniRef100_G0WYF3" length="441" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Cynodon dactylon RepID=" id="UniRef100_G0WYA5" length="442" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Pancratium maritimum RepID=" id="UniRef100_G0WZ51" length="247" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR ACKWSPEL
+        </pattern>
+        <matchseq end="234" start="198">
+         ANRVALEACVQARNEGRDLAREGNEIIREACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Eragrostis reptans RepID=" id="UniRef100_H9A011" length="443" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="437" start="401">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Calamovilfa longifolia RepID=" id="UniRef100_C0SJP0" length="443" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="442" start="406">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Festuca pratensis RepID=" id="UniRef100_G0WYH8" length="444" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Cottea pappophoroides RepID=" id="UniRef100_H9A004" length="445" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Gaudinia fragilis RepID=" id="UniRef100_B0YID8" length="445" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="429" start="393">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Myriophyllum alterniflorum RepID=" id="UniRef100_G0WZ17" length="251" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIR ACKWSPEL
+        </pattern>
+        <matchseq end="238" start="202">
+         ANRVALEACVQARNEGRDLAREGNEIIREACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Echinopogon ovatus RepID=" id="UniRef100_J9QG16" length="446" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Sporobolus airoides RepID=" id="UniRef100_S6CNR2" length="447" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Echinopogon ovatus RepID=" id="UniRef100_S6CN35" length="447" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Anisopogon avenaceus RepID=" id="UniRef100_S6CN30" length="447" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=2 Tax=Sporobolus RepID=" id="UniRef100_S6CMZ4" length="447" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Ehrharta calycina RepID=" id="UniRef100_S6CMY2" length="447" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Phyllostachys nigra RepID=" id="UniRef100_S6CMX1" length="447" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Echinopogon caespitosus RepID=" id="UniRef100_S6CMW6" length="447" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Dichelachne crinita RepID=" id="UniRef100_S6CME2" length="447" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Bambusa vulgaris RepID=" id="UniRef100_S6CLZ2" length="447" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Bromus porteri RepID=" id="UniRef100_S4TAY0" length="447" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Melica uniflora RepID=" id="UniRef100_Q5K3E4" length="447" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="426" start="390">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Diarrhena obovata RepID=" id="UniRef100_Q537Z3" length="447" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Ehrharta calycina RepID=" id="UniRef100_Q537Z2" length="447" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Eremitis sp. Soderstrom 2182 RepID=" id="UniRef100_Q537Z1" length="447" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Dactyloctenium aegyptium RepID=" id="UniRef100_B0BCP5" length="447" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Lygeum spartum RepID=" id="UniRef100_B0B768" length="447" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Cynodon dactylon RepID=" id="UniRef100_B0B766" length="447" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Nardus RepID=" id="UniRef100_B0B752" length="447" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Olyra sp. Hodkinson s.n. RepID=" id="UniRef100_B0B742" length="447" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Bambuseae RepID=" id="UniRef100_B0B740" length="447" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large subunit (Fragment) n=1 Tax=Ehrharta calycina RepID=" id="UniRef100_A2VAX4" length="447" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Bromus commutatus RepID=" id="UniRef100_Q5K3C1" length="448" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Anisopogon avenaceus RepID=" id="UniRef100_Q537Z5" length="448" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Brachyelytrum RepID=" id="UniRef100_Q537Z4" length="448" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Lygeum spartum RepID=" id="UniRef100_Q537Z0" length="448" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Nardus stricta RepID=" id="UniRef100_Q537Y9" length="448" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Olyra latifolia RepID=" id="UniRef100_Q537Y7" length="448" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Piptatherum miliaceum RepID=" id="UniRef100_Q537Y6" length="448" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Enneapogon scaber RepID=" id="UniRef100_Q32215" length="448" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Eragrostis capensis RepID=" id="UniRef100_Q32175" length="448" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Piptatherum miliaceum RepID=" id="UniRef100_I2FL42" length="448" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Centranthus ruber RepID=" id="UniRef100_G0WY54" length="448" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Festuca pratensis RepID=" id="UniRef100_Q6TL52" length="449" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Calamagrostis epigejos RepID=" id="UniRef100_Q4H111" length="449" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=4 Tax=Uniolinae RepID=" id="UniRef100_K0JBP5" length="449" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase (Fragment) n=2 Tax=Eragrostis RepID=" id="UniRef100_K0JBJ0" length="449" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=2 Tax=Cynodonteae RepID=" id="UniRef100_K0JBF7" length="449" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=1 Tax=Spartina arundinacea RepID=" id="UniRef100_K0JB65" length="449" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=1 Tax=Diplachne fusca RepID=" id="UniRef100_K0JB64" length="449" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase (Fragment) n=1 Tax=Puccinellia distans RepID=" id="UniRef100_K0JB05" length="449" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase (Fragment) n=1 Tax=Eragrostis curvula RepID=" id="UniRef100_K0JB01" length="449" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=2 Tax=Sporobolus RepID=" id="UniRef100_K0JAX9" length="449" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=3 Tax=Eragrostis RepID=" id="UniRef100_K0JAX6" length="449" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=1 Tax=Bouteloua dimorpha RepID=" id="UniRef100_K0JAX5" length="449" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase (Fragment) n=1 Tax=Oryza coarctata RepID=" id="UniRef100_K0JAR3" length="449" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Spartina versicolor RepID=" id="UniRef100_I2FL49" length="449" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Pseudosasa japonica RepID=" id="UniRef100_I2FL44" length="449" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=2 Tax=Poeae RepID=" id="UniRef100_I2FL41" length="449" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Leersia oryzoides RepID=" id="UniRef100_I2FL35" length="449" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=3 Tax=Aveninae RepID=" id="UniRef100_I2FL32" length="449" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=2 Tax=Gastridium ventricosum RepID=" id="UniRef100_I2FL31" length="449" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Festuca petraea RepID=" id="UniRef100_I2FL30" length="449" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=6 Tax=Eragrostideae RepID=" id="UniRef100_I2FL29" length="449" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Deschampsia foliosa RepID=" id="UniRef100_I2FL27" length="449" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Bromus catharticus RepID=" id="UniRef100_I2FL24" length="449" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=1 Tax=Briza maxima RepID=" id="UniRef100_I2FL23" length="449" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Bromus erectus RepID=" id="UniRef100_Q5K3C2" length="450" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Vicia monantha RepID=" id="UniRef100_L7R959" length="450" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="437" start="401">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=18 Tax=Poeae RepID=" id="UniRef100_C0SJQ7" length="450" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-bisphosphate carboxylase (Fragment) n=1 Tax=Chusquea culeou RepID=" id="UniRef100_K0JBN7" length="451" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Phaenosperma globosa RepID=" id="UniRef100_Q4H107" length="452" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Anthoxanthum nitens RepID=" id="UniRef100_Q4H103" length="452" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="449" start="413">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Poa sandbergii RepID=" id="UniRef100_S4TAY3" length="453" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="453" start="417">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Arrhenatherum elatius RepID=" id="UniRef100_Q4H108" length="453" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Vicia parviflora RepID=" id="UniRef100_G0WZT5" length="453" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Gaudinia fragilis RepID=" id="UniRef100_G0WYJ8" length="453" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5 bisphosphate carboxylase oxygenase (Fragment) n=1 Tax=Elliptochloris sp. SAG 2201 RepID=" id="UniRef100_I3PX50" length="114" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         182
+        </score>
+        <bits>
+         74.7
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREG ++IRAACKWSPEL
+        </pattern>
+        <matchseq end="94" start="58">
+         ANRVALEACVQARNEGRDLAREGGDVIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Phalaris arundinacea RepID=" id="UniRef100_Q4H104" length="454" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Dactylis glomerata RepID=" id="UniRef100_S4TAS3" length="455" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Hordeum jubatum RepID=" id="UniRef100_S4TAQ2" length="455" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Calamovilfa longifolia RepID=" id="UniRef100_S4TAC6" length="455" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=4 Tax=Aveninae RepID=" id="UniRef100_S4TAC1" length="455" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="453" start="417">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Vulpia ciliata RepID=" id="UniRef100_C0SJQ8" length="455" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="449" start="413">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Olyra latifolia RepID=" id="UniRef100_C0SJN4" length="455" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="435" start="399">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Shibataea chinensis RepID=" id="UniRef100_B0YIA1" length="455" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="434" start="398">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Agrostis scabra RepID=" id="UniRef100_S4TAE5" length="456" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Uniolinae RepID=" id="UniRef100_B0YIB3" length="456" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="442" start="406">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Hesperostipa comata RepID=" id="UniRef100_S4TAS5" length="457" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="455" start="419">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Arthrostylidium sp. TH-53B RepID=" id="UniRef100_Q5K3F3" length="458" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="449" start="413">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1I481" length="458" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="437" start="401">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Arctophila fulva RepID=" id="UniRef100_B0YIE3" length="458" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="436" start="400">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Muhlenbergia cuspidata RepID=" id="UniRef100_S4TAY2" length="459" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=6 Tax=Poeae RepID=" id="UniRef100_S4TAX8" length="459" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Festuca hallii RepID=" id="UniRef100_S4TAD0" length="459" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Agropyron cristatum RepID=" id="UniRef100_S4TAB8" length="459" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="454" start="418">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Abelia serrata RepID=" id="UniRef100_G9BS13" length="459" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="439" start="403">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Zabelia RepID=" id="UniRef100_G9BRZ7" length="459" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="439" start="403">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Zabelia RepID=" id="UniRef100_G9BRZ5" length="459" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="439" start="403">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Zabelia triflora RepID=" id="UniRef100_G9BRZ4" length="459" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="439" start="403">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Deschampsia cespitosa RepID=" id="UniRef100_S4TAP9" length="460" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="455" start="419">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=4 Tax=Triticeae RepID=" id="UniRef100_S4TAP4" length="460" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="455" start="419">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Eleusine indica RepID=" id="UniRef100_J9XTS6" length="460" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="455" start="419">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Tragus racemosus RepID=" id="UniRef100_C0SJN9" length="460" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Dactyloctenium aegyptium RepID=" id="UniRef100_B0YIB1" length="460" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Cynodonteae RepID=" id="UniRef100_S4TAS1" length="461" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="456" start="420">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Poeae RepID=" id="UniRef100_S4TAG2" length="461" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="456" start="420">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Olmeca recta RepID=" id="UniRef100_Q5K3D8" length="461" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8C5F6" length="461" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose biphosphate carboxylase (Fragment) n=2 Tax=Poeae RepID=" id="UniRef100_I2FL43" length="461" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="448" start="412">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=2 Tax=Dactylis glomerata RepID=" id="UniRef100_Q5K3D9" length="462" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="441" start="405">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=4 Tax=Pooideae RepID=" id="UniRef100_S4TAF0" length="463" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="458" start="422">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Chloris virgata RepID=" id="UniRef100_C0SJN7" length="463" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="442" start="406">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Fargesia dracocephala RepID=" id="UniRef100_Q5K3E1" length="464" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="455" start="419">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Cryptochloa strictiflora RepID=" id="UniRef100_B0YIA2" length="464" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="440" start="404">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large chain (Fragment) n=1 Tax=Brachypodium sylvaticum RepID=" id="UniRef100_Q5K3E9" length="465" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="451" start="415">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Psathyrostachys rupestris subsp. daghestanica RepID=" id="UniRef100_Q539W7" length="465" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="444" start="408">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="RuBisCO large subunit (Fragment) n=1 Tax=Glaucium flavum RepID=" id="UniRef100_O47275" length="465" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Tuctoria mucronata RepID=" id="UniRef100_H9A057" length="465" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Cynodonteae incertae sedis RepID=" id="UniRef100_H9A042" length="465" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Orcuttia californica RepID=" id="UniRef100_H9A039" length="465" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Chloridoideae RepID=" id="UniRef100_H9A036" length="465" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Muhlenbergia spatha RepID=" id="UniRef100_H9A033" length="465" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Muhlenbergia RepID=" id="UniRef100_H9A031" length="465" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Cynodonteae RepID=" id="UniRef100_H9A030" length="465" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Muhlenbergia decumbens RepID=" id="UniRef100_H9A028" length="465" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Muhlenbergia alopecuroides RepID=" id="UniRef100_H9A026" length="465" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Cynodonteae RepID=" id="UniRef100_H9A023" length="465" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Chloridoideae RepID=" id="UniRef100_H9A021" length="465" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=4 Tax=Eleusininae RepID=" id="UniRef100_H9A020" length="465" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Jouvea pilosa RepID=" id="UniRef100_H9A019" length="465" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Hilaria jamesii RepID=" id="UniRef100_H9A018" length="465" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Eleusininae RepID=" id="UniRef100_H9A014" length="465" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Cynodonteae RepID=" id="UniRef100_H9A013" length="465" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Cynodonteae RepID=" id="UniRef100_H9A008" length="465" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Cynodonteae RepID=" id="UniRef100_H9A007" length="465" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Dasyochloa pulchella RepID=" id="UniRef100_H9A005" length="465" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=13 Tax=Eleusininae RepID=" id="UniRef100_H9A001" length="465" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=4 Tax=Chloridoideae RepID=" id="UniRef100_H9A000" length="465" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Bouteloua curtipendula RepID=" id="UniRef100_H8ZZZ9" length="465" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=6 Tax=Cynodonteae RepID=" id="UniRef100_H8ZZZ8" length="465" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=9 Tax=Cynodonteae RepID=" id="UniRef100_H8ZZZ7" length="465" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Poaceae RepID=" id="UniRef100_H8ZZZ6" length="465" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Cynodonteae RepID=" id="UniRef100_H8ZZZ5" length="465" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Cynodonteae RepID=" id="UniRef100_H8ZZZ4" length="465" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Acrachne racemosa RepID=" id="UniRef100_H8ZZZ3" length="465" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="450" start="414">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=2 Tax=Zoysia RepID=" id="UniRef100_B0B758" length="465" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=1 Tax=Sporobolus festivus RepID=" id="UniRef100_B0B756" length="465" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=5 Tax=Poaceae RepID=" id="UniRef100_B0B755" length="465" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (Fragment) n=3 Tax=Chloridoideae RepID=" id="UniRef100_B0B725" length="465" number="171">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="446" start="410">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose bisphosphate carboxylase large subunit (Fragment) n=1 Tax=Valeriana capensis RepID=" id="UniRef100_A2VB80" length="465" number="172">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="115" start="5">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </queryseq>
+        <pattern>
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </pattern>
+        <matchseq end="445" start="409">
+         ANRVALEACVQARNEGRDLAREGNEIIRAACKWSPEL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ribulose 1,5-bisphosphate carboxylase (Fragment) n=1 Tax=Smilax glauca RepID=" id="UniRef100_P93928" length="466" number="173">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

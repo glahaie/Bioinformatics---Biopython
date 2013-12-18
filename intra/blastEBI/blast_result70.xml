@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-163910-0121-74356942-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="110" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:39:25+00:00" search="P0Y0M0DT0H0M15.000S" start="2013-11-25T16:39:10+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="2">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Naumovozyma dairenensis (strain ATCC 10597 / BCRC 20456 / CBS 421 / NBRC 0211 / NRRL Y-12639) RepID=" id="UniRef100_G0WEJ6" length="762" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         1.4
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="9">
+         WGRLEVKPIRSRNKLMLFVFKNYGALLSKKKKK
+        </queryseq>
+        <pattern>
+         W   E KPIR +NKL+L  F+ +G  L  K+K+
+        </pattern>
+        <matchseq end="328" start="296">
+         WNDFEPKPIRPKNKLILLPFQFHGEHLESKRKR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="3beta-hydroxysteroid-dehydrogenase/decarboxylase isoform 1 n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BJG8" length="199" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         2.6
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="59" start="3">
+         TSWGRLEVKPIRSRNKLML
+        </queryseq>
+        <pattern>
+         TSW RLE+KPI SRN+LM+
+        </pattern>
+        <matchseq end="195" start="177">
+         TSWSRLELKPIISRNQLMV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

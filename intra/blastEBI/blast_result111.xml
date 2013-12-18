@@ -1,0 +1,221 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-171621-0918-80973095-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="120" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:16:32+00:00" search="P0Y0M0DT0H0M10.000S" start="2013-11-25T17:16:22+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="5">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_G3WB51" length="136" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         FFFFFFETYM*YGKKYIHIGNLSIHWFYIHLYIMLH
+        </queryseq>
+        <pattern>
+         +F  FF +Y  +   YI+I N+ IH+ YI++YI +H
+        </pattern>
+        <matchseq end="132" start="98">
+         YFLKFFISYS-FVYTYIYIYNIYIHYIYIYIYIHIH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_G3WB50" length="172" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         1.8
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="3">
+         FFFFFFETYM*YGKKYIHIGNLSIHWFYIHLYIMLH
+        </queryseq>
+        <pattern>
+         +F  FF +Y  +   YI+I N+ IH+ YI++YI +H
+        </pattern>
+        <matchseq end="163" start="129">
+         YFLKFFISYS-FVYTYIYIYNIYIHYIYIYIYIHIH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GPI mannosyltransferase, putative n=1 Tax=Entamoeba dispar (strain ATCC PRA-260 / SAW760) RepID=" id="UniRef100_B0EQJ1" length="410" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         1.8
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="95" start="6">
+         FFFFFETYM*YGKKYIHIGNLSIHWFYIHL
+        </queryseq>
+        <pattern>
+         F F +ETY+ +G +  H  NLS++W+Y+ L
+        </pattern>
+        <matchseq end="261" start="232">
+         FEFLWETYLYHGTRTDHRHNLSVYWYYLSL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Mannosyltransferase, putative n=3 Tax=Entamoeba histolytica RepID=" id="UniRef100_C4M7V9" length="412" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         1.8
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="95" start="6">
+         FFFFFETYM*YGKKYIHIGNLSIHWFYIHL
+        </queryseq>
+        <pattern>
+         F F +ETY+ +G +  H  NLS++W+Y+ L
+        </pattern>
+        <matchseq end="261" start="232">
+         FEFLWETYLYHGTRTDHRHNLSVYWYYLSL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_G3WB49" length="150" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         2.8
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="110" start="45">
+         KYIHIGNLSIHWFYIHLYIMLH
+        </queryseq>
+        <pattern>
+         KYI+I N+ IH+ YI++YI +H
+        </pattern>
+        <matchseq end="123" start="102">
+         KYIYIYNIYIHYIYIYIYIHIH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

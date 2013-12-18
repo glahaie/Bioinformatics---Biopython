@@ -1,0 +1,373 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-174642-0720-36444032-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="60" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:50:08+00:00" search="P0Y0M0DT0H3M26.000S" start="2013-11-25T17:46:42+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="9">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=M0V3G8_HORVD" id="UniRef100_M0V3G8" length="517" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTMKAVNNNVSRVSKLTT
+        </pattern>
+        <matchseq end="308" start="289">
+         SFYTMKAVNNNVSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Aegilops tauschii RepID=N1R470_AEGTA" id="UniRef100_N1R470" length="672" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTMKAVNNNVSRVSKLTT
+        </pattern>
+        <matchseq end="463" start="444">
+         SFYTMKAVNNNVSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Triticum urartu RepID=M7YEA6_TRIUA" id="UniRef100_M7YEA6" length="688" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTMKAVNNNVSRVSKLTT
+        </pattern>
+        <matchseq end="494" start="475">
+         SFYTMKAVNNNVSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Aegilops tauschii RepID=R7WCX8_AEGTA" id="UniRef100_R7WCX8" length="693" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTMKAVNNNVSRVSKLTT
+        </pattern>
+        <matchseq end="484" start="465">
+         SFYTMKAVNNNVSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Triticum urartu RepID=M7YTW8_TRIUA" id="UniRef100_M7YTW8" length="721" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTMKAVNNNVSRVSKLTT
+        </pattern>
+        <matchseq end="512" start="493">
+         SFYTMKAVNNNVSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=2 Tax=Hordeum vulgare var. distichum RepID=F2CS01_HORVD" id="UniRef100_F2CS01" length="721" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTM+AVNNNVSRVSKLTT
+        </pattern>
+        <matchseq end="512" start="493">
+         SFYTMRAVNNNVSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Brachypodium distachyon RepID=I1ITM0_BRADI" id="UniRef100_I1ITM0" length="719" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         2.1
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFY+M+  N NVSRVSK+TT
+        </pattern>
+        <matchseq end="512" start="493">
+         SFYSMRTANTNVSRVSKITT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Brachypodium distachyon RepID=I1GQ18_BRADI" id="UniRef100_I1GQ18" length="718" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         3.7
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         5
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTM+ VNN VSRVSKLTT
+        </pattern>
+        <matchseq end="511" start="493">
+         SFYTMRTVNN-VSRVSKLTT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Eukaryotic translation initiation factor 3 subunit B n=1 Tax=Genlisea aurea RepID=S8CKN6_9LAMI" id="UniRef100_S8CKN6" length="712" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         9.1
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="60" start="1">
+         SFYTMKAVNNNVSRVSKLTT
+        </queryseq>
+        <pattern>
+         SFYTM++ NNN  RVSKL T
+        </pattern>
+        <matchseq end="507" start="488">
+         SFYTMRSGNNNTVRVSKLAT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

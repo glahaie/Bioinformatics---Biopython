@@ -1,0 +1,221 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-155132-0025-3980482-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="143" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T15:51:54+00:00" search="P0Y0M0DT0H0M22.000S" start="2013-11-25T15:51:32+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="5">
+     <hit database="UR100" description="acyl-CoA dehydrogenase n=1 Tax=Burkholderia glumae RepID=" id="UniRef100_UPI0003039078" length="383" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.89
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="17" start="121">
+         RGRTGNTWDTNRLIEERLLSTHVFSGRPRWSLLAA
+        </queryseq>
+        <pattern>
+         RG  G T DT++ ++ RL+  HV S R RW  LAA
+        </pattern>
+        <matchseq end="296" start="262">
+         RGALGVTLDTHQHVQRRLVDIHVGSERSRWMALAA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Acyl-CoA dehydrogenase domain-containing protein n=1 Tax=Burkholderia glumae (strain BGR1) RepID=" id="UniRef100_C5AK91" length="383" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.89
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="17" start="121">
+         RGRTGNTWDTNRLIEERLLSTHVFSGRPRWSLLAA
+        </queryseq>
+        <pattern>
+         RG  G T DT++ ++ RL+  HV S R RW  LAA
+        </pattern>
+        <matchseq end="296" start="262">
+         RGALGVTLDTHQHVQRRLVDIHVGSERSRWMALAA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Non-structural 5a protein (Fragment) n=1 Tax=Hepatitis C virus RepID=" id="UniRef100_Q68656" length="116" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         4.3
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         55.0
+        </positives>
+        <gaps>
+         19
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="9" start="125">
+         PAGSNWEHMGYEPLD*GATLINSCVL---RSPPLEPPRRRST
+        </queryseq>
+        <pattern>
+         P    W+  GYEP      +++ C L   +SPPL PPR++ T
+        </pattern>
+        <matchseq end="40" start="4">
+         PLLETWKKPGYEP-----PVVHGCPLPPSKSPPLPPPRKKRT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Mycosphaerella pini (strain NZE10 / CBS 128990) RepID=" id="UniRef100_N1PUK0" length="503" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         5.7
+        </expectation>
+        <identity>
+         39.0
+        </identity>
+        <positives>
+         55.0
+        </positives>
+        <gaps>
+         16
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="135" start="25">
+         GGSSGGDLRTHELIRVAPQSSGS-------YPMCSQFDPAGISS
+        </queryseq>
+        <pattern>
+         GG  GGD+ T EL ++  Q +GS        P    +DPAG+S+
+        </pattern>
+        <matchseq end="493" start="450">
+         GGGDGGDMTTEELKKMEAQQNGSAADQGGFQPEGGAYDPAGLSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Tropinone reductase, putative (Fragment) n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9T623" length="49" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         7.5
+        </expectation>
+        <identity>
+         33.0
+        </identity>
+        <positives>
+         55.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="5" start="103">
+         TWDTNRLIEERLLSTHVFSGRPRWSLLAADPLL
+        </queryseq>
+        <pattern>
+         TW +NR++      T + S + RWSL+    L+
+        </pattern>
+        <matchseq end="36" start="4">
+         TWSSNRIVSNMATETEICSRKQRWSLMGMTALV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

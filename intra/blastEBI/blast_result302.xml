@@ -1,0 +1,6908 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-192054-0147-7219828-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="112" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:21:05+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T19:20:54+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="Q-B protein (Fragment) n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_Q0PMC4" length="58" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         2.0E-17
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="55" start="20">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PSII 32 kDa protein (Fragment) n=1 Tax=Populus tomentosa RepID=" id="UniRef100_Q8HUN3" length="105" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         2.0E-17
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="102" start="67">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=Panicum flexile RepID=" id="UniRef100_E5FAP5" length="75" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         3.0E-17
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="72" start="37">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=Dichanthelium scoparium RepID=" id="UniRef100_E5FAQ5" length="78" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHE NAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="75" start="40">
+         NTWADIINRANLGMEVMHEHNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8C7Y2" length="317" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="314" start="279">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=28 Tax=Bryopsida RepID=" id="UniRef100_G8G003" length="104" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="101" start="66">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=2 Tax=Oncidiinae RepID=" id="UniRef100_I7ATE5" length="108" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="105" start="70">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=2 Tax=Oncidiinae RepID=" id="UniRef100_I6ZNZ6" length="108" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEVP
+        </pattern>
+        <matchseq end="104" start="70">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=2 Tax=Oncidiinae RepID=" id="UniRef100_F2VJ50" length="110" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEVP
+        </pattern>
+        <matchseq end="104" start="70">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=5 Tax=Funariidae RepID=" id="UniRef100_G8G007" length="104" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA++E PS
+        </pattern>
+        <matchseq end="101" start="66">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASIEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="photosystem II protein D1 (chloroplast) n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI000052D4C4" length="353" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Bromus tectorum RepID=" id="UniRef100_Q5XP01" length="353" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Ranunculus macranthus RepID=" id="UniRef100_Q4FFM3" length="353" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Calectasia narragara RepID=" id="UniRef100_M1K3F6" length="353" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Bismarckia nobilis RepID=" id="UniRef100_M1K1I5" length="353" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Quiina glaziovii RepID=" id="UniRef100_K4KBN6" length="353" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Galearia maingayi RepID=" id="UniRef100_K4KBL6" length="353" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Podocalyx loranthoides RepID=" id="UniRef100_K4K920" length="353" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Ouratea sp. CCD-2012 RepID=" id="UniRef100_K4K915" length="353" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Fragaria iinumae RepID=" id="UniRef100_J7ILQ3" length="353" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1101 Tax=root RepID=" id="UniRef100_Q2QDA8" length="353" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Tradescantia ohiensis RepID=" id="UniRef100_H6SZZ0" length="353" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=129 Tax=Magnoliophyta RepID=" id="UniRef100_H6SZY8" length="353" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Potarophytum riparium RepID=" id="UniRef100_H6SZY2" length="353" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=2 Tax=Poales RepID=" id="UniRef100_H6SZX1" length="353" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=2 Tax=Liliopsida RepID=" id="UniRef100_M1KDG5" length="353" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Belosynapsis ciliata RepID=" id="UniRef100_H6SZV5" length="353" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Abolboda macrostachya RepID=" id="UniRef100_H6SZV0" length="353" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Calibanus hookeri RepID=" id="UniRef100_H2FAW9" length="353" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Oziroe biflora RepID=" id="UniRef100_H2FAW5" length="353" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=12 Tax=Liliopsida RepID=" id="UniRef100_H2FAW2" length="353" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Aloe vera RepID=" id="UniRef100_H2FAV5" length="353" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=3 Tax=Asparagales RepID=" id="UniRef100_H2FAV4" length="353" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=3 Tax=Asparagales RepID=" id="UniRef100_H2FAV0" length="353" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Eucharis grandiflora RepID=" id="UniRef100_H2FAU9" length="353" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=29 Tax=Magnoliophyta RepID=" id="UniRef100_H2FAT7" length="353" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=2 Tax=Liliopsida RepID=" id="UniRef100_H2CPL7" length="353" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Silene noctiflora RepID=" id="UniRef100_H2BLU5" length="353" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=8 Tax=Magnoliophyta RepID=" id="UniRef100_E9NVD8" length="353" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=2 Tax=Arecaceae RepID=" id="UniRef100_D4PB91" length="353" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Megaleranthis saniculifolia RepID=" id="UniRef100_C3UNV2" length="353" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Geranium carolinianum RepID=" id="UniRef100_B7T355" length="353" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=12 Tax=Liliopsida RepID=" id="UniRef100_P10510" length="353" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=13 Tax=Magnoliophyta RepID=" id="UniRef100_A4GYN9" length="353" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=434 Tax=Magnoliophyta RepID=" id="UniRef100_Q7YJY8" length="353" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7LGK6" length="114" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGM+VMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="111" start="76">
+         NTWADIINRANLGMKVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Catharanthus roseus RepID=" id="UniRef100_R9R3U1" length="353" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Mammea americana RepID=" id="UniRef100_K4KBM5" length="353" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=40 Tax=Magnoliophyta RepID=" id="UniRef100_K4K8Z4" length="353" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=9 Tax=Clusiaceae RepID=" id="UniRef100_K4K8H2" length="353" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Eriospermum cervicorne RepID=" id="UniRef100_H2FAX1" length="353" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE+PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEIPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=61 Tax=Magnoliophyta RepID=" id="UniRef100_F1KC03" length="353" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella teesdalei RepID=" id="UniRef100_C0JL45" length="147" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="144" start="109">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9U7" length="151" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9U3" length="151" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9T5" length="151" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9T3" length="151" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9T1" length="151" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9S6" length="151" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9S2" length="151" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9Q5" length="151" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Grimmia montana RepID=" id="UniRef100_B0L9P8" length="151" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="148" start="113">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Frullania dilatata RepID=" id="UniRef100_A4H1J1" length="156" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         5.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P+
+        </pattern>
+        <matchseq end="153" start="118">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: photosystem Q(B) protein-like n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_UPI000234FECB" length="185" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         185
+        </score>
+        <bits>
+         75.9
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVP+
+        </pattern>
+        <matchseq end="182" start="147">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium touretii RepID=" id="UniRef100_I1SNR9" length="165" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="162" start="127">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium touretii RepID=" id="UniRef100_I1SNR7" length="165" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="162" start="127">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium touretii RepID=" id="UniRef100_I1SNR5" length="165" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="162" start="127">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium cespitans RepID=" id="UniRef100_I1SNP2" length="165" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="162" start="127">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Dumortiera hirsuta RepID=" id="UniRef100_F8RPK4" length="169" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P+
+        </pattern>
+        <matchseq end="166" start="131">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium cespitans RepID=" id="UniRef100_D3XGA2" length="169" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         6.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="166" start="131">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Monoclea forsteri RepID=" id="UniRef100_F8RPM3" length="173" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P+
+        </pattern>
+        <matchseq end="170" start="135">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=3 Tax=Dumortiera hirsuta RepID=" id="UniRef100_F8RPK8" length="173" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P+
+        </pattern>
+        <matchseq end="170" start="135">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Dumortiera hirsuta RepID=" id="UniRef100_F8RPI7" length="173" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P+
+        </pattern>
+        <matchseq end="170" start="135">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Eurhynchiella zeyheri RepID=" id="UniRef100_C0JL49" length="179" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella trichophylla RepID=" id="UniRef100_C0JL48" length="179" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella litorea RepID=" id="UniRef100_C0JL42" length="179" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella bourgaeana RepID=" id="UniRef100_C0JL36" length="179" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Hedenaesia austrina RepID=" id="UniRef100_C0JL35" length="179" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=3 Tax=Brachytheciaceae RepID=" id="UniRef100_C0JL31" length="179" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Oxyrrhynchium vagans RepID=" id="UniRef100_C0JL30" length="179" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Eurhynchium savatieri RepID=" id="UniRef100_C0JL29" length="179" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Donrichardsia patulifolia RepID=" id="UniRef100_C0JL26" length="179" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Hedenasiastrum percurrens RepID=" id="UniRef100_C0JL20" length="179" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="176" start="141">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=16 Tax=Brachytheciaceae RepID=" id="UniRef100_I1SN99" length="181" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         184
+        </score>
+        <bits>
+         75.5
+        </bits>
+        <expectation>
+         7.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE PS
+        </pattern>
+        <matchseq end="178" start="143">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Pharus latifolius RepID=" id="UniRef100_R4HGD6" length="353" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q8S6H1" length="353" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=3 Tax=Cymbidium RepID=" id="UniRef100_M9YUZ6" length="353" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Lacistema robustum RepID=" id="UniRef100_K4K910" length="353" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Centrolepis monogyna RepID=" id="UniRef100_H6SZV7" length="353" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAV+VPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVDVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=12 Tax=Magnoliophyta RepID=" id="UniRef100_H2FAY3" length="353" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=6 Tax=Brodiaeoideae RepID=" id="UniRef100_H2FAX7" length="353" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Trichopetalum plumosum RepID=" id="UniRef100_H2FAW8" length="353" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Bowiea volubilis RepID=" id="UniRef100_H2FAW1" length="353" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Rhynchoryza subulata RepID=" id="UniRef100_G9HY56" length="353" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Anomochloa marantoidea RepID=" id="UniRef100_D5HQE0" length="353" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=414 Tax=Magnoliophyta RepID=" id="UniRef100_D5HQ72" length="353" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Dendrocalamus latiflorus RepID=" id="UniRef100_C7BF53" length="353" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=5 Tax=Poales RepID=" id="UniRef100_C6GJ37" length="353" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=13 Tax=Ehrhartoideae RepID=" id="UniRef100_P0C434" length="353" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=133 Tax=Poales RepID=" id="UniRef100_A1E9Q4" length="353" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=14 Tax=Magnoliophyta RepID=" id="UniRef100_P05337" length="353" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP+
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=39 Tax=Magnoliophyta RepID=" id="UniRef100_A1E9Y8" length="353" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Treubia lacunosoides RepID=" id="UniRef100_Q5YG72" length="300" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         186
+        </score>
+        <bits>
+         76.3
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+E PS
+        </pattern>
+        <matchseq end="297" start="262">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIETPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=11 Tax=Oncidiinae RepID=" id="UniRef100_I7AX93" length="108" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         180
+        </score>
+        <bits>
+         73.9
+        </bits>
+        <expectation>
+         9.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VEV S
+        </pattern>
+        <matchseq end="105" start="70">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEVTS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1IY24" length="267" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         185
+        </score>
+        <bits>
+         75.9
+        </bits>
+        <expectation>
+         9.0E-16
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVP+
+        </pattern>
+        <matchseq end="264" start="229">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAALEVPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Metzgeria liebmanniana RepID=" id="UniRef100_Q09W55" length="174" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P
+        </pattern>
+        <matchseq end="170" start="136">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Ceratolejeunea grandiloba RepID=" id="UniRef100_A4H1I5" length="174" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P
+        </pattern>
+        <matchseq end="170" start="136">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Metzgeria furcata RepID=" id="UniRef100_Q09W56" length="178" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P
+        </pattern>
+        <matchseq end="174" start="140">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=2 Tax=Lepidolaenaceae RepID=" id="UniRef100_Q5UVB8" length="180" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+E P+
+        </pattern>
+        <matchseq end="177" start="142">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEAPA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Metzgeria furcata RepID=" id="UniRef100_A4H1H4" length="180" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P
+        </pattern>
+        <matchseq end="176" start="142">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula apiculata RepID=" id="UniRef100_G4VY85" length="182" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         183
+        </score>
+        <bits>
+         75.1
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE P
+        </pattern>
+        <matchseq end="178" start="144">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="photosystem II protein D1 (chloroplast) n=1 Tax=Amborella trichopoda RepID=" id="UniRef100_UPI0000F2ADB5" length="350" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="347" start="312">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=4 Tax=Lamiales RepID=" id="UniRef100_F1KC27" length="352" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA+EVP+
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIEVPT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBY6" length="353" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBY5" length="353" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBY0" length="353" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus sargentii RepID=" id="UniRef100_Q9BBX9" length="353" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus serrulata var. quelpaertensis RepID=" id="UniRef100_Q9BBX8" length="353" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBV0" length="353" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBU9" length="353" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBU8" length="353" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBU7" length="353" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q9BBU6" length="353" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus buergeriana RepID=" id="UniRef100_Q95B58" length="353" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus leveilleana RepID=" id="UniRef100_Q95B56" length="353" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus padus RepID=" id="UniRef100_Q95B55" length="353" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus serrulata var. pubescens RepID=" id="UniRef100_Q95B54" length="353" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus serrulata var. tomentella RepID=" id="UniRef100_Q95B53" length="353" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus incisa RepID=" id="UniRef100_Q95B44" length="353" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus apetala RepID=" id="UniRef100_Q95B43" length="353" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus cerasoides var. campanulata RepID=" id="UniRef100_Q95B42" length="353" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus incisa var. kinkiensis RepID=" id="UniRef100_Q95B41" length="353" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus spinulosa RepID=" id="UniRef100_Q95B40" length="353" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus takesimensis RepID=" id="UniRef100_Q95B39" length="353" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus grayana RepID=" id="UniRef100_Q95B38" length="353" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus leveilleana var. pendula RepID=" id="UniRef100_Q95B12" length="353" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Prunus buergeriana RepID=" id="UniRef100_Q95AL7" length="353" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Prunus leveilleana RepID=" id="UniRef100_Q95AL6" length="353" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus maximowiczii RepID=" id="UniRef100_Q94Q75" length="353" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus serrulata var. lannesiana RepID=" id="UniRef100_Q94PW3" length="353" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Cerasus yedoensis RepID=" id="UniRef100_Q94PS7" length="353" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Prunus serrulata var. spontanea RepID=" id="UniRef100_Q94PG9" length="353" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia arguta RepID=" id="UniRef100_Q7YL71" length="353" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia kolomikta RepID=" id="UniRef100_Q7YL70" length="353" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia melanandra RepID=" id="UniRef100_Q7YL68" length="353" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia macrosperma RepID=" id="UniRef100_Q7YL67" length="353" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia eriantha RepID=" id="UniRef100_Q7YL66" length="353" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia chinensis RepID=" id="UniRef100_Q7YL65" length="353" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia chinensis RepID=" id="UniRef100_Q7YL64" length="353" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Actinidia deliciosa RepID=" id="UniRef100_Q7YL63" length="353" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Nuphar advena RepID=" id="UniRef100_Q4FFM4" length="353" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Tetracentron sinense RepID=" id="UniRef100_M9V3L4" length="353" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=17 Tax=Linum RepID=" id="UniRef100_K4KMB6" length="353" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Byrsonima crassifolia RepID=" id="UniRef100_K4KM95" length="353" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=7 Tax=Magnoliophyta RepID=" id="UniRef100_K4KM91" length="353" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=3 Tax=Magnoliophyta RepID=" id="UniRef100_K4KAX5" length="353" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA VEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAVVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=2 Tax=Hypericum RepID=" id="UniRef100_K4K905" length="353" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA++VPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIQVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=4 Tax=Hypericaceae RepID=" id="UniRef100_K4K8K0" length="353" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAA++VPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAIQVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=2 Tax=Malpighiales RepID=" id="UniRef100_K4K8G7" length="353" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=2 Tax=Malpighiales RepID=" id="UniRef100_K4K8F5" length="353" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Elodea canadensis RepID=" id="UniRef100_J7F5C3" length="353" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=10 Tax=Oncidiinae RepID=" id="UniRef100_I6M712" length="353" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA+VE+PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASVEIPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Neoregelia carolinae RepID=" id="UniRef100_H6SZX8" length="353" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=2 Tax=Magnoliophyta RepID=" id="UniRef100_H6SZX7" length="353" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Fosterella caulescens RepID=" id="UniRef100_H6SZW6" length="353" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=5 Tax=Magnoliophyta RepID=" id="UniRef100_H6SZV6" length="353" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </pattern>
+        <matchseq end="349" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=7 Tax=Magnoliophyta RepID=" id="UniRef100_H2FAW3" length="353" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA VEVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAVVEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Eleutherococcus senticosus RepID=" id="UniRef100_G9IAV5" length="353" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7ZW85" length="353" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7JG21" length="353" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Wolffia australiana RepID=" id="UniRef100_G1FBP6" length="353" number="171">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Wolffiella lingulata RepID=" id="UniRef100_G1FBA6" length="353" number="172">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Spirodela polyrrhiza RepID=" id="UniRef100_G1FB23" length="353" number="173">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Schizomeris leibleinii RepID=" id="UniRef100_F8SY99" length="353" number="174">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Olea woodiana subsp. woodiana RepID=" id="UniRef100_F6I9K2" length="353" number="175">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLA++EVPS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLASIEVPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Nelumbo nucifera RepID=" id="UniRef100_F6GPX8" length="353" number="176">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Nelumbo lutea RepID=" id="UniRef100_F6GPP3" length="353" number="177">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Vitis rotundifolia RepID=" id="UniRef100_F1KC28" length="353" number="178">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=2 Tax=Campanulaceae RepID=" id="UniRef100_F1KC25" length="353" number="179">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Hydrostachys goudotiana RepID=" id="UniRef100_F1KBY4" length="353" number="180">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="350" start="315">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEAPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Hydrostachys imbricata RepID=" id="UniRef100_F1KBY2" length="353" number="181">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         187
+        </score>
+        <bits>
+         76.6
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVEVPS
+        </queryseq>
+        <pattern>
+         NTWADIINRANLGMEVMHERNAHNFPLDLAAVE PS
+        </pattern>
+        <matchseq end="3" start="315">
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

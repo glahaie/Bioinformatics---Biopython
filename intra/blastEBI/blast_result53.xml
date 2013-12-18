@@ -1,0 +1,933 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-162435-0960-89422286-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="99" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:24:47+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T16:24:36+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="13">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W372" length="325" number="1">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         QEDDLQLIDGAMEYHDLVTP
+        </pattern>
+        <matchseq end="190" start="171">
+         QEDDLQLIDGAMEYHDLVTP
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         1.0E-7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         PEYPFTHRINGDC
+        </pattern>
+        <matchseq end="202" start="190">
+         PEYPFTHRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1M429" length="373" number="2">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         QEDDLQLIDGAMEYHDLVTP
+        </pattern>
+        <matchseq end="240" start="221">
+         QEDDLQLIDGAMEYHDLVTP
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         PEYPFTHR NGDC
+        </pattern>
+        <matchseq end="252" start="240">
+         PEYPFTHRFNGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1N949" length="373" number="3">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         QEDDLQLIDGA+EYHDLVTP
+        </pattern>
+        <matchseq end="240" start="221">
+         QEDDLQLIDGAVEYHDLVTP
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         PEYPFTHRINGDC
+        </pattern>
+        <matchseq end="252" start="240">
+         PEYPFTHRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W4K5" length="462" number="4">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         QEDDLQLIDGAMEYHDLVTP
+        </pattern>
+        <matchseq end="217" start="198">
+         QEDDLQLIDGAMEYHDLVTP
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         PEYPFTHRIN DC
+        </pattern>
+        <matchseq end="229" start="217">
+         PEYPFTHRINDDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1N546" length="277" number="5">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         QEDDLQLIDGAMEYHDLVT
+        </queryseq>
+        <pattern>
+         +EDDLQLIDGA+EY +L T
+        </pattern>
+        <matchseq end="140" start="122">
+         EEDDLQLIDGAIEYGNLCT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="63">
+         EYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         EYPFT RINGDC
+        </pattern>
+        <matchseq end="153" start="142">
+         EYPFTDRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_K7UFG4" length="394" number="6">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.54
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         +EDDLQLIDG ++Y +L TP
+        </pattern>
+        <matchseq end="241" start="222">
+         EEDDLQLIDGMIDYSELRTP
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         0.54
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="69">
+         PFTHRINGDC
+        </queryseq>
+        <pattern>
+         PFT+RINGDC
+        </pattern>
+        <matchseq end="254" start="245">
+         PFTYRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_B6UB56" length="394" number="7">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.54
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         +EDDLQLIDG ++Y +L TP
+        </pattern>
+        <matchseq end="241" start="222">
+         EEDDLQLIDGMIDYSELRTP
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         0.54
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="69">
+         PFTHRINGDC
+        </queryseq>
+        <pattern>
+         PFT+RINGDC
+        </pattern>
+        <matchseq end="254" start="245">
+         PFTYRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_F2DUQ9" length="369" number="8">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.54
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="70" start="2">
+         QEDDLQLIDGAMEYHDLVTP*VS
+        </queryseq>
+        <pattern>
+         +EDDL LIDGA +Y DL TP +S
+        </pattern>
+        <matchseq end="236" start="214">
+         EEDDLTLIDGATDYCDLTTPSMS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         0.54
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         P   FT+RINGDC
+        </pattern>
+        <matchseq end="245" start="233">
+         PSMSFTNRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Oryza RepID=" id="UniRef100_I1QM91" length="321" number="9">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         1.9
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         QEDDLQLIDGAMEYHDLVT
+        </queryseq>
+        <pattern>
+         ++DDLQLIDGA++Y  L+T
+        </pattern>
+        <matchseq end="185" start="167">
+         EKDDLQLIDGAIDYIGLIT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         1.9
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="66">
+         YPFTHRINGDC
+        </queryseq>
+        <pattern>
+         +PFT RINGDC
+        </pattern>
+        <matchseq end="198" start="188">
+         FPFTKRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Oryza glaberrima RepID=" id="UniRef100_I1PIF7" length="320" number="10">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         1.9
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         QEDDLQLIDGAMEYHDLVT
+        </queryseq>
+        <pattern>
+         ++DDLQLIDGA++Y  L+T
+        </pattern>
+        <matchseq end="184" start="166">
+         EKDDLQLIDGAIDYIGLIT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         1.9
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="66">
+         YPFTHRINGDC
+        </queryseq>
+        <pattern>
+         +PFT RINGDC
+        </pattern>
+        <matchseq end="197" start="187">
+         FPFTKRINGDC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8D4K0" length="266" number="11">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         2.5
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         P +PFT RINGDC
+        </pattern>
+        <matchseq end="164" start="152">
+         PSHPFTSRINGDC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         59
+        </score>
+        <bits>
+         27.3
+        </bits>
+        <expectation>
+         2.5
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         +E DLQLIDGA ++ ++ TP
+        </pattern>
+        <matchseq end="152" start="133">
+         EEYDLQLIDGATDFCEVTTP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8AAC8" length="237" number="12">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         2.5
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="70" start="2">
+         QEDDLQLIDGAMEYHDLVTP*VS
+        </queryseq>
+        <pattern>
+         +EDDL LIDGA +Y DL  P VS
+        </pattern>
+        <matchseq end="67" start="45">
+         EEDDLTLIDGATDYCDLTIPSVS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         50
+        </score>
+        <bits>
+         23.9
+        </bits>
+        <expectation>
+         2.5
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="60">
+         PEYPFTHRINGDC
+        </queryseq>
+        <pattern>
+         P   FTHRI+G+C
+        </pattern>
+        <matchseq end="76" start="64">
+         PSVSFTHRIHGNC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1HMX5" length="177" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         2.7
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         QEDDLQLIDGAMEYHDLVTP
+        </queryseq>
+        <pattern>
+         +EDDLQLIDG ++Y+D+  P
+        </pattern>
+        <matchseq end="46" start="27">
+         EEDDLQLIDGTIDYNDITIP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

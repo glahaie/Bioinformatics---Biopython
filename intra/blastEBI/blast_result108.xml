@@ -1,0 +1,9312 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-171514-0955-48562708-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="104" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:15:29+00:00" search="P0Y0M0DT0H0M14.000S" start="2013-11-25T17:15:15+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="PREDICTED: transcription initiation factor TFIID subunit 2-like, partial n=1 Tax=Aplysia californica RepID=" id="UniRef100_UPI0003594116" length="1283" number="1">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.0030
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVC+CVCV
+        </pattern>
+        <matchseq end="1234" start="1225">
+         CVCVCICVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.0030
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="21" start="50">
+         CVCVCVCVCD
+        </queryseq>
+        <pattern>
+         CVCVC+CVCD
+        </pattern>
+        <matchseq end="1268" start="1259">
+         CVCVCMCVCD
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         0.0030
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         52.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="93">
+         TPLCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         TPL    T       CVCVC+CV
+        </pattern>
+        <matchseq end="1232" start="1210">
+         TPLPSLKTTLYTGGECVCVCICV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative calcium-binding protein n=1 Tax=Leishmania mexicana (strain MHOM/GT/2001/U1103) RepID=" id="UniRef100_E9B0Q3" length="548" number="2">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         5
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="88" start="26">
+         THTHTHTHTDLQIN-AVHVRQR
+        </queryseq>
+        <pattern>
+         THTHTHTHTD  I+ +VH R+R
+        </pattern>
+        <matchseq end="127" start="106">
+         THTHTHTHTDADIDTSVHQRRR
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="51" start="22">
+         SHTHTHTHTH
+        </queryseq>
+        <pattern>
+         + THTHTHTH
+        </pattern>
+        <matchseq end="113" start="104">
+         TRTHTHTHTH
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         51
+        </score>
+        <bits>
+         24.3
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="18">
+         RVTHTHTHTHT
+        </queryseq>
+        <pattern>
+         R T THTHTHT
+        </pattern>
+        <matchseq end="112" start="102">
+         RHTRTHTHTHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: zinc finger and BTB domain-containing protein 49-like n=1 Tax=Danio rerio RepID=" id="UniRef100_UPI0003838EEB" length="277" number="3">
+      <alignments total="4">
+       <alignment number="1">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.0090
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="52" start="23">
+         HTHTHTHTHT
+        </queryseq>
+        <pattern>
+         HTHTHTHTHT
+        </pattern>
+        <matchseq end="86" start="77">
+         HTHTHTHTHT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         0.0090
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         25
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="72" start="28">
+         THTHTHTHRFTNK-----CC
+        </queryseq>
+        <pattern>
+         THTHTHTH  T+      CC
+        </pattern>
+        <matchseq end="175" start="156">
+         THTHTHTHTHTHSGDKPYCC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         0.0090
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="54" start="25">
+         HTHTHTHTHR
+        </queryseq>
+        <pattern>
+         HTHTHTHT R
+        </pattern>
+        <matchseq end="118" start="109">
+         HTHTHTHTQR
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         5.7
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="52" start="14">
+         CSGHTHTHTHTHT
+        </queryseq>
+        <pattern>
+         C  HTHTHTHTHT
+        </pattern>
+        <matchseq end="166" start="154">
+         CGTHTHTHTHTHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Salpingoeca sp. (strain ATCC 50818) RepID=" id="UniRef100_F2U749" length="173" number="4">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="84" start="22">
+         SHTHTHTHTHRFTNKCCSCET
+        </queryseq>
+        <pattern>
+         +HTHTHTHTH  T+ CC C T
+        </pattern>
+        <matchseq end="129" start="109">
+         THTHTHTHTHTHTHTCCFCCT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         5.4
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="52" start="14">
+         CSGHTHTHTHTHT
+        </queryseq>
+        <pattern>
+         C  HTHTHTHTHT
+        </pattern>
+        <matchseq end="117" start="105">
+         CRRHTHTHTHTHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Chromosome 14 SCAF14723, whole genome shotgun sequence. (Fragment) n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_Q4S6X0" length="689" number="5">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         5
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL   +F+CK  CVCVCVCV
+        </pattern>
+        <matchseq end="96" start="77">
+         LCLA-VSFLCKWACVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="98" start="89">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2SD38" length="633" number="6">
+      <alignments total="6">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="101">
+         TYILLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         T   ++V   Q L + +CVCVCVCVC
+        </pattern>
+        <matchseq end="371" start="346">
+         TVTSVAVMRHQRLILCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVCVCVCVC   I SV
+        </pattern>
+        <matchseq end="400" start="385">
+         CVCVCVCVCVSGISSV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="380" start="360">
+         LCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="52">
+         CVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV+
+        </pattern>
+        <matchseq end="395" start="385">
+         CVCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="383" start="364">
+         VCVCVCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC CV
+        </pattern>
+        <matchseq end="386" start="376">
+         VCVCVCVCACV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2SD39" length="597" number="7">
+      <alignments total="7">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="95">
+         ILLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         + ++V   Q L + +CVCVCVCVC
+        </pattern>
+        <matchseq end="336" start="313">
+         LTVAVMRHQRLILCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVCVCVCVC   I SV
+        </pattern>
+        <matchseq end="365" start="350">
+         CVCVCVCVCVSGISSV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="345" start="325">
+         LCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="52">
+         CVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV+
+        </pattern>
+        <matchseq end="360" start="350">
+         CVCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="348" start="329">
+         VCVCVCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC CV
+        </pattern>
+        <matchseq end="351" start="341">
+         VCVCVCVCACV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.2
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="95">
+         ILLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         I L+V+  +H  + LCVCVCVCVC
+        </pattern>
+        <matchseq end="334" start="311">
+         IKLTVAVMRHQRLILCVCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2SD40" length="555" number="8">
+      <alignments total="7">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="95">
+         ILLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         + ++V   Q L + +CVCVCVCVC
+        </pattern>
+        <matchseq end="306" start="283">
+         LTVAVMRHQRLILCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVCVCVCVC   I SV
+        </pattern>
+        <matchseq end="335" start="320">
+         CVCVCVCVCVSGISSV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.043
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="315" start="295">
+         LCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.043
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="52">
+         CVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV+
+        </pattern>
+        <matchseq end="330" start="320">
+         CVCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="318" start="299">
+         VCVCVCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC CV
+        </pattern>
+        <matchseq end="321" start="311">
+         VCVCVCVCACV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.1
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="95">
+         ILLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         I L+V+  +H  + LCVCVCVCVC
+        </pattern>
+        <matchseq end="304" start="281">
+         IKLTVAVMRHQRLILCVCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2SD37" length="641" number="9">
+      <alignments total="7">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.015
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="89">
+         LSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         ++V   Q L + +CVCVCVCVC
+        </pattern>
+        <matchseq end="379" start="358">
+         VAVMRHQRLILCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.015
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVCVCVCVC   I SV
+        </pattern>
+        <matchseq end="408" start="393">
+         CVCVCVCVCVSGISSV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="388" start="368">
+         LCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="52">
+         CVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV+
+        </pattern>
+        <matchseq end="403" start="393">
+         CVCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="391" start="372">
+         VCVCVCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC CV
+        </pattern>
+        <matchseq end="394" start="384">
+         VCVCVCVCACV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.7
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="92">
+         LLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         + SV+  +H  + LCVCVCVCVC
+        </pattern>
+        <matchseq end="377" start="355">
+         ITSVAVMRHQRLILCVCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein pp10122 n=1 Tax=Homo sapiens RepID=" id="UniRef100_Q8WYX9" length="400" number="10">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         0.015
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+  + ++C SVC CVCVCV
+        </pattern>
+        <matchseq end="144" start="124">
+         ICVHVSMYVCASVCACVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.015
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="148" start="139">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.0
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="34" start="99">
+         IHTPLCLT*TAFICKSVCVCVC
+        </queryseq>
+        <pattern>
+         +H  +C +  AF+C  VCVCVC
+        </pattern>
+        <matchseq end="57" start="36">
+         VHVHVCASVCAFVCMCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_I3KZA7" length="145" number="11">
+      <alignments total="7">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         0.016
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="99">
+         IHTPLCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +H+  C+   A +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="100" start="76">
+         VHSIKCVWLFACVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.016
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="120" start="111">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="122" start="112">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C  VCVCVCVC
+        </pattern>
+        <matchseq end="103" start="92">
+         VCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         2.2
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="94">
+         YSSLSHMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         + S+ H   + + +CVCVCVCVCV
+        </pattern>
+        <matchseq end="44" start="21">
+         WPSVVHCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         8.2
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="67">
+         IYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         ++L  CVCVCVCVCV
+        </pattern>
+        <matchseq end="96" start="82">
+         VWLFACVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         8.2
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="65">
+         LFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         LF  +CVCVCVCVC
+        </pattern>
+        <matchseq end="97" start="84">
+         LFACVCVCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: proto-oncogene DBL-like n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_UPI000298F931" length="1100" number="12">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="76" start="29">
+         HTHTHTHTDLQINAVH
+        </queryseq>
+        <pattern>
+         HTHTHTHT LQI  +H
+        </pattern>
+        <matchseq end="578" start="563">
+         HTHTHTHTHLQIEVIH
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="51" start="19">
+         GSHTHTHTHTH
+        </queryseq>
+        <pattern>
+         G HTHTHTHTH
+        </pattern>
+        <matchseq end="571" start="561">
+         GRHTHTHTHTH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Callithrix jacchus RepID=" id="UniRef100_F7DGC4" length="198" number="13">
+      <alignments total="9">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="99">
+         IHTPLCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +   +C+     +C SVCVCVCVCV
+        </pattern>
+        <matchseq end="45" start="21">
+         VSVSVCVCVCVCVCVSVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC+CVCVCV
+        </pattern>
+        <matchseq end="73" start="64">
+         CVCLCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         41
+        </score>
+        <bits>
+         20.4
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="13" start="48">
+         CVCVCVCV*PEH
+        </queryseq>
+        <pattern>
+         C C+C C+  EH
+        </pattern>
+        <matchseq end="116" start="105">
+         CECMCFCMMCEH
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.27
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="21" start="50">
+         CVCVCVCVCD
+        </queryseq>
+        <pattern>
+         CVCVCVCVCD
+        </pattern>
+        <matchseq end="148" start="139">
+         CVCVCVCVCD
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         0.27
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="26" start="76">
+         MNSIYL*ICVCVCVCVC
+        </queryseq>
+        <pattern>
+         +N   L  CVCVCVCVC
+        </pattern>
+        <matchseq end="147" start="131">
+         VNVCLLCACVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C CVCVCVCV
+        </pattern>
+        <matchseq end="146" start="136">
+         LCACVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+ VCVC+CVC
+        </pattern>
+        <matchseq end="124" start="113">
+         MCEHVCVCICVC
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         6.1
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="59">
+         VNLCVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         V++CVCVCVCVC    VSV
+        </pattern>
+        <matchseq end="53" start="35">
+         VSVCVCVCVCVCVSVCVSV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         8.3
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CL     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="79" start="59">
+         VCLCECVCLCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_I3KGN8" length="446" number="14">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         0.02
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="81">
+         LT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LT   F+C  VCVCVCVCV
+        </pattern>
+        <matchseq end="31" start="13">
+         LTLFDFLCPCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.02
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="53">
+         LCVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC   + SV
+        </pattern>
+        <matchseq end="39" start="23">
+         VCVCVCVCVCHSGVWSV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Canis familiaris RepID=" id="UniRef100_J9P0E9" length="63" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.02
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="78" start="4">
+         TLTMFGSHTHTHTHTHRFTNKC---CSC
+        </queryseq>
+        <pattern>
+         +LT    HTHTHTHTH  T+ C   CSC
+        </pattern>
+        <matchseq end="61" start="34">
+         SLTQSHPHTHTHTHTHTHTHTCTHTCSC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Loa loa RepID=" id="UniRef100_E1G5F8" length="100" number="16">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.023
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="87" start="22">
+         SHTHTHTHTHRFTNKCCSCETE
+        </queryseq>
+        <pattern>
+         +HTHTHTHTH  T+  C CE E
+        </pattern>
+        <matchseq end="70" start="49">
+         THTHTHTHTHTDTHITCQCEFE
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="87" start="4">
+         TLTMFGSHTHTHTHTHRFTNKCCSCETE
+        </queryseq>
+        <pattern>
+         T T   ++THTHTHTH  T+   +C+ E
+        </pattern>
+        <matchseq end="68" start="41">
+         THTYIYTYTHTHTHTHTHTDTHITCQCE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Pelodiscus sinensis RepID=" id="UniRef100_K7F1Q4" length="433" number="17">
+      <alignments total="8">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="2" start="55">
+         ICVCVCVCVCVTRT*LVS
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV    L++
+        </pattern>
+        <matchseq end="318" start="301">
+         VCVCVCVCVCVCTVFLIN
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+    ++C  VCVCVCVC
+        </pattern>
+        <matchseq end="290" start="271">
+         VCVCVCVYVCLCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="55">
+         ICVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         +C+C+CVCVCV+
+        </pattern>
+        <matchseq end="176" start="165">
+         VCLCICVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         59
+        </score>
+        <bits>
+         27.3
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         LC+     +C SVCVCV VC
+        </pattern>
+        <matchseq end="148" start="129">
+         LCVCLYMCVCVSVCVCVYVC
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         1.5
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C++  A +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="277" start="257">
+         VCMSVCACMCLCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         50
+        </score>
+        <bits>
+         23.9
+        </bits>
+        <expectation>
+         1.5
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C+CV VCVCV
+        </pattern>
+        <matchseq end="305" start="296">
+         CLCVRVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         9.1
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="26" start="67">
+         IYL*ICVCVCVCVC
+        </queryseq>
+        <pattern>
+         +Y+ +CVCVCVCVC
+        </pattern>
+        <matchseq end="290" start="277">
+         VYVCLCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         46
+        </score>
+        <bits>
+         22.3
+        </bits>
+        <expectation>
+         9.1
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC C+CV V
+        </pattern>
+        <matchseq end="301" start="292">
+         CVCACLCVRV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Rattus norvegicus RepID=" id="UniRef100_M0R539" length="88" number="18">
+      <alignments total="9">
+       <alignment number="1">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C SVC+CVC+C
+        </pattern>
+        <matchseq end="26" start="15">
+         VCVSVCLCVCLC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVC CVCVC    VSV
+        </pattern>
+        <matchseq end="76" start="61">
+         CVCFCVCVCVSVCVSV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C CVC CVCV
+        </pattern>
+        <matchseq end="68" start="58">
+         LCECVCFCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.99
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC+
+        </pattern>
+        <matchseq end="87" start="77">
+         VCVCVCVCVCL
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         0.99
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C SVC+CVC+C
+        </pattern>
+        <matchseq end="59" start="48">
+         VCVSVCLCVCLC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+  +  +C SVCV VC+CV
+        </pattern>
+        <matchseq end="23" start="3">
+         VCVCVSVCVCVSVCVSVCLCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="52">
+         CVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         CVC CVCVCV+
+        </pattern>
+        <matchseq end="71" start="61">
+         CVCFCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="63">
+         ICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+ VC CVCVCV
+        </pattern>
+        <matchseq end="70" start="58">
+         LCECVCFCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="52">
+         CVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         CVCVCV VCV+
+        </pattern>
+        <matchseq end="75" start="65">
+         CVCVCVSVCVS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Harpegnathos saltator RepID=" id="UniRef100_E2C2D3" length="200" number="19">
+      <alignments total="7">
+       <alignment number="1">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.032
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="99">
+         IHTPLCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         ++  +C+   A +C  VCVCVC C
+        </pattern>
+        <matchseq end="25" start="2">
+         VYACVCVCVCACVCVCVCVCVCAC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         0.032
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="26" start="55">
+         ICVCVCVCVC
+        </queryseq>
+        <pattern>
+         +CVCVC C C
+        </pattern>
+        <matchseq end="27" start="18">
+         VCVCVCACAC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         0.032
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C C CVC CV
+        </pattern>
+        <matchseq end="36" start="27">
+         CACACVCACV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.44
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="63">
+         ICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="22" start="10">
+         VCACVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.44
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="22" start="13">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         0.44
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="69">
+         AFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         A +C  VC CVCVCV
+        </pattern>
+        <matchseq end="18" start="4">
+         ACVCVCVCACVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.44
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="53">
+         LCVCVCVCVC
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC
+        </pattern>
+        <matchseq end="23" start="14">
+         VCVCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Mus musculus RepID=" id="UniRef100_Q3UGM7" length="120" number="20">
+      <alignments total="5">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.037
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CL+ + ++C SVCVCVCVCV
+        </pattern>
+        <matchseq end="102" start="82">
+         VCLSVSLYVCVSVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         2.1
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL+    +C SVC+C CVC+
+        </pattern>
+        <matchseq end="50" start="30">
+         LCLSVCISMCVSVCLCECVCL
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         56
+        </score>
+        <bits>
+         26.2
+        </bits>
+        <expectation>
+         2.1
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVC+C CVC    VSV
+        </pattern>
+        <matchseq end="62" start="47">
+         CVCLCECVCLCECVSV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         3.0
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="95">
+         ILLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         + LSVS   ++ V++CVCVCVCVC
+        </pattern>
+        <matchseq end="103" start="82">
+         VCLSVS--LYVCVSVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.2
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="104" start="94">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Danio rerio RepID=" id="UniRef100_F1QUR4" length="920" number="21">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="96" start="22">
+         SHTHTHTHTHRFTNKCC-SCETERSM
+        </queryseq>
+        <pattern>
+         SHTHTHTHTH    +C    ET RSM
+        </pattern>
+        <matchseq end="89" start="64">
+         SHTHTHTHTHNHGQRCVQESETSRSM
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="18">
+         RVTHTHTHTHT
+        </queryseq>
+        <pattern>
+         R +HTHTHTHT
+        </pattern>
+        <matchseq end="72" start="62">
+         RRSHTHTHTHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Monosiga brevicollis RepID=" id="UniRef100_A9V8P0" length="514" number="22">
+      <alignments total="6">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.043
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="6" start="59">
+         VNLCVCVCVCVCDPNIVS
+        </queryseq>
+        <pattern>
+         V +CVCVCVCVC P+I+S
+        </pattern>
+        <matchseq end="111" start="94">
+         VCVCVCVCVCVCVPDIIS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         0.043
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="31" start="84">
+         CLT*TAFICKSVCVCVCV
+        </queryseq>
+        <pattern>
+         C+   A +C  VCVCVCV
+        </pattern>
+        <matchseq end="79" start="62">
+         CVRACACVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.43
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="96" start="87">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         0.43
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="69">
+         AFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         A  C  VCVCVCVCV
+        </pattern>
+        <matchseq end="79" start="65">
+         ACACVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         3.3
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="77" start="68">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         3.3
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         52.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+      C   C CVCVCV
+        </pattern>
+        <matchseq end="73" start="53">
+         VCVRACVRACVRACACVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Mus musculus RepID=" id="UniRef100_Q9D388" length="116" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.049
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="14" start="97">
+         TYSSLSHMNSIYL*ICVCVCVCVCVTRT
+        </queryseq>
+        <pattern>
+         TY+ L  ++ +Y+ +CVCVCVCVCV  T
+        </pattern>
+        <matchseq end="75" start="50">
+         TYTML--LSPVYVGVCVCVCVCVCVYHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Chromosome 11 SCAF14674, whole genome shotgun sequence. (Fragment) n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_Q4SBF3" length="187" number="24">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="82">
+         SHMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +H++ +Y+ +CVCVCVCVCV
+        </pattern>
+        <matchseq end="138" start="119">
+         NHLSGLYVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="10" start="66">
+         FICKSVCVCVCVCV*PEHS
+        </queryseq>
+        <pattern>
+         ++C  VCVCVCVCV   HS
+        </pattern>
+        <matchseq end="143" start="125">
+         YVCVCVCVCVCVCVLCVHS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Monosiga brevicollis RepID=" id="UniRef100_A9V5D3" length="741" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         6
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="102" start="7">
+         LTMFGSHTHTHTHTHRFTNKCC--SCETERSMYV
+        </queryseq>
+        <pattern>
+         LT+F SHTHTHTHTH  T  C    C T  + Y+
+        </pattern>
+        <matchseq end="172" start="139">
+         LTLFFSHTHTHTHTHTHTQICICNGCLTVTTTYL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Pelodiscus sinensis RepID=" id="UniRef100_K7EZD1" length="272" number="26">
+      <alignments total="5">
+       <alignment number="1">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.051
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="51" start="22">
+         SHTHTHTHTH
+        </queryseq>
+        <pattern>
+         SHTHTHTHTH
+        </pattern>
+        <matchseq end="180" start="171">
+         SHTHTHTHTH
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         0.051
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="29">
+         HTHTHTHTDL
+        </queryseq>
+        <pattern>
+         HTHTHTHT L
+        </pattern>
+        <matchseq end="212" start="203">
+         HTHTHTHTPL
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         54
+        </score>
+        <bits>
+         25.4
+        </bits>
+        <expectation>
+         0.051
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="21">
+         VTHTHTHTHT
+        </queryseq>
+        <pattern>
+         ++HTHTHTHT
+        </pattern>
+        <matchseq end="179" start="170">
+         LSHTHTHTHT
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         2.0
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="21">
+         VTHTHTHTHT
+        </queryseq>
+        <pattern>
+         VTHTHTHTHT
+        </pattern>
+        <matchseq end="34" start="25">
+         VTHTHTHTHT
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         2.0
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="100" start="26">
+         THTHTHTHTDLQ-INAVHVRQRGVCM
+        </queryseq>
+        <pattern>
+         THTHTHTH  L+ ++  H     +C+
+        </pattern>
+        <matchseq end="64" start="39">
+         THTHTHTHPTLRLVSLSHTHTHTLCL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Gasterosteus aculeatus RepID=" id="UniRef100_G3N5B2" length="1036" number="27">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         0.054
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="52" start="5">
+         H*LCSGHTHTHTHTHT
+        </queryseq>
+        <pattern>
+         H LC  HTH HTHTHT
+        </pattern>
+        <matchseq end="157" start="142">
+         HTLCYTHTHCHTHTHT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.054
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="63" start="25">
+         HTHTHTHTHRFTN
+        </queryseq>
+        <pattern>
+         HTHTHTHTH  T+
+        </pattern>
+        <matchseq end="164" start="152">
+         HTHTHTHTHTVTH
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         6.2
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         72.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="76" start="23">
+         HTHTHTHTHTDLQINAVH
+        </queryseq>
+        <pattern>
+         HTHTHTHTHT + +   H
+        </pattern>
+        <matchseq end="947" start="930">
+         HTHTHTHTHTPVPVKRFH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2S4D8" length="579" number="28">
+      <alignments total="4">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.055
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="94">
+         YSSLSHMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +  +   NS+++ +CVCVCVCVCV
+        </pattern>
+        <matchseq end="223" start="200">
+         FGDIKPPNSLFVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         0.055
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="21" start="50">
+         CVCVCVCVCD
+        </queryseq>
+        <pattern>
+         CVCVC CVC+
+        </pattern>
+        <matchseq end="237" start="228">
+         CVCVCGCVCN
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="102">
+         DIHTPLCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         DI  P  L     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="226" start="202">
+         DIKPPNSLFVCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         0.42
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC CV
+        </pattern>
+        <matchseq end="229" start="219">
+         VCVCVCVCGCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative syntaxin-binding protein 2 (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=" id="UniRef100_L7MIZ1" length="145" number="29">
+      <alignments total="8">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.058
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+    F+C  VCVCVCVC
+        </pattern>
+        <matchseq end="92" start="73">
+         MCVRMCVFVCACVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.058
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC+CVCVCV
+        </pattern>
+        <matchseq end="129" start="120">
+         CVCLCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="72">
+         TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +A +C  VCVCVCVC
+        </pattern>
+        <matchseq end="20" start="6">
+         SAVVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC CV
+        </pattern>
+        <matchseq end="23" start="13">
+         VCVCVCVCACV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         2.7
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="26" start="67">
+         IYL*ICVCVCVCVC
+        </queryseq>
+        <pattern>
+         +++  CVCVCVCVC
+        </pattern>
+        <matchseq end="92" start="79">
+         VFVCACVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         2.7
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC CVC+CV
+        </pattern>
+        <matchseq end="125" start="116">
+         CVCACVCLCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         9.6
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="26" start="55">
+         ICVCVCVCVC
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC
+        </pattern>
+        <matchseq end="20" start="11">
+         VCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         52
+        </score>
+        <bits>
+         24.6
+        </bits>
+        <expectation>
+         9.6
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="47">
+         VCVCVCVC
+        </queryseq>
+        <pattern>
+         VCVCVCVC
+        </pattern>
+        <matchseq end="40" start="33">
+         VCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative syntaxin-binding protein 2 (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=" id="UniRef100_L7MB24" length="132" number="30">
+      <alignments total="8">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.058
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+   A++C  +CVC+CVCV
+        </pattern>
+        <matchseq end="23" start="3">
+         LCVCVCAYVCLCMCVCLCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.058
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C+CVCVCVCV
+        </pattern>
+        <matchseq end="51" start="42">
+         CLCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         2.6
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+   A +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="55" start="35">
+         VCMCVCACLCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         9.8
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="99">
+         IHTPLCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         ++  +C+      C  VCVCVCVCV
+        </pattern>
+        <matchseq end="53" start="29">
+         VYVRICVCMCVCACLCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         9.8
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="57" start="37">
+         MCVCACLCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         9.8
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="55" start="45">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         9.8
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="57" start="47">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         9.8
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="67">
+         IYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +YL +CVC CVC CV
+        </pattern>
+        <matchseq end="88" start="74">
+         VYLRMCVCACVCACV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Danio rerio RepID=" id="UniRef100_F1R012" length="774" number="31">
+      <alignments total="4">
+       <alignment number="1">
+        <score>
+         59
+        </score>
+        <bits>
+         27.3
+        </bits>
+        <expectation>
+         0.061
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="52" start="23">
+         HTHTHTHTHT
+        </queryseq>
+        <pattern>
+         H HTHTHTHT
+        </pattern>
+        <matchseq end="350" start="341">
+         HIHTHTHTHT
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         0.061
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="62" start="27">
+         HTHTHTHTQIYK
+        </queryseq>
+        <pattern>
+         HTHTHTHTQ ++
+        </pattern>
+        <matchseq end="354" start="343">
+         HTHTHTHTQRHR
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         0.061
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="6">
+         TNYVRVTHTHTHTHT
+        </queryseq>
+        <pattern>
+         T+  R TH HTHTHT
+        </pattern>
+        <matchseq end="348" start="334">
+         THTHRPTHIHTHTHT
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         1.8
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="17">
+         SGHTHTHTHTHTDL
+        </queryseq>
+        <pattern>
+         S HTHTHTHTHTDL
+        </pattern>
+        <matchseq end="330" start="317">
+         SEHTHTHTHTHTDL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein Gm10974 n=1 Tax=Mus musculus RepID=" id="UniRef100_D3YX89" length="42" number="32">
+      <alignments total="4">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.065
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         72.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="14" start="88">
+         SLSHMNSIYL*ICVCVCVCVCVTRT
+        </queryseq>
+        <pattern>
+         SLS   S+ L IC+CVCVCVCV  T
+        </pattern>
+        <matchseq end="28" start="4">
+         SLSLSLSLSLCICICVCVCVCVCET
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         0.6
+        </expectation>
+        <identity>
+         59.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="88">
+         SLSHMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         SLS   S+ L +C+C+CVCVCV
+        </pattern>
+        <matchseq end="23" start="2">
+         SLSLSLSLSLSLCICICVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="89">
+         LSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         +S+S    L ++LC+C+CVCVC
+        </pattern>
+        <matchseq end="22" start="1">
+         MSLSLSLSLSLSLCICICVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         2.9
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="89">
+         LSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         LS+S    L + +C+CVCVCVC
+        </pattern>
+        <matchseq end="24" start="3">
+         LSLSLSLSLSLCICICVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2V155" length="389" number="33">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         0.072
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="100" start="23">
+         HTHTHTHTHTD--LQINAVHVRQRGVCM
+        </queryseq>
+        <pattern>
+         HTHTHTHTHTD  LQ +  H  Q G  M
+        </pattern>
+        <matchseq end="249" start="222">
+         HTHTHTHTHTDLGLQPSRKHRCQTGCVM
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         0.072
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="21">
+         VTHTHTHTHT
+        </queryseq>
+        <pattern>
+         +THTHTHTHT
+        </pattern>
+        <matchseq end="229" start="220">
+         LTHTHTHTHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Salpingoeca sp. (strain ATCC 50818) RepID=" id="UniRef100_F2TZB9" length="121" number="34">
+      <alignments total="10">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.074
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="82">
+         SHMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +H + ++L +CVCVCVCVCV
+        </pattern>
+        <matchseq end="34" start="15">
+         AHQHVVFLCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.98
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="42" start="22">
+         LCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         54
+        </score>
+        <bits>
+         25.4
+        </bits>
+        <expectation>
+         0.98
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="49">
+         VCVCVCVCVT
+        </queryseq>
+        <pattern>
+         +CVCVCVCV+
+        </pattern>
+        <matchseq end="92" start="83">
+         LCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         6.0
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="79">
+         HMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         H+  + + +CVCVCVCVCV
+        </pattern>
+        <matchseq end="36" start="18">
+         HVVFLCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         18
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="92">
+         LLSVSHEQHLF-----VNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         +++V+  QH+      V +CVCVCVCVC
+        </pattern>
+        <matchseq end="37" start="10">
+         MIAVAAHQHVVFLCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="44" start="24">
+         VCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="38" start="28">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="40" start="30">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="42" start="32">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="10">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="44" start="34">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Monosiga brevicollis RepID=" id="UniRef100_A9V5C0" length="1565" number="35">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="96">
+         HTPLCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         HTP+C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="567" start="544">
+         HTPVCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         6.6
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="592" start="573">
+         VCVCVCVCVCVRVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         6.6
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC  +
+        </pattern>
+        <matchseq end="595" start="585">
+         VCVCVCVCTVI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Loa loa RepID=" id="UniRef100_E1GG65" length="107" number="36">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC+    F+C   CVC+CVCV
+        </pattern>
+        <matchseq end="32" start="12">
+         LCVYVCVFVCVCACVCMCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C+CVCVCVCV
+        </pattern>
+        <matchseq end="70" start="61">
+         CICVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         4.7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         ICVCVCVCVCV
+        </pattern>
+        <matchseq end="72" start="62">
+         ICVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="DNA, segment C10, complete sequence n=1 Tax=Glypta fumiferanae ichnovirus RepID=" id="UniRef100_A2PZX6" length="102" number="37">
+      <alignments total="21">
+       <alignment number="1">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="56" start="46">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="66">
+         FICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         F+C  VCVCVCVC
+        </pattern>
+        <matchseq end="31" start="19">
+         FVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="58" start="48">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVC C
+        </pattern>
+        <matchseq end="41" start="22">
+         VCVCVCVCVCACVCVCVCAC
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.46
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="60" start="50">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         0.46
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C   CVCVCVC
+        </pattern>
+        <matchseq end="39" start="20">
+         VCVCVCVCVCVCACVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         0.57
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+    F+C  VCVCVCVCV
+        </pattern>
+        <matchseq end="76" start="56">
+         VCVCVCLFVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="65">
+         LFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         LFV +CVCVCVCVC
+        </pattern>
+        <matchseq end="75" start="62">
+         LFVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         59.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="53">
+         LCVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         +CVCVC C C P  V V
+        </pattern>
+        <matchseq end="50" start="34">
+         VCVCVCACTCAPVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="10">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="63">
+         ICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C  VCVCVC CV
+        </pattern>
+        <matchseq end="34" start="22">
+         VCVCVCVCVCACV
+        </matchseq>
+       </alignment>
+       <alignment number="11">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         3.0
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="67">
+         IYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +++ +CVCVCVCVCV
+        </pattern>
+        <matchseq end="76" start="62">
+         LFVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="12">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         3.5
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="78" start="68">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="13">
+        <score>
+         52
+        </score>
+        <bits>
+         24.6
+        </bits>
+        <expectation>
+         3.5
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         50.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+      C  VCVC C C
+        </pattern>
+        <matchseq end="43" start="24">
+         VCVCVCVCACVCVCVCACTC
+        </matchseq>
+       </alignment>
+       <alignment number="14">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         4.3
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="62">
+         FVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         FV +CVCVCVCVC
+        </pattern>
+        <matchseq end="31" start="19">
+         FVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="15">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         4.3
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+   A  C  VCVCVCVCV
+        </pattern>
+        <matchseq end="54" start="34">
+         VCVCVCACTCAPVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="16">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         4.3
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="67">
+         IYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         + L +CVCVCVCVCV
+        </pattern>
+        <matchseq end="74" start="60">
+         VCLFVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="17">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="63">
+         ICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C  VCVC CVCV
+        </pattern>
+        <matchseq end="36" start="24">
+         VCVCVCVCACVCV
+        </matchseq>
+       </alignment>
+       <alignment number="18">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="50">
+         CVCVCVCVC
+        </queryseq>
+        <pattern>
+         CVCVCVC C
+        </pattern>
+        <matchseq end="41" start="33">
+         CVCVCVCAC
+        </matchseq>
+       </alignment>
+       <alignment number="19">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         6.0
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C    A +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="58" start="38">
+         VCACTCAPVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="20">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="72" start="52">
+         VCVCVCVCVCLFVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="21">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         8.4
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="78" start="58">
+         VCVCLFVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Helobdella robusta RepID=" id="UniRef100_T1G8F0" length="100" number="38">
+      <alignments total="12">
+       <alignment number="1">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="96" start="86">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.076
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         LC+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="64" start="45">
+         LCVRACVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.21
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="63">
+         ICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="24" start="12">
+         VCACVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.21
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="59" start="50">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         1.5
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="79">
+         HMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         HM  I + +C CVCVCVCV
+        </pattern>
+        <matchseq end="22" start="4">
+         HMFIICMHVCACVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         1.5
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="64">
+         YL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         Y+ +CVCVCVCVCV
+        </pattern>
+        <matchseq end="94" start="81">
+         YVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="61" start="51">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="63" start="53">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="66">
+         FICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         ++C  VCVCVCVCV
+        </pattern>
+        <matchseq end="94" start="81">
+         YVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="10">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="98" start="88">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="11">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="100" start="90">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="12">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         8.1
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="69">
+         AFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         A +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="63" start="49">
+         ACVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Macaca mulatta RepID=" id="UniRef100_G7MUL2" length="87" number="39">
+      <alignments total="17">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         0.077
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+   A +C  VCVCVC+CV
+        </pattern>
+        <matchseq end="53" start="33">
+         VCMCVCACVCVCVCVCVCMCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.077
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="75" start="66">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.21
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="99">
+         IHTPLCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +H   C+     +C  +CVC CVCV
+        </pattern>
+        <matchseq end="43" start="19">
+         VHVCACVCVCVRVCVCMCVCACVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.21
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="49" start="40">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.77
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VC CVCVCV
+        </pattern>
+        <matchseq end="45" start="25">
+         VCVCVRVCVCMCVCACVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         0.77
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC CVCVCV
+        </pattern>
+        <matchseq end="71" start="62">
+         CVCACVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         0.93
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+   A +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="75" start="55">
+         VCVCVCACVCACVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC+
+        </pattern>
+        <matchseq end="51" start="41">
+         VCVCVCVCVCM
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C  VCVC CVC
+        </pattern>
+        <matchseq end="16" start="5">
+         VCACVCVCACVC
+        </matchseq>
+       </alignment>
+       <alignment number="10">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         2.1
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVC+CV
+        </pattern>
+        <matchseq end="53" start="43">
+         VCVCVCVCMCV
+        </matchseq>
+       </alignment>
+       <alignment number="11">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         2.1
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C  VC CVCVC
+        </pattern>
+        <matchseq end="12" start="1">
+         VCVRVCACVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="12">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC+
+        </pattern>
+        <matchseq end="77" start="67">
+         VCVCVCVCVCM
+        </matchseq>
+       </alignment>
+       <alignment number="13">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="84">
+         CLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         C+     +C  VCVC+CVC
+        </pattern>
+        <matchseq end="80" start="62">
+         CVCACVCVCVCVCVCMCVC
+        </matchseq>
+       </alignment>
+       <alignment number="14">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVC+CVC CV
+        </pattern>
+        <matchseq end="83" start="73">
+         VCVCMCVCGCV
+        </matchseq>
+       </alignment>
+       <alignment number="15">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  V VCVCVC
+        </pattern>
+        <matchseq end="60" start="41">
+         VCVCVCVCVCMCVRVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="16">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         6.6
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C    A +C  VCVCVC+CV
+        </pattern>
+        <matchseq end="79" start="59">
+         VCACVCACVCVCVCVCVCMCV
+        </matchseq>
+       </alignment>
+       <alignment number="17">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         9.2
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VC CVCVCV
+        </pattern>
+        <matchseq end="71" start="51">
+         MCVRVCVCVCACVCACVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Chromosome 11 SCAF14979, whole genome shotgun sequence n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_Q4RXP0" length="2982" number="40">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         0.085
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="72" start="22">
+         SHTHTHTHTHRFTNKCC
+        </queryseq>
+        <pattern>
+         +HTHTHTHTHR+    C
+        </pattern>
+        <matchseq end="2181" start="2165">
+         THTHTHTHTHRWGRGVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         0.085
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="50" start="6">
+         TNYVRVTHTHTHTHT
+        </queryseq>
+        <pattern>
+         T   R THTHTHTHT
+        </pattern>
+        <matchseq end="2173" start="2159">
+         TEVTRRTHTHTHTHT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="OTTMUSG00000022819 protein n=1 Tax=Mus musculus RepID=" id="UniRef100_Q8R020" length="26" number="41">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.087
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="68">
+         HLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         HLF+ +CVCVCVCVC
+        </pattern>
+        <matchseq end="16" start="2">
+         HLFICVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="67">
+         IYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         ++L ICVCVCVCVCV
+        </pattern>
+        <matchseq end="15" start="1">
+         MHLFICVCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Monosiga brevicollis RepID=" id="UniRef100_A9VDI9" length="1351" number="42">
+      <alignments total="8">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         0.088
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="636" start="616">
+         VCVCVCVCVCACVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.088
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="53">
+         LCVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC    VSV
+        </pattern>
+        <matchseq end="644" start="628">
+         VCVCVCVCVCVSVSVSV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="55">
+         ICVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV+
+        </pattern>
+        <matchseq end="639" start="628">
+         VCVCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="612" start="592">
+         VCVCVCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="636" start="627">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         64
+        </score>
+        <bits>
+         29.3
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVC
+        </pattern>
+        <matchseq end="625" start="606">
+         VCVCVCVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="602" start="592">
+         VCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="3" start="50">
+         CVCVCVCVCDPNIVSV
+        </queryseq>
+        <pattern>
+         CVCVCVCVC    VSV
+        </pattern>
+        <matchseq end="642" start="627">
+         CVCVCVCVCVCVSVSV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2RMR8" length="557" number="43">
+      <alignments total="4">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         0.092
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="77">
+         HEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         H QH   +LCVCVCVCVC
+        </pattern>
+        <matchseq end="408" start="394">
+         HPQH---SLCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.092
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="9" start="47">
+         VCVCVCVCDPNIV
+        </queryseq>
+        <pattern>
+         VCVCVCVC P ++
+        </pattern>
+        <matchseq end="455" start="443">
+         VCVCVCVCAPELI
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         3.3
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="429" start="409">
+         VCVCACVRVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         3.3
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CV VCVCVCV
+        </pattern>
+        <matchseq end="449" start="440">
+         CVRVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Monodelphis domestica RepID=" id="UniRef100_K7E541" length="459" number="44">
+      <alignments total="12">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         0.092
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL   A +C  +CVCVCVC+
+        </pattern>
+        <matchseq end="325" start="305">
+         LCLCACACVCLCLCVCVCVCL
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.092
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="21" start="53">
+         LCVCVCVCVCD
+        </queryseq>
+        <pattern>
+         +CVC+C+CVCD
+        </pattern>
+        <matchseq end="347" start="337">
+         VCVCLCLCVCD
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         0.92
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         LCL     +C  VCVC+C+C
+        </pattern>
+        <matchseq end="308" start="289">
+         LCLCVCVCLCLCVCVCLCLC
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.92
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVC+C+CV
+        </pattern>
+        <matchseq end="329" start="319">
+         VCVCVCLCLCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL  +  +C  +C+C CVCV
+        </pattern>
+        <matchseq end="279" start="259">
+         LCLCMSVCLCVCLCLCACVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         59
+        </score>
+        <bits>
+         27.3
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="53">
+         LCVCVCVCVC
+        </queryseq>
+        <pattern>
+         LCVCVC+C+C
+        </pattern>
+        <matchseq end="308" start="299">
+         LCVCVCLCLC
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         2.0
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL     +C  VC+C+C CV
+        </pattern>
+        <matchseq end="277" start="257">
+         LCLCLCMSVCLCVCLCLCACV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         59
+        </score>
+        <bits>
+         27.3
+        </bits>
+        <expectation>
+         2.0
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC+C+CVCV
+        </pattern>
+        <matchseq end="321" start="312">
+         CVCLCLCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         5.5
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LC++    +C  +C CVCVC+
+        </pattern>
+        <matchseq end="281" start="261">
+         LCMSVCLCVCLCLCACVCVCL
+        </matchseq>
+       </alignment>
+       <alignment number="10">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         5.5
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C CVC+C+CV
+        </pattern>
+        <matchseq end="319" start="310">
+         CACVCLCLCV
+        </matchseq>
+       </alignment>
+       <alignment number="11">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         9.6
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL     +C SVCVC+C+CV
+        </pattern>
+        <matchseq end="37" start="17">
+         LCLCACLCLCVSVCVCLCLCV
+        </matchseq>
+       </alignment>
+       <alignment number="12">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         9.6
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="67">
+         IYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +YL +CVC+C+CVCV
+        </pattern>
+        <matchseq end="295" start="281">
+         LYLYVCVCLCLCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Monosiga brevicollis RepID=" id="UniRef100_A9UVR3" length="788" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.093
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="92">
+         LLSVSHEQHLFVNLCVCVCVCVC
+        </queryseq>
+        <pattern>
+         L++V+HE H+ V++CVCVCVCVC
+        </pattern>
+        <matchseq end="109" start="88">
+         LVTVNHE-HMCVHVCVCVCVCVC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: hypothetical protein LOC100426959 n=1 Tax=Macaca mulatta RepID=" id="UniRef100_UPI0001D54383" length="241" number="46">
+      <alignments total="9">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         0.095
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+    F+C  VC+CVCVC+
+        </pattern>
+        <matchseq end="89" start="69">
+         VCVCMCVFLCVCVCLCVCVCL
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.095
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="53">
+         LCVCVCVCVC
+        </queryseq>
+        <pattern>
+         LCVCVCVCVC
+        </pattern>
+        <matchseq end="132" start="123">
+         LCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         19
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL     +C S+CVCVCVCV
+        </pattern>
+        <matchseq end="19" start="3">
+         LCLC----VCLSLCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="87">
+         LCLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         LCL     +C  VC+CVCVC
+        </pattern>
+        <matchseq end="120" start="101">
+         LCLCMCLCVCVCVCICVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C+CVCVCVCV
+        </pattern>
+        <matchseq end="59" start="50">
+         CMCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C+CVCVCVCV
+        </pattern>
+        <matchseq end="131" start="122">
+         CLCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.34
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+     +C  VCVC+CVCV
+        </pattern>
+        <matchseq end="99" start="79">
+         VCVCLCVCVCLCVCVCICVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.34
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         C+CVCVCVCV
+        </pattern>
+        <matchseq end="143" start="134">
+         CLCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         7.1
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C++ T  +C  +CVCVCVCV
+        </pattern>
+        <matchseq end="59" start="39">
+         VCVSLTGCLCFCMCVCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GfV-C9-ORF1 n=1 Tax=Glypta fumiferanae ichnovirus RepID=" id="UniRef100_A2PZX5" length="197" number="47">
+      <alignments total="9">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         0.096
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="20" start="55">
+         ICVCVCVCVCVT
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV+
+        </pattern>
+        <matchseq end="90" start="79">
+         VCVCVCVCVCVS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.096
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="84">
+         CLT*TAFICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         C+  +  +C  VCVCVCVC
+        </pattern>
+        <matchseq end="70" start="52">
+         CVRVSVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.21
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="26" start="70">
+         SIYL*ICVCVCVCVC
+        </queryseq>
+        <pattern>
+         S+ + +CVCVCVCVC
+        </pattern>
+        <matchseq end="70" start="56">
+         SVCVCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.21
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="85" start="76">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         1.7
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL+    +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="145" start="125">
+         LCLSLCLCLCPCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         2.4
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="151" start="131">
+         LCLCPCVCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         3.3
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         LCL     +C  VCVCVCVCV
+        </pattern>
+        <matchseq end="149" start="129">
+         LCLCLCPCVCVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         3.4
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         22
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVC------VCVCVCV
+        </queryseq>
+        <pattern>
+         +C++ +  +C SVC      VCVCVCV
+        </pattern>
+        <matchseq end="63" start="37">
+         VCVSVSVCVCVSVCPCVRVSVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         3.4
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVC CVCVCV
+        </pattern>
+        <matchseq end="81" start="72">
+         CVCFCVCVCV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative syntaxin-binding protein 2 (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=" id="UniRef100_L7MDH2" length="161" number="48">
+      <alignments total="13">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         0.097
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="87">
+         LCLT*TAFICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +C+   A +C  VCVCVC+CV
+        </pattern>
+        <matchseq end="116" start="96">
+         VCVLARACVCVCVCVCVCLCV
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.097
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="150" start="141">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="55">
+         ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         +CVCVCVCVCV
+        </pattern>
+        <matchseq end="52" start="42">
+         LCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         66
+        </score>
+        <bits>
+         30.0
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="25" start="63">
+         ICKSVCVCVCVCV
+        </queryseq>
+        <pattern>
+         IC  VCVCVCVCV
+        </pattern>
+        <matchseq end="24" start="12">
+         ICVCVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="5">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="24" start="53">
+         LCVCVCVCVC
+        </queryseq>
+        <pattern>
+         +CVCVCVCVC
+        </pattern>
+        <matchseq end="53" start="44">
+         VCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="6">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="28" start="63">
+         ICKSVCVCVCVC
+        </queryseq>
+        <pattern>
+         +C  VCVCVCVC
+        </pattern>
+        <matchseq end="25" start="14">
+         VCVCVCVCVCVC
+        </matchseq>
+       </alignment>
+       <alignment number="7">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         1.4
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="79">
+         HMNSIYL*ICVCVCVCVCV
+        </queryseq>
+        <pattern>
+         H  S+ + ICVCVCVCVCV
+        </pattern>
+        <matchseq end="22" start="4">
+         HSASLCVCICVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="8">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="23" start="52">
+         CVCVCVCVCV
+        </queryseq>
+        <pattern>
+         CVCVCVCVCV
+        </pattern>
+        <matchseq end="112" start="103">
+         CVCVCVCVCV
+        </matchseq>
+       </alignment>
+       <alignment number="9">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

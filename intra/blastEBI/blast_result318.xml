@@ -1,0 +1,137 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-193514-0073-89844134-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="233" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:35:30+00:00" search="P0Y0M0DT0H0M16.000S" start="2013-11-25T19:35:14+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="1">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8CQ09" length="527" number="1">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="46" start="159">
+         RCLFLQERRLVKRLSCTNKHRCLRKV*FIFVSTFPKHL
+        </queryseq>
+        <pattern>
+         RCL   E+RLVKRLSCTNKHRCLRK  FI +S  PKHL
+        </pattern>
+        <matchseq end="522" start="488">
+         RCL---EKRLVKRLSCTNKHRCLRKAWFISLSILPKHL
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="183" start="233">
+         RRQYLYNDKCLEGCLEK
+        </queryseq>
+        <pattern>
+         RRQYLYN +CLE  L K
+        </pattern>
+        <matchseq end="496" start="480">
+         RRQYLYNGRCLEKRLVK
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         108
+        </score>
+        <bits>
+         46.2
+        </bits>
+        <expectation>
+         5.0E-4
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         66.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="220" start="98">
+         RCLFVQDKRLTKRLSCRNRHRCFKKSRFIFLSTPLSICHCT
+        </queryseq>
+        <pattern>
+         RCL   +KRL KRLSC N+HRC +K+ FI LS      HCT
+        </pattern>
+        <matchseq end="525" start="488">
+         RCL---EKRLVKRLSCTNKHRCLRKAWFISLSILPKHLHCT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

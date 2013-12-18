@@ -1,0 +1,1741 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-180721-0738-7007705-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="93" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:07:34+00:00" search="P0Y0M0DT0H0M12.000S" start="2013-11-25T18:07:22+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="45">
+     <hit database="UR100" description="Protein fluG n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BPE5" length="819" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         5.0E-10
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </pattern>
+        <matchseq end="348" start="319">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein fluG n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7ZP85" length="956" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         146
+        </score>
+        <bits>
+         60.8
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EAIDAVEDIFRRN
+        </pattern>
+        <matchseq end="490" start="461">
+         VYRVLSAACEDGDLSIQEAIDAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Glutamine synthetase I n=1 Tax=Secale cereale x Triticum durum RepID=" id="UniRef100_I7DAG7" length="842" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         144
+        </score>
+        <bits>
+         60.1
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI EAIDAVEDIFRRN
+        </pattern>
+        <matchseq end="375" start="346">
+         VYRVLSAACEDGDLSIREAIDAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Glutamine synthetase (Fragment) n=1 Tax=Saccharum officinarum RepID=" id="UniRef100_Q5MD07" length="590" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="123" start="94">
+         VYRVLSAACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb01g020230 n=1 Tax=Sorghum bicolor RepID=" id="UniRef100_C5WZH7" length="835" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="368" start="339">
+         VYRVLSAACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Os10g0456500 protein n=2 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q0IX96" length="845" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="378" start="349">
+         VYRVLSAACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza glaberrima RepID=" id="UniRef100_I1QV40" length="845" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="378" start="349">
+         VYRVLSAACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8BH89" length="845" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="378" start="349">
+         VYRVLSAACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Glutamine synthetase isoform I (Fragment) n=1 Tax=Secale cereale RepID=" id="UniRef100_H6WCP3" length="560" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         5.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDLSI+EA DAVEDIFRRN
+        </pattern>
+        <matchseq end="93" start="64">
+         VYRVLSAACEDGDLSIQEATDAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_M0XDX5" length="842" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         6.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VY VLSAACEDGDLSI+EAIDAVEDIFRRN
+        </pattern>
+        <matchseq end="375" start="346">
+         VYHVLSAACEDGDLSIQEAIDAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K4A5U1" length="842" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVL+AACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="375" start="346">
+         VYRVLAAACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein fluG n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BIL3" length="956" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VYRVLSAACEDGDL+I+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="516" start="487">
+         VYRVLSAACEDGDLTIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3N347" length="739" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         87.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VY VLSAACEDGDLSI+EA DA+EDIFRRN
+        </pattern>
+        <matchseq end="268" start="239">
+         VYHVLSAACEDGDLSIQEATDAIEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1I4E5" length="842" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         134
+        </score>
+        <bits>
+         56.2
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         87.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VY VLSAACEDGDLSI+EAI+AV+DIFRRN
+        </pattern>
+        <matchseq end="375" start="346">
+         VYHVLSAACEDGDLSIQEAIEAVDDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Glutamine synthetase, putative, expressed n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q337P3" length="825" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="21">
+         AACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         AACEDGDLSI+EAI+AVEDIFRRN
+        </pattern>
+        <matchseq end="358" start="335">
+         AACEDGDLSIQEAIEAVEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0U9X1" length="517" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VLS AC+DGDL++ EA++A EDIFRRN
+        </pattern>
+        <matchseq end="53" start="24">
+         VFSVLSTACDDGDLTLPEALEAAEDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like isoform 2 n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_UPI000234F6AA" length="828" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         88.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="21">
+         AACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         AACEDGDLSI+EAI+AV+DIFRRN
+        </pattern>
+        <matchseq end="361" start="338">
+         AACEDGDLSIQEAIEAVDDIFRRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Nodulin / glutamate-ammonia ligase-like protein n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_Q8W4B7" length="340" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0040
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VLS AC  GDLS+ EAIDA +DIF RN
+        </pattern>
+        <matchseq end="70" start="41">
+         IFLVLSDACASGDLSLMEAIDAAKDIFSRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like isoform X2 n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032A5576" length="835" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VY VL  +C DGDLSI EA++A +DIF RN
+        </pattern>
+        <matchseq end="374" start="345">
+         VYSVLRDSCIDGDLSIPEAVEAAKDIFARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like isoform X1 n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032A7BED" length="837" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         VY VL  +C DGDLSI EA++A +DIF RN
+        </pattern>
+        <matchseq end="374" start="345">
+         VYSVLRDSCIDGDLSIPEAVEAAKDIFARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Vitis vinifera RepID=" id="UniRef100_D7TIU8" length="840" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EA++A EDIF +N
+        </pattern>
+        <matchseq end="371" start="342">
+         VFTVLRDACIDGDLSIPEAVEAAEDIFAKN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like n=1 Tax=Vitis vinifera RepID=" id="UniRef100_UPI0001983EC2" length="843" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EA++A EDIF +N
+        </pattern>
+        <matchseq end="374" start="345">
+         VFTVLRDACIDGDLSIPEAVEAAEDIFAKN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Nodulin / glutamate-ammonia ligase-like protein n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_Q9SCP3" length="845" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VLS AC  GDLS+ EAIDA +DIF RN
+        </pattern>
+        <matchseq end="376" start="347">
+         IFLVLSDACASGDLSLMEAIDAAKDIFSRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Nodulin/glutamine synthase-like protein n=2 Tax=Arabidopsis thaliana RepID=" id="UniRef100_F4J9A0" length="852" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VLS AC  GDLS+ EAIDA +DIF RN
+        </pattern>
+        <matchseq end="383" start="354">
+         IFLVLSDACASGDLSLMEAIDAAKDIFSRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4CRY3" length="847" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         +Y VL  AC  GDLS+ EAIDA +DIF RN
+        </pattern>
+        <matchseq end="378" start="349">
+         IYLVLRDACASGDLSLMEAIDAAKDIFSRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5W5A0" length="816" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         94
+        </score>
+        <bits>
+         40.8
+        </bits>
+        <expectation>
+         0.01
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EAI+A +DIF +N
+        </pattern>
+        <matchseq end="347" start="318">
+         VFSVLCDACADGDLSIPEAIEAAKDIFSQN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7LUF4" length="853" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         92
+        </score>
+        <bits>
+         40.0
+        </bits>
+        <expectation>
+         0.018
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VLS AC  GDLS+ EAIDA +DIF +N
+        </pattern>
+        <matchseq end="384" start="355">
+         IFLVLSDACASGDLSLMEAIDAAKDIFSQN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6THD2" length="86" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DG+LSI EA++A +DI  RN
+        </pattern>
+        <matchseq end="70" start="41">
+         VFSVLHDACIDGELSIPEAVEAAKDILARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1L922" length="836" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.024
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EA++  +DIF RN
+        </pattern>
+        <matchseq end="373" start="344">
+         VFSVLRDACIDGDLSIPEAVEVAKDIFARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Glutamine synthetase n=1 Tax=Camellia sinensis RepID=" id="UniRef100_I6WUR4" length="843" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.025
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EAI+A +DIF  N
+        </pattern>
+        <matchseq end="374" start="345">
+         VFSVLCDACIDGDLSIPEAIEAAKDIFSEN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4D3G9" length="613" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.031
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EAI AV+D+F  N
+        </pattern>
+        <matchseq end="144" start="115">
+         VFSVLRDACVDGDLSIPEAIVAVKDVFAEN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C305A7" length="842" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.033
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EAI+A ++IF +N
+        </pattern>
+        <matchseq end="373" start="344">
+         VFSVLHEACADGDLSIPEAIEAAKNIFSQN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Glycine max RepID=" id="UniRef100_K7LZT0" length="253" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.046
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DG+LSI EA++A +DI  RN
+        </pattern>
+        <matchseq end="238" start="209">
+         VFSVLHDACTDGELSIPEAVEAAKDILARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Nodulin 6l n=2 Tax=Glycine max RepID=" id="UniRef100_Q8S4Q4" length="431" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.12
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  AC DG+LSI EA++A +DI  RN
+        </pattern>
+        <matchseq end="415" start="386">
+         VFSVLHDACIDGELSIPEAVEAAKDILARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=" id="UniRef100_R0HL30" length="847" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.15
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VL  AC  GDL + EAIDA +DIF RN
+        </pattern>
+        <matchseq end="378" start="349">
+         IFLVLRDACASGDLLLMEAIDAAKDIFSRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4EID3" length="817" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.2
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VL  AC  GDLS+ EAIDA +DI  RN
+        </pattern>
+        <matchseq end="348" start="319">
+         IFLVLRDACVSGDLSLMEAIDAAKDILSRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Nodulin 6 n=2 Tax=Medicago truncatula RepID=" id="UniRef100_Q9STA5" length="423" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.3
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  +C DGDL++ EA++  +D+F RN
+        </pattern>
+        <matchseq end="414" start="385">
+         VFTVLRDSCIDGDLTVPEAVEVAKDLFARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_I3SPB0" length="423" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.3
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  +C DGDL++ EA++  +D+F RN
+        </pattern>
+        <matchseq end="414" start="385">
+         VFTVLRDSCIDGDLTVPEAVEVAKDLFARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9MTI4" length="830" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.49
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ VL  AC DGDL++ EAI+A +DIF  N
+        </pattern>
+        <matchseq end="362" start="333">
+         LFSVLRDACIDGDLTLAEAIEAAKDIFALN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like n=3 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B411FD" length="841" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.49
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V  VL  AC DGDLSI EA++AV  +F +N
+        </pattern>
+        <matchseq end="373" start="344">
+         VLSVLRDACIDGDLSISEAVEAVNHMFTQN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4D3H1" length="833" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.66
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="83" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIF
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EA+  V+DIF
+        </pattern>
+        <matchseq end="391" start="365">
+         VFSVLRDACIDGDLSIPEALAVVKDIF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1CQR4" length="847" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.66
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="83" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIF
+        </queryseq>
+        <pattern>
+         V+ VL  AC DGDLSI EA+  V+DIF
+        </pattern>
+        <matchseq end="358" start="332">
+         VFSVLRDACIDGDLSIPEALAVVKDIF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8CX08" length="833" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         ++ V+  AC DGDL I EA+ A +DIF  N
+        </pattern>
+        <matchseq end="365" start="336">
+         MFAVMRDACVDGDLLIPEAVQAAKDIFSEN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein fluG-like n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032ACC13" length="382" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         1.8
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ VL  +C DG+L++ EA++  +D+F RN
+        </pattern>
+        <matchseq end="373" start="344">
+         VFVVLRDSCIDGELTVPEAVEVAKDLFARN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4C459" length="166" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         4.5
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="92" start="3">
+         VYRVLSAACEDGDLSIEEAIDAVEDIFRRN
+        </queryseq>
+        <pattern>
+         V+ +L  A  +GDLSI +A+ AV+DIF  N
+        </pattern>
+        <matchseq end="86" start="57">
+         VFSILRDAMVEGDLSITKAVVAVKDIFSEN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

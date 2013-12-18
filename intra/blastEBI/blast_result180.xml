@@ -1,0 +1,141 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-180548-0097-39575858-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="159" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:06:05+00:00" search="P0Y0M0DT0H0M17.000S" start="2013-11-25T18:05:48+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="2">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8CQ09" length="527" number="1">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         8.0E-7
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="2" start="112">
+         RCLFLQKRRLVKRLPYTNKHQCLKKVWFISLSTYPKH
+        </queryseq>
+        <pattern>
+         RCL   ++RLVKRL  TNKH+CL+K WFISLS  PKH
+        </pattern>
+        <matchseq end="521" start="488">
+         RCL---EKRLVKRLSCTNKHRCLRKAWFISLSILPKH
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.47
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="149" start="72">
+         RRLTKRLFCRNRHRCFRKSRLILLSI
+        </queryseq>
+        <pattern>
+         +RL KRL C N+HRC RK+  I LSI
+        </pattern>
+        <matchseq end="517" start="492">
+         KRLVKRLSCTNKHRCLRKAWFISLSI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Wsv122 n=3 Tax=White spot syndrome virus RepID=" id="UniRef100_Q8VB66" length="61" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         3.5
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="23" start="121">
+         LKHRCLFLQKRRLVKRLPYTNKHQCLKKVWFIS
+        </queryseq>
+        <pattern>
+         L HRCL L+K+ L K L    K+    K+W IS
+        </pattern>
+        <matchseq end="61" start="29">
+         LLHRCLLLKKKNLKKNLKMMKKYTKQMKMWKIS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

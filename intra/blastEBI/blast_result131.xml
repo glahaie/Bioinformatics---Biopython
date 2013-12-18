@@ -1,0 +1,525 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-173536-0686-26591797-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="105" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:35:47+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T17:35:36+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="13">
+     <hit database="UR100" description="Protein CUP-SHAPED COTYLEDON 1 n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7ZGW4" length="198" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         122
+        </score>
+        <bits>
+         51.6
+        </bits>
+        <expectation>
+         4.0E-7
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="2" start="94">
+         QAQQRLQEEGCVVDIKLFSGAVAGEVSA*RY
+        </queryseq>
+        <pattern>
+         +AQQRLQEEGCVVDIKLFSGAVAGE+ +  Y
+        </pattern>
+        <matchseq end="175" start="145">
+         RAQQRLQEEGCVVDIKLFSGAVAGELLSAAY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1MLR1" length="424" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         96.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="20" start="94">
+         QAQQRLQEEGCVVDIKLFSGAVAGE
+        </queryseq>
+        <pattern>
+         +AQQRLQEEGCVVDIKLFSG VAGE
+        </pattern>
+        <matchseq end="424" start="400">
+         KAQQRLQEEGCVVDIKLFSGTVAGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="L-ascorbate oxidase-like protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8B2J0" length="610" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         108
+        </score>
+        <bits>
+         46.2
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         88.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="20" start="91">
+         AQQRLQEEGCVVDIKLFSGAVAGE
+        </queryseq>
+        <pattern>
+         AQQRLQEEGCV+DIKL SG VAGE
+        </pattern>
+        <matchseq end="76" start="53">
+         AQQRLQEEGCVIDIKLISGVVAGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1MU81" length="98" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         7.0E-4
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="20" start="91">
+         AQQRLQEEGCVVDIKLFSGAVAGE
+        </queryseq>
+        <pattern>
+         AQQRLQE+ CVVDIKLFSGAV G+
+        </pattern>
+        <matchseq end="98" start="75">
+         AQQRLQEKCCVVDIKLFSGAVFGK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative glycerophosphoryl diester phosphodiesterase 1 n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8A2L1" length="1368" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         99
+        </score>
+        <bits>
+         42.7
+        </bits>
+        <expectation>
+         0.0030
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="101" start="48">
+         LMSTTQPSSCRRCWACKC
+        </queryseq>
+        <pattern>
+         LMSTTQPSSCRRCWA KC
+        </pattern>
+        <matchseq end="1069" start="1052">
+         LMSTTQPSSCRRCWASKC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7ZX65" length="198" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.0030
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="17" start="94">
+         QAQQRLQEEGCVVDIKLFSGAVAGEV
+        </queryseq>
+        <pattern>
+         Q    LQEEG VVDIKLFSGAVAGEV
+        </pattern>
+        <matchseq end="51" start="26">
+         QPNTSLQEEGFVVDIKLFSGAVAGEV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7WDK8" length="97" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.15
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="29" start="94">
+         QAQQRLQEEGCVVDIKLFSGAV
+        </queryseq>
+        <pattern>
+         QAQQRLQEEGCVVDI   + AV
+        </pattern>
+        <matchseq end="95" start="74">
+         QAQQRLQEEGCVVDINGLNPAV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8C1F3" length="231" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.58
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="47" start="100">
+         HLQAQQRLQEEGCVVDIK
+        </queryseq>
+        <pattern>
+         + +AQQRLQEEGCVVDIK
+        </pattern>
+        <matchseq end="167" start="150">
+         YAEAQQRLQEEGCVVDIK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1LJR8" length="349" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         2.6
+        </expectation>
+        <identity>
+         88.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="50" start="97">
+         LQAQQRLQEEGCVVDI
+        </queryseq>
+        <pattern>
+         ++AQQRLQEEGCVVDI
+        </pattern>
+        <matchseq end="255" start="240">
+         IEAQQRLQEEGCVVDI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative breast carcinoma amplified sequence 2 n=1 Tax=Taeniopygia guttata RepID=" id="UniRef100_B5G471" length="40" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         2.9
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="86">
+         TTSTRRRLCSRHQAIFWRRCRGG
+        </queryseq>
+        <pattern>
+         T +TRRR C R    +WRR RGG
+        </pattern>
+        <matchseq end="33" start="11">
+         TRATRRRACGRRPRRWWRRRRGG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Prunus persica RepID=" id="UniRef100_M5WQF6" length="360" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         4.8
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="104">
+         CALAGPTTSTRRRLCSRHQAIFWRRCRGG
+        </queryseq>
+        <pattern>
+         C  + P T+T +R C+RHQ + W +C  G
+        </pattern>
+        <matchseq end="111" start="83">
+         CRGSVPFTTTEKRKCTRHQLLGWSKCNFG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8A3L6" length="514" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.4
+        </expectation>
+        <identity>
+         88.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="50" start="97">
+         LQAQQRLQEEGCVVDI
+        </queryseq>
+        <pattern>
+         ++AQQRLQEEGCVVDI
+        </pattern>
+        <matchseq end="494" start="479">
+         VKAQQRLQEEGCVVDI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein Tat n=2 Tax=Human immunodeficiency virus type 2 subtype A (isolate KR) RepID=" id="UniRef100_Q74124" length="130" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         9.5
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="77" start="15">
+         LTSPATAPENSLMSTTQPSSC
+        </queryseq>
+        <pattern>
+         + +P+ APE+SLMS  +PSSC
+        </pattern>
+        <matchseq end="21" start="1">
+         METPSKAPESSLMSCNEPSSC
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

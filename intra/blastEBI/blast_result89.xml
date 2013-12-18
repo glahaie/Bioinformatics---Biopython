@@ -1,0 +1,6833 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-165508-0461-6258824-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="107" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:58:22+00:00" search="P0Y0M0DT0H3M14.000S" start="2013-11-25T16:55:08+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Hordeum vulgare var. distichum RepID=M0V180_HORVD" id="UniRef100_M0V180" length="156" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         1.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="144" start="110">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=5 Tax=Triticeae RepID=F2CUW0_HORVD" id="UniRef100_F2CUW0" length="225" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         3.0E-16
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2 n=1 Tax=Brachypodium distachyon RepID=I1IGT5_BRADI" id="UniRef100_I1IGT5" length="225" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         185
+        </score>
+        <bits>
+         75.9
+        </bits>
+        <expectation>
+         8.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Hordeum vulgare subsp. spontaneum RepID=G3EC78_HORVS" id="UniRef100_G3EC78" length="225" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         179
+        </score>
+        <bits>
+         73.6
+        </bits>
+        <expectation>
+         5.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEWHNLV RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWHNLVQRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Hordeum vulgare var. distichum RepID=F2CT56_HORVD" id="UniRef100_F2CT56" length="225" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         179
+        </score>
+        <bits>
+         73.6
+        </bits>
+        <expectation>
+         5.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEWHNLV RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWHNLVQRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like calcium binding protein n=1 Tax=Medicago truncatula RepID=G7IXS6_MEDTR" id="UniRef100_G7IXS6" length="188" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         8.0E-15
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="176" start="142">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=M1C0W2_SOLTU" id="UniRef100_M1C0W2" length="219" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="207" start="173">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like molecule n=2 Tax=Solanum RepID=G5EM34_SOLLC" id="UniRef100_G5EM34" length="219" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="207" start="173">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like calcium binding protein n=1 Tax=Vicia faba RepID=B2ZYT8_VICFA" id="UniRef100_B2ZYT8" length="223" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B n=1 Tax=Pisum sativum RepID=Q8L7F6_PEA" id="UniRef100_Q8L7F6" length="225" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K4AET6_SETIT" id="UniRef100_K4AET6" length="225" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3LQY2_ORYBR" id="UniRef100_J3LQY2" length="225" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 7 n=1 Tax=Hordeum brevisubulatum RepID=H9BE62_9POAL" id="UniRef100_H9BE62" length="225" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=4 Tax=Oryza RepID=CNBL3_ORYSJ" id="UniRef100_Q75LU8" length="225" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Cicer arietinum RepID=UPI00032AC372" id="UniRef100_UPI00032AC372" length="226" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Cicer arietinum RepID=UPI00032AA1F9" id="UniRef100_UPI00032AA1F9" length="226" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Cucumis sativus RepID=UPI0002B4DBC8" id="UniRef100_UPI0002B4DBC8" length="226" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: calcineurin B-like protein 3-like n=1 Tax=Cucumis sativus RepID=UPI0002B4C2C2" id="UniRef100_UPI0002B4C2C2" length="226" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Glycine max RepID=UPI000189DA91" id="UniRef100_UPI000189DA91" length="226" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=M0TZU2_MUSAM" id="UniRef100_M0TZU2" length="226" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=K7MJ94_SOYBN" id="UniRef100_K7MJ94" length="226" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=C6TNN1_SOYBN" id="UniRef100_C6TNN1" length="226" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=C6THE4_SOYBN" id="UniRef100_C6THE4" length="226" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=C6TG22_SOYBN" id="UniRef100_C6TG22" length="226" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Phaseolus vulgaris RepID=B0I559_PHAVU" id="UniRef100_B0I559" length="226" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Phaseolus vulgaris RepID=B0I558_PHAVU" id="UniRef100_B0I558" length="226" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Medicago truncatula RepID=G7ZZV7_MEDTR" id="UniRef100_G7ZZV7" length="227" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="215" start="181">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=M1B524_SOLTU" id="UniRef100_M1B524" length="222" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         175
+        </score>
+        <bits>
+         72.0
+        </bits>
+        <expectation>
+         2.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="210" start="176">
+         DGKIDKEEWRNLVMRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: calcineurin B-like protein 3-like n=1 Tax=Cucumis sativus RepID=UPI0002B4B721" id="UniRef100_UPI0002B4B721" length="223" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         175
+        </score>
+        <bits>
+         72.0
+        </bits>
+        <expectation>
+         2.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRNLVMRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Cucumis sativus RepID=UPI0002B433F1" id="UniRef100_UPI0002B433F1" length="223" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         175
+        </score>
+        <bits>
+         72.0
+        </bits>
+        <expectation>
+         2.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRNLVMRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B, putative n=1 Tax=Ricinus communis RepID=B9SGB5_RICCO" id="UniRef100_B9SGB5" length="224" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         174
+        </score>
+        <bits>
+         71.6
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYL+DITTTF
+        </pattern>
+        <matchseq end="212" start="178">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2 n=3 Tax=Oryza RepID=CNBL2_ORYSJ" id="UniRef100_Q3HRP5" length="225" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         174
+        </score>
+        <bits>
+         71.6
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGRIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Medicago truncatula RepID=B7FN44_MEDTR" id="UniRef100_B7FN44" length="226" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         174
+        </score>
+        <bits>
+         71.6
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYL+DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=2 Tax=Zea mays RepID=B6TBI3_MAIZE" id="UniRef100_B6TBI3" length="236" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         174
+        </score>
+        <bits>
+         71.6
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="224" start="190">
+         DGKIDKEEWRNLVVRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=B8BMT9_ORYSI" id="UniRef100_B8BMT9" length="242" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         174
+        </score>
+        <bits>
+         71.6
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW NLVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="230" start="196">
+         DGRIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Solanum RepID=K4DD22_SOLLC" id="UniRef100_K4DD22" length="224" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         173
+        </score>
+        <bits>
+         71.2
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVL+HPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="212" start="178">
+         DGKIDKEEWRNLVLQHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=C0PAN9_MAIZE" id="UniRef100_C0PAN9" length="175" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         3.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="163" start="129">
+         DGRIDKEEWRNLVIRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=K7LBA3_SOYBN" id="UniRef100_K7LBA3" length="226" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         173
+        </score>
+        <bits>
+         71.2
+        </bits>
+        <expectation>
+         4.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVL+HPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLQHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=K7L409_SOYBN" id="UniRef100_K7L409" length="226" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         173
+        </score>
+        <bits>
+         71.2
+        </bits>
+        <expectation>
+         4.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVL+HPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLQHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2 n=1 Tax=Nicotiana tabacum RepID=M4N8X4_TOBAC" id="UniRef100_M4N8X4" length="219" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="207" start="173">
+         DGKIDKEEWRDLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Populus euphratica RepID=Q008R8_POPEU" id="UniRef100_Q008R8" length="222" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="210" start="176">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2-1 n=1 Tax=Populus trichocarpa RepID=A4ZKI3_POPTR" id="UniRef100_A4ZKI3" length="222" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="210" start="176">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Lilium longiflorum RepID=I1VCB6_LILLO" id="UniRef100_I1VCB6" length="223" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B, putative n=1 Tax=Ricinus communis RepID=B9T1Q9_RICCO" id="UniRef100_B9T1Q9" length="223" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2-2 n=1 Tax=Populus trichocarpa RepID=A4ZKI4_POPTR" id="UniRef100_A4ZKI4" length="223" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Saccharum hybrid cultivar GT28 RepID=S4VUL2_9POAL" id="UniRef100_S4VUL2" length="225" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGRIDKEEWRNLVIRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Zea mays RepID=B4FBZ3_MAIZE" id="UniRef100_B4FBZ3" length="225" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGRIDKEEWRNLVIRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=R0GN49_9BRAS" id="UniRef100_R0GN49" length="226" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Populus euphratica RepID=Q008R6_POPEU" id="UniRef100_Q008R6" length="226" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=M4F3E8_BRARP" id="UniRef100_M4F3E8" length="226" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Lotus japonicus RepID=I3SNC2_LOTJA" id="UniRef100_I3SNC2" length="226" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRDLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=D7ML62_ARALL" id="UniRef100_D7ML62" length="226" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 02 n=1 Tax=Vitis vinifera RepID=A5BYS8_VITVI" id="UniRef100_A5BYS8" length="226" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 03 n=2 Tax=Vitis vinifera RepID=A5AHA7_VITVI" id="UniRef100_A5AHA7" length="226" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Populus trichocarpa RepID=A4ZKJ1_POPTR" id="UniRef100_A4ZKJ1" length="226" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2 n=1 Tax=Arabidopsis thaliana RepID=CNBL2_ARATH" id="UniRef100_Q8LAS7" length="226" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         172
+        </score>
+        <bits>
+         70.9
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1IU58_BRADI" id="UniRef100_I1IU58" length="223" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         171
+        </score>
+        <bits>
+         70.5
+        </bits>
+        <expectation>
+         7.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDREEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDREEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3Z9E2_SETIT" id="UniRef100_K3Z9E2" length="225" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         171
+        </score>
+        <bits>
+         70.5
+        </bits>
+        <expectation>
+         7.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW NLV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGRIDKEEWRNLVVRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Hordeum vulgare subsp. spontaneum RepID=G3EC77_HORVS" id="UniRef100_G3EC77" length="225" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         171
+        </score>
+        <bits>
+         70.5
+        </bits>
+        <expectation>
+         7.0E-14
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEWHNLV R PSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGKIDKEEWHNLVQRRPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein (Fragment) n=1 Tax=Picea sitchensis RepID=E0ZBN8_PICSI" id="UniRef100_E0ZBN8" length="144" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         9.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITT+F
+        </pattern>
+        <matchseq end="132" start="98">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein (Fragment) n=1 Tax=Picea sitchensis RepID=E0ZBN0_PICSI" id="UniRef100_E0ZBN0" length="144" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         9.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITT+F
+        </pattern>
+        <matchseq end="132" start="98">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein (Fragment) n=1 Tax=Picea sitchensis RepID=E0ZBJ7_PICSI" id="UniRef100_E0ZBJ7" length="144" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         9.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITT+F
+        </pattern>
+        <matchseq end="132" start="98">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein (Fragment) n=1 Tax=Picea sitchensis RepID=E0ZBJ4_PICSI" id="UniRef100_E0ZBJ4" length="144" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         9.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITT+F
+        </pattern>
+        <matchseq end="132" start="98">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Lotus japonicus RepID=I3SQU6_LOTJA" id="UniRef100_I3SQU6" length="226" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         170
+        </score>
+        <bits>
+         70.1
+        </bits>
+        <expectation>
+         9.0E-14
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQY +DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYFRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Fragaria vesca subsp. vesca RepID=UPI0002C34718" id="UniRef100_UPI0002C34718" length="226" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein CBL2 n=1 Tax=Pyrus betulifolia RepID=R4TXN6_9ROSA" id="UniRef100_R4TXN6" length="226" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Gossypium hirsutum RepID=Q5D6A6_GOSHI" id="UniRef100_Q5D6A6" length="226" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=M5WJQ8_PRUPE" id="UniRef100_M5WJQ8" length="226" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=M0U9T8_MUSAM" id="UniRef100_M0U9T8" length="226" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=M0SME4_MUSAM" id="UniRef100_M0SME4" length="226" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYL+DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="CBL3 n=1 Tax=Gossypium hirsutum RepID=A8TWY9_GOSHI" id="UniRef100_A8TWY9" length="226" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="CBL2 n=1 Tax=Gossypium hirsutum RepID=A8TWY6_GOSHI" id="UniRef100_A8TWY6" length="226" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         169
+        </score>
+        <bits>
+         69.7
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein (Fragment) n=1 Tax=Picea sitchensis RepID=E0ZGB8_PICSI" id="UniRef100_E0ZGB8" length="197" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITT+F
+        </pattern>
+        <matchseq end="185" start="151">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3Y9X2_SETIT" id="UniRef100_K3Y9X2" length="222" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="210" start="176">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1GUK9_BRADI" id="UniRef100_I1GUK9" length="223" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3NBL5_ORYBR" id="UniRef100_J3NBL5" length="226" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 6 n=3 Tax=Triticeae RepID=M7ZZ33_TRIUA" id="UniRef100_M7ZZ33" length="226" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=3 Tax=Hordeum vulgare RepID=F2CTS1_HORVD" id="UniRef100_F2CTS1" length="226" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="mRNA, clone: RTFL01-05-J14 n=1 Tax=Thellungiella halophila RepID=E4MW51_THEHA" id="UniRef100_E4MW51" length="226" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW  LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRTLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 6 n=3 Tax=Oryza sativa subsp. japonica RepID=CNBL6_ORYSJ" id="UniRef100_Q3HRP1" length="226" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=2 Tax=Camelineae RepID=CNBL3_ARATH" id="UniRef100_Q8LEM7" length="226" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW  LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRTLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 2 of Calcineurin B-like protein 3 n=2 Tax=Arabidopsis RepID=Q8LEM7-2" id="UniRef100_Q8LEM7-2" length="230" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW  LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="218" start="184">
+         DGRIDKEEWRTLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 6 n=1 Tax=Aegilops tauschii RepID=N1R2L0_AEGTA" id="UniRef100_N1R2L0" length="235" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="223" start="189">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=B8BNB2_ORYSI" id="UniRef100_B8BNB2" length="256" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="244" start="210">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=S8D4Y1_9LAMI" id="UniRef100_S8D4Y1" length="224" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         167
+        </score>
+        <bits>
+         68.9
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLKDITT F
+        </pattern>
+        <matchseq end="212" start="178">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLKDITTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 03 n=1 Tax=Sorghum bicolor RepID=C4P7Y6_SORBI" id="UniRef100_C4P7Y6" length="225" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         167
+        </score>
+        <bits>
+         68.9
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGRIDKEEWRSLVIRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2 n=1 Tax=Lilium longiflorum RepID=I3UI90_LILLO" id="UniRef100_I3UI90" length="226" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         167
+        </score>
+        <bits>
+         68.9
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYL DITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLNDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="CBL2 n=1 Tax=Gossypium hirsutum RepID=A8TWZ6_GOSHI" id="UniRef100_A8TWZ6" length="226" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         167
+        </score>
+        <bits>
+         68.9
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGRIDKEEWRSLVIRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2 n=1 Tax=Gossypium hirsutum RepID=Q49I26_GOSHI" id="UniRef100_Q49I26" length="249" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         167
+        </score>
+        <bits>
+         68.9
+        </bits>
+        <expectation>
+         3.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LV+RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="237" start="203">
+         DGRIDKEEWRSLVIRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=M4ECB2_BRARP" id="UniRef100_M4ECB2" length="218" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         165
+        </score>
+        <bits>
+         68.2
+        </bits>
+        <expectation>
+         4.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW  LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="206" start="172">
+         DGRIDKEEWRILVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 2-2 n=1 Tax=Populus euphratica RepID=Q008R7_POPEU" id="UniRef100_Q008R7" length="223" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         165
+        </score>
+        <bits>
+         68.2
+        </bits>
+        <expectation>
+         4.0E-13
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI +EEW +LVLRHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIGKEEWRSLVLRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 3 n=1 Tax=Nicotiana tabacum RepID=M4N6Y7_TOBAC" id="UniRef100_M4N6Y7" length="224" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         164
+        </score>
+        <bits>
+         67.8
+        </bits>
+        <expectation>
+         6.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LV++HPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="212" start="178">
+         DGKIDKEEWSSLVVQHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 6 n=1 Tax=Saccharum hybrid cultivar GT28 RepID=S4VUC3_9POAL" id="UniRef100_S4VUC3" length="223" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         163
+        </score>
+        <bits>
+         67.4
+        </bits>
+        <expectation>
+         8.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=K7TIV7_MAIZE" id="UniRef100_K7TIV7" length="223" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         163
+        </score>
+        <bits>
+         67.4
+        </bits>
+        <expectation>
+         8.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 02 n=1 Tax=Sorghum bicolor RepID=C4P7Y5_SORBI" id="UniRef100_C4P7Y5" length="223" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         163
+        </score>
+        <bits>
+         67.4
+        </bits>
+        <expectation>
+         8.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=2 Tax=Zea mays RepID=B6TXZ0_MAIZE" id="UniRef100_B6TXZ0" length="223" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         163
+        </score>
+        <bits>
+         67.4
+        </bits>
+        <expectation>
+         8.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDKEEWRSLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Zea mays RepID=B6T8N9_MAIZE" id="UniRef100_B6T8N9" length="225" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         163
+        </score>
+        <bits>
+         67.4
+        </bits>
+        <expectation>
+         8.0E-13
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LV RHPSLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="213" start="179">
+         DGRIDKEEWRSLVSRHPSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Genlisea aurea RepID=S8DKK4_9LAMI" id="UniRef100_S8DKK4" length="234" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         163
+        </score>
+        <bits>
+         67.4
+        </bits>
+        <expectation>
+         9.0E-13
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LV++HPSLLKNMTL+YLKDITTTF
+        </pattern>
+        <matchseq end="222" start="188">
+         DGKIDKEEWRSLVMQHPSLLKNMTLEYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein (Fragment) n=1 Tax=Picea sitchensis RepID=E0ZGD5_PICSI" id="UniRef100_E0ZGD5" length="197" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         162
+        </score>
+        <bits>
+         67.0
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTL YLKDITT+F
+        </pattern>
+        <matchseq end="185" start="151">
+         DGKIDKEEWRSLVLRHPSLLKNMTLPYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=D7ML58_ARALL" id="UniRef100_D7ML58" length="211" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         162
+        </score>
+        <bits>
+         67.0
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRH SLLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDKEEWRSLVLRHLSLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Picea sitchensis RepID=A9NLG4_PICSI" id="UniRef100_A9NLG4" length="226" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         162
+        </score>
+        <bits>
+         67.0
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTL YLKDITT+F
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWRSLVLRHPSLLKNMTLPYLKDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Physcomitrella patens RepID=A9REH8_PHYPA" id="UniRef100_A9REH8" length="213" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         160
+        </score>
+        <bits>
+         66.2
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEWH LV +HPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="201" start="167">
+         DGKIDKEEWHTLVQQHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3ZKC0_SETIT" id="UniRef100_K3ZKC0" length="117" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         156
+        </score>
+        <bits>
+         64.7
+        </bits>
+        <expectation>
+         3.0E-12
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEW-HNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW  NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="105" start="70">
+         DGKIDKEEWCRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3ZK73_SETIT" id="UniRef100_K3ZK73" length="141" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         156
+        </score>
+        <bits>
+         64.7
+        </bits>
+        <expectation>
+         5.0E-12
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEW-HNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW  NLVLRHPSLLKNMTL YL+DITTTF
+        </pattern>
+        <matchseq end="129" start="94">
+         DGKIDKEEWCRNLVLRHPSLLKNMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Physcomitrella patens RepID=A9SRH3_PHYPA" id="UniRef100_A9SRH3" length="232" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         156
+        </score>
+        <bits>
+         64.7
+        </bits>
+        <expectation>
+         8.0E-12
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW  LV++HPSLLKNMTL YLKDITTTF
+        </pattern>
+        <matchseq end="220" start="186">
+         DGRIDKEEWRTLVMQHPSLLKNMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Setaria italica RepID=UPI0003511F96" id="UniRef100_UPI0003511F96" length="223" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         155
+        </score>
+        <bits>
+         64.3
+        </bits>
+        <expectation>
+         1.0E-11
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID EEWH+LV+ HPSLLKNMTL YLKDIT TF
+        </pattern>
+        <matchseq end="211" start="177">
+         DGKIDFEEWHSLVMAHPSLLKNMTLTYLKDITMTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: calcineurin B-like protein 2-like n=1 Tax=Glycine max RepID=UPI000233ABDE" id="UniRef100_UPI000233ABDE" length="205" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         154
+        </score>
+        <bits>
+         63.9
+        </bits>
+        <expectation>
+         1.0E-11
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVL+HPSLLKNMTL Y K ITTTF
+        </pattern>
+        <matchseq end="193" start="159">
+         DGKIDKEEWLNLVLQHPSLLKNMTLHYFKGITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Physcomitrella patens RepID=A9RTQ5_PHYPA" id="UniRef100_A9RTQ5" length="213" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         153
+        </score>
+        <bits>
+         63.5
+        </bits>
+        <expectation>
+         2.0E-11
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID +EW +LVLRHPSL+KNMTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGRIDLDEWKSLVLRHPSLMKNMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=R0GKJ9_9BRAS" id="UniRef100_R0GKJ9" length="226" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         152
+        </score>
+        <bits>
+         63.2
+        </bits>
+        <expectation>
+         3.0E-11
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLL+NM+LQ+LKD+T TF
+        </pattern>
+        <matchseq end="208" start="174">
+         DGKIDKEEWRSLVLRHPSLLQNMSLQHLKDVTKTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=D7M9W4_ARALL" id="UniRef100_D7M9W4" length="226" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         152
+        </score>
+        <bits>
+         63.2
+        </bits>
+        <expectation>
+         3.0E-11
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLL+NM+LQ+LKD+T TF
+        </pattern>
+        <matchseq end="208" start="174">
+         DGKIDKEEWRSLVLRHPSLLQNMSLQHLKDVTKTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 6 n=1 Tax=Arabidopsis thaliana RepID=CNBL6_ARATH" id="UniRef100_Q9C5P6" length="226" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         152
+        </score>
+        <bits>
+         63.2
+        </bits>
+        <expectation>
+         3.0E-11
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLL+NM+LQ+LKD+T TF
+        </pattern>
+        <matchseq end="208" start="174">
+         DGKIDKEEWRSLVLRHPSLLQNMSLQHLKDVTKTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=D5AA25_PICSI" id="UniRef100_D5AA25" length="97" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         3.0E-11
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+IDREEW  LVLR+PSLLKNMTL YLK+ITT F
+        </pattern>
+        <matchseq end="83" start="49">
+         DGRIDREEWRELVLRNPSLLKNMTLPYLKNITTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 3-like n=1 Tax=Cicer arietinum RepID=UPI00032AD14F" id="UniRef100_UPI00032AD14F" length="228" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         151
+        </score>
+        <bits>
+         62.8
+        </bits>
+        <expectation>
+         4.0E-11
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LV++HPSLLKNMTL YL +ITTTF
+        </pattern>
+        <matchseq end="216" start="182">
+         DGKIDKEEWQSLVMQHPSLLKNMTLHYLTEITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 7 n=1 Tax=Arabidopsis thaliana RepID=CNBL7_ARATH" id="UniRef100_Q9SUA6" length="214" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         9.0E-11
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         +G ID EEW +LV RHP LLKNMTLQYLKDITTTF
+        </pattern>
+        <matchseq end="202" start="168">
+         EGMIDEEEWMDLVFRHPLLLKNMTLQYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=D8TAA6_SELML" id="UniRef100_D8TAA6" length="226" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         1.0E-10
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG ID EEW NLV +HPSLLKNM+L YLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGMIDEEEWSNLVQKHPSLLKNMSLLYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 02 n=1 Tax=Selaginella moellendorffii RepID=C4P7X7_SELML" id="UniRef100_C4P7X7" length="226" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         1.0E-10
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG ID EEW NLV +HPSLLKNM+L YLKDITTTF
+        </pattern>
+        <matchseq end="214" start="180">
+         DGMIDEEEWSNLVQKHPSLLKNMSLLYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 03 n=1 Tax=Selaginella moellendorffii RepID=C4P7X8_SELML" id="UniRef100_C4P7X8" length="231" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         1.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID++EW +LV  HPSLLKNM L YLKDITTTF
+        </pattern>
+        <matchseq end="219" start="185">
+         DGKIDKDEWRSLVQHHPSLLKNMNLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=D8RY34_SELML" id="UniRef100_D8RY34" length="232" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         1.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID++EW +LV  HPSLLKNM L YLKDITTTF
+        </pattern>
+        <matchseq end="220" start="186">
+         DGKIDKDEWRSLVQHHPSLLKNMNLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=A9NNE2_PICSI" id="UniRef100_A9NNE2" length="226" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         3.0E-10
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW  L LRHP LLKNM+L YL+DITT+F
+        </pattern>
+        <matchseq end="214" start="180">
+         DGKIDKEEWKTLALRHPQLLKNMSLPYLRDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 01 n=1 Tax=Selaginella moellendorffii RepID=C4P7X6_SELML" id="UniRef100_C4P7X6" length="212" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         144
+        </score>
+        <bits>
+         60.1
+        </bits>
+        <expectation>
+         3.0E-10
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         D +ID+EEW N VLR+PSL+KNMTL YLKDITT F
+        </pattern>
+        <matchseq end="199" start="165">
+         DSRIDKEEWQNFVLRNPSLMKNMTLPYLKDITTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 06 isoform 1 n=1 Tax=Vitis vinifera RepID=UPI0001982ED2" id="UniRef100_UPI0001982ED2" length="249" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         3.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YLKDITT F
+        </pattern>
+        <matchseq end="238" start="204">
+         DGKINKEEWKAFVLRHPNLLKNMTLPYLKDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 9 n=1 Tax=Aegilops tauschii RepID=M8BUW5_AEGTA" id="UniRef100_M8BUW5" length="177" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         4.0E-10
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI +EEW   VLRHP+LLKNMTL YL+DITT+F
+        </pattern>
+        <matchseq end="166" start="132">
+         DGKISQEEWKEFVLRHPNLLKNMTLPYLRDITTSF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Vitis vinifera RepID=D7STN6_VITVI" id="UniRef100_D7STN6" length="258" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         4.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YLKDITT F
+        </pattern>
+        <matchseq end="247" start="213">
+         DGKINKEEWKAFVLRHPNLLKNMTLPYLKDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Triticum urartu RepID=M7YG44_TRIUA" id="UniRef100_M7YG44" length="215" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         5.0E-10
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="201" start="167">
+         DGKIDRTEWENFVSRNPSLLKIMTLSYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=K4B5H7_SOLLC" id="UniRef100_K4B5H7" length="219" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         5.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLR+PSLLKNMTL +L DITT F
+        </pattern>
+        <matchseq end="208" start="174">
+         DGKIDKEEWRSLVLRNPSLLKNMTLPFLTDITTMF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=M1DGG7_SOLTU" id="UniRef100_M1DGG7" length="224" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         5.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLR+PSLL+NMTL YL DITT F
+        </pattern>
+        <matchseq end="208" start="174">
+         DGKIDKEEWRSLVLRNPSLLQNMTLPYLTDITTMF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=K7VCC1_MAIZE" id="UniRef100_K7VCC1" length="143" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         6.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="129" start="95">
+         DGKIDRTEWENFVTRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Brachypodium distachyon RepID=I1HAY2_BRADI" id="UniRef100_I1HAY2" length="212" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         6.0E-10
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="198" start="164">
+         DGKIDRAEWENFVSRNPSLLKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=D7M9B5_ARALL" id="UniRef100_D7M9B5" length="240" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         8.0E-10
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VL+HPSLLKNMTL YLKD+TT F
+        </pattern>
+        <matchseq end="229" start="195">
+         DGKINKEEWKVYVLKHPSLLKNMTLPYLKDVTTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=M5XDL0_PRUPE" id="UniRef100_M5XDL0" length="212" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+ID+EEW   VL+HPSL+KNMTL YLKDIT  F
+        </pattern>
+        <matchseq end="198" start="164">
+         DGRIDQEEWREFVLKHPSLIKNMTLPYLKDITLAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Saccharum hybrid cultivar GT28 RepID=S4VN72_9POAL" id="UniRef100_S4VN72" length="213" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDRTEWENFVTRNPSLMKVMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="CBL1 (Fragment) n=1 Tax=Setaria italica RepID=M4M6V6_SETIT" id="UniRef100_M4M6V6" length="213" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDRAEWENFVTRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 01 n=2 Tax=Andropogoneae RepID=C4P7Y0_SORBI" id="UniRef100_C4P7Y0" length="213" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDRTEWENFVTRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 9 n=2 Tax=Zea mays RepID=B6T6B2_MAIZE" id="UniRef100_B6T6B2" length="213" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDRTEWENFVTRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Zea mays RepID=B4F9B4_MAIZE" id="UniRef100_B4F9B4" length="213" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDRTEWENFVTRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=M4EJI3_BRARP" id="UniRef100_M4EJI3" length="220" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="88" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLK
+        </queryseq>
+        <pattern>
+         DGKID+EEW +LVLRHPSLLKNMTLQYLK
+        </pattern>
+        <matchseq end="220" start="192">
+         DGKIDKEEWRSLVLRHPSLLKNMTLQYLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 06 n=1 Tax=Vitis vinifera RepID=C4P7Z3_VITVI" id="UniRef100_C4P7Z3" length="367" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YLKDITT F
+        </pattern>
+        <matchseq end="356" start="322">
+         DGKINKEEWKAFVLRHPNLLKNMTLPYLKDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=M0SJQ1_MUSAM" id="UniRef100_M0SJQ1" length="264" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         D KI+REEW + V+RHP+LLKNMTL YLKDITT F
+        </pattern>
+        <matchseq end="253" start="219">
+         DDKINREEWKDFVIRHPNLLKNMTLPYLKDITTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 9 n=1 Tax=Hordeum brevisubulatum RepID=H9BE63_9POAL" id="UniRef100_H9BE63" length="212" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="198" start="164">
+         DGKIDRAEWENFVSRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3NEP5_ORYBR" id="UniRef100_J3NEP5" length="550" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         146
+        </score>
+        <bits>
+         60.8
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="88" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLK
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTLQYLK
+        </pattern>
+        <matchseq end="534" start="506">
+         DGKIDKEEWRNLVLRHPSLLKNMTLQYLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Triticum urartu RepID=M7Z7W5_TRIUA" id="UniRef100_M7Z7W5" length="215" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="201" start="167">
+         DGKIDRAEWENFVSRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Hordeum vulgare var. distichum RepID=F2EJT5_HORVD" id="UniRef100_F2EJT5" length="217" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="203" start="169">
+         DGKIDRAEWENFVSRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative calcineurin n=1 Tax=Oryza sativa subsp. japonica RepID=Q9AY39_ORYSJ" id="UniRef100_Q9AY39" length="161" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+IDR EW N V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="147" start="113">
+         DGRIDRTEWENFVSRNPSLLKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Aegilops tauschii RepID=M8CHR4_AEGTA" id="UniRef100_M8CHR4" length="227" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V R+PSL+K MTL YLKDITTTF
+        </pattern>
+        <matchseq end="202" start="168">
+         DGKIDRAEWENFVSRNPSLMKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3XK56_SETIT" id="UniRef100_K3XK56" length="318" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="306" start="272">
+         DGKINQEEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3XK46_SETIT" id="UniRef100_K3XK46" length="319" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="307" start="273">
+         DGKINQEEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 9-like isoform X4 n=1 Tax=Setaria italica RepID=UPI000350C8A8" id="UniRef100_UPI000350C8A8" length="320" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="308" start="274">
+         DGKINQEEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza glaberrima RepID=I1R4B1_ORYGL" id="UniRef100_I1R4B1" length="293" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="103" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTT
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+ +  T
+        </pattern>
+        <matchseq end="281" start="248">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLRSLLLT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3N4Z6_ORYBR" id="UniRef100_J3N4Z6" length="213" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+IDR EW N V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGRIDRTEWENFVSRNPSLLKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=4 Tax=Oryza RepID=CNBL1_ORYSJ" id="UniRef100_Q7XC27" length="213" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DG+IDR EW N V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGRIDRTEWENFVSRNPSLLKIMTLPYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=M4F0E9_BRARP" id="UniRef100_M4F0E9" length="246" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI +EEW   VL HPSLLKNMTL YLKD+TT F
+        </pattern>
+        <matchseq end="235" start="201">
+         DGKISKEEWRVYVLEHPSLLKNMTLPYLKDVTTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 07 n=1 Tax=Sorghum bicolor RepID=C4P7Y1_SORBI" id="UniRef100_C4P7Y1" length="319" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW   VLRHP+LLKNMTL YL+D+TT F
+        </pattern>
+        <matchseq end="308" start="274">
+         DGKINQEEWKEFVLRHPNLLKNMTLPYLRDVTTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Brachypodium distachyon RepID=I1HNT9_BRADI" id="UniRef100_I1HNT9" length="322" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI +EEW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="311" start="277">
+         DGKISQEEWKEFVLRHPNLLKNMTLPYLRDITTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B, putative n=1 Tax=Ricinus communis RepID=B9RUQ7_RICCO" id="UniRef100_B9RUQ7" length="143" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW N V ++PSLLK MTL YL+DITTTF
+        </pattern>
+        <matchseq end="129" start="95">
+         DGKIDRSEWKNFVCKNPSLLKIMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza sativa subsp. japonica RepID=A2ZUP5_ORYSJ" id="UniRef100_A2ZUP5" length="263" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI+++EW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="252" start="218">
+         DGKINQQEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=M4D4K0_BRARP" id="UniRef100_M4D4K0" length="211" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI +EEW   VL+HP+LLKNMTL YLKD+TT F
+        </pattern>
+        <matchseq end="200" start="166">
+         DGKISKEEWKVYVLKHPTLLKNMTLPYLKDVTTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Populus trichocarpa RepID=A4ZKI2_POPTR" id="UniRef100_A4ZKI2" length="213" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+ EW N V R+PSLLK MTL YL+DITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDKSEWENFVCRNPSLLKIMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Populus euphratica RepID=A1XCM9_POPEU" id="UniRef100_A1XCM9" length="213" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+ EW N V R+PSLLK MTL YL+DITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDKSEWENFVCRNPSLLKIMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1I693_BRADI" id="UniRef100_I1I693" length="214" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW + V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="200" start="166">
+         DGKIDRAEWESFVSRNPSLLKIMTLSYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Hordeum brevisubulatum RepID=G8G3E1_9POAL" id="UniRef100_G8G3E1" length="215" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDR EW + V R+PSLLK MTL YLKDITTTF
+        </pattern>
+        <matchseq end="201" start="167">
+         DGKIDRTEWEDFVSRNPSLLKIMTLSYLKDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1I9Q2_BRADI" id="UniRef100_I1I9Q2" length="222" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID +EW NLV  HPSLLKNMTL YL+D+T TF
+        </pattern>
+        <matchseq end="210" start="176">
+         DGKIDIDEWRNLVNVHPSLLKNMTLTYLRDVTMTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=B4FIL0_MAIZE" id="UniRef100_B4FIL0" length="289" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW    LRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="278" start="244">
+         DGKINKEEWKEFALRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 9 n=2 Tax=Oryza sativa subsp. japonica RepID=CNBL9_ORYSJ" id="UniRef100_Q3HRN8" length="290" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI+++EW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="279" start="245">
+         DGKINQQEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=M0V5X7_HORVD" id="UniRef100_M0V5X7" length="209" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="88" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLK
+        </queryseq>
+        <pattern>
+         DGKID+EEW NLVLRHPSLLKNMTL YL+
+        </pattern>
+        <matchseq end="208" start="180">
+         DGKIDKEEWRNLVLRHPSLLKNMTLPYLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B, putative n=1 Tax=Ricinus communis RepID=B9RCU5_RICCO" id="UniRef100_B9RCU5" length="210" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID EEW   V R+PSLLKNMT+ YLKDITT F
+        </pattern>
+        <matchseq end="196" start="162">
+         DGKIDLEEWSEFVTRNPSLLKNMTIPYLKDITTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Medicago truncatula RepID=A2Q5H6_MEDTR" id="UniRef100_A2Q5H6" length="238" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EE++NL LRHPSLLKNM+L YL +ITT F
+        </pattern>
+        <matchseq end="219" start="185">
+         DGKIDKEEFYNLALRHPSLLKNMSLLYLTEITTKF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3L1B3_ORYBR" id="UniRef100_J3L1B3" length="293" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI+++EW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="282" start="248">
+         DGKINQQEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Zea mays RepID=C3TRS4_MAIZE" id="UniRef100_C3TRS4" length="293" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW    LRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="282" start="248">
+         DGKINKEEWKEFALRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 10 n=1 Tax=Zea mays RepID=B6T9V3_MAIZE" id="UniRef100_B6T9V3" length="293" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW    LRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="282" start="248">
+         DGKINKEEWKEFALRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein 1 n=1 Tax=Lilium longiflorum RepID=K0H7B3_LILLO" id="UniRef100_K0H7B3" length="213" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+ EW N V R+PSLLK MTL YL+DITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDKTEWENFVSRNPSLLKIMTLSYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=A2WRR1_ORYSI" id="UniRef100_A2WRR1" length="295" number="171">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI+++EW   VLRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="284" start="250">
+         DGKINQQEWKEFVLRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Capsella rubella RepID=R0GLR7_9BRAS" id="UniRef100_R0GLR7" length="241" number="172">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI ++EW   VL+HPSLLKNMTL YLKD+TT F
+        </pattern>
+        <matchseq end="230" start="196">
+         DGKISKDEWKVYVLKHPSLLKNMTLPYLKDVTTAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=K4C6S8_SOLLC" id="UniRef100_K4C6S8" length="215" number="173">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+ EWH  V R+PSLLK MTL YL+DITTTF
+        </pattern>
+        <matchseq end="199" start="165">
+         DGKIDKSEWHEFVGRNPSLLKIMTLPYLRDITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: calcineurin B-like protein 7-like n=1 Tax=Fragaria vesca subsp. vesca RepID=UPI0002C346AC" id="UniRef100_UPI0002C346AC" length="217" number="174">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW   V +HPSL+KNMTL YLKDIT  F
+        </pattern>
+        <matchseq end="206" start="172">
+         DGKIDQEEWKEYVAKHPSLIKNMTLPYLKDITIAF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=M5WEQ8_PRUPE" id="UniRef100_M5WEQ8" length="218" number="175">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKID+EEW   V +HPSL+KNMTL YLKDIT  F
+        </pattern>
+        <matchseq end="207" start="173">
+         DGKIDQEEWKEFVAKHPSLIKNMTLPYLKDITIQF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=1 Tax=Medicago truncatula RepID=A2Q310_MEDTR" id="UniRef100_A2Q310" length="229" number="176">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDREEW NL ++  SLLKNMTL YL +ITTTF
+        </pattern>
+        <matchseq end="217" start="183">
+         DGKIDREEWKNLAMQQTSLLKNMTLPYLTEITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Calcineurin B-like protein n=2 Tax=Medicago truncatula RepID=A2Q304_MEDTR" id="UniRef100_A2Q304" length="229" number="177">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKIDREEW NL ++  SLLKNMTL YL +ITTTF
+        </pattern>
+        <matchseq end="217" start="183">
+         DGKIDREEWKNLAMQQTSLLKNMTLPYLTEITTTF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=B4FGS6_MAIZE" id="UniRef100_B4FGS6" length="320" number="178">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLKDITTTF
+        </queryseq>
+        <pattern>
+         DGKI++EEW    LRHP+LLKNMTL YL+DITT F
+        </pattern>
+        <matchseq end="309" start="275">
+         DGKINKEEWKEFALRHPNLLKNMTLPYLRDITTVF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=S8DJK2_9LAMI" id="UniRef100_S8DJK2" length="208" number="179">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         136
+        </score>
+        <bits>
+         57.0
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="88" start="2">
+         DGKIDREEWHNLVLRHPSLLKNMTLQYLK
+        </queryseq>
+        <pattern>
+         DG+ID+EEW +LV+RHPSLLKNMTLQYLK
+        </pattern>
+        <matchseq end="208" start="180">
+         DGRIDKEEWRSLVMRHPSLLKNMTLQYLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

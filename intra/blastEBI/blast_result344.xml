@@ -1,0 +1,611 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-194847-0637-60363288-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="153" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:49:06+00:00" search="P0Y0M0DT0H0M19.000S" start="2013-11-25T19:48:47+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="9">
+     <hit database="UR100" description="Cysteine synthase n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8B455" length="376" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0080
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="5">
+         LDVLNYSLRSELLVQEMNVSRCILVVDTSIFIHF
+        </queryseq>
+        <pattern>
+         +++++YS+R E+LV EM VSR ILV+DTSI  +F
+        </pattern>
+        <matchseq end="376" start="343">
+         IELVSYSIRLEILVLEMIVSRLILVIDTSILFNF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Peroxisome assembly protein 12 n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8B5C8" length="364" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.01
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="2">
+         TLDVLNYSLRSELLVQEMNVSRCILVVDTSI
+        </queryseq>
+        <pattern>
+         +L    YSLRSELLV EM+VSR ILV+DTSI
+        </pattern>
+        <matchseq end="97" start="67">
+         SLRTTGYSLRSELLVAEMDVSRRILVLDTSI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Cysteine-rich receptor-like protein kinase 41 n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BJR6" length="1056" number="3">
+      <alignments total="4">
+       <alignment number="1">
+        <score>
+         92
+        </score>
+        <bits>
+         40.0
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         YSLRSELLVQEMNVSRCILVVDTSI
+        </queryseq>
+        <pattern>
+         YSLRSELLV EM+VSR IL++DTSI
+        </pattern>
+        <matchseq end="998" start="974">
+         YSLRSELLVAEMDVSRRILILDTSI
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         50
+        </score>
+        <bits>
+         23.9
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="137" start="99">
+         SIFVTSNSERREY
+        </queryseq>
+        <pattern>
+         SI  TSNSERREY
+        </pattern>
+        <matchseq end="1009" start="997">
+         SISETSNSERREY
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="22" start="96">
+         KMDVSTTKIHLDTFISWTSNSERRE
+        </queryseq>
+        <pattern>
+         +MDVS   + LDT IS TSNSERRE
+        </pattern>
+        <matchseq end="1008" start="984">
+         EMDVSRRILILDTSISETSNSERRE
+        </matchseq>
+       </alignment>
+       <alignment number="4">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         1.1
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="98" start="136">
+         YSLRSELLVTKMD
+        </queryseq>
+        <pattern>
+         YSLRSELLV +MD
+        </pattern>
+        <matchseq end="986" start="974">
+         YSLRSELLVAEMD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_F2DGX7" length="378" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.035
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="66" start="137">
+         VLPPFGITCHKNG*KWMYLQLKYI
+        </queryseq>
+        <pattern>
+         VLPP  ITC KNG KWM L+LKY+
+        </pattern>
+        <matchseq end="378" start="355">
+         VLPPSRITCPKNGYKWMCLELKYV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BPB9" length="497" number="5">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.2
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         YSLRSELLVQEMNVSRCILVVDTSI
+        </queryseq>
+        <pattern>
+         Y LRSELLV EM+VSR ILV+ TSI
+        </pattern>
+        <matchseq end="432" start="408">
+         YPLRSELLVAEMDVSRRILVLHTSI
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         50
+        </score>
+        <bits>
+         23.9
+        </bits>
+        <expectation>
+         0.2
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="137" start="99">
+         SIFVTSNSERREY
+        </queryseq>
+        <pattern>
+         SI  TSNSERREY
+        </pattern>
+        <matchseq end="443" start="431">
+         SISETSNSERREY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative lipid phosphate phosphatase 3, chloroplastic n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7Z3R4" length="394" number="6">
+      <alignments total="3">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         4.2
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         YSLRSELLVQEMNVSRCILVVDTSI
+        </queryseq>
+        <pattern>
+         YSLRSELLV  M+VSR  + +DTSI
+        </pattern>
+        <matchseq end="310" start="286">
+         YSLRSELLVSNMDVSRTKIHLDTSI
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         9.1
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="43" start="93">
+         MDVSTTKIHLDTFISWT
+        </queryseq>
+        <pattern>
+         MDVS TKIHLDT IS T
+        </pattern>
+        <matchseq end="313" start="297">
+         MDVSRTKIHLDTSISAT
+        </matchseq>
+       </alignment>
+       <alignment number="3">
+        <score>
+         53
+        </score>
+        <bits>
+         25.0
+        </bits>
+        <expectation>
+         9.1
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="98" start="136">
+         YSLRSELLVTKMD
+        </queryseq>
+        <pattern>
+         YSLRSELLV+ MD
+        </pattern>
+        <matchseq end="298" start="286">
+         YSLRSELLVSNMD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BHG5" length="90" number="7">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         4.3
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="74" start="15">
+         STTPSVRNYSSKK*MYLDVF
+        </queryseq>
+        <pattern>
+         S TPSVR Y S+K MYLDVF
+        </pattern>
+        <matchseq end="90" start="71">
+         SYTPSVRKYLSEKWMYLDVF
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         6.2
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="85" start="135">
+         TPSVRNYLSQKWIKMDV
+        </queryseq>
+        <pattern>
+         TPSVR YLS+KW+ +DV
+        </pattern>
+        <matchseq end="89" start="73">
+         TPSVRKYLSEKWMYLDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative palmitoyltransferase ZDHHC16 n=1 Tax=Acromyrmex echinatior RepID=" id="UniRef100_F4X071" length="365" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         7.6
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="43" start="141">
+         TCTPSV-RNYLSQKWIKMDVSTTKIHLDTFISWT
+        </queryseq>
+        <pattern>
+         T TPS+ RN L QKW ++ +S   +  + F+SW+
+        </pattern>
+        <matchseq end="42" start="9">
+         TKTPSILRNSLKQKWWRLQISIKSLFYNDFLSWS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W5L4" length="934" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         9.1
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="83" start="136">
+         YSLRSELLVTKMDKNGCI
+        </queryseq>
+        <pattern>
+         YSLR E+LV KMDK GCI
+        </pattern>
+        <matchseq end="934" start="917">
+         YSLRPEILVIKMDKKGCI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>
