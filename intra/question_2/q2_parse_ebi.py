@@ -43,34 +43,3 @@ with open("resultatNBCI.txt", "r") as ncbi:
                         result_file.write(contig_no + "\t" + hit['id'] +  "\n")
                         break
 result_file.close()
-#                i +=1
-                #print(str(hit['number']) + " : " + hit["id"])
-                #sys.stdout.write("\tscore: " + str(hit.find('bits').contents[0].strip()))
-                #sys.stdout.write("\texpectation:" + str(hit.find('expectation').contents[0].strip()))
-                #sys.stdout.write("\n\tidentity: " + str(hit.find('identity').contents[0].strip()))
-                #sys.stdout.write("\talignment #: " + str(hit.find('alignment')['number']))
-                #sys.stdout.write("\tbits: " + str(hit.find('bits').contents[0].strip()) + "\n")
-                #if(i > 10):
-                    #break
-            #while True:
-                #choix = raw_input("\n\nChoisir le hit à retenir:  ")
-                #match = re.search(r'\d+', choix)
-                #if match is None:
-                    #print("ERREUR")
-                #else:
-                    #break
-            #choix = int(choix)
-            #for hit in temp2:
-                #if int(hit['number']) is choix:
-                    #print "choix = " + str(choix)
-                    #print "uniref = " + hit['id']
-                    #resultat.update({contig_no:hit['id']})
-                    #break
-    #j += 1
-
-##On écrit les résultats dans un fichier
-#with open("resultatEBI.txt", 'w') as r:
-    #for k, v in resultat.iteritems():
-        #r.write(str(k)+"\t"+str(v)+"\n")
-
-
