@@ -36,6 +36,7 @@
 \usepackage{appendix}
 \usepackage{graphicx} % Required for including pictures
 \usepackage{listings}
+\usepackage{seqsplit}
 
 \usepackage[left=2.2cm,top=2.2cm,right=2.2cm,bottom=2.2cm,nohead]{geometry} % Required to change the page size to A4
 \geometry{letterpaper} % Set the page size to be A4 as opposed to the default US Letter
@@ -79,6 +80,7 @@
 
 \begin{document}
 \selectlanguage{french}
+\fussy
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -317,23 +319,52 @@ la séquence représentée est seulement une partie de la séquence représentat
 Uniref. Il serait possible de convertir l'identifiant uniref en identifiant Uniprot afin d'obtenir la séquence complète.
 
 
+Voici le tableau des contigs qui coderaient pour des protéines:
+
+\input{question_3/contigs_q3.tex}
+
 
 
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
 %----------------------------------------------------------------------------------------
 
-\section{Question 4} % Major section
+\section{Groupez ces contigs par gènes. Présentez un table des gènes obtenus et des contigs
+associés} % Major section
 
-\subsection[Alignement multiple]{Alignez ces CDS en utilisant ClustalW, dialign et Mavid}
+Comme nous avons identifié les protéines que les contigs pourraient coder à la question 
+précédente, nous alons partir de cette information pour identifier les gènes.
 
+Une première approche est d'obtenir les informations de concernant la séquence représentative
+du cluster Uniref identifié à la question précédente. Cela Nous permettra d'identifier le
+gène qui produit cette protéine. Ensuite, nous pourrons tenter de regrouper les contigs
+par gènes
 
-\subsection[Facilité et rapidité des programmes]{Discutez de la performance en terme de facilité
-d'utilisation et de rapidité des différents programmes.}
+Pour obtenir les informations des séquences représentatives, j'ai utilisé le module bioservices
+de python, dans le script q4\_prot.py. Une première analyse sommaire nous permet de voir que
+seulement cinq des contigs font parties des mêmes clusters de protéines. De plus, En cherchant dans
+les fichiers obtenus, seulement 6 des résultats on des références vers Unigene. Donc il n'est
+pas possible d'utiliser cette ressource pour identifier les gènes.
 
-\subsection[Qualité des alignements]{Analysez et discutez de la qualité de l'alignement donné par chaque méthode.}
+J'ai ensuite regardé combien des fichiers ont des balises gènes. 47 des fichiers ont ces balises, je
+vais donc utiliser cette information pour regrouper les contigs. Pour les 23 autres fichiers, je vais
+effectuer un tblastn sur la séquence protéique contenue dans le fichier pour tenter d'identifier un
+gène relié à ces protéines.
 
-\subsection[Meilleur alignement]{Quel est votre meilleur alignement? Justifiez votre choix.}
+Pour extraires l'information des balises gènes des 47 fichiers où elle est disponible, j'ai utilisé le
+script q4\_genes.py. En examinant les 23 fichiers restant, j'ai remarqué que la majorité des protéines
+identifiées avaient des informations concernant le gène qui y est relié, mais dans une balise différente.
+Par exemple, la plupart avait une référence vers la base de données EnsemblPlants \cite{ENSEMBL}, dans le même format
+que ceux identifiés auparavant. J'ai donc ajouté cette information au fichier de résultat. Dans d'autres
+cas, les fichiers contenaient une référence vers unigene, dans ces cas, j'ai gardé aussi cette information.
+
+Finalement, pour le autres fichiers, j'ai utilisé la référence NCBI du fichier pour identifier le gène. J'ai aussi
+insérer ces informations dans le fichier des résultats.
+
+En regardant le type de gène identifié pour la plupart des résultats, il semble s'agir de données prédites par logiciel.
+En effet, pour la plupart des gènes sont de type ORF (Open Reading Frame), un outil utilisé pour la prédiction de gènes.
+Donc, l'information à propos de ces gènes est incomplète.
+
 
 \begingroup
 \renewcommand{\appendix}{%
@@ -702,487 +733,6 @@ Contig & Taille & Taux GC & Contig & Taille & Taux GC\\
 346 contigs, taille moyenne: 109.176300578 Taux GC moyen: 42.9628288283
 
 
-
-\subsection{Script biopython de calcul des fréquences nucléotidiques}\label{3}
-\begin{lstlisting}[frame=single,numbers=left,language=Python]
-# -* coding:utf-8 *-#
-from Bio import SeqIO
-from Bio.SeqRecord import SeqRecord
-handle = open("NC_000002_202564986-202645895.gb", "r")
-seq_record = SeqIO.parse(handle, 'gb')
-for seq in seq_record:
-    dist_a = seq.seq.count("A")
-    dist_c = seq.seq.count("C")
-    dist_g = seq.seq.count("G")
-    dist_t = seq.seq.count("T")
-    print "A:  count: " + str(dist_a) + " % = " + \
-        str(float(dist_a)/len(seq)*100)
-    print "C:  count: " + str(dist_c) + " % = " + \
-        str(float(dist_c)/len(seq)*100)
-    print "G:  count: " + str(dist_g) + " % = " + \
-        str(float(dist_g)/len(seq)*100)
-    print "T:  count: " + str(dist_t) + " % = " + \
-        str(float(dist_t)/len(seq)*100)
-    print "total = " + str(dist_a+dist_c+dist_g+dist_t)
-\end{lstlisting}
-
-\subsection{Script biopython Pour choisir 5 contigs au hasard à partir du résulat de CAP3, et d'effectuer
-un blast sur ces contigs}\label{7}
-\begin{lstlisting}[frame=single,numbers=left,language=Python]
-# *- coding:utf-8 -* #
-import random
-from Bio.Blast import NCBIWWW
-
-contigs = {}
-contig_no = None
-contig_seq = ""
-contig_size = 0
-
-with open("seq.data.cap.contigs", "r") as f:
-    for line in f:
-        # on regarde d'abord si c'est un contig ou non
-        if line[0] == '>':
-            if contig_no == None:
-                contig_no = int(line[7:])
-            if contig_seq != "":
-                contigs.update({contig_no:contig_seq})
-                contig_seq = ""
-                contig_no = int(line[7:])
-                contig_size+= 1
-        else :
-            contig_seq = contig_seq + line.replace("\n","")
-    contigs.update({contig_no:contig_seq})
-    contig_size +=1
-
-# Maintenant, on a nos contigs, on en choisit 5 au hasard
-random_contig = []
-
-#Je m'assure ici de ne pas avoir de doublon
-for i in range(5):
-    random_c = random.randint(1, contig_size)
-    while random_c in random_contig:
-        random_c = random.randint(1,contig_size)
-    random_contig.append(random_c)
-
-#On blast maintenant les contigs choisis:
-for i in random_contig:
-    result_handle = NCBIWWW.qblast("blastn", "nr", contigs[i])
-
-    #on enregistre le résultat
-    nom_fichier = "blast_contig_" + str(i) + ".xml"
-    save_file = open(nom_fichier, "w")
-    save_file.write(result_handle.read())
-    save_file.close()
-    result_handle.close()
-
-print "5 contigs cherchés"
-\end{lstlisting}
-
-\subsection{Script Biopython pour obtenir les fichiers d'accession des 10 premiers résultats du blast
-pour un contig donné.}\label{14}
-\begin{lstlisting}[frame=single,numbers=left,language=Python]
-# *- coding:utf-8 -* #
-
-#Parser pour un fichier XML de resultat blast
-#Specifique a la question 2 du devoir 1. Je sais
-#ici que chaque hit a seulement un hsp, donc en 
-#specifiant le # d'accession et le sbjct_start et end,
-#j'obtiens ce que je cherche
-
-import sys
-import os
-from Bio.Blast import NCBIXML
-from Bio import SeqIO
-from Bio.SeqRecord import SeqRecord
-from Bio import Entrez
-
-#On choisit une E-VALUE
-E_VALUE_THRESH = 0.04
-Entrez.email = "glahaie@gmail.com"
-path = "annexes/question_2/"
-
-path_fichier = path + "blast_contig_"+sys.argv[1] + ".xml"
-
-with open(path_fichier) as fichier:
-    blast_record = NCBIXML.read(fichier)
-    i = 0
-    path_result = path + "contig_"+sys.argv[1]+"/"
-    if not os.path.exists(path_result):
-        os.makedirs(path_result)
-    for alignment in blast_record.alignments:
-        for hsp in alignment.hsps:
-            if hsp.expect < E_VALUE_THRESH:
-#On obtient alors le fichier genbank
-                handle = Entrez.efetch(db="nucleotide", rettype="gb", 
-		  retmode="text", id=alignment.accession, 
-		  seq_start=hsp.sbjct_start, seq_stop=hsp.sbjct_end)
-                seq_record= SeqIO.read(handle, "gb")
-                handle.close()
-                nom_fichier = path_result + alignment.accession + ".gb"
-                SeqIO.write(seq_record, nom_fichier, "gb")
-
-        i += 1
-        if i > 10:
-            break
-\end{lstlisting}
-
-\subsection{Log de l'exécution de clustalw2.}\label{17}
-\begin{verbatim}
- CLUSTAL 2.1 Multiple Sequence Alignments
-
-
-Sequence format is Pearson
-Sequence 1: lcl|XM_518463.3_cdsid_XP_518463.2        2058 bp
-Sequence 2: lcl|XM_003833312.1_cdsid_XP_003833360.1  2004 bp
-Sequence 3: lcl|XM_004043991.1_cdsid_XP_004044039.1  2004 bp
-Sequence 4: lcl|XM_002816867.2_cdsid_XP_002816913.1  2043 bp
-Sequence 5: lcl|XM_003266293.1_cdsid_XP_003266341.1  2004 bp
-Sequence 6: lcl|XM_005553053.1_cdsid_XP_005553110.1  2004 bp
-Sequence 7: lcl|NM_001266091.1_cdsid_NP_001253020.1  2043 bp
-Sequence 8: lcl|XM_003922988.1_cdsid_XP_003923037.1  2004 bp
-Start of Pairwise alignments
-Aligning...
-
-Sequences (1:2) Aligned. Score:  98
-Sequences (1:3) Aligned. Score:  97
-Sequences (1:4) Aligned. Score:  97
-Sequences (1:5) Aligned. Score:  97
-Sequences (1:6) Aligned. Score:  96
-Sequences (1:7) Aligned. Score:  96
-Sequences (1:8) Aligned. Score:  96
-Sequences (2:3) Aligned. Score:  99
-Sequences (2:4) Aligned. Score:  98
-Sequences (2:5) Aligned. Score:  98
-Sequences (2:6) Aligned. Score:  97
-Sequences (2:7) Aligned. Score:  97
-Sequences (2:8) Aligned. Score:  97
-Sequences (3:4) Aligned. Score:  98
-Sequences (3:5) Aligned. Score:  98
-Sequences (3:6) Aligned. Score:  98
-Sequences (3:7) Aligned. Score:  97
-Sequences (3:8) Aligned. Score:  96
-Sequences (4:5) Aligned. Score:  98
-Sequences (4:6) Aligned. Score:  98
-Sequences (4:7) Aligned. Score:  98
-Sequences (4:8) Aligned. Score:  97
-Sequences (5:6) Aligned. Score:  98
-Sequences (5:7) Aligned. Score:  98
-Sequences (5:8) Aligned. Score:  96
-Sequences (6:7) Aligned. Score:  99
-Sequences (6:8) Aligned. Score:  96
-Sequences (7:8) Aligned. Score:  96
-Guide tree file created:   [foxp4_ortho.dnd]
-
-There are 7 groups
-Start of Multiple Alignment
-
-Aligning...
-Group 1: Sequences:   2      Score:37737
-Group 2: Sequences:   2      Score:37091
-Group 3: Sequences:   3      Score:37148
-Group 4: Sequences:   4      Score:37047
-Group 5: Sequences:   5      Score:37481
-Group 6: Sequences:   7      Score:37220
-Group 7: Sequences:   8      Score:36779
-Alignment Score 440506
-
-CLUSTAL-Alignment file created  [foxp4_ortho.aln]
-\end{verbatim}
-
-\subsection{Log du travail de RepeatMasker sur le fichier foxp4\_ortho.fa.}\label{18}
-\begin{verbatim}
-There were no repetitive sequences detected in /usr/local/rmserver/tmp/RM2_foxp4_ortho.fa_1383262617
-\end{verbatim}
-
-\subsection{Log de l'exécution de Mavid sur foxp4\_ortho.fa.}\label{19}
-\begin{verbatim}
-./utils/randtree/randtree foxp4_ortho.fa
-./mavid ./mavid.ph foxp4_ortho.fa
-
-*******************************************************
-*                                                     *
-*                  Welcome to MAVID.                  *
-*                  (version 2.0, build 4)             *
-*                                                     *
-*******************************************************
-
-
-Aligning 1 versus 1
-Aligning [0,2003] to [0,2057]
-Aligning 1 versus 2
-Aligning [0,2003] to [0,2058]
-Aligning 1 versus 1
-Aligning [0,2003] to [0,2042]
-Aligning 1 versus 1
-Aligning [0,2003] to [0,2003]
-Aligning 1 versus 2
-Aligning [0,2042] to [0,2003]
-Aligning 2 versus 3
-Aligning [0,2042] to [0,2042]
-Aligning 3 versus 5
-Aligning [0,2058] to [0,2042]
-MAVID worked!
-
-clustalw2 ./mavid.mfa -tree
-
-
-
- CLUSTAL 2.1 Multiple Sequence Alignments
-
-
-Sequence format is Pearson
-Sequence 1: lcl|XM_004043991.1_cdsid_XP_004044039.1  2059 bp
-Sequence 2: lcl|XM_005553053.1_cdsid_XP_005553110.1  2059 bp
-Sequence 3: lcl|XM_518463.3_cdsid_XP_518463.2        2059 bp
-Sequence 4: lcl|XM_003266293.1_cdsid_XP_003266341.1  2059 bp
-Sequence 5: lcl|NM_001266091.1_cdsid_NP_001253020.1  2059 bp
-Sequence 6: lcl|XM_002816867.2_cdsid_XP_002816913.1  2059 bp
-Sequence 7: lcl|XM_003833312.1_cdsid_XP_003833360.1  2059 bp
-Sequence 8: lcl|XM_003922988.1_cdsid_XP_003923037.1  2059 bp
-
-Phylogenetic tree file created:   [./mavid.ph]
-
-../utils/root_tree/root_tree ./mavid.ph
-./mavid ./mavid.ph foxp4_ortho.fa
-
-*******************************************************
-*                                                     *
-*                  Welcome to MAVID.                  *
-*                  (version 2.0, build 4)             *
-*                                                     *
-*******************************************************
-
-
-Aligning 1 versus 1
-Aligning [0,2003] to [0,2042]
-Aligning 1 versus 1
-Aligning [0,2057] to [0,2003]
-Aligning 1 versus 2
-Aligning [0,2003] to [0,2003]
-Aligning 3 versus 1
-Aligning [0,2003] to [0,2042]
-Aligning 1 versus 4
-Aligning [0,2003] to [0,2042]
-Aligning 2 versus 5
-Aligning [0,2042] to [0,2042]
-Aligning 1 versus 7
-Aligning [0,2003] to [0,2042]
-MAVID worked!
-
-clustalw2 ./mavid.mfa -tree
-
-
-
- CLUSTAL 2.1 Multiple Sequence Alignments
-
-
-Sequence format is Pearson
-Sequence 1: lcl|XM_003922988.1_cdsid_XP_003923037.1  2098 bp
-Sequence 2: lcl|XM_005553053.1_cdsid_XP_005553110.1  2098 bp
-Sequence 3: lcl|NM_001266091.1_cdsid_NP_001253020.1  2098 bp
-Sequence 4: lcl|XM_003266293.1_cdsid_XP_003266341.1  2098 bp
-Sequence 5: lcl|XM_004043991.1_cdsid_XP_004044039.1  2098 bp
-Sequence 6: lcl|XM_518463.3_cdsid_XP_518463.2        2098 bp
-Sequence 7: lcl|XM_003833312.1_cdsid_XP_003833360.1  2098 bp
-Sequence 8: lcl|XM_002816867.2_cdsid_XP_002816913.1  2098 bp
-
-Phylogenetic tree file created:   [./mavid.ph]
-
-../utils/root_tree/root_tree ./mavid.ph
-\end{verbatim}
-
-\subsection{Script biopython pour identifier la composition du vecteur pANNE}\label{23}
-\begin{lstlisting}[frame=single,numbers=left,language=Python]
-# *- coding:utf-8 -* #
-
-# Script pour le numéro 3 du devoir 1: Cette partie ne fait
-#qu'envoyer la requête blast au serveur du NCBI, et ensuite
-#enregistre le résultat dans un fichier.
-
-from Bio.Blast import NCBIWWW
-from Bio.Blast import NCBIXML
-
-path_fichier = "annexes/question_3/"
-nom_resultat = "blast_fichier"
-LEN_THRESH = 100
-E_THRESH = 1e-50
-# Tout d'abord on ouvre le fichier
-
-sequence = ""
-with open(path_fichier+"pANNE.txt", 'r') as f:
-    for line in f:
-        sequence = sequence + line.strip()
-
-#On enlève les retour de chariot du fichier
-i = 1
-while len(sequence) > LEN_THRESH:
-
-#Maintenant, on fait le blast
-    print "i = " + str(i)
-    print "on fait un blast sur la séquence de longeur " 
-      + str(len(sequence))
-    result_handle = NCBIWWW.qblast("blastn", "nr", 
-      sequence, megablast=True)
-
-#on enregistre le résultat
-    save_file = open(path_fichier+nom_resultat+str(i)+".xml", "w")
-    save_file.write(result_handle.read())
-    save_file.close()
-    result_handle.close()
-
-    list_start = []
-    list_end = []
-    sequences = []
-#Maintenant on enlève de la séquence les zones identifiées
-    with open(path_fichier+nom_resultat+str(i)+".xml", "r") as result:
-        blast_record = NCBIXML.read(result)
-        alignment = blast_record.alignments[0]
-        for alignment in blast_record.alignments:
-            for hsp in alignment.hsps:
-#On met à jour la séquence pour enlever ce résultat
-                if hsp.expect < E_THRESH:
-                    list_start.append(hsp.query_start)
-                    list_end.append(hsp.query_end)
-                
-            break
-#On a les points à enlever
-#sort sur les listes
-        list_start.sort()
-        list_end.sort()
-        start= -1
-        end = -1
-        for s_start, s_end in zip(list_start, list_end):
-            if end < 0:
-                sequences.append(sequence[: s_start-1])
-                end = s_start-1
-            else:
-                end = s_start-1
-                sequences.append(sequence[start: end])
-            start = s_end -1
-        sequences.append(sequence[start:])
-        sequence = ""
-        for fragment in sequences:
-            sequence +=fragment
-#Pour vérifier les résutats, j'enregistre la nouvelle 
-#séquence dans un fichier
-        print "On écrit le reste de la séquence avec i = " + str(i)
-        with open(path_fichier+"pANNE"+str(i)+".txt", "w") as f:
-            f.write(sequence)
-    i +=1
-\end{lstlisting}
-
-\subsection{Temps d'exécution des alignements multiples}\label{24}
-\begin{tabular}{|c|c|}
- \hline
- Programme & Temps d'exécution \\
- \hline
- ClustalW & real 0m4.840s \\
- \hline
- dialign & real 0m18.424s \\
- \hline
- Mavid & real 0m0.296s\\
- \hline
-\end{tabular}
-
-\subsection{Script Biopython pour obtenir les fichiers d'accession des 10 premiers résultats du blast
-pour un contig donné.}\label{25}
-\begin{lstlisting}[frame=single,numbers=left,language=Python]
-#- coding:utf-8 -#
-
-from reportlab.lib import colors
-from reportlab.lib.units import cm
-from Bio.Graphics import GenomeDiagram
-from Bio.Graphics.GenomeDiagram import CrossLink
-from reportlab.lib import colors
-
-gd_diagram = GenomeDiagram.Diagram("Composition du vecteur pANNE.txt")
-gd_track_for_features = gd_diagram.new_track(1, name="Annotated Features", 
-  start=0, end=6627)
-gd_feature_set = gd_track_for_features.new_set()
-from Bio.SeqFeature import SeqFeature, FeatureLocation
-
-colors = [colors.green,colors.lightgreen, colors.teal, colors.darkgreen,
-  colors.seagreen,colors.lawngreen,colors.olivedrab]
-
-#Essai à la main, à la lecture des fichiers XML
-#blast #1: pHT2
-feature = SeqFeature(FeatureLocation(1, 1056), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[0],
-  sigil="ARROW", arrowhead_length=0.5,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(5342, 5798), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[1], 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(3495, 5341), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[2], 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(5798, 6627), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[3], 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(3039, 3494), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[4], 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(1742, 2057), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[5], 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(2776, 3039), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=True, color=colors[6], 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-
-#blast 2:
-feature = SeqFeature(FeatureLocation(1057, 1741), strand = +1)
-gd_feature_set.add_feature(feature, name="PGeneClip", label=True, color="blue", 
-  sigil="ARROW", arrowhead_length=1)
-
-#blast 3
-feature = SeqFeature(FeatureLocation(2058, 2770), strand = +1)
-gd_feature_set.add_feature(feature, name="Cloning vector EN.Cherry", label=True,
-  color="red", sigil="ARROW",arrowhead_length=1)
-
-#On essai d'ajouter d'autres track pour représenter la position des blasts
-gd_track_for_features = gd_diagram.new_track(1, name="pHT2", start=0, end=4924)
-gd_feature_set = gd_track_for_features.new_set()
-feature = SeqFeature(FeatureLocation(2246, 4092), strand = None)
-gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[2], 
-  sigil="ARROW", arrowhead_length=0.2,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(1, 1058), strand = None)
-gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[0],
-  sigil="ARROW", arrowhead_length=0.2,arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(4093, 4922), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[3], 
-  sigil="ARROW", arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(2795, 2339), strand = -1)
-gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[1], 
-  sigil="ARROW", arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(2340, 2795), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[4], 
-  sigil="ARROW", arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(743, 1058), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=False, color=colors[5], 
-  sigil="ARROW", arrowshaft_height=0.1)
-feature = SeqFeature(FeatureLocation(1984, 2246), strand = +1)
-gd_feature_set.add_feature(feature, name="pHT2", label=False,
-  color=colors[6],sigil="ARROW",arrowshaft_height=0.1)
-
-#On essai d'ajouter d'autres track pour représenter la position des blasts
-gd_track_for_features = gd_diagram.new_track(1, name="PGeneClip", start=0, 
-  end=5267)
-gd_feature_set = gd_track_for_features.new_set()
-feature = SeqFeature(FeatureLocation(1879, 2563), strand = +1)
-gd_feature_set.add_feature(feature, name="PGeneClip", label=False, color="blue", 
-  sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-
-gd_track_for_features = gd_diagram.new_track(1, 
-  name="Cloning vector EN.Cherry", start=0, end=10649)
-gd_feature_set = gd_track_for_features.new_set()
-feature = SeqFeature(FeatureLocation(7102, 7813), strand = +1)
-gd_feature_set.add_feature(feature, name="Cloning Vector EN.Cherry", label=False, 
-  color="red", sigil="ARROW", arrowhead_length=1,arrowshaft_height=0.1)
-
-gd_diagram.draw(format='linear', pagesize="LETTER", orientation="portrait",
-  fragments=1, start=0, end=10649)
-gd_diagram.write("GD_labels_default.eps", "eps")
-\end{lstlisting}
-
 \subsection{Fichiers genbank utilisés pour ce rapport}\label{26}
 
  \footnotesize{
@@ -1288,6 +838,15 @@ an integrated resource for plant breeders and scientists. BMC Bioinformatics 13:
 \bibitem{Wikipedia-GC}
   GC content. In Wikipedia. Retrieved December 17, 2013, from
   \url{http://en.wikipedia.org/wiki/GC-content}
+\bibitem{ENSEMBL}
+Paul Flicek, Ikhlak Ahmed, M. Ridwan Amode, Daniel Barrell, Kathryn Beal, Simon Brent, Denise Carvalho-Silva, Peter Clapham, Guy Coates, Susan Fairley, Stephen Fitzgerald, Laurent Gil, Carlos Garcia-Girón, Leo Gordon, Thibaut Hourlier, Sarah Hunt, Thomas Juettemann, Andreas Kähäri, Stephen Keenan, Monika Komorowska, Eugene Kulesha, Ian Longden, Thomas Maurel, William McLaren, Mattieu Muffato, Rishi Nag, Bert Overduin, Miguel Pignatelli, Bethan Pritchard, Emily Pritchard, Harpreet Singh Riat, Graham R. S. Ritchie, Magali Ruffier, Michael Schuster, Daniel Sheppard, Daniel Sobral, Kieron Taylor, Anja Thormann, Stephen Trevanion, Simon White, Steven P. Wilder, Bronwen L. Aken, Ewan Birney, Fiona Cunningham, Ian Dunham, Jennifer Harrow, Javier Herrero, Tim J. P. Hubbard, Nathan Johnson, Rhoda Kinsella, Anne Parker, Giulietta Spudich, Andy Yates, Amonida Zadissa and Stephen M. J. Searle
+Ensembl 2013
+Nucleic Acids Research 2013 41 Database issue:D48-D55
+doi: 10.1093/nar/gks1236
+
+\bibitem{Wikipedia-ORF}
+  Open Reading Frame. In Wikipedia. Retrieved December 19, 2013, from
+  \url{http://en.wikipedia.org/wiki/Open_reading_frame}
 
 \bibitem{UCSC genome browser}
     Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, Haussler D. The human genome browser at UCSC. 
