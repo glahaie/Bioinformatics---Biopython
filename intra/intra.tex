@@ -142,8 +142,8 @@ pertinente, j'ai tout d'abord recherché ce qui est connu concernant le génome 
 
 J'ai tout d'abord cherché à connaitre l'état d'avancement des travaux de séquençage du blé. Pour ce faire, j'ai consulté
 la base de données des génomes de NCBI \cite{Triticum eastivum Genome}. On y apprend des informations de base sur le
-génome du blé. On y apprend que le génome du blé a une taille de 16000 Mb distribué en 21 chromosomes. De plus, les chromosomes
-ont une forme allohexaploid composée de trois sous-génomes. La nature hexaploid de son génome a ralenti les efforts de séquençage.
+génome du blé. On y apprend que le génome du blé a une taille de 16000 Mb distribués en 21 chromosomes. De plus, les chromosomes
+ont une forme allohexaploïde composée de trois sous-génomes. La nature hexaploïde de son génome a ralenti les efforts de séquençage.
 
 Une première référence de génome du blé a été créée avec l'espèce Triticum urartu \cite{Triticum urartu}. Ce génome est toutefois
 celui d'un progéniteur du Triticum aestivum, il peut être utile pour aider à améliorer le génome du blé.
@@ -157,7 +157,7 @@ séquence de référence pour le génome du Triticum aestivum \cite{IWGSC-refere
 D'autres bases de données offrent de l'information à propos du génome du blé, par exemple CerealsDB \cite{cerealsDB}, ayant un génome
 de travail du blé. Il y a aussi beaucoup d'autres projets, considérant la place importante occupée par le blé dans l'agriculture moderne.
 
-Basé sur ces informations, j'ai décidé de concentrer mes recherches pour l'annotation des contigs fournis sur les données déjà
+Basé sur ces informations, j'ai décidé de concentrer mes recherches pour l'annotation des contigs fournies sur les données déjà
 connues du génome du blé. Je vais donc seulement garder les résultats de Blast provenant du Triticum aestivum. Bien sûr, il s'agit
 ici d'une première étape de recherche, il serait ensuite possible d'élargir la recherche pour identifier des zones fonctionnelles possibles
 des contigs, ce qui ne sera pas fait dans ce travail.
@@ -191,7 +191,7 @@ haut ou en bas ce cette moyenne. On peut aussi voir les valeurs exactes dans le 
 
 La taille moyenne des 346 contigs est de 109 nucléotides, avec un taux de GC moyen de 42,96\%. Ce taux semble
 indiquer une prépondérance de région non-codante dans les contigs, car généralement les séquences codantes ont
-un taux de GC supérieur aux séquences non-codantes \cite{Wikipedia-GC}.
+un taux de GC supérieurs aux séquences non-codantes \cite{Wikipedia-GC}.
 
 \begin{figure}[p]
 \centering
@@ -207,28 +207,28 @@ un taux de GC supérieur aux séquences non-codantes \cite{Wikipedia-GC}.
 %----------------------------------------------------------------------------------------
 \newpage
 \section{Identifiez les annotations Genbank de ces contigs et présentez les dans une table contenant
-les colonnes: contigs, numéros Accession, description, uniref id} % Major section
+les colonnes: contigs, numéros Accession, description, Uniref id} % Major section
 
 \subsection{Numéros d'accessions et description}
-Pour trouver les annotations Genbank des contigs, j'ai tout d'abord effectué un blast de chaque contig
+Pour trouver les annotations Genbank des contigs, j'ai tout d'abord effectué un Blast de chaque contig
 sur la base de données nr/nt de NCBI \cite{BLAST}. J'ai utilisé le script biopython question2.py pour
-effectuer tous les blasts, et enregistrer les résultats.
+effectuer tous les Blasts, et enregistrer les résultats.
 
 En examinant les résultats de façon sommaire, on remarque une très grande différence entre la qualité des
-résultats. Certains ont des E-value très haute, alors que certains ont des valeurs indiquant un résultat de
+résultats. Certains ont des E-value très hauts, alors que certains ont des valeurs indiquant un résultat de
 haute qualité. On peut s'attendre à cela, considérant la grande variabilité des contigs.
 
 Pour traiter les contigs selon leur taille, je calcule la valeur médiane des E-value pour les contigs plus
 petits que la taille moyenne. Je fais le même exercice pour les contigs plus grands que la moyenne. Pour
 le moment, je m'intéresse au meilleur résultat obtenu seulement pour la médiane.
 
-Comme mentionné en introduction, comme cette analyse s'intéresse seulement au contigs ayant des résultats
-pour le Triticum, je ne considère pas dans mes résultats les valeurs de blast pour des espèces différentes
-du blé. Je prends donc, dans les résultats de blast, le premier correspondant à un match avec le blé.
+Tel que mentionné en introduction, comme cette analyse s'intéresse seulement aux contigs ayant des résultats
+pour le Triticum, je ne considère pas dans mes résultats les valeurs de Blast pour des espèces différentes
+du blé. Je prends donc, dans les résultats de Blast, le premier correspondant à un match avec le blé.
 
 J'ai enregistré les résultats dans les fichiers evalue\_lower.txt et evalue\_higher.txt, à l'aide du script
-q2\_meanEvalue.py. On peut remarquer que la grande majorité des résultats  obtenus ont des E-values de bonne
-qualité, avec un ordre de grandeur permettant d'avoir une grande confiance dans le hit. Basé sur ces données,
+q2\_meanEvalue.py. On peut remarquer que la grande majorité des résultats  obtenus ont des E-values de bonnes
+qualités, avec un ordre de grandeur permettant d'avoir une grande confiance dans le hit. Basé sur ces données,
 je garderai donc tous les résultats, peu importe la taille du contig, ayant une E-value plus petite que 0.01.
 
 Afin d'obtenir les données de numéro d'accession, j'ai modifié le script précédent pour créer un fichier associant
@@ -239,7 +239,7 @@ exigences de E-value et de description de hit.
 \subsection{Uniref}
 
 Pour obtenir un Uniref \cite{Uniref} pour les contigs retenus, j'ai ensuite utilisé le module bioservices de python permettant
-de se connecter au service idmapping de uniprot, pour trouver les identifiants uniref des contigs conservés.
+de se connecter au service idmapping de uniprot, pour trouver les identifiants Uniref des contigs conservés.
 
 Des 223 contigs restant, 113 ont obtenu des résultats de mapping. Avant de sortir les résultats, j'ai vérifié
 le format des données obtenues par ce mapping. Pour certains contigs, un seul résultat est obtenu, alors que
@@ -247,36 +247,36 @@ pour certains, on obtient plusieurs mappings différents. Les fichiers XML ne co
 concernant le meilleur résultat, toutefois le service REST utilisé pour le mapping demande de trier les
 résultats selon le meilleur score.
 
-Afin de vérifier le résultat, j'ai tenté de blaster un des contigs directement sur la base de données Uniref100,
+Afin de vérifier le résultat, j'ai tenté de Blaster un des contigs directement sur la base de données Uniref100,
 sur le site \url{http://www.uniprot.org}. Le résultat a été surprenant. J'ai utilisé le contig 2 comme essai,
-et le blastx sur Uniref100 n'a retourné aucun hit. Afin de confirmer ce résultat, j'ai effectué le même blastx
-en utilisant le service d'EBI et en blastant sur toutes les bases de données de protéines de uniprot. J'ai obtenu
+et le Blastx sur Uniref100 n'a retourné aucun hit. Afin de confirmer ce résultat, j'ai effectué le même Blastx
+en utilisant le service d'EBI et en Blastant sur toutes les bases de données de protéines de uniprot. J'ai obtenu
 le même résultat.
 
-Je crois que ce résutat est dû au mécanisme de mapping. Comme nous avons pu le constater à la questions 1,
+Je crois que ce résultat est dû au mécanisme de mapping. Comme nous avons pu le constater à la question 1,
 la plupart des contigs donnés ont une longueur moyenne de 109 nucléotides. Toutefois, le numéro d'accession
 donnée pour effectuer le id mapping peut correspondre à une très longue séquence. C'est le cas du numéro
 d'accession pour le contig 2, il s'agit en fait d'un chromosome complet du blé, ce qui explique les nombreux
 résultats du mapping.
 
-J'ai donc décidé de procéder différemment pour obtenir les identifiants uniref correspondant spécifiquement au contig.
-J'ai effectué un blastx directement sur la base de données uniref100 pour chaque contig. Pour ce faire, j'ai utilisé
+J'ai donc décidé de procéder différemment pour obtenir les identifiants Uniref correspondant spécifiquement au contig.
+J'ai effectué un Blastx directement sur la base de données Uniref100 pour chaque contig. Pour ce faire, j'ai utilisé
 le script q2\_ebi.py. Encore une fois, j'ai utilisé le module bioservices de python pour cette tâche.
 
-J'ai ensuite vérifier les résultats des blasts pour les contigs retenus précédemment. J'ai appliqué le même
+J'ai ensuite vérifié les résultats des Blasts pour les contigs retenus précédemment. J'ai appliqué le même
 filtre: je vérifie tout d'abord si la description du résultat est pour le blé, et ensuite si le E-value 
 correspond à une valeur acceptable. Je prends la même valeur que pour les numéros d'accession genbank: 0.01.
 
 Après avoir appliqué ce filtre, il me reste 70 contigs pour lesquels j'ai un numéro d'accession genbank et
-un numéro uniref.
+un numéro Uniref.
 
 \subsection{Construction du tableau}
 
 Comme j'utilise latex pour la rédaction de mon rapport, j'ai écrit un script afin de combiner les informations
 de mes différents scripts dans un tableau que je peux insérer directement dans mon fichier latex (q2\_tableau.py).
 
-Le tableau créé rassemble les informations des 223 contigs ayant un résultat de blast pour le blé. Les informations
-pour les autres contigs n'est pas présenté. Pour ces contigs, j'indique aussi le uniref trouvé, si une valeur
+Le tableau créé rassemble les informations des 223 contigs ayant un résultat de Blast pour le blé. L'information
+pour les autres contigs n'est pas présentée. Pour ces contigs, j'indique aussi le Uniref trouvé, si une valeur
 correspondante existe.
 
 \begingroup
@@ -744,14 +744,13 @@ correspondante existe.
 contenant contig, numéros d'Accession, Uniref, séquences protéiques} % Major section
 
 Pour identifier les contigs qui coderaient en protéines, j'ai éxaminé de nouveau les résultats de 
-blast choisis en numéro 2. Je vais chercher la position des hits dans les résultats retenus, pour
+Blast choisis en numéro 2. Je vais chercher la position des hits dans les résultats retenus, pour
 ensuite vérifier dans les fichiers genbank si ces hits correspondent à une région codante d'un gène.
 
 Tout d'abord, j'ai créé un script biopython permettant d'extraire les régions des hits pour le résultat
 choisi à la question précédente (q3\_hits.py). Comme certains hits contiennent plusieurs séquences
 différentes, j'ai gardé chaque partie du résultat ayant un E-value plus petit que 0.01. Les résultats
 de ce script sont enregistrés dans le fichier hit\_locations.txt.
-
 
 J'ai ensuite vérifié si ces hits correspondent à une région codante dans les fichiers genbank obtenus
 à la question précédente. Pour ce faire, j'ai utilisé le script getCDS.py. Après un premier essai,
@@ -760,22 +759,22 @@ région codante trouvée ne contient pas d'information à propos de la séquence
 pour le contig 120, le CDS observé indique que la région codante correspond à un pseudogène qui n'est pas
 encore identifié.
 
-Ce résultat est étonnant aussi car le blast des contigs sur la base de données Uniref100 a trouvé 70 résultats, donc
+Ce résultat est étonnant aussi car le Blast des contigs sur la base de données Uniref100 a trouvé 70 résultats, donc
 on devrait s'attendre à un résultat similaire. 
 
 J'ai essayé d'autres approches afin d'identifier les gènes qui coderaient pour les protéines. J'ai tenté de faire des
-blastx des contigs sur chaque contig retenu à la question précédente, toutefois j'ai rencontré des problèmes techniques
-lors des blasts. Certains blasts prenaient trop de temps à effectuer, et NCBI retournait un message d'erreur.
-J'ai utilisé le script python q3\_blastx.py pour tenter cette approche.
+Blastx des contigs sur chaque contig retenu à la question précédente, toutefois j'ai rencontré des problèmes techniques
+lors des Blasts. Certains Blasts prenaient trop de temps à effectuer, et NCBI retournait un message d'erreur.
+J'ai utilisé le script python q3\_Blastx.py pour tenter cette approche.
 
 Finalement, j'ai préféré utilisé les résultats de la question précédente pour identifier les contigs qui coderaient
-pour des protéines. Comme j'ai déjà fait un blastx sur la base de données Uniref100, je considère donc que les contigs
-qui rencontrent les critères pour les résultats du blast à la question précédente sont ceux qui coderaient pour des
+pour des protéines. Comme j'ai déjà fait un Blastx sur la base de données Uniref100, je considère donc que les contigs
+qui rencontrent les critères pour les résultats du Blast à la question précédente sont ceux qui coderaient pour des
 protéines.
 
-Dans le tableau des réstultats, la séquence protéique donnée est celle correspondante au hit obtenu de blastx. Donc, 
+Dans le tableau des résultats, la séquence protéique donnée est celle correspondante au hit obtenu de Blastx. Donc, 
 la séquence représentée est seulement une partie de la séquence représentative du cluster identifié par l'identifiant
-Uniref. Il serait possible de convertir l'identifiant uniref en identifiant Uniprot afin d'obtenir la séquence complète.
+Uniref. Il serait possible de convertir l'identifiant Uniref en identifiant Uniprot afin d'obtenir la séquence complète.
 
 
 Voici le tableau des contigs qui coderaient pour des protéines:
@@ -792,36 +791,34 @@ Voici le tableau des contigs qui coderaient pour des protéines:
 associés} % Major section
 
 Comme nous avons identifié les protéines que les contigs pourraient coder à la question 
-précédente, nous alons partir de cette information pour identifier les gènes.
+précédente, nous allons partir de cette information pour identifier les gènes.
 
 Une première approche est d'obtenir les informations de concernant la séquence représentative
-du cluster Uniref identifié à la question précédente. Cela Nous permettra d'identifier le
+du cluster Uniref identifié à la question précédente. Cela nous permettra d'identifier le
 gène qui produit cette protéine. Ensuite, nous pourrons tenter de regrouper les contigs
 par gènes
 
 Pour obtenir les informations des séquences représentatives, j'ai utilisé le module bioservices
 de python, dans le script q4\_prot.py. Une première analyse sommaire nous permet de voir que
-seulement cinq des contigs font parties des mêmes clusters de protéines. De plus, En cherchant dans
-les fichiers obtenus, seulement 6 des résultats on des références vers Unigene. Donc il n'est
+seulement cinq des contigs font partie des mêmes clusters de protéines. De plus, en cherchant dans
+les fichiers obtenus, seulement six des résultats ont des références vers Unigene. Donc il n'est
 pas possible d'utiliser cette ressource pour identifier les gènes.
 
 J'ai ensuite regardé combien des fichiers ont des balises gènes. 47 des fichiers ont ces balises, je
-vais donc utiliser cette information pour regrouper les contigs. Pour les 23 autres fichiers, je vais
-effectuer un tblastn sur la séquence protéique contenue dans le fichier pour tenter d'identifier un
-gène relié à ces protéines.
+vais donc utiliser cette information pour regrouper les contigs.
 
-Pour extraires l'information des balises gènes des 47 fichiers où elle est disponible, j'ai utilisé le
+Pour extraire l'information des balises gènes des 47 fichiers où elle est disponible, j'ai utilisé le
 script q4\_genes.py. En examinant les 23 fichiers restant, j'ai remarqué que la majorité des protéines
 identifiées avaient des informations concernant le gène qui y est relié, mais dans une balise différente.
 Par exemple, la plupart avait une référence vers la base de données EnsemblPlants \cite{ENSEMBL}, dans le même format
 que ceux identifiés auparavant. J'ai donc ajouté cette information au fichier de résultat. Dans d'autres
 cas, les fichiers contenaient une référence vers unigene, dans ces cas, j'ai gardé aussi cette information.
 
-Finalement, pour le autres fichiers, j'ai utilisé la référence NCBI du fichier pour identifier le gène. J'ai aussi
-insérer ces informations dans le fichier des résultats.
+Finalement, pour les autres fichiers, j'ai utilisé la référence NCBI du fichier pour identifier le gène. J'ai aussi
+inséré ces informations dans le fichier des résultats.
 
 En regardant le type de gène identifié pour la plupart des résultats, il semble s'agir de données prédites par logiciel.
-En effet, pour la plupart des gènes sont de type ORF (Open Reading Frame), un outil utilisé pour la prédiction de gènes.
+En effet, la plupart des gènes sont de type ORF (Open Reading Frame), un outil utilisé pour la prédiction de gènes.
 Donc, l'information à propos de ces gènes est incomplète. De plus, tous les gènes identifiés ayant un nom commençant
 par TRIUR sont des gènes provenant de l'espèce \emph{Triticum urartu}. Tel que discuté à l'introduction, c'est une
 espèce présentement utilisée pour tenter d'obtenir de l'information concernant le blé. J'ai donc décidé d'utiliser ces
@@ -833,8 +830,8 @@ Voici le tableau présentant les gènes identifiés, ainsi que leurs sources.
 
 \section{Identifiez la position des introns dans ces gènes. Illustrez cette cartographie pour chaque gène}
 
-Afin d'identifier les introns des gènes identifiés, j'ai utilisé la base de données EnsemblPlants pour me
-procurer les informations sur les séquences représentants ces gènes. J'ai du effectuer cette étape à la main,
+Afin d'annoter les introns des gènes identifiés, j'ai utilisé la base de données EnsemblPlants pour me
+procurer les informations sur les séquences représentants ces gènes. J'ai dû effectuer cette étape à la main,
 car il est seulement possible d'accéder à ENSEMBL à l'aide de BioPerl, que je ne connais pas. J'ai donc fait des
 recherches dans EnsemblPlants pour les noms des gènes trouvés à la question précédente, et j'ai ensuite enregistré
 les informations concernant le gène dans un fichier genbank. Ces fichiers sont enregistrés dans le dossier genbank\_genes.
@@ -842,7 +839,7 @@ les informations concernant le gène dans un fichier genbank. Ces fichiers sont 
 Chaque fichier genbank comprend les informations à propos des exons contenus dans le gène. J'ai donc pu facilement identifier
 les introns de ces gènes. Je considère que chaque intron est une zone où il n'y a pas d'exon.
 
-Pour les gènes n'étant pas présent dans la base de données EnsemblPlants, j'ai utilisé les différentes bases de données de NCBI
+Pour les gènes n'étant pas présents dans la base de données EnsemblPlants, j'ai utilisé les différentes bases de données de NCBI
 pour trouver de l'information concernant la séquence nucléotidique codant la protéine. Pour les gènes ayant une référence à la
 base de données UniGene, j'ai utilisé cette ressource pour identifier une séquence protéique associée au gène. J'ai ensuite
 obtenu la séquence nucléotidique à partir de cette séquence protéique. Pour les gènes où j'avais déjà un numéro d'accession pour
@@ -857,15 +854,15 @@ main, j'ai utilisé le script draw\_unigene.py.
 
 Afin de m'assurer de placer le contig à l'endroit le plus probable gène, j'ai effectué, pour chaque contig, un alignement local du
 contig avec la séquence nucléotidique du gène. J'ai utilisé l'application water de EMBOSS pour effectuer ce travail. Il n'y a aucune
-vérification faite concernant la qualité de l'alignement obtenu. J'ai vérifié manuellement certains résultat, et il y avait une
-grande variation: certains alignements avaient un identité autour de 40\%, alors que pour certains, l'identité était de 100\%.
+vérification faite concernant la qualité de l'alignement obtenu. J'ai vérifié manuellement certains résultats, et il y avait une
+grande variation: certains alignements avaient un score d'identité autour de 40\%, alors que pour certains, l'identité était de 100\%.
 
 J'ai aussi rencontré une difficulté avec certains fichiers genbank pour produire la cartographie, car le fichier contient plusieurs
-variations du gène, qui sont alors dessinés plusieurs fois.
+variations du gène, qui sont alors dessinées plusieurs fois.
 
 Il y a aussi une très grande variation dans les gènes cartographiés. En effet, on peut y remarquer ce qui semble être des données
 expérimentales, car plusieurs gènes semblent contenir un seul exon, et cet exon occupe la presque totalité du gène. Il s'agit probablement
-d'une prédiction dans ces cas, Une application a détecté la probabilité d'un exon, et cette information a été annotée et insérée
+d'une prédiction dans ces cas, une application a détecté la probabilité d'un exon, et cette information a été annotée et insérée
 à la base de données.
 
 \input{question_5/q5.tex}
@@ -875,24 +872,24 @@ d'une prédiction dans ces cas, Une application a détecté la probabilité d'un
 Le but donné de ce travail était d'annoter et de cartographier des contigs provenant des ESTs du blé. J'ai choisi d'orienter
 ma recherche directement dans les séquences, protéines et gènes déjà connus du blé. Donc, pour j'ai seulement recherché à annoter
 les contigs pour lesquels j'avais des résultats de bonne qualité pour les résultats. J'ai défini cet élément de qualité par la
-E-value du blast qui tentait d'associer le contig à une séquence connue. 
+E-value du Blast qui tentait d'associer le contig à une séquence connue. 
 
 En vérifiant la E-value médiane des résultats selon la longueur du contig, j'ai remarqué que, malgré une différence dans l'ordre
 de grandeur des E-value, les résultats pour les contigs plus courts étaient quand même de bonne qualité. J'ai donc appliqué la même
 règle pour chaque contig.
 
-Lorsque j'ai identifié si au moins un des résultats de blast était le blé, je n'ai pas tenu compte du nombre de hit correspondant
-au blé. C'est une information qui aurait été intéressante à avoir, il aurait peut-être été possible de regrouper certains contigs
-en un gène plutôt que d'avoir des gènes différents. Toutefois, comme les résultats du blast sur la base de données ont démontré, 
+Lorsque j'ai identifié si au moins un des résultats de Blast était le blé, je n'ai pas tenu compte du nombre de hit correspondant
+au blé. C'est une information qui aurait été intéressante à avoir, il aurait été possible de regrouper certains contigs
+en un gène plutôt que d'avoir des gènes différents. Toutefois, comme les résultats du Blast sur la base de données ont démontré, 
 la plupart des contigs faisaient partie de différentes familles, ou clusters, de protéines, il est donc peu probable qu'il ait été
-possible de les regrouper d'avantage.
+possible de les regrouper davantage.
 
-Une analyse sommaire des résultats obtenus semblent indiquer que plusieurs des ESTS proviennent du chromosome 3 du blé. D'abord, car
-les résultats des blasts ont trouvé un nombre de hits pour le chromosome 3B, mais aussi car les gènes identifiés proviennent en grande
+Une analyse sommaire des résultats obtenus semble indiquer que plusieurs des ESTS proviennent du chromosome 3 du blé. D'abord, car
+les résultats des Blasts ont trouvé un nombre de hits pour le chromosome 3B, mais aussi, car les gènes identifiés proviennent en grande
 partie du chromosome 3 du \emph{Triticum urartu}, une espèce utilisée pour tenter de prédire les gènes du blé.
 
-Toutefois, je n'ai pas su comment mettre en place une façon de vérifier les résutlats obtenus. En effet, pour le moment, je vérifie
-seulement la qualité du résultat si elle est donnée, par exemple, dans un blast, mais je n'ai aucune autre façon de vérifier si
+Toutefois, je n'ai pas su comment mettre en place une façon de vérifier les résultats obtenus. En effet, pour le moment, je vérifie
+seulement la qualité du résultat si elle est donnée, par exemple, dans un Blast, mais je n'ai aucune autre façon de vérifier si
 j'obtiens bien le bon résultat.
 
 Ce travail d'annotation et de cartographie représente une première étape à propos de l'identification de ces ESTs. IL aurait été 
