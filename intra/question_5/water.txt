@@ -1,0 +1,50 @@
+########################################
+# Program: water
+# Rundate: Thu 19 Dec 2013 20:15:56
+# Commandline: water
+#    -outfile water.txt
+#    -asequence contig.faa
+#    -bsequence seq.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: water.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: contig
+# 2: seq
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      64/185 (34.6%)
+# Similarity:    64/185 (34.6%)
+# Gaps:         104/185 (56.2%)
+# Score: 124.0
+# 
+#
+#=======================================
+
+contig             1 GTCATTACAGACT---------------TCATGAATCAA------GTTGG     29
+                     ||.|..|.|||.|               |.|||||||||      |||| 
+seq              879 GTGAAGAAAGAGTCTGGCACTGCTCTAGTAATGAATCAAACCTAGGTTG-    927
+
+contig            30 TCAGGGCAAACG-------------------------------------A     42
+                      ||.|.||||.|                                     |
+seq              928 -CAAGCCAAAGGATAACCATATAGCAACTGAAGCATGTTCTTCCTAGAAA    976
+
+contig            43 CGTGCCTTGGCAACTAAT--------GAATGGTTA----------AGAG-     73
+                     .|||||.||| |..||||        |.|||||.|          |||| 
+seq              977 GGTGCCATGG-AGATAATAGGTGTAAGTATGGTAACCAGAAACCGAGAGG   1025
+
+contig            74 ------------------------TTCCTGAGTGT     84
+                                             |||||.|.|||
+seq             1026 GTTTTAGGTAACCATATTGCTAATTTCCTAATTGT   1060
+
+
+#---------------------------------------
+#---------------------------------------

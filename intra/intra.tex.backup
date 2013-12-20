@@ -365,6 +365,75 @@ En regardant le type de gène identifié pour la plupart des résultats, il semb
 En effet, pour la plupart des gènes sont de type ORF (Open Reading Frame), un outil utilisé pour la prédiction de gènes.
 Donc, l'information à propos de ces gènes est incomplète.
 
+Pour 
+
+\input{question_4/contigs_q4.tex}
+
+\section{Identifiez la position des introns dans ces gènes. Illustrez cette cartographie pour chaque gène}
+
+Afin d'identifier les introns des gènes identifiés, j'ai utilisé la base de données EnsemblPlants pour me
+procurer les informations sur les séquences représentants ces gènes. J'ai du effectuer cette étape à la main,
+car il est seulement possible d'accéder à ENSEMBL à l'aide de BioPerl, que je ne connais pas. J'ai donc fait des
+recherches dans EnsemblPlants pour les noms des gènes trouvés à la question précédente, et j'ai ensuite enregistré
+les informations concernant le gène dans un fichier genbank. Ces fichiers sont enregistrés dans le dossier genbank\_genes.
+
+Chaque fichier genbank comprend les informations à propos des exons contenus dans le gène. J'ai donc pu facilement identifier
+les introns de ces gènes. Je considère que chaque intron est une zone où il n'y a pas d'exon.
+
+Pour les gènes n'étant pas présent dans la base de données EnsemblPlants, j'ai utilisé les différentes bases de données de NCBI
+pour trouver de l'information concernant la séquence nucléotidique codant la protéine. Pour les gènes ayant une référence à la
+base de données UniGene, j'ai utilisé cette ressource pour identifier une séquence protéique associée au gène. J'ai ensuite
+obtenu la séquence nucléotidique à partir de cette séquence protéique. Pour les gènes où j'avais déjà un numéro d'accession pour
+la séquence nucléotidique, j'ai tout simplement consulté le fichier genbank.
+
+Afin d'identifier les introns dans ces cas, j'ai consulté le feature CDS afin d'y trouver la location des régions codantes. Encore
+une fois, tout ce qui est à l'extérieur de ces régions est considéré comme un intron.
+
+Pour illustrer ces gènes, et la position des contigs, j'ai utilisé le module GenomeDiagram de BioPython. Cela m'a permis de situer
+les exons dans le gène. Pour automatiser le travail, j'ai utilisé le script draw\_sequence.py. Pour les cartographies faites à la
+main, j'ai utilisé le script draw\_unigene.py.
+
+Afin de m'assurer de placer le contig à l'endroit le plus probable gène, j'ai effectué, pour chaque contig, un alignement local du
+contig avec la séquence nucléotidique du gène. J'ai utilisé l'application water de EMBOSS pour effectuer ce travail. Il n'y a aucune
+vérification faite concernant la qualité de l'alignement obtenu. J'ai vérifié manuellement certains résultat, et il y avait une
+grande variation: certains alignements avaient un identité autour de 40\%, alors que pour certains, l'identité était de 100\%.
+
+J'ai aussi rencontré une difficulté avec certains fichiers genbank pour produire la cartographie, car le fichier contient plusieurs
+variations du gène, qui sont alors dessinés plusieurs fois.
+
+Il y a aussi une très grande variation dans les gènes cartographiés. En effet, on peut y remarquer ce qui semble être des données
+expérimentales, car plusieurs gènes semblent contenir un seul exon, et cet exon occupe la presque totalité du gène. Il s'agit probablement
+d'une prédiction dans ces cas, Une application a détecté la probabilité d'un exon, et cette information a été annotée et insérée
+à la base de données.
+
+\input{question_5/q5.tex}
+
+\section{Conclusion}
+
+Le but donné de ce travail était d'annoter et de cartographier des contigs provenant des ESTs du blé. J'ai choisi d'orienter
+ma recherche directement dans les séquences, protéines et gènes déjà connus du blé. Donc, pour j'ai seulement recherché à annoter
+les contigs pour lesquels j'avais des résultats de bonne qualité pour les résultats. J'ai défini cet élément de qualité par la
+E-value du blast qui tentait d'associer le contig à une séquence connue. 
+
+En vérifiant la E-value médiane des résultats selon la longueur du contig, j'ai remarqué que, malgré une différence dans l'ordre
+de grandeur des E-value, les résultats pour les contigs plus courts étaient quand même de bonne qualité. J'ai donc appliqué la même
+règle pour chaque contig.
+
+Lorsque j'ai identifié si au moins un des résultats de blast était le blé, je n'ai pas tenu compte du nombre de hit correspondant
+au blé. C'est une information qui aurait été intéressante à avoir, il aurait peut-être été possible de regrouper certains contigs
+en un gène plutôt que d'avoir des gènes différents. Toutefois, comme les résultats du blast sur la base de données ont démontré, 
+la plupart des contigs faisaient partie de différentes familles, ou clusters, de protéines, il est donc peu probable qu'il ait été
+possible de les regrouper d'avantage.
+
+Une analyse sommaire des résultats obtenus semblent indiquer que plusieurs des ESTS proviennent du chromosome 3 du blé. D'abord, car
+les résultats des blasts ont trouvé un nombre de hits pour le chromosome 3B, mais aussi car les gènes identifiés proviennent en grande
+partie du chromosome 3 du \emph{Triticum urartu}, une espèce utilisée pour tenter de prédire les gènes du blé.
+
+Toutefois, je n'ai pas su comment mettre en place une façon de vérifier les résutlats obtenus. En effet, pour le moment, je vérifie
+seulement la qualité du résultat si elle est donnée, par exemple, dans un blast, mais je n'ai aucune autre façon de vérifier si
+j'obtiens bien le bon résultat.
+
+
 
 \begingroup
 \renewcommand{\appendix}{%

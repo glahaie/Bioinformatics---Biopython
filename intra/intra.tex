@@ -162,6 +162,10 @@ connues du génome du blé. Je vais donc seulement garder les résultats de Blas
 ici d'une première étape de recherche, il serait ensuite possible d'élargir la recherche pour identifier des zones fonctionnelles possibles
 des contigs, ce qui ne sera pas fait dans ce travail.
 
+Avant de commencer le travail d'annotation, j'ai d'abord jeté un coup sur les informations de qualité des contigs donnés. Pour la majorité
+des contigs, la qualité est assez basse, avec des scores autour de 10 à 15. Cela pourrait s'expliquer par la longueur de ces contigs.
+Quoi qu'il en soit, c'est une information à retenir tout au long du travail.
+
 
 \newpage
 \section{Produisez une analyse sommaire de ces contigs en présentant la distribution des tailles et taux de GC} % Major section
@@ -275,7 +279,462 @@ Le tableau créé rassemble les informations des 223 contigs ayant un résultat 
 pour les autres contigs n'est pas présenté. Pour ces contigs, j'indique aussi le uniref trouvé, si une valeur
 correspondante existe.
 
-\input{question_2/contigs_q2.tex}
+\begingroup
+\footnotesize{
+\begin{longtable}{|p{1.5cm}|p{2cm}|p{9cm}|p{3cm}|}
+\hline
+\centering{\bf{Contig}} &\centering{\bf{Accession}} &\centering{\bf{Description}} &\centering{\bf{Uniref - EBI}}\\
+\endhead\hline
+2 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+3 & EF109232 & Triticum aestivum strain CRB-INRA-CFD-13471 malate dehydrogenase (Mdh4B) gene, partial cds. & \\
+\hline
+4 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+5 & AK331959 & Triticum aestivum cDNA, clone: WT002\_M17, cultivar: Chinese Spring. & UniRef100\_M7YGL9\\
+\hline
+6 & AK332278 & Triticum aestivum cDNA, clone: WT003\_J14, cultivar: Chinese Spring. & \\
+\hline
+7 & AK335464 & Triticum aestivum cDNA, clone: WT012\_P12, cultivar: Chinese Spring. & \\
+\hline
+10 & JQ240472 & Triticum urartu clones BAC 70G09, BAC 169L13, and BAC 78P09, complete sequence. & \\
+\hline
+14 & AK332744 & Triticum aestivum cDNA, clone: WT004\_M05, cultivar: Chinese Spring. & \\
+\hline
+16 & AK332362 & Triticum aestivum cDNA, clone: WT003\_M19, cultivar: Chinese Spring. & \\
+\hline
+18 & U73217 & Triticum aestivum cold acclimation protein WCOR615 (Wcor615) mRNA, complete cds. & \\
+\hline
+21 & DQ286562 & Triticum aestivum putative lipid transfer protein mRNA, complete cds. & \\
+\hline
+22 & KC816724 & Triticum urartu cultivar G1812 clone BAC 288D18 chromosome 3AL, complete sequence. & \\
+\hline
+23 & AK335482 & Triticum aestivum cDNA, clone: WT013\_A03, cultivar: Chinese Spring. & \\
+\hline
+24 & AK330641 & Triticum aestivum cDNA, clone: SET4\_P05, cultivar: Chinese Spring. & UniRef100\_M8ABV0\\
+\hline
+25 & AK331680 & Triticum aestivum cDNA, clone: SET1\_K05, cultivar: Chinese Spring. & \\
+\hline
+26 & AK332086 & Triticum aestivum cDNA, clone: WT003\_B19, cultivar: Chinese Spring. & UniRef100\_M7YAN9\\
+\hline
+27 & EU660894 & Triticum turgidum subsp. durum clone BAC 1053F12+1054I5 cytosolic acetyl-CoA carboxylase (Acc-2) and putative amino acid permease genes, complete cds. & \\
+\hline
+29 & BT008986 & Triticum aestivum clone wdk2c.pk008.b17:fis, full insert mRNA sequence. & \\
+\hline
+30 & HQ596874 & Triticum aestivum voucher AP212 trnH-psbA intergenic spacer, partial sequence; chloroplast. & \\
+\hline
+31 & HQ391280 & Triticum aestivum clone UCDTA01731 genomic sequence. & UniRef100\_M8A3H2\\
+\hline
+33 & HE996560 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_58725. & UniRef100\_D9CJA9\\
+\hline
+34 & HQ391329 & Triticum aestivum clone UCDTA01780 genomic sequence. & \\
+\hline
+35 & EU159424 & Triticum turgidum haplotype B DNA repair protein Rad50 gene, complete cds. & \\
+\hline
+36 & DQ251490 & Triticum aestivum cultivar Chinese Spring powdery mildew resistance protein PM3CS (Pm3) gene, Pm3-CS allele, complete cds. & \\
+\hline
+37 & KC290909 & Triticum aestivum clone pTa-s309 FISH-positive repetitive sequence. & UniRef100\_T1L6W5\\
+\hline
+39 & AJ318783 & Triticum sp. partial mRNA for replication factor C, large subunit (rfc-1 gene). & UniRef100\_Q8L6A5\\
+\hline
+40 & AK330233 & Triticum aestivum cDNA, clone: SET3\_P11, cultivar: Chinese Spring. & UniRef100\_T1N886\\
+\hline
+41 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+44 & AJ784900 & Triticum aestivum mRNA for type 1 non-specific lipid transfer protein precursor (ltp9.4 gene). & \\
+\hline
+46 & AK330669 & Triticum aestivum cDNA, clone: SET1\_G08, cultivar: Chinese Spring. & \\
+\hline
+47 & AK331428 & Triticum aestivum cDNA, clone: WT007\_H14, cultivar: Chinese Spring. & UniRef100\_M8AEN7\\
+\hline
+48 & HE996767 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_66371. & UniRef100\_M7Z3W8\\
+\hline
+49 & AK332525 & Triticum aestivum cDNA, clone: SET1\_N11, cultivar: Chinese Spring. & \\
+\hline
+51 & AK331813 & Triticum aestivum cDNA, clone: WT002\_G19, cultivar: Chinese Spring. & \\
+\hline
+53 & HE996642 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_60579. & UniRef100\_T1M429\\
+\hline
+56 & HQ390245 & Triticum turgidum clone UCDTA00696 genomic sequence. & \\
+\hline
+57 & FJ345689 & Triticum aestivum MITE Tourist-3 MITE Islay Tourist, complete sequence. & \\
+\hline
+58 & JF758499 & Triticum aestivum clone BAC 425P7, complete sequence. & UniRef100\_M7Z3R4\\
+\hline
+59 & FN645450 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0011b. & \\
+\hline
+60 & FN645450 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0011b. & \\
+\hline
+61 & AK333585 & Triticum aestivum cDNA, clone: WT006\_N11, cultivar: Chinese Spring. & UniRef100\_M8A091\\
+\hline
+63 & FN564428 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0091b. & \\
+\hline
+67 & AK332970 & Triticum aestivum cDNA, clone: WT005\_F05, cultivar: Chinese Spring. & UniRef100\_M7YP29\\
+\hline
+70 & AK332566 & Triticum aestivum cDNA, clone: WT004\_E21, cultivar: Chinese Spring. & \\
+\hline
+71 & AK334580 & Triticum aestivum cDNA, clone: SET1\_C02, cultivar: Chinese Spring. & \\
+\hline
+73 & EU660896 & Triticum urartu clone BAC 059G16 plastid acetyl-CoA carboxylase (Acc-1) gene, complete cds; nuclear gene for plastid product. & UniRef100\_M7ZVV5\\
+\hline
+74 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+75 & AB238931 & Triticum monococcum TmABI1 gene for protein phosphatase 2C, complete cds. & UniRef100\_M7YVM1\\
+\hline
+76 & BT009089 & Triticum aestivum clone wkm2c.pk0002.a3:fis, full insert mRNA sequence. & \\
+\hline
+78 & AK335897 & Triticum aestivum cDNA, clone: SET2\_L19, cultivar: Chinese Spring. & UniRef100\_M7ZH67\\
+\hline
+80 & AK330275 & Triticum aestivum cDNA, clone: SET4\_A24, cultivar: Chinese Spring. & \\
+\hline
+81 & HE996341 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_16989. & \\
+\hline
+84 & JF758499 & Triticum aestivum clone BAC 425P7, complete sequence. & \\
+\hline
+86 & AK335765 & Triticum aestivum cDNA, clone: WT013\_L14, cultivar: Chinese Spring. & UniRef100\_M7YZ42\\
+\hline
+88 & FN564432 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0616b. & \\
+\hline
+91 & AM932681 & Triticum aestivum 3B chromosome, clone BAC TA3B63B13. & \\
+\hline
+92 & U76215 & Triticum aestivum NBS-LRR type protein pseudogene, complete sequence. & \\
+\hline
+94 & HE996549 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_58561. & \\
+\hline
+95 & AY487917 & Triticum aestivum Mla-like protein mRNA, partial cds. & UniRef100\_Q6RW52\\
+\hline
+96 & KC912694 & Triticum aestivum chloroplast, complete genome. & UniRef100\_T1MEW5\\
+\hline
+97 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+98 & AK333621 & Triticum aestivum cDNA, clone: WT006\_O21, cultivar: Chinese Spring. & \\
+\hline
+99 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+100 & AK333932 & Triticum aestivum cDNA, clone: WT008\_N17, cultivar: Chinese Spring. & UniRef100\_T1N9G3\\
+\hline
+101 & AK331581 & Triticum aestivum cDNA, clone: SET1\_J20, cultivar: Chinese Spring. & \\
+\hline
+102 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+104 & HQ391318 & Triticum aestivum clone UCDTA01769 genomic sequence. & UniRef100\_T1MZT0\\
+\hline
+105 & HQ391224 & Triticum aestivum clone UCDTA01675 genomic sequence. & UniRef100\_M7ZMV6\\
+\hline
+108 & DQ286562 & Triticum aestivum putative lipid transfer protein mRNA, complete cds. & \\
+\hline
+109 & AK335062 & Triticum aestivum cDNA, clone: WT011\_P12, cultivar: Chinese Spring. & UniRef100\_M7ZAY8\\
+\hline
+110 & KC152455 & Triticum aestivum clone BAC321B14 MATE1B gene, complete cds. & \\
+\hline
+112 & AK332529 & Triticum aestivum cDNA, clone: WT004\_D08, cultivar: Chinese Spring. & UniRef100\_M7ZA56\\
+\hline
+115 & AY049041 & Triticum aestivum 28S ribosomal RNA gene, partial sequence. & UniRef100\_T1L6Y4\\
+\hline
+117 & AK334519 & Triticum aestivum cDNA, clone: WT010\_C18, cultivar: Chinese Spring. & \\
+\hline
+119 & AK333035 & Triticum aestivum cDNA, clone: WT005\_H19, cultivar: Chinese Spring. & UniRef100\_Q9FT38\\
+\hline
+120 & CT009735 & Triticum aestivum. & \\
+\hline
+121 & HE996280 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_14118. & UniRef100\_M8AZM6\\
+\hline
+122 & EU626553 & Triticum urartu clone BAC 261N5, complete sequence. & \\
+\hline
+123 & HQ391007 & Triticum aestivum clone UCDTA01458 genomic sequence. & \\
+\hline
+125 & KC912694 & Triticum aestivum chloroplast, complete genome. & UniRef100\_T1LKW9\\
+\hline
+127 & AK330423 & Triticum aestivum cDNA, clone: SET4\_G18, cultivar: Chinese Spring. & UniRef100\_M8AIQ8\\
+\hline
+131 & HF541875 & Triticum aestivum chromosome 3B specific BAC library, BAC clone TaaCsp3BFhA\_0147D05. & UniRef100\_M7ZGW4\\
+\hline
+132 & CT009735 & Triticum aestivum. & UniRef100\_T1LKM3\\
+\hline
+135 & HQ391329 & Triticum aestivum clone UCDTA01780 genomic sequence. & \\
+\hline
+136 & KC912694 & Triticum aestivum chloroplast, complete genome. & UniRef100\_M7ZC27\\
+\hline
+137 & AK332255 & Triticum aestivum cDNA, clone: WT003\_I14, cultivar: Chinese Spring. & UniRef100\_M7YN64\\
+\hline
+144 & AK332897 & Triticum aestivum cDNA, clone: WT005\_C09, cultivar: Chinese Spring. & \\
+\hline
+146 & EF219468 & Triticum aestivum translationally-controlled tumor protein mRNA, complete cds. & UniRef100\_M7YF70\\
+\hline
+148 & AJ001117 & Triticum aestivum mRNA for sucrose synthase type I. & \\
+\hline
+150 & AK330745 & Triticum aestivum cDNA, clone: SET5\_D06, cultivar: Chinese Spring. & UniRef100\_M7YEA6\\
+\hline
+151 & AK335219 & Triticum aestivum cDNA, clone: WT012\_F19, cultivar: Chinese Spring. & UniRef100\_M7ZDI5\\
+\hline
+152 & AK335725 & Triticum aestivum cDNA, clone: SET2\_K04, cultivar: Chinese Spring. & UniRef100\_M7ZVF6\\
+\hline
+153 & BT009622 & Triticum aestivum clone wre1n.pk0137.c12:fis, full insert mRNA sequence. & \\
+\hline
+154 & HE774675 & Triticum aestivum chromosome arm 3DS-specific BAC library, contig ctg1484. & \\
+\hline
+157 & FN564428 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0091b. & \\
+\hline
+158 & EU626553 & Triticum urartu clone BAC 261N5, complete sequence. & \\
+\hline
+159 & DQ862833 & Triticum monococcum S-adenosylhomocysteine hydrolase mRNA, partial cds. & \\
+\hline
+161 & AK330639 & Triticum aestivum cDNA, clone: SET4\_P03, cultivar: Chinese Spring. & \\
+\hline
+162 & KC912694 & Triticum aestivum chloroplast, complete genome. & UniRef100\_T1LKW9\\
+\hline
+164 & DQ432014 & Triticum aestivum vacuolar proton-ATPase subunit A mRNA, complete cds. & \\
+\hline
+165 & KC912694 & Triticum aestivum chloroplast, complete genome. & UniRef100\_T1LKW9\\
+\hline
+166 & EU835980 & Triticum aestivum clone BAC 502E09, complete sequence. & \\
+\hline
+167 & FN564426 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0005b. & \\
+\hline
+168 & JF439307 & Triticum aestivum cultivar Yang Mai 158 serine/threonine protein kinase Stpk-D (Stpk-D) gene, complete cds. & \\
+\hline
+171 & KC175605 & Triticum aestivum calcium-dependent protein kinase 3-like 1 mRNA, partial cds. & UniRef100\_M1NQF6\\
+\hline
+173 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+174 & AK333177 & Triticum aestivum cDNA, clone: WT005\_N11, cultivar: Chinese Spring. & \\
+\hline
+175 & AJ132439 & Triticum aestivum mRNA for protein encoded by lt1.1 gene, partial. & \\
+\hline
+176 & AK331581 & Triticum aestivum cDNA, clone: SET1\_J20, cultivar: Chinese Spring. & \\
+\hline
+177 & HQ390713 & Triticum aestivum clone UCDTA01164 genomic sequence. & \\
+\hline
+179 & EU660895 & Triticum aestivum clone BAC 1825J10 cytosolic acetyl-CoA carboxylase (Acc-2) and putative amino acid permeases genes, complete cds. & \\
+\hline
+180 & FN564430 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0464b. & \\
+\hline
+181 & FJ427399 & Triticum turgidum clone BAC 738D05 chromosome 4B, partial sequence. & \\
+\hline
+182 & DQ537336 & Triticum aestivum clones BAC 1289J04; BAC 1001P20, complete sequence. & \\
+\hline
+184 & AK330153 & Triticum aestivum cDNA, clone: SET3\_M02, cultivar: Chinese Spring. & \\
+\hline
+185 & JX040632 & Triticum turgidum subsp. durum x Secale cereale glutamine synthetase I (GSI) mRNA, complete cds. & UniRef100\_M7ZP85\\
+\hline
+187 & AY951945 & Triticum monococcum TmBAC 60J11 FR-Am2 locus, genomic sequence. & \\
+\hline
+193 & AK332664 & Triticum aestivum cDNA, clone: WT004\_I22, cultivar: Chinese Spring. & \\
+\hline
+194 & AK330641 & Triticum aestivum cDNA, clone: SET4\_P05, cultivar: Chinese Spring. & UniRef100\_T1MAM1\\
+\hline
+195 & HE774676 & Triticum aestivum chromosome arm 3DS-specific BAC library, contig ctg447. & \\
+\hline
+197 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+198 & AK334078 & Triticum aestivum cDNA, clone: WT009\_E03, cultivar: Chinese Spring. & \\
+\hline
+199 & AM502900 & Triticum aestivum mRNA for MIKC-type MADS-box transcription factor WM30 (WM30 gene). & \\
+\hline
+201 & AK331183 & Triticum aestivum cDNA, clone: SET6\_K07, cultivar: Chinese Spring. & \\
+\hline
+203 & AK331090 & Triticum aestivum cDNA, clone: SET6\_A20, cultivar: Chinese Spring. & \\
+\hline
+206 & FN564430 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0464b. & \\
+\hline
+208 & FJ345689 & Triticum aestivum MITE Tourist-3 MITE Islay Tourist, complete sequence. & \\
+\hline
+211 & GU817319 & Triticum aestivum clone BAC\_2383A24 chromosome 3B, complete sequence. & \\
+\hline
+213 & AK333846 & Triticum aestivum cDNA, clone: WT008\_O20, cultivar: Chinese Spring. & UniRef100\_M7YLY4\\
+\hline
+216 & AP013106 & Triticum timopheevii mitochondrial DNA, complete sequence. & \\
+\hline
+217 & AK332920 & Triticum aestivum cDNA, clone: WT005\_D07, cultivar: Chinese Spring. & \\
+\hline
+221 & AK334145 & Triticum aestivum cDNA, clone: WT009\_O11, cultivar: Chinese Spring. & \\
+\hline
+222 & KC912694 & Triticum aestivum chloroplast, complete genome. & UniRef100\_T1LKW9\\
+\hline
+224 & GU817319 & Triticum aestivum clone BAC\_2383A24 chromosome 3B, complete sequence. & \\
+\hline
+225 & FR820619 & Triticum turgidum subsp. durum partial mRNA for td3ITN1 protein. & \\
+\hline
+226 & AK334286 & Triticum aestivum cDNA, clone: WT009\_F09, cultivar: Chinese Spring. & \\
+\hline
+227 & AK332238 & Triticum aestivum cDNA, clone: WT003\_H22, cultivar: Chinese Spring. & UniRef100\_M7ZLU3\\
+\hline
+228 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+229 & HQ391114 & Triticum aestivum clone UCDTA01565 genomic sequence. & \\
+\hline
+231 & GU211169 & Triticum aestivum clone 09d3 gliadin/avenin-like seed protein mRNA, complete cds. & UniRef100\_D2KFH0\\
+\hline
+233 & AF532601 & Triticum aestivum multidrug resistance associated protein MRP2 mRNA, complete cds. & UniRef100\_M7ZK96\\
+\hline
+235 & AF389882 & Triticum aestivum clone PAAC-SCGCA5 AFLP sequence. & UniRef100\_T1LCX9\\
+\hline
+236 & AK333949 & Triticum aestivum cDNA, clone: WT008\_P23, cultivar: Chinese Spring. & \\
+\hline
+238 & FN564428 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0091b. & \\
+\hline
+239 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+240 & HQ435325 & Triticum aestivum clone BAC 1J9 Tmemb\_185A domain-containing protein (1J9.1), EamA domain-containing protein (1J9.2), and Rht-D1b (Rht-D1b) genes, complete cds, complete sequence. & UniRef100\_M7ZYV2\\
+\hline
+242 & HQ390774 & Triticum aestivum clone UCDTA01225 genomic sequence. & UniRef100\_M7ZSC0\\
+\hline
+243 & AK330263 & Triticum aestivum cDNA, clone: SET4\_A13, cultivar: Chinese Spring. & \\
+\hline
+244 & HQ391044 & Triticum aestivum clone UCDTA01495 genomic sequence. & \\
+\hline
+245 & FN564430 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0464b. & \\
+\hline
+247 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+250 & FN564430 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0464b. & \\
+\hline
+251 & DQ537335 & Triticum aestivum clones BAC 1031P08; BAC 754K10; BAC 1344C16, complete sequence. & \\
+\hline
+252 & AK335757 & Triticum aestivum cDNA, clone: WT013\_L07, cultivar: Chinese Spring. & \\
+\hline
+253 & FJ225148 & Triticum aestivum ferritin 2A gene, complete cds. & \\
+\hline
+254 & HE774676 & Triticum aestivum chromosome arm 3DS-specific BAC library, contig ctg447. & \\
+\hline
+255 & AP013106 & Triticum timopheevii mitochondrial DNA, complete sequence. & \\
+\hline
+256 & FN645450 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0011b. & \\
+\hline
+257 & AK332440 & Triticum aestivum cDNA, clone: WT003\_P20, cultivar: Chinese Spring. & \\
+\hline
+258 & AK333064 & Triticum aestivum cDNA, clone: WT005\_I23, cultivar: Chinese Spring. & \\
+\hline
+259 & AK332804 & Triticum aestivum cDNA, clone: WT004\_O17, cultivar: Chinese Spring. & \\
+\hline
+260 & FN645450 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0011b. & \\
+\hline
+261 & AK335863 & Triticum aestivum cDNA, clone: WT013\_P13, cultivar: Chinese Spring. & UniRef100\_M7YYG6\\
+\hline
+262 & AB646974 & Triticum aestivum PRR gene for pseudo-response regulator, complete cds, allele: Ppd-B1a.1. & \\
+\hline
+263 & GU817319 & Triticum aestivum clone BAC\_2383A24 chromosome 3B, complete sequence. & \\
+\hline
+264 & AK332413 & Triticum aestivum cDNA, clone: WT003\_O18, cultivar: Chinese Spring. & UniRef100\_M7ZIU6\\
+\hline
+265 & FJ427399 & Triticum turgidum clone BAC 738D05 chromosome 4B, partial sequence. & \\
+\hline
+266 & DQ154924 & Triticum turgidum RAB7 (RAB7) gene, exons 1, 2 and partial cds; and delta-1-pyrroline-5-carboxylate dehydrogenase (P5CDH) gene, complete cds. & \\
+\hline
+267 & FN564433 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0661b. & \\
+\hline
+268 & AK334924 & Triticum aestivum cDNA, clone: WT011\_I02, cultivar: Chinese Spring. & \\
+\hline
+269 & AK334063 & Triticum aestivum cDNA, clone: WT009\_A23, cultivar: Chinese Spring. & UniRef100\_M7YKC3\\
+\hline
+270 & AY465427 & Triticum turgidum subsp. durum putative C3H2C3 RING-finger protein (6G2) gene, complete cds. & \\
+\hline
+271 & DQ167201 & Triticum aestivum eukaryotic translation initiation factor 5A1 gene, complete cds. & \\
+\hline
+274 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+275 & GU817319 & Triticum aestivum clone BAC\_2383A24 chromosome 3B, complete sequence. & \\
+\hline
+276 & AK330938 & Triticum aestivum cDNA, clone: SET5\_K22, cultivar: Chinese Spring. & UniRef100\_M7ZJN7\\
+\hline
+277 & GQ409824 & Triticum turgidum subsp. durum cultivar Langdon clone BAC 406B11, complete sequence. & \\
+\hline
+278 & JF946486 & Triticum aestivum transposon TREP 3040\_Harbinger, complete sequence; pseudo-response regulator (Ppd-B1) gene, Ppd-B1a allele, complete cds; and retrotransposon Gypsy TREP 3457\_Danae, complete sequence. & UniRef100\_M8B455\\
+\hline
+279 & JF701619 & Triticum aestivum cultivar Chinese Spring clone BAC CS12224M17\_A, complete sequence. & \\
+\hline
+280 & AK334173 & Triticum aestivum cDNA, clone: WT009\_C16, cultivar: Chinese Spring. & \\
+\hline
+281 & KF282629 & Triticum aestivum cultivar Chinese Spring clone BAC 351D1 chromosome 4A DELLA protein (Rht-A) gene, complete cds, complete sequence. & \\
+\hline
+284 & AK332097 & Triticum aestivum cDNA, clone: WT003\_C06, cultivar: Chinese Spring. & \\
+\hline
+286 & EU626553 & Triticum urartu clone BAC 261N5, complete sequence. & \\
+\hline
+287 & BT009432 & Triticum aestivum clone wlmk1.pk0037.b8:fis, full insert mRNA sequence. & UniRef100\_M7YEM7\\
+\hline
+289 & FN564432 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0616b. & \\
+\hline
+290 & AK335883 & Triticum aestivum cDNA, clone: SET2\_L04, cultivar: Chinese Spring. & \\
+\hline
+292 & HE774676 & Triticum aestivum chromosome arm 3DS-specific BAC library, contig ctg447. & \\
+\hline
+293 & AB238931 & Triticum monococcum TmABI1 gene for protein phosphatase 2C, complete cds. & \\
+\hline
+294 & JQ269664 & Triticum aestivum cultivar WL 711 betaine aldehyde dehydrogenase-like protein mRNA, partial cds. & UniRef100\_H9NAU5\\
+\hline
+296 & AK335270 & Triticum aestivum cDNA, clone: WT012\_H16, cultivar: Chinese Spring. & \\
+\hline
+297 & AY968588 & Triticum aestivum ice recrystallization inhibition protein 1 precursor, mRNA, complete cds. & \\
+\hline
+300 & AK332508 & Triticum aestivum cDNA, clone: WT004\_C11, cultivar: Chinese Spring. & UniRef100\_M7ZMZ7\\
+\hline
+301 & DQ537335 & Triticum aestivum clones BAC 1031P08; BAC 754K10; BAC 1344C16, complete sequence. & \\
+\hline
+302 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+303 & GU211251 & Triticum aestivum pyruvate dehydrogenase E1 component alpha subunit (PDHA1) gene, partial cds. & \\
+\hline
+306 & JF261156 & Triticum monococcum cultivar DV92 Mla1 gene, complete cds. & \\
+\hline
+307 & AK335953 & Triticum aestivum cDNA, clone: SET1\_C22, cultivar: Chinese Spring. & UniRef100\_M8A0S9\\
+\hline
+308 & KC912694 & Triticum aestivum chloroplast, complete genome. & \\
+\hline
+309 & HQ821868 & Triticum aestivum cultivar Jasna glutamate dehydrogenase mRNA, complete cds. & UniRef100\_E9NX12\\
+\hline
+311 & JF946486 & Triticum aestivum transposon TREP 3040\_Harbinger, complete sequence; pseudo-response regulator (Ppd-B1) gene, Ppd-B1a allele, complete cds; and retrotransposon Gypsy TREP 3457\_Danae, complete sequence. & \\
+\hline
+312 & AK335209 & Triticum aestivum cDNA, clone: WT012\_F09, cultivar: Chinese Spring. & UniRef100\_Q41591\\
+\hline
+313 & AK336081 & Triticum aestivum cDNA, clone: SET3\_C24, cultivar: Chinese Spring. & UniRef100\_M7YMK8\\
+\hline
+314 & AM932685 & Triticum aestivum 3B chromosome, clone BAC TA3B95F5. & \\
+\hline
+316 & GQ169688 & Triticum aestivum plastid glutamine synthetase 2 (GS2) gene, GS2-D1a allele, complete cds; nuclear gene for plastid product. & \\
+\hline
+318 & FN564428 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0091b. & \\
+\hline
+320 & KC573058 & Triticum monococcum subsp. monococcum cultivar DV92 Sr35 region, genomic sequence. & \\
+\hline
+321 & HE996762 & Triticum aestivum cv. Arina SNP, chromosome 3B, clone Taes\_arina\_ctg\_66287. & UniRef100\_M8A6Z7\\
+\hline
+324 & GQ409824 & Triticum turgidum subsp. durum cultivar Langdon clone BAC 406B11, complete sequence. & \\
+\hline
+326 & KC573058 & Triticum monococcum subsp. monococcum cultivar DV92 Sr35 region, genomic sequence. & UniRef100\_M7Z2V6\\
+\hline
+327 & BT009452 & Triticum aestivum clone wlmk8.pk0022.f7:fis, full insert mRNA sequence. & \\
+\hline
+328 & HE774675 & Triticum aestivum chromosome arm 3DS-specific BAC library, contig ctg1484. & \\
+\hline
+329 & AM502905 & Triticum aestivum mRNA for MIKC-type MADS-box transcription factor WM32B (WM32B gene). & UniRef100\_T1LUM5\\
+\hline
+330 & AK334989 & Triticum aestivum cDNA, clone: WT011\_L15, cultivar: Chinese Spring. & \\
+\hline
+333 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+334 & AK333292 & Triticum aestivum cDNA, clone: WT006\_B19, cultivar: Chinese Spring. & UniRef100\_M7ZHG4\\
+\hline
+336 & BT009004 & Triticum aestivum clone wdk2c.pk018.c16:fis, full insert mRNA sequence. & UniRef100\_Q8S9G0\\
+\hline
+337 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & UniRef100\_M7YVM1\\
+\hline
+339 & AK335226 & Triticum aestivum cDNA, clone: WT012\_G01, cultivar: Chinese Spring. & \\
+\hline
+340 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+341 & HQ435325 & Triticum aestivum clone BAC 1J9 Tmemb\_185A domain-containing protein (1J9.1), EamA domain-containing protein (1J9.2), and Rht-D1b (Rht-D1b) genes, complete cds, complete sequence. & \\
+\hline
+342 & HQ390713 & Triticum aestivum clone UCDTA01164 genomic sequence. & \\
+\hline
+344 & AK336242 & Triticum aestivum cDNA, clone: SET1\_E02, cultivar: Chinese Spring. & UniRef100\_M8B455\\
+\hline
+346 & FN564434 & Triticum aestivum chromosome 3B-specific BAC library, contig ctg0954b. & \\
+\hline
+\end{longtable}
+}
+\endgroup
+
 
 %----------------------------------------------------------------------------------------
 % SECTIONS DU DOCUMENT
@@ -363,12 +822,81 @@ insérer ces informations dans le fichier des résultats.
 
 En regardant le type de gène identifié pour la plupart des résultats, il semble s'agir de données prédites par logiciel.
 En effet, pour la plupart des gènes sont de type ORF (Open Reading Frame), un outil utilisé pour la prédiction de gènes.
-Donc, l'information à propos de ces gènes est incomplète.
+Donc, l'information à propos de ces gènes est incomplète. De plus, tous les gènes identifiés ayant un nom commençant
+par TRIUR sont des gènes provenant de l'espèce \emph{Triticum urartu}. Tel que discuté à l'introduction, c'est une
+espèce présentement utilisée pour tenter d'obtenir de l'information concernant le blé. J'ai donc décidé d'utiliser ces
+gènes pour tenter d'annoter les contigs.
 
-Pour 
+Voici le tableau présentant les gènes identifiés, ainsi que leurs sources.
 
 \input{question_4/contigs_q4.tex}
 
+\section{Identifiez la position des introns dans ces gènes. Illustrez cette cartographie pour chaque gène}
+
+Afin d'identifier les introns des gènes identifiés, j'ai utilisé la base de données EnsemblPlants pour me
+procurer les informations sur les séquences représentants ces gènes. J'ai du effectuer cette étape à la main,
+car il est seulement possible d'accéder à ENSEMBL à l'aide de BioPerl, que je ne connais pas. J'ai donc fait des
+recherches dans EnsemblPlants pour les noms des gènes trouvés à la question précédente, et j'ai ensuite enregistré
+les informations concernant le gène dans un fichier genbank. Ces fichiers sont enregistrés dans le dossier genbank\_genes.
+
+Chaque fichier genbank comprend les informations à propos des exons contenus dans le gène. J'ai donc pu facilement identifier
+les introns de ces gènes. Je considère que chaque intron est une zone où il n'y a pas d'exon.
+
+Pour les gènes n'étant pas présent dans la base de données EnsemblPlants, j'ai utilisé les différentes bases de données de NCBI
+pour trouver de l'information concernant la séquence nucléotidique codant la protéine. Pour les gènes ayant une référence à la
+base de données UniGene, j'ai utilisé cette ressource pour identifier une séquence protéique associée au gène. J'ai ensuite
+obtenu la séquence nucléotidique à partir de cette séquence protéique. Pour les gènes où j'avais déjà un numéro d'accession pour
+la séquence nucléotidique, j'ai tout simplement consulté le fichier genbank.
+
+Afin d'identifier les introns dans ces cas, j'ai consulté le feature CDS afin d'y trouver la location des régions codantes. Encore
+une fois, tout ce qui est à l'extérieur de ces régions est considéré comme un intron.
+
+Pour illustrer ces gènes, et la position des contigs, j'ai utilisé le module GenomeDiagram de BioPython. Cela m'a permis de situer
+les exons dans le gène. Pour automatiser le travail, j'ai utilisé le script draw\_sequence.py. Pour les cartographies faites à la
+main, j'ai utilisé le script draw\_unigene.py.
+
+Afin de m'assurer de placer le contig à l'endroit le plus probable gène, j'ai effectué, pour chaque contig, un alignement local du
+contig avec la séquence nucléotidique du gène. J'ai utilisé l'application water de EMBOSS pour effectuer ce travail. Il n'y a aucune
+vérification faite concernant la qualité de l'alignement obtenu. J'ai vérifié manuellement certains résultat, et il y avait une
+grande variation: certains alignements avaient un identité autour de 40\%, alors que pour certains, l'identité était de 100\%.
+
+J'ai aussi rencontré une difficulté avec certains fichiers genbank pour produire la cartographie, car le fichier contient plusieurs
+variations du gène, qui sont alors dessinés plusieurs fois.
+
+Il y a aussi une très grande variation dans les gènes cartographiés. En effet, on peut y remarquer ce qui semble être des données
+expérimentales, car plusieurs gènes semblent contenir un seul exon, et cet exon occupe la presque totalité du gène. Il s'agit probablement
+d'une prédiction dans ces cas, Une application a détecté la probabilité d'un exon, et cette information a été annotée et insérée
+à la base de données.
+
+\input{question_5/q5.tex}
+
+\section{Conclusion}
+
+Le but donné de ce travail était d'annoter et de cartographier des contigs provenant des ESTs du blé. J'ai choisi d'orienter
+ma recherche directement dans les séquences, protéines et gènes déjà connus du blé. Donc, pour j'ai seulement recherché à annoter
+les contigs pour lesquels j'avais des résultats de bonne qualité pour les résultats. J'ai défini cet élément de qualité par la
+E-value du blast qui tentait d'associer le contig à une séquence connue. 
+
+En vérifiant la E-value médiane des résultats selon la longueur du contig, j'ai remarqué que, malgré une différence dans l'ordre
+de grandeur des E-value, les résultats pour les contigs plus courts étaient quand même de bonne qualité. J'ai donc appliqué la même
+règle pour chaque contig.
+
+Lorsque j'ai identifié si au moins un des résultats de blast était le blé, je n'ai pas tenu compte du nombre de hit correspondant
+au blé. C'est une information qui aurait été intéressante à avoir, il aurait peut-être été possible de regrouper certains contigs
+en un gène plutôt que d'avoir des gènes différents. Toutefois, comme les résultats du blast sur la base de données ont démontré, 
+la plupart des contigs faisaient partie de différentes familles, ou clusters, de protéines, il est donc peu probable qu'il ait été
+possible de les regrouper d'avantage.
+
+Une analyse sommaire des résultats obtenus semblent indiquer que plusieurs des ESTS proviennent du chromosome 3 du blé. D'abord, car
+les résultats des blasts ont trouvé un nombre de hits pour le chromosome 3B, mais aussi car les gènes identifiés proviennent en grande
+partie du chromosome 3 du \emph{Triticum urartu}, une espèce utilisée pour tenter de prédire les gènes du blé.
+
+Toutefois, je n'ai pas su comment mettre en place une façon de vérifier les résutlats obtenus. En effet, pour le moment, je vérifie
+seulement la qualité du résultat si elle est donnée, par exemple, dans un blast, mais je n'ai aucune autre façon de vérifier si
+j'obtiens bien le bon résultat.
+
+Ce travail d'annotation et de cartographie représente une première étape à propos de l'identification de ces ESTs. IL aurait été 
+possible d'étendre la recherche à des espèces proches du blé, qui sont mieux annotées présentement. Par exemple, le riz.
 
 \begingroup
 \renewcommand{\appendix}{%
@@ -735,95 +1263,12 @@ Contig & Taille & Taux GC & Contig & Taille & Taux GC\\
 \end{longtable}
 }
 346 contigs, taille moyenne: 109.176300578 Taux GC moyen: 42.9628288283
-
-
-\subsection{Fichiers genbank utilisés pour ce rapport}\label{26}
-
- \footnotesize{
-\begin{longtable}{|p{4.5cm}|p{3.5cm}|p{4.5cm}|p{3.5cm}|}
-\hline
- Nom & Numéro d'accession & Nom & Numéro d'accession\\
- \hline \endhead
- Cloning Vector EN.Cherry, complete sequence & HM771696.1 & PGeneClip hMGFP Vector, complete sequence & AY744386.1 \\
- \hline
- Expression vector pHT2, complete sequence & AY773970.1 & Homo sapiens chromosome 6, GRCh37.p13 Primary Assembly & NC\_000006.11 \\
- \hline 
- SARS coronavirus MA15 ExoN1 isolate d3om5, complete genome & JF292906.1 & SARS coronavirus MA15 isolate d2ym4, complete genome & JF292909.1 \\
- \hline
-  SARS coronavirus MA15 isolate d4ym5, complete genome & JF292915.1 & SARS coronavirus HKU-39849 isolate recSARS-CoV HKU-39849, 
-  complete genome & JN854286 .1 \\
- \hline
-   SARS coronavirus HKU-39849 isolate UOB, complete genome & JQ316196.1 & SARS coronavirus isolate Tor2/FP1-10912, complete genome & JX163923.1 \\
- \hline
- SARS coronavirus isolate Tor2/FP1-10851, complete genome & JX163924.1  & SARS coronavirus isolate Tor2/FP1-10895, complete genome & JX163925.1 \\
- \hline
-  SARS coronavirus isolate Tor2/FP1-10912, complete genome & JX163926.1  & SARS coronavirus isolate Tor2/FP1-10851, complete genome & JX163927.1 \\
- \hline
-   SARS coronavirus isolate Tor2/FP1-10895, complete genome & JX163928.1  & SARS coronavirus SinP3, complete genome & AY559090.1 \\
- \hline
-  SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00001, complete genome & GU553363.1  & SARS coronavirus HKU-39849 isolate recSARS-CoV HKU-39849, complete genome & JN854286.1 \\
- \hline
-  SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00002, complete genome & GU553364.1  & SARS coronavirus HKU-39849 isolate TCVSP-HARROD-00003, complete genome & GU553365.1 \\
- \hline
-  SARS coronavirus Sin850, complete genome & AY559096.1  & SARS coronavirus MA15 isolate P3pp3, complete genome & FJ882948.1 \\
- \hline
-  SARS coronavirus MA15 ExoN1 isolate P3pp3, complete genome & FJ882951.1  & SARS coronavirus MA15 isolate P3pp4, complete genome & FJ882952.1 \\
- \hline
-  SARS coronavirus MA15, complete genome & FJ882957.1   & SARS coronavirus MA15 isolate P3pp7, complete genome & FJ882958.1 \\
- \hline
-  SARS coronavirus MA15 ExoN1 isolate P3pp6, complete genome & FJ882959.1   & SARS coronavirus MA15 isolate P3pp5, complete genome & FJ882961.1 \\
- \hline
-   SARS coronavirus ExoN1 isolate c5P1, complete genome & JF292922.1   & SARS coronavirus ExoN1 isolate c5P10, complete genome & JX162087.1 \\
- \hline
- SARS coronavirus ExoN1 strain & KF514407.1   &  PREDICTED: Pan troglodytes forkhead box P4, transcript variant 2 (FOXP4), mRNA & XM\_518463.3  \\
- \hline
-  PREDICTED: Pan paniscus forkhead box P4, transcript variant 2 (FOXP4), mRNA. & XM\_003833312.1 & PPREDICTED: Gorilla gorilla gorilla forkhead box P4, transcript variant 2 (FOXP4), mRNA. & XM\_004043991.1  \\
- \hline
-   PREDICTED: Pongo abelii forkhead box P4, transcript variant 1 (FOXP4), mRNA. & XM\_002816867.2 & PREDICTED: Nomascus leucogenys forkhead box P4, transcript variant 2 (FOXP4), mRNA. & XM\_003266293.1  \\
- \hline
-  PREDICTED: Macaca fascicularis forkhead box P4 (FOXP4), transcript variant X3, mRNA. & XM\_005553053.1 & Macaca mulatta forkhead box P4 (FOXP4), mRNA. & NM\_001266091.1  \\
- \hline
-   PREDICTED: Saimiri boliviensis boliviensis forkhead box P4, transcript variant 2 (FOXP4), mRNA & XM\_003922988.1 &  Homo sapiens chromosome 2, GRCh37.p13 Primary Assembly &  NC\_000002.11 \\
- \hline
-   Homo sapiens amyotrophic lateral sclerosis 2 (juvenile) (ALS2), transcript variant 1, mRNA & NM\_020919.3 &  Homo sapiens amyotrophic lateral sclerosis 2 (juvenile) (ALS2), transcript variant 2, mRNA &  NM\_001135745.1 \\
- \hline
-  Pan troglodytes chromosome 2B, Pan\_troglodytes-2.1.4 & NC\_006470.3 &  Macaca mulatta chromosome 12, Mmul\_051212, whole genome shotgun sequence &  NC\_007869.1 \\
- \hline
-   Canis lupus familiaris breed boxer chromosome 37, CanFam3.1, whole genome shotgun sequence & NC\_006619.3 &  Bos taurus breed Hereford chromosome 2, Bos\_taurus\_UMD\_3.1, whole genome shotgun sequence &  AC\_000159.1 \\
- \hline
-    Mus musculus strain C57BL/6J chromosome 1, GRCm38.p1 C57BL/6J & NC\_000067.6 &  Rattus norvegicus strain BN/SsNHsdMCW chromosome 9, Rnor\_5.0 &  NC\_005108.3 \\
- \hline
-  Gallus gallus isolate \#256 breed Red Jungle fowl, inbred line UCD001 chromosome 7, Gallus\_gallus-4.0, whole genome shotgun sequence & NC\_006094.3 &  Danio rerio strain Tuebingen chromosome 6, Zv9 &  NC\_007117.5 \\
- \hline
- Homo sapiens chromosome 2 genomic contig, GRCh37.p13 Primary Assembly & NT\_005403.17 &  alsin isoform 1 [Homo sapiens] & NP\_065970.2 \\
- \hline
-  alsin [Pan troglodytes] & NP\_001073389.1 &  forkhead box protein P4 isoform 1 [Homo sapiens] & NP\_001012426.1 \\
- \hline
-\end{longtable}
-}
-
-\subsection{Fichiers de gène de NCBI utilisé pour ce rapport}\label{27}
-
- \footnotesize{
-\begin{longtable}{|p{4.5cm}|p{3.5cm}|p{4.5cm}|p{3.5cm}|}
-\hline
- Nom & Gene ID & Nom & Gene ID\\
- \hline \endhead
- ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Homo sapiens (human) ]  & 57679 & ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Pan troglodytes (chimpanzee) ]  & 470613 \\
- \hline
- ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Macaca mulatta (Rhesus monkey) ] & 703263 & ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Canis lupus familiaris (dog) ] & 100856109 \\
- \hline
-  ALS2 amyotrophic lateral sclerosis 2 (juvenile) [ Bos taurus (cattle) ]  & 535750 & Als2 amyotrophic lateral sclerosis 2 (juvenile) [ Mus musculus (house mouse) ] & 74018 \\
- \hline
-   Als2 amyotrophic lateral sclerosis 2 (juvenile) [ Rattus norvegicus (Norway rat) ]  & 363235 & FOXP4 forkhead box P4 [ Homo sapiens (human) ] & 116113 \\
- \hline
- \end{longtable}
- }
 \endgroup
 
 %
 %Bibiographie
 %
+\newpage
 \begin{thebibliography}{99}
 {\small
 \bibitem{Triticum eastivum Genome}
@@ -857,9 +1302,9 @@ doi: 10.1093/nar/gks1236
     \emph{Genome Res.} 2002 Jun;12(6):996-1006. 
 \bibitem{BLAST}
   Basic Local Alignment Search Tool (Altschul et al., J Mol Biol 215:403-410; 1990).
-}
 \bibitem{Uniref}
 Suzek BE, Huang H, McGarvey P, Mazumder R, Wu CH. UniRef: comprehensive and non-redundant UniProt reference clusters. Bioinformatics. 2007 May 15;23(10):1282-8. Epub 2007 Mar 22. PubMed PMID: 17379688. 
+}
 \end{thebibliography}
 
 \end{document}
