@@ -1,0 +1,145 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-185559-0822-3895911-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="106" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:56:13+00:00" search="P0Y0M0DT0H0M13.000S" start="2013-11-25T18:56:00+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="3">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_M0W8A2" length="736" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         8.0E-4
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="99">
+         LLPPSQNKCLNFVLALVQICTKLKTLILGQREY
+        </queryseq>
+        <pattern>
+         +L PSQ KC NFVLAL Q    L+TLIL QREY
+        </pattern>
+        <matchseq end="704" start="672">
+         ILSPSQIKCFNFVLALTQSSINLETLILTQREY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_M0ZDG8" length="148" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         0.88
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="97" start="2">
+         YSLCPKISVLSLVQICTRASTKLRHLFWDGGS
+        </queryseq>
+        <pattern>
+         YSL PKI            STKLRHLF DGGS
+        </pattern>
+        <matchseq end="144" start="113">
+         YSLRPKIXXXXXXXXXXXXSTKLRHLFRDGGS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7ZZ34" length="499" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.1
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         19
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="7" start="99">
+         LLPPSQNKCLNFVLALVQICTKLKTLILGQR
+        </queryseq>
+        <pattern>
+         +LPPSQNKCLN    L +      TLILGQR
+        </pattern>
+        <matchseq end="495" start="471">
+         ILPPSQNKCLNHDTTLYE------TLILGQR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

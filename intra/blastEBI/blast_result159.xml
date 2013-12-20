@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-175457-0736-52970551-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="125" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:55:08+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T17:54:57+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="2">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Butyrivibrio crossotus DSM 2876 RepID=D4S076_9FIRM" id="UniRef100_D4S076" length="140" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         7.2
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="18" start="104">
+         INYPVSLLLSYMLSLRRRICYYGYVLSLV
+        </queryseq>
+        <pattern>
+         I++PV +L  Y +SL R  C Y ++LSLV
+        </pattern>
+        <matchseq end="87" start="59">
+         IHFPVVVLCQYFISLSRVGCIYNFLLSLV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="MFS multidrug transporter n=1 Tax=Colletotrichum orbiculare (strain 104-T / ATCC 96160 / CBS 514.97 / LARS 414 / MAFF 240422) RepID=N4UPG8_COLOR" id="UniRef100_N4UPG8" length="543" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         9.3
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="30" start="125">
+         SGTNGNSINYPVSLLLSYMLSLRRRICYYGYV
+        </queryseq>
+        <pattern>
+         SG  G  +N  VS+LLS ++ LR R  Y GY+
+        </pattern>
+        <matchseq end="180" start="149">
+         SGIGGGGVNAVVSILLSDLVPLRERGVYQGYI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

@@ -1,0 +1,7293 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-183915-0746-2714528-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="95" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:39:27+00:00" search="P0Y0M0DT0H0M12.000S" start="2013-11-25T18:39:15+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="Gliadin/avenin-like seed protein n=1 Tax=Triticum aestivum RepID=" id="UniRef100_D2KFH0" length="183" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         165
+        </score>
+        <bits>
+         68.2
+        </bits>
+        <expectation>
+         3.0E-13
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </pattern>
+        <matchseq end="126" start="96">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8C3H3" length="166" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         153
+        </score>
+        <bits>
+         63.5
+        </bits>
+        <expectation>
+         1.0E-11
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQH-QQQQQYSWGV
+        </queryseq>
+        <pattern>
+         SRCLAINSVAHAIILHEQQQH QQQQQYSWGV
+        </pattern>
+        <matchseq end="109" start="78">
+         SRCLAINSVAHAIILHEQQQHQQQQQQYSWGV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Leymus mollis RepID=" id="UniRef100_F5A7H0" length="335" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ  WGV
+        </pattern>
+        <matchseq end="190" start="160">
+         SRCQAIHSVVHAIILHQQQQQQQQQQQQWGV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale strictum subsp. africanum RepID=" id="UniRef100_F4ZL26" length="188" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAHAIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale sylvestre RepID=" id="UniRef100_F4ZL25" length="188" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAHAIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale sylvestre RepID=" id="UniRef100_F4ZL24" length="188" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAHAIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale sylvestre RepID=" id="UniRef100_F4ZL23" length="188" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAHAIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale sylvestre RepID=" id="UniRef100_F4ZL22" length="188" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAHAIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale sylvestre RepID=" id="UniRef100_F4ZL19" length="192" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         8.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAHAIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale strictum subsp. africanum RepID=" id="UniRef100_F4ZL28" length="186" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVAH IILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVAHTIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Leymus mollis RepID=" id="UniRef100_F5A7H1" length="333" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         6
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ  WGV
+        </pattern>
+        <matchseq end="188" start="160">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ--WGV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Secale sylvestre RepID=" id="UniRef100_F4ZL21" length="188" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQ-HQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         S C AINSVA AIILH+QQQ +QQQ+QYSW V
+        </pattern>
+        <matchseq end="132" start="101">
+         SLCPAINSVARAIILHQQQQEYQQQKQYSWDV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_A8TFT2" length="284" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_H8Y0H1" length="285" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_A8TFR1" length="285" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_H8Y0H0" length="297" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_A5HKU7" length="297" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF25" length="280" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWG
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH QQQ QQQQQY  G
+        </pattern>
+        <matchseq end="205" start="176">
+         SRCQAIHNVVHAIILHHQQQQQQQQQYPSG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_B5AH60" length="281" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWG
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH QQQ QQQQQY  G
+        </pattern>
+        <matchseq end="206" start="177">
+         SRCQAIHNVVHAIILHHQQQQQQQQQYPSG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_H8Y0H5" length="282" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHKQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_H8Y0H3" length="282" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHKQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_H8Y0H2" length="282" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHKQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Secale cereale RepID=" id="UniRef100_H8Y0F9" length="282" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHKQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Henrardia persica RepID=" id="UniRef100_H8Y0F2" length="282" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHKQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Henrardia persica RepID=" id="UniRef100_H8Y0F1" length="282" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHKQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_H8Y0H4" length="286" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCEAINSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF14" length="312" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRCLAI+SV HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCLAIHSVVHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Australopyrum retrofractum RepID=" id="UniRef100_A8TFK4" length="285" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         108
+        </score>
+        <bits>
+         46.2
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AINSV HAIILH+QQQ +QQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAINSVVHAIILHQQQQQRQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Taeniatherum caput-medusae subsp. crinitum RepID=" id="UniRef100_H8Y0G3" length="312" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         108
+        </score>
+        <bits>
+         46.2
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="209" start="184">
+         SRCQAIHNVAHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-U4 n=1 Tax=Aegilops umbellulata RepID=" id="UniRef100_G9I1S5" length="284" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="207" start="182">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A8VZG4" length="290" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-U2 n=1 Tax=Aegilops umbellulata RepID=" id="UniRef100_G9I1S3" length="304" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="213" start="188">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Leymus mollis RepID=" id="UniRef100_F5A7G9" length="308" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Psathyrostachys juncea RepID=" id="UniRef100_H8Y0D2" length="334" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="185" start="160">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Psathyrostachys juncea RepID=" id="UniRef100_H8Y0D5" length="343" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="185" start="160">
+         SRCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0J9" length="280" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K4" length="281" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K1" length="281" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K2" length="282" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K8" length="285" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K5" length="285" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K3" length="288" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Thinopyrum intermedium RepID=" id="UniRef100_E5FEZ7" length="289" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A9Z0L8" length="289" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A9Z0L5" length="289" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A8VZI3" length="289" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A8VZI0" length="289" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A8VZF6" length="289" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K7" length="290" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum villosum RepID=" id="UniRef100_A9Z0K0" length="291" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAVHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XSW3" length="207" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="128" start="103">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF26" length="283" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="7" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSW
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ  +
+        </pattern>
+        <matchseq end="205" start="177">
+         SRCQAIHNVVHAIILHQQQQQQQQQQQQY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF18" length="283" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="7" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSW
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ  +
+        </pattern>
+        <matchseq end="205" start="177">
+         SRCQAIHNVVHAIILHQQQQQQQQQQQQY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF15" length="283" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="7" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSW
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ  +
+        </pattern>
+        <matchseq end="205" start="177">
+         SRCQAIHNVVHAIILHQQQQQQQQQQQQY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_I3RXV4" length="287" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="10" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYS
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ S
+        </pattern>
+        <matchseq end="213" start="186">
+         SRCQAIHNVVHAIILHQQQQQQQQQQPS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_B5AH61" length="295" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAIHSVVHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF16" length="298" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="209" start="184">
+         SRCQAIHSVVHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF17" length="299" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="209" start="184">
+         SRCQAIHSVVHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL47" length="257" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="200" start="175">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL52" length="261" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="204" start="179">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops speltoides RepID=" id="UniRef100_Q2QL56" length="264" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL44" length="267" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL43" length="267" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL42" length="267" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops speltoides RepID=" id="UniRef100_Q2QL54" length="269" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="199" start="174">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL50" length="272" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Agropyron cristatum RepID=" id="UniRef100_H8Y0F6" length="277" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A+ SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="197" start="172">
+         SRCQAVQSVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Aegilops markgrafii RepID=" id="UniRef100_K4NYX6" length="282" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="203" start="178">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Pseudoroegneria spicata RepID=" id="UniRef100_E5FF23" length="282" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Agropyron desertorum RepID=" id="UniRef100_E3UTY5" length="282" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A+ SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="197" start="172">
+         SRCQAVQSVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Agropyron desertorum RepID=" id="UniRef100_E3UTY2" length="283" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A+ SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="203" start="178">
+         SRCQAVQSVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XEB0" length="284" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="206" start="181">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Thinopyrum elongatum RepID=" id="UniRef100_E5FF02" length="285" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWG
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQY  G
+        </pattern>
+        <matchseq end="210" start="182">
+         SRCQAIHSVVHAIILHQQQQ-QQQQQYPSG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Thinopyrum elongatum RepID=" id="UniRef100_A7LHC2" length="285" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="203" start="178">
+         SRCQAIHNVVHAIILHQQQQRQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Thinopyrum elongatum RepID=" id="UniRef100_B5AH56" length="286" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWG
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQY  G
+        </pattern>
+        <matchseq end="211" start="183">
+         SRCQAIHSVVHAIILHQQQQ-QQQQQYPSG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W5N2" length="287" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="207" start="182">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XE64" length="287" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="209" start="184">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7WUZ4" length="287" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=4 Tax=Triticeae RepID=" id="UniRef100_H9BQ71" length="287" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii x Secale cereale RepID=" id="UniRef100_H9BQ68" length="287" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Crithopsis delileana RepID=" id="UniRef100_A9YRP1" length="287" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="207" start="182">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Thinopyrum elongatum RepID=" id="UniRef100_A7LHC1" length="287" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="205" start="180">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_E2CSZ7" length="288" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii x Secale cereale RepID=" id="UniRef100_I3RXU2" length="289" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_Q9M4L6" length="290" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="210" start="185">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha prolamin n=1 Tax=Aegilops uniaristata RepID=" id="UniRef100_H8Y0E9" length="290" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="213" start="188">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXX9" length="291" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R9XUK8" length="292" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XE68" length="292" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXY6" length="292" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXY5" length="292" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXY2" length="292" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXX6" length="292" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXX5" length="292" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXX1" length="292" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Triticum urartu RepID=" id="UniRef100_H9NAK0" length="292" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="209" start="184">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_A5JSA2" length="292" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="210" start="185">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Aegilops markgrafii RepID=" id="UniRef100_K4P147" length="293" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Thinopyrum ponticum x Triticum aestivum RepID=" id="UniRef100_A7LHC5" length="293" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R9XST1" length="294" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7X1H8" length="294" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_J7I021" length="294" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7X1K5" length="295" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Aegilops markgrafii RepID=" id="UniRef100_K4NYM6" length="295" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="202" start="177">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_J7I026" length="295" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Secale cereale RepID=" id="UniRef100_I3RXX8" length="295" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-M6 n=1 Tax=Aegilops comosa RepID=" id="UniRef100_G9I1S1" length="295" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-M3 n=1 Tax=Aegilops comosa RepID=" id="UniRef100_G9I1R8" length="295" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin (Fragment) n=1 Tax=Triticum aestivum RepID=" id="UniRef100_A7LHB6" length="295" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XV51" length="296" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XRC1" length="296" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7X1F5" length="296" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7WV53" length="296" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XRB5" length="297" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XRA8" length="297" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XEA2" length="297" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii x Secale cereale RepID=" id="UniRef100_I3RXU0" length="297" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_H6VLP5" length="297" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_E0Z2G6" length="297" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_A5JSA0" length="297" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin A-IV n=1 Tax=Triticum aestivum RepID=" id="UniRef100_P04724" length="297" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XW73" length="298" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XV34" length="298" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_J7HZW3" length="298" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=2 Tax=Triticum aestivum RepID=" id="UniRef100_J7HSR9" length="298" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="215" start="190">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_I3RXW5" length="298" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_I3RXW2" length="298" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii x Secale cereale RepID=" id="UniRef100_I3RXU1" length="298" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=2 Tax=Triticeae RepID=" id="UniRef100_H9BQ63" length="298" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-M4 n=1 Tax=Aegilops comosa RepID=" id="UniRef100_G9I1R9" length="298" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="204" start="179">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XV48" length="299" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R9XUL8" length="299" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="219" start="194">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli2-CN16-14 n=1 Tax=Triticum aestivum RepID=" id="UniRef100_Q306F8" length="299" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops speltoides RepID=" id="UniRef100_M4WH49" length="299" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XR81" length="299" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_E0Z2G7" length="299" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="219" start="194">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_D0UTY3" length="299" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_A7LHB7" length="299" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XW94" length="300" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XUM8" length="300" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="221" start="196">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R9XV15" length="301" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="224" start="199">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R9XUL3" length="301" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="224" start="199">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XW80" length="303" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii x Secale cereale RepID=" id="UniRef100_I3RXV2" length="303" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="221" start="196">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_Q1WA39" length="306" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops speltoides RepID=" id="UniRef100_M4WFE4" length="307" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="221" start="196">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7X1I9" length="307" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_J7HWD3" length="307" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_A7LHB3" length="307" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_A5JSA6" length="307" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="228" start="203">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin MM1 n=1 Tax=Triticum aestivum RepID=" id="UniRef100_P18573" length="307" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7XRC7" length="308" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7X0M3" length="308" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_K7WV37" length="308" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha gliadin n=1 Tax=Thinopyrum ponticum x Triticum aestivum RepID=" id="UniRef100_A7LHC8" length="308" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="229" start="204">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-C4 (Fragment) n=1 Tax=Aegilops markgrafii RepID=" id="UniRef100_G9I1T1" length="310" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="228" start="203">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-C2 n=1 Tax=Aegilops markgrafii RepID=" id="UniRef100_G9I1S9" length="310" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="225" start="200">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops speltoides RepID=" id="UniRef100_M4WIN0" length="311" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="225" start="200">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-N1 n=1 Tax=Aegilops uniaristata RepID=" id="UniRef100_G9I1T2" length="311" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-N5 n=1 Tax=Aegilops uniaristata RepID=" id="UniRef100_G9I1T6" length="312" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="208" start="183">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alfa gliadin n=1 Tax=Triticum monococcum RepID=" id="UniRef100_B8XU29" length="313" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="225" start="200">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-N2 n=1 Tax=Aegilops uniaristata RepID=" id="UniRef100_G9I1T3" length="316" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="234" start="209">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops speltoides RepID=" id="UniRef100_M4WFD9" length="317" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="222" start="197">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_I0IT52" length="318" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="234" start="209">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum dicoccoides RepID=" id="UniRef100_I0CCD2" length="318" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         3.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Thinopyrum elongatum RepID=" id="UniRef100_B5AH54" length="285" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWG
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH+QQQ QQQQQY  G
+        </pattern>
+        <matchseq end="210" start="182">
+         SRCQAIHSVVHAIILHQQQQ-QQQQQYPPG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli-U5 n=1 Tax=Aegilops umbellulata RepID=" id="UniRef100_G9I1S6" length="286" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH++QQ QQQQQ
+        </pattern>
+        <matchseq end="207" start="182">
+         SRCQAIHSVVHAIILHQRQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_I0IT54" length="289" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="203" start="178">
+         SRCQAIHNVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_I0IT57" length="290" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="205" start="180">
+         SRCQAIHNVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_I0IT55" length="291" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="207" start="182">
+         SRCQAIHNVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_I0IT59" length="296" number="171">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="210" start="185">
+         SRCQAIHNVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha/beta-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_I0IT56" length="296" number="172">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="205" start="180">
+         SRCQAIHNVIHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Psathyrostachys huashanica RepID=" id="UniRef100_C5MQZ6" length="303" number="173">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         S+C AI+SV HAIILH+QQQ QQQQQ
+        </pattern>
+        <matchseq end="211" start="186">
+         SQCQAIHSVVHAIILHQQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_A5JSB8" length="308" number="174">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ Q+QQQ
+        </pattern>
+        <matchseq end="214" start="189">
+         SRCQAIHNVAHAIIMHQQQQQQEQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=2 Tax=Triticeae RepID=" id="UniRef100_K7X1G8" length="309" number="175">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="216" start="191">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_F4YT74" length="312" number="176">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=2 Tax=Triticum aestivum RepID=" id="UniRef100_A5JSA9" length="312" number="177">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="217" start="192">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum aestivum RepID=" id="UniRef100_R9XUP7" length="313" number="178">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin Gli2-LM2-12 n=1 Tax=Triticum aestivum RepID=" id="UniRef100_Q1WA40" length="313" number="179">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum durum RepID=" id="UniRef100_D2X6D9" length="313" number="180">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=2 Tax=Triticum RepID=" id="UniRef100_D2X6D1" length="313" number="181">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="218" start="193">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Triticum durum RepID=" id="UniRef100_D2X6D3" length="320" number="182">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="225" start="200">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=2 Tax=Triticum RepID=" id="UniRef100_K7WV47" length="324" number="183">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++VAHAII+H+QQQ QQ+QQ
+        </pattern>
+        <matchseq end="230" start="205">
+         SRCQAIHNVAHAIIMHQQQQQQQEQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Psathyrostachys huashanica RepID=" id="UniRef100_C5MQZ8" length="331" number="184">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         13
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH    HQQQQQ  WGV
+        </pattern>
+        <matchseq end="186" start="160">
+         SRCQAIHSVVHAIILH----HQQQQQQQWGV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Psathyrostachys huashanica RepID=" id="UniRef100_C5MQZ7" length="331" number="185">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         13
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="1" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWGV
+        </queryseq>
+        <pattern>
+         SRC AI+SV HAIILH    HQQQQQ  WGV
+        </pattern>
+        <matchseq end="186" start="160">
+         SRCQAIHSVVHAIILH----HQQQQQQQWGV
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein (Fragment) n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_Q2QL49" length="267" number="186">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         4.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="210" start="185">
+         SRCQAIHNVVHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Agropyron desertorum RepID=" id="UniRef100_E3UTY3" length="277" number="187">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         5.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A+ SV HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="197" start="172">
+         SRCQAVQSVIHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin storage protein n=1 Tax=Agropyron desertorum RepID=" id="UniRef100_E3UTY0" length="280" number="188">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         5.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A+ SV HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="197" start="172">
+         SRCQAVQSVIHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Crithopsis delileana RepID=" id="UniRef100_A9YRP3" length="281" number="189">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         5.0E-4
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC AI++V HAIILH QQQ QQQQQ
+        </pattern>
+        <matchseq end="201" start="176">
+         SRCQAIHNVVHAIILHHQQQQQQQQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_A9Z0L4" length="288" number="190">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         5.0E-4
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQYSWG
+        </queryseq>
+        <pattern>
+         SRC A++ V HAIILH+QQQ QQQQ  S G
+        </pattern>
+        <matchseq end="215" start="186">
+         SRCQAVHGVVHAIILHQQQQQQQQQLLSHG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin n=1 Tax=Dasypyrum hordeaceum RepID=" id="UniRef100_D1MI66" length="289" number="191">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         5.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="16" start="93">
+         SRCLAINSVAHAIILHEQQQHQQQQQ
+        </queryseq>
+        <pattern>
+         SRC A++SV HAIILH+QQQ QQQ+Q
+        </pattern>
+        <matchseq end="211" start="186">
+         SRCQAVHSVVHAIILHQQQQQQQQKQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Alpha-gliadin protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_I3RXW8" length="295" number="192">
+      <alignm>
+      </alignm>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

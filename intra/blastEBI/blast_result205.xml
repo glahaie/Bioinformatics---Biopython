@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-181944-0936-36529479-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="109" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:20:43+00:00" search="P0Y0M0DT0H0M58.000S" start="2013-11-25T18:19:45+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="2">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Tupaia chinensis RepID=" id="UniRef100_L9JYY2" length="119" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         4.4
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="2" start="97">
+         AAVEVRLPPTRVRSRAAAIGYWVISSQRPLQR
+        </queryseq>
+        <pattern>
+         A  EVRLPPT+V    AA+G  V++  R  +R
+        </pattern>
+        <matchseq end="33" start="2">
+         AGPEVRLPPTQVAELCAALGRGVVAGARAAER
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="McrBC 5-methylcytosine restriction system component-like protein n=1 Tax=Catenulispora acidiphila (strain DSM 44928 / NRRL B-24433 / NBRC 102108 / JCM 14897) RepID=" id="UniRef100_C7QAD2" length="72" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         6.0
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="20" start="94">
+         AVEVRLPPTRVRSRAAAIGYWVISS
+        </queryseq>
+        <pattern>
+         A+++  PPTRV  + AAIG W++++
+        </pattern>
+        <matchseq end="70" start="46">
+         ALDLDQPPTRVEEQIAAIGEWIVNA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

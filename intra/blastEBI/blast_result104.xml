@@ -1,0 +1,6473 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-171015-0252-97221723-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="148" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:11:59+00:00" search="P0Y0M0DT0H1M44.000S" start="2013-11-25T17:10:15+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="195">
+     <hit database="UR100" description="Protein transport protein Sec24-like CEF n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8BDQ9" length="799" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         246
+        </score>
+        <bits>
+         99.4
+        </bits>
+        <expectation>
+         9.0E-23
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </pattern>
+        <matchseq end="737" start="689">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_T1MZT0" length="956" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         246
+        </score>
+        <bits>
+         99.4
+        </bits>
+        <expectation>
+         1.0E-22
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </pattern>
+        <matchseq end="894" start="846">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7YIM0" length="289" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         233
+        </score>
+        <bits>
+         94.4
+        </bits>
+        <expectation>
+         4.0E-22
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         96.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFI+VGNAVNPATLEQIFGFSSLAGAPNLL LEQFDN LSRK
+        </pattern>
+        <matchseq end="227" start="179">
+         LLENGEDGFIHVGNAVNPATLEQIFGFSSLAGAPNLLVLEQFDNVLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_F2DPD0" length="823" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         240
+        </score>
+        <bits>
+         97.1
+        </bits>
+        <expectation>
+         6.0E-22
+        </expectation>
+        <identity>
+         98.0
+        </identity>
+        <positives>
+         98.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNPATLEQIFG SSLAGAPNLLALEQFDNALSRK
+        </pattern>
+        <matchseq end="761" start="713">
+         LLENGEDGFIYVGNAVNPATLEQIFGLSSLAGAPNLLALEQFDNALSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_M0UTL7" length="866" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         240
+        </score>
+        <bits>
+         97.1
+        </bits>
+        <expectation>
+         6.0E-22
+        </expectation>
+        <identity>
+         98.0
+        </identity>
+        <positives>
+         98.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNPATLEQIFG SSLAGAPNLLALEQFDNALSRK
+        </pattern>
+        <matchseq end="804" start="756">
+         LLENGEDGFIYVGNAVNPATLEQIFGLSSLAGAPNLLALEQFDNALSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=4 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_M0UTL8" length="1147" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         240
+        </score>
+        <bits>
+         97.1
+        </bits>
+        <expectation>
+         8.0E-22
+        </expectation>
+        <identity>
+         98.0
+        </identity>
+        <positives>
+         98.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNPATLEQIFG SSLAGAPNLLALEQFDNALSRK
+        </pattern>
+        <matchseq end="1085" start="1037">
+         LLENGEDGFIYVGNAVNPATLEQIFGLSSLAGAPNLLALEQFDNALSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24-like CEF n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8AQ70" length="567" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         225
+        </score>
+        <bits>
+         91.3
+        </bits>
+        <expectation>
+         4.0E-20
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFI+V NAVNPATLEQIFGFSSLAGAPNLL LEQFDN LSRK
+        </pattern>
+        <matchseq end="505" start="457">
+         LLENGEDGFIHVRNAVNPATLEQIFGFSSLAGAPNLLVLEQFDNVLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3ND43" length="826" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         226
+        </score>
+        <bits>
+         91.7
+        </bits>
+        <expectation>
+         5.0E-20
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGF+YVGNAVNPATLEQIFG SSLAGAPNLL LEQ+DN LSRK
+        </pattern>
+        <matchseq end="764" start="716">
+         LLENGEDGFVYVGNAVNPATLEQIFGVSSLAGAPNLLVLEQYDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_B9GCX4" length="984" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         216
+        </score>
+        <bits>
+         87.8
+        </bits>
+        <expectation>
+         1.0E-18
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGF+YVGNAVNPATLEQIFG SSLAG PN L LEQ+DN LSRK
+        </pattern>
+        <matchseq end="922" start="874">
+         LLENGEDGFVYVGNAVNPATLEQIFGVSSLAGVPNQLVLEQYDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Retrotransposon protein, putative, unclassified, expressed n=2 Tax=Oryza RepID=" id="UniRef100_Q2QSF9" length="1083" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         216
+        </score>
+        <bits>
+         87.8
+        </bits>
+        <expectation>
+         1.0E-18
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGF+YVGNAVNPATLEQIFG SSLAG PN L LEQ+DN LSRK
+        </pattern>
+        <matchseq end="1021" start="973">
+         LLENGEDGFVYVGNAVNPATLEQIFGVSSLAGVPNQLVLEQYDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8BPD2" length="1094" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         216
+        </score>
+        <bits>
+         87.8
+        </bits>
+        <expectation>
+         1.0E-18
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGF+YVGNAVNPATLEQIFG SSLAG PN L LEQ+DN LSRK
+        </pattern>
+        <matchseq end="1032" start="984">
+         LLENGEDGFVYVGNAVNPATLEQIFGVSSLAGVPNQLVLEQYDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1IIM0" length="849" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         211
+        </score>
+        <bits>
+         85.9
+        </bits>
+        <expectation>
+         5.0E-18
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNP TLEQIFG SSLAG P  LALEQFDN LS+K
+        </pattern>
+        <matchseq end="829" start="781">
+         LLENGEDGFIYVGNAVNPVTLEQIFGVSSLAGVPTQLALEQFDNELSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1IIL9" length="891" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         211
+        </score>
+        <bits>
+         85.9
+        </bits>
+        <expectation>
+         5.0E-18
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNP TLEQIFG SSLAG P  LALEQFDN LS+K
+        </pattern>
+        <matchseq end="829" start="781">
+         LLENGEDGFIYVGNAVNPVTLEQIFGVSSLAGVPTQLALEQFDNELSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like At4g32640-like n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_UPI000234F42A" length="1068" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         211
+        </score>
+        <bits>
+         85.9
+        </bits>
+        <expectation>
+         6.0E-18
+        </expectation>
+        <identity>
+         86.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGNAVNP TLEQIFG SSLAG P  LALEQFDN LS+K
+        </pattern>
+        <matchseq end="1006" start="958">
+         LLENGEDGFIYVGNAVNPVTLEQIFGVSSLAGVPTQLALEQFDNELSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like CEF-like n=1 Tax=Setaria italica RepID=" id="UniRef100_UPI00035104A6" length="1019" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         207
+        </score>
+        <bits>
+         84.3
+        </bits>
+        <expectation>
+         2.0E-17
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGN+VNP TLEQIFG SSLAG PN L LE FDN LSRK
+        </pattern>
+        <matchseq end="957" start="909">
+         LLENGEDGFIYVGNSVNPVTLEQIFGVSSLAGVPNQLVLEPFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Zea mays RepID=" id="UniRef100_C0P861" length="1100" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         197
+        </score>
+        <bits>
+         80.5
+        </bits>
+        <expectation>
+         4.0E-16
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG +YVGN VNPATLEQIFG SSLA  P  LALEQFDN LSRK
+        </pattern>
+        <matchseq end="1038" start="990">
+         LLENGEDGLVYVGNMVNPATLEQIFGVSSLAALPAQLALEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K3ZH02" length="1085" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         193
+        </score>
+        <bits>
+         79.0
+        </bits>
+        <expectation>
+         2.0E-15
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGN VNPATLEQIFG SSLA  P  L LEQFDN LSRK
+        </pattern>
+        <matchseq end="1023" start="975">
+         LLENGEDGLIYVGNMVNPATLEQIFGVSSLAALPVQLVLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb05g016000 n=1 Tax=Sorghum bicolor RepID=" id="UniRef100_C5Y2B8" length="1102" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         190
+        </score>
+        <bits>
+         77.8
+        </bits>
+        <expectation>
+         4.0E-15
+        </expectation>
+        <identity>
+         80.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGN VNP TLEQIFG SSLA  P  LAL+QFDN LSRK
+        </pattern>
+        <matchseq end="1043" start="995">
+         LLENGEDGLIYVGNMVNPGTLEQIFGVSSLAALPVQLALDQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_K7U005" length="1100" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         7.0E-15
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG +YVGN VNPATLEQIFG SSLA  P    LEQFDN LSRK
+        </pattern>
+        <matchseq end="1038" start="990">
+         LLENGEDGLVYVGNMVNPATLEQIFGVSSLAALPAQATLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8BKH9" length="363" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         6.0E-14
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGN V P  LEQIFG SSLA  P+   LEQFDN LSRK
+        </pattern>
+        <matchseq end="301" start="253">
+         LLENGEDGLIYVGNVVEPTILEQIFGVSSLAALPSQAVLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0TY79" length="1064" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         181
+        </score>
+        <bits>
+         74.3
+        </bits>
+        <expectation>
+         6.0E-14
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IY+GN VNP TL+QIFG SS+ G P+ L LEQFDN LS+K
+        </pattern>
+        <matchseq end="1002" start="954">
+         LLENGEDGLIYIGNMVNPDTLQQIFGVSSVDGLPSQLVLEQFDNELSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Oryza glaberrima RepID=" id="UniRef100_I1R062" length="809" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGN V P  LEQIFG SSLA  P+   LEQFDN LSRK
+        </pattern>
+        <matchseq end="747" start="699">
+         LLENGEDGLIYVGNVVEPTILEQIFGVSSLAALPSQAVLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24-like CEF, putative, expressed n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q2R4A0" length="810" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGN V P  LEQIFG SSLA  P+   LEQFDN LSRK
+        </pattern>
+        <matchseq end="748" start="700">
+         LLENGEDGLIYVGNVVEPTILEQIFGVSSLAALPSQAVLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_A3CBA1" length="834" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGN V P  LEQIFG SSLA  P+   LEQFDN LSRK
+        </pattern>
+        <matchseq end="772" start="724">
+         LLENGEDGLIYVGNVVEPTILEQIFGVSSLAALPSQAVLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3N8D2" length="976" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         2.0E-13
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVGNAV P  LEQIFG SS A  P+ + LEQFDN LSRK
+        </pattern>
+        <matchseq end="914" start="866">
+         LLENGEDGLIYVGNAVEPTILEQIFGASSSAALPSQVVLEQFDNGLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0SF25" length="560" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         174
+        </score>
+        <bits>
+         71.6
+        </bits>
+        <expectation>
+         3.0E-13
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IY+GN  NP TL+QIFG SS+ G P  L LEQFDN LS+K
+        </pattern>
+        <matchseq end="498" start="450">
+         LLENGEDGLIYIGNMANPETLQQIFGVSSVDGLPAQLVLEQFDNDLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8BKI0" length="784" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         171
+        </score>
+        <bits>
+         70.5
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN V P  LEQIFG SSLA  P+   LEQFDN LSRK
+        </pattern>
+        <matchseq end="722" start="674">
+         LLENGEDSLIYVGNVVEPTILEQIFGVSSLAALPSQAVLEQFDNELSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1ILS1" length="1094" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         165
+        </score>
+        <bits>
+         68.2
+        </bits>
+        <expectation>
+         8.0E-12
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGEDG IYVG+A++PA LEQIFG +SL   P+ L  EQFDN  SRK
+        </pattern>
+        <matchseq end="1032" start="984">
+         LLENGEDGLIYVGDALDPAMLEQIFGVTSLTALPSQLVFEQFDNEPSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K3ZC14" length="1100" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         162
+        </score>
+        <bits>
+         67.0
+        </bits>
+        <expectation>
+         2.0E-11
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="106" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPN
+        </queryseq>
+        <pattern>
+         LLENGEDGFIYVGN+VNP TLEQIFG SSLAG PN
+        </pattern>
+        <matchseq end="1099" start="1065">
+         LLENGEDGFIYVGNSVNPVTLEQIFGVSSLAGVPN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Vitis vinifera RepID=" id="UniRef100_A5BJ01" length="418" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         150
+        </score>
+        <bits>
+         62.4
+        </bits>
+        <expectation>
+         4.0E-10
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+DG IY+GN+VNP  + Q+FG SS+   P+   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="339" start="291">
+         LLENGDDGLIYIGNSVNPDIMRQLFGISSVDVIPSQFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Vitis vinifera RepID=" id="UniRef100_E0CT66" length="1124" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         150
+        </score>
+        <bits>
+         62.4
+        </bits>
+        <expectation>
+         8.0E-10
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+DG IY+GN+VNP  + Q+FG SS+   P+   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1062" start="1014">
+         LLENGDDGLIYIGNSVNPDIMRQLFGISSVDVIPSQFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein (Fragment) n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9I8B0" length="1103" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+D  IY+GN+VNP  L+++FG SS+A  P    LEQ+DN+LS+K
+        </pattern>
+        <matchseq end="1040" start="992">
+         LLENGQDVSIYIGNSVNPDILQKLFGISSVAEIPTQYVLEQYDNSLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_K7U001" length="350" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         144
+        </score>
+        <bits>
+         60.1
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="103" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP
+        </queryseq>
+        <pattern>
+         LLENGEDG +YVGN VNPATLEQIFG SSLA  P
+        </pattern>
+        <matchseq end="334" start="301">
+         LLENGEDGLVYVGNMVNPATLEQIFGVSSLAALP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24C, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9RET0" length="1094" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         146
+        </score>
+        <bits>
+         60.8
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG++G IY+GN+V+ + L+Q+FG SS+ G P    L Q+DN LS+K
+        </pattern>
+        <matchseq end="1030" start="982">
+         LLENGQEGLIYIGNSVDSSVLQQLFGVSSVDGIPTQFVLHQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9MZH5" length="1080" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         144
+        </score>
+        <bits>
+         60.1
+        </bits>
+        <expectation>
+         5.0E-9
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         6
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP---NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+DG IY+GN+VN  TL+++FG SS+A  P   +   LEQ+DN LS+K
+        </pattern>
+        <matchseq end="1016" start="965">
+         LLENGQDGLIYIGNSVNSDTLQKLFGLSSVAEIPTQYSQFVLEQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1BSD0" length="327" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN+ +P  + Q+ G SS+   P    L+Q+DN LS+K
+        </pattern>
+        <matchseq end="265" start="217">
+         LLENGEDCLIYVGNSADPNVIHQLLGISSVEEIPAQFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_K7LLW8" length="1085" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG D  IYVG++VNP  ++++FG +++   P L  L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1022" start="974">
+         LLENGHDCLIYVGDSVNPDIVQKLFGVATVDKVPTLFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1NFB2" length="1087" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG D  IYVG++VNP  ++++FG +++   P L  L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1024" start="976">
+         LLENGHDCLIYVGDSVNPDIVQKLFGVATVDKVPTLFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5XSP6" length="1104" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         131
+        </score>
+        <bits>
+         55.1
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED FIY+GN V+   L+Q+FG +S    P    L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1041" start="993">
+         LLENGEDCFIYIGNLVDSNFLQQLFGVTSADELPTQYVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4CAS6" length="1069" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         4.0E-7
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN+ +P  + Q+ G SS+   P    L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1007" start="959">
+         LLENGEDCLIYVGNSADPNVIRQLLGISSVEEIPAQFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like At4g32640-like n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C2DE70" length="1113" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         4.0E-7
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN V+   L+Q+FG  +    P    L+Q+DN+LS+K
+        </pattern>
+        <matchseq end="1050" start="1002">
+         LLENGEDCLIYVGNLVDSGILQQLFGVGTADALPTQFVLQQYDNSLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like CEF-like n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B491CB" length="577" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         5.0E-7
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  +YVGN V+   L+Q+FG SS+   P    L+Q+DN LS+K
+        </pattern>
+        <matchseq end="513" start="465">
+         LLENGEDCLVYVGNLVDRDILQQLFGISSVDEIPAQSVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5XKY9" length="1015" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IY+GN+V+P  L ++FG SS+   P    L+Q DN  S+K
+        </pattern>
+        <matchseq end="954" start="906">
+         LLENGEDCLIYIGNSVDPDMLTKLFGISSVDEIPTQFVLQQHDNPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24-like At4g32640 n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_Q9M081" length="1080" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG ++VG +V+   L+++F  SS A  PN   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1018" start="971">
+         LENGEDGLLFVGESVDSDILQKLFAVSSAAEIPNQFVLQQYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sec24-like transport protein n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_R4WCW1" length="1092" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG ++VG +V+   L+++F  SS A  PN   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1030" start="983">
+         LENGEDGLLFVGESVDSDILQKLFAVSSAAEIPNQFVLQQYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like At4g32640-like n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B45408" length="1105" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  +YVGN V+   L+Q+FG SS+   P    L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1041" start="993">
+         LLENGEDCLVYVGNLVDRDILQQLFGISSVDEIPAQSVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=" id="UniRef100_D5A997" length="223" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         122
+        </score>
+        <bits>
+         51.6
+        </bits>
+        <expectation>
+         9.0E-7
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IY G AV+   L+Q+FG SS+   P+   L+ + N LSRK
+        </pattern>
+        <matchseq end="161" start="113">
+         LLENGEDALIYAGKAVSADVLQQLFGVSSVDEIPDQFLLQDYGNDLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=" id="UniRef100_R0FLU8" length="1114" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         9.0E-7
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG +Y+G +VN   L+++F  SS A  P+   L+++DN LS+K
+        </pattern>
+        <matchseq end="1051" start="1004">
+         LENGEDGLVYIGESVNSDILKKLFDVSSAADLPSQYVLQEYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="mRNA, clone: RTFL01-26-C18 n=1 Tax=Thellungiella halophila RepID=" id="UniRef100_E4MY44" length="1074" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         126
+        </score>
+        <bits>
+         53.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENG+DG IY+G++VN   L+++F  SS A  P+   L+++DN LS+K
+        </pattern>
+        <matchseq end="1012" start="965">
+         LENGDDGLIYIGDSVNSDILQKLFDVSSAADIPSQYVLQRYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=" id="UniRef100_R0GXT8" length="1089" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         126
+        </score>
+        <bits>
+         53.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG +YVG +V+   L+++F   S A  PN   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1027" start="980">
+         LENGEDGLLYVGESVDSDILQKLFAVPSAAEIPNQYVLQQYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7M9R3" length="1067" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG +YVG +V+   L+++F   S A  PN   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1018" start="971">
+         LENGEDGLLYVGESVDSDILQKLFAVPSAAEIPNQYLLQQYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like At4g32640-like n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032AACA9" length="1077" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG D  IYVG++VNP  + ++FG S++   P L  L+Q +N LS+K
+        </pattern>
+        <matchseq end="1014" start="966">
+         LLENGHDCLIYVGDSVNPDIVRKLFGVSTVDEIPTLFVLQQLENPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like At4g32640-like n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_UPI0002BCA7AE" length="1082" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN+ +P  + Q+ G SS+   P    L+Q DN  S+K
+        </pattern>
+        <matchseq end="1020" start="972">
+         LLENGEDCLIYVGNSADPGVMHQLLGISSVEQVPAQFVLQQHDNPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4D4G2" length="1091" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG +YV  +V+   L+++FG  S+A  P+   L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1029" start="982">
+         LENGEDGLLYVAESVDSGILQKLFGVPSVAEIPSQYVLQQYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4C2P4" length="1091" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN+ +P  + Q+ G SS+   P    L+Q DN  S+K
+        </pattern>
+        <matchseq end="1029" start="981">
+         LLENGEDCLIYVGNSADPGVMHQLLGISSVEQVPAQFVLQQHDNPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Lotus japonicus RepID=" id="UniRef100_I3SAQ6" length="528" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG D  IY+G++VNP  + ++FG +++   P L  L+Q DN LS+K
+        </pattern>
+        <matchseq end="518" start="470">
+         LLENGLDCLIYIGDSVNPDIIRRLFGVATVEEIPTLFVLQQHDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Transport protein sec24-like CEF n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_F4J1Y2" length="1069" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG IY+G +VN   L+++F   S A  P+   L+++DN LS+K
+        </pattern>
+        <matchseq end="1033" start="986">
+         LENGEDGLIYIGESVNSDILQKLFNVRSAAELPSQYVLQKYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24-like CEF n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_Q9M291" length="1096" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG IY+G +VN   L+++F   S A  P+   L+++DN LS+K
+        </pattern>
+        <matchseq end="1033" start="986">
+         LENGEDGLIYIGESVNSDILQKLFNVRSAAELPSQYVLQKYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24C, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9RJ34" length="1056" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         122
+        </score>
+        <bits>
+         51.6
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  +YVGN V    ++QIFG SS+        L+Q+DN LS+K
+        </pattern>
+        <matchseq end="1027" start="979">
+         LLENGEDALLYVGNLVGSDIVQQIFGISSVDEISVQFVLQQYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4F1R2" length="1357" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         121
+        </score>
+        <bits>
+         51.2
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENG+DG IYVG +VN   L ++F   S A  P+   LE++DN LS+K
+        </pattern>
+        <matchseq end="1295" start="1248">
+         LENGDDGLIYVGESVNSDILMKLFNVPSAADIPSQYVLEKYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24-like At4g32640-like n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C34A9F" length="1048" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  IYVGN+V+   L ++FG  S+   P    L+Q DN LS++
+        </pattern>
+        <matchseq end="987" start="939">
+         LLENGEDCLIYVGNSVDSDILNKLFGVPSIDEIPTQFVLQQLDNPLSKR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7LNR1" length="1096" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="5">
+         LENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LENGEDG IY+G +VN   L+++F   S A   +   L+++DN LS+K
+        </pattern>
+        <matchseq end="1033" start="986">
+         LENGEDGLIYIGESVNSDILQKLFNVHSAAELQSQYVLQKYDNQLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8E8Q1" length="1060" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         109
+        </score>
+        <bits>
+         46.6
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLEN E+  I+VG++V+P  ++Q+FG SSL   P+   L Q  N  S+K
+        </pattern>
+        <matchseq end="997" start="949">
+         LLENSEECLIFVGSSVSPKVVQQLFGSSSLDDVPDQFVLPQLSNPPSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8EMC5" length="469" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         0.0010
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG D  I+VG +V    L Q FG SS+    N   L+++DN LS+K
+        </pattern>
+        <matchseq end="407" start="359">
+         LLENGIDCLIFVGGSVQRNLLYQFFGVSSVEEISNQYVLKEYDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Gasterosteus aculeatus RepID=" id="UniRef100_G3Q7G4" length="1028" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A+ P  ++ IF   SLA    N+ AL + DN LS K
+        </pattern>
+        <matchseq end="965" start="916">
+         LLENGHSMFLWLGQAIPPDLVQNIFNLPSLAHLQGNMCALPELDNPLSNK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Physcomitrella patens subsp. patens RepID=" id="UniRef100_A9S9N4" length="1007" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.014
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENGED  +YV +  +   L Q+FG  S+   A    +L+++DN LSR+
+        </pattern>
+        <matchseq end="945" start="896">
+         LLENGEDALLYVNSQASREVLHQLFGVCSVDELAVGQFSLQEYDNELSRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_I3JL58" length="1021" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.014
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+  F+++G A +P  ++ +F   SLA    ++ AL + DN LSRK
+        </pattern>
+        <matchseq end="958" start="909">
+         LLENGQSMFLWLGQASSPDLIQSLFNLPSLAHLQGHMCALPELDNPLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24D isoform X1 n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_UPI00022AFC90" length="1031" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.014
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+  F+++G A +P  ++ +F   SLA    ++ AL + DN LSRK
+        </pattern>
+        <matchseq end="968" start="919">
+         LLENGQSMFLWLGQASSPDLIQSLFNLPSLAHLQGHMCALPELDNPLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24D-like isoform X2 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI000329F7D7" length="1033" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         0.014
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+  F+++G A +P  ++ +F   SLA    ++ AL + DN LSRK
+        </pattern>
+        <matchseq end="970" start="921">
+         LLENGQSMFLWLGQASSPDLIQSLFNLPSLAHLQGHMCALPELDNPLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Chlorella variabilis RepID=" id="UniRef100_E1ZIR7" length="946" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.046
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         52.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="145" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA--PNLLALEQFDNALSR
+        </queryseq>
+        <pattern>
+         LLENG D FIY G  V P T+  +FG  SL G      L L   D  LSR
+        </pattern>
+        <matchseq end="882" start="833">
+         LLENGFDAFIYAGKNVAPDTMMALFGVPSLEGGDPQQPLLLPTLDTPLSR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryzias latipes RepID=" id="UniRef100_H2LIX2" length="1022" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.085
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A +P  ++ IF   SLA    L + L   DN LS+K
+        </pattern>
+        <matchseq end="959" start="910">
+         LLENGHSMFLWIGQAASPDLIQGIFNLPSLAHFQGLTSTLPDLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24d n=1 Tax=Oryzias latipes RepID=" id="UniRef100_D6RUX3" length="1064" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.086
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A +P  ++ IF   SLA    L + L   DN LS+K
+        </pattern>
+        <matchseq end="1001" start="952">
+         LLENGHSMFLWIGQAASPDLIQGIFNLPSLAHFQGLTSTLPDLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8RYV1" length="217" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.099
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="133" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDN
+        </queryseq>
+        <pattern>
+         LLE GED F+Y G AV+   L Q+F   S+    P    L+++DN
+        </pattern>
+        <matchseq end="155" start="111">
+         LLETGEDAFLYAGKAVSSELLHQLFEVRSVNEVIPGQFLLQEYDN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8QRN2" length="222" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="133" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDN
+        </queryseq>
+        <pattern>
+         LLE GED F+Y G AV+   L Q+F   S+    P    L+++DN
+        </pattern>
+        <matchseq end="106" start="62">
+         LLETGEDAFLYAGKAVSSELLHQLFEVRSVNEVIPGQFLLQEYDN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Ectocarpus siliculosus RepID=" id="UniRef100_D7FPJ3" length="925" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.15
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="97" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG
+        </queryseq>
+        <pattern>
+         LLENG + F++VG A NPA +  +FG  SL G
+        </pattern>
+        <matchseq end="839" start="808">
+         LLENGVELFLWVGRAANPAVVSALFGVPSLEG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8RYV8" length="386" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.16
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="133" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDN
+        </queryseq>
+        <pattern>
+         LLE GED F+Y G AV+   L Q+F   S+    P    L+++DN
+        </pattern>
+        <matchseq end="253" start="209">
+         LLETGEDAFLYAGKAVSSELLHQLFEVRSVNEVIPGQFLLQEYDN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8RJ82" length="977" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.2
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="133" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDN
+        </queryseq>
+        <pattern>
+         LLE GED F+Y G AV+   L Q+F   S+    P    L+++DN
+        </pattern>
+        <matchseq end="907" start="863">
+         LLETGEDAFLYAGKAVSSELLHQLFEVRSVNEVIPGQFLLQEYDN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8QRN3" length="979" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.2
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="133" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDN
+        </queryseq>
+        <pattern>
+         LLE GED F+Y G AV+   L Q+F   S+    P    L+++DN
+        </pattern>
+        <matchseq end="909" start="865">
+         LLETGEDAFLYAGKAVSSELLHQLFEVRSVNEVIPGQFLLQEYDN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_H3D180" length="1019" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.28
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA    N+  L   DN LS+K
+        </pattern>
+        <matchseq end="956" start="907">
+         LLENGHSMFLWLGQASPPDLIQNLFNMPSLAHLQANMSVLPDLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Chromosome undetermined SCAF14681, whole genome shotgun sequence. (Fragment) n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_Q4SAN6" length="1054" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.28
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA    N+  L   DN LS+K
+        </pattern>
+        <matchseq end="991" start="942">
+         LLENGHSMFLWLGQASPPDLIQNLFNMPSLAHLQANMSVLPDLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24B-like n=1 Tax=Metaseiulus occidentalis RepID=" id="UniRef100_UPI00026571BC" length="1063" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.28
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="133" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDN
+        </queryseq>
+        <pattern>
+         LLE  +  +IYVG  +NP  L+ +FG S  +  P N+ AL + DN
+        </pattern>
+        <matchseq end="998" start="954">
+         LLETVDALYIYVGGRLNPLLLQNVFGVSKFSQLPDNMSALPELDN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Ciona intestinalis RepID=" id="UniRef100_F6XHQ2" length="914" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.36
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLEN    F+++G +V+PA ++ +FG  S A    +L+ L  +DN  SRK
+        </pattern>
+        <matchseq end="851" start="802">
+         LLENAVSLFLWIGQSVDPAWIQNVFGVQSAAQIDIDLVNLVVYDNEDSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C n=1 Tax=Ciona intestinalis RepID=" id="UniRef100_UPI000180C8F0" length="1014" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.37
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLEN    F+++G +V+PA ++ +FG  S A    +L+ L  +DN  SRK
+        </pattern>
+        <matchseq end="951" start="902">
+         LLENAVSLFLWIGQSVDPAWIQNVFGVQSAAQIDIDLVNLVVYDNEDSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Coatomer COPII (Fragment) n=1 Tax=Thalassiosira pseudonana RepID=" id="UniRef100_B8CC85" length="831" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         72.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="97" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG
+        </queryseq>
+        <pattern>
+         LL+NG D F++VG + +PA L  +FG +SL G
+        </pattern>
+        <matchseq end="756" start="725">
+         LLDNGVDMFLWVGRSSDPALLNSLFGTNSLEG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Ovis aries RepID=" id="UniRef100_UPI00029D6AF3" length="974" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.89
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="911" start="862">
+         LLENGLNLFLWVGASVQQGVVQSVFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative vesicle coat complex copii subunit sec24/subunit sfb2 (Fragment) n=1 Tax=Desmodus rotundus RepID=" id="UniRef100_K9IUJ4" length="1088" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.9
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + FI+VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1025" start="976">
+         LLENGLNLFIWVGASVQQGVVQSLFGVSSFSQITSGLSILPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 1 n=1 Tax=Ovis aries RepID=" id="UniRef100_UPI00029D6F3F" length="1094" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.9
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSVFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative vesicle coat complex copii subunit sec24/subunit sfb2 n=1 Tax=Desmodus rotundus RepID=" id="UniRef100_K9J093" length="1096" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.9
+        </expectation>
+        <identity>
+         42.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + FI+VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1033" start="984">
+         LLENGLNLFIWVGASVQQGVVQSLFGVSSFSQITSGLSILPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 1 n=1 Tax=Sus scrofa RepID=" id="UniRef100_UPI00022CEA75" length="975" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="912" start="863">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Tursiops truncatus RepID=" id="UniRef100_UPI0002C2F9CF" length="977" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="914" start="865">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Orcinus orca RepID=" id="UniRef100_UPI0002BCD1A9" length="983" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="920" start="871">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Xiphophorus maculatus RepID=" id="UniRef100_M3ZIC9" length="1086" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLA--GAPNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA     ++  L + DN LS+K
+        </pattern>
+        <matchseq end="1023" start="973">
+         LLENGHSIFLWLGQASPPDLIQSLFNAPSLAHLQQEHMFTLPELDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Sus scrofa RepID=" id="UniRef100_F1SU53" length="1086" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1023" start="974">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Bos taurus RepID=" id="UniRef100_E1BIU0" length="1094" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Sus scrofa RepID=" id="UniRef100_UPI00017F0424" length="1095" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1032" start="983">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 1 n=1 Tax=Tursiops truncatus RepID=" id="UniRef100_UPI0002C36F75" length="1097" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1034" start="985">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 1 n=1 Tax=Orcinus orca RepID=" id="UniRef100_UPI0002BCE7CA" length="1097" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1034" start="985">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X2 n=1 Tax=Bos taurus RepID=" id="UniRef100_UPI000383CEA3" length="1117" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1054" start="1005">
+         LLENGLNLFLWVGASVQQGVVQSLFGVSSFSQITSGLSVLPVLDNLLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C-like isoform X2 n=1 Tax=Aplysia californica RepID=" id="UniRef100_UPI0003592BDF" length="1197" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G+ VNP  +++IF   S A    + + + Q DN  SR+
+        </pattern>
+        <matchseq end="1134" start="1085">
+         LLENGLSMFLWIGHNVNPEMIQKIFDVQSAAQVDIDKVQVLQLDNPASRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X5 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI0003596477" length="1101" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +   N L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1038" start="989">
+         LLENGLNIFVWVGVSVQQGLIQNLFGVSSFSQISNALSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X4 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI000359E95C" length="1139" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +   N L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1076" start="1027">
+         LLENGLNIFVWVGVSVQQGLIQNLFGVSSFSQISNALSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X3 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI000359EE5F" length="1145" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +   N L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1082" start="1033">
+         LLENGLNIFVWVGVSVQQGLIQNLFGVSSFSQISNALSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X1 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI0003597F83" length="1168" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         1.6
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +FG SS +   N L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1105" start="1056">
+         LLENGLNIFVWVGVSVQQGLIQNLFGVSSFSQISNALSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C n=1 Tax=Mesocricetus auratus RepID=" id="UniRef100_UPI000359A0C7" length="748" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         2.0
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LSRK
+        </pattern>
+        <matchseq end="685" start="636">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSRK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Nematostella vectensis RepID=" id="UniRef100_A7S3D9" length="934" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         2.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         +LENG    ++VG  V+P  L+QIFG S++      + +L   DN LS +
+        </pattern>
+        <matchseq end="870" start="821">
+         VLENGISMLLWVGLQVDPGMLQQIFGVSTIGQVDIEMTSLPVLDNPLSAR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C-like isoform 2 n=1 Tax=Nasonia vitripennis RepID=" id="UniRef100_UPI0002246480" length="1215" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         2.2
+        </expectation>
+        <identity>
+         32.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   FI++G+ +NP  ++ +FG +++A    +  A+   DN ++++
+        </pattern>
+        <matchseq end="1152" start="1103">
+         LLENGIHMFIWLGSNLNPQWIQSVFGVTTVAQVDTDRTAIPSLDNPINKR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Nasonia vitripennis RepID=" id="UniRef100_K7ITU4" length="1221" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         2.2
+        </expectation>
+        <identity>
+         32.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   FI++G+ +NP  ++ +FG +++A    +  A+   DN ++++
+        </pattern>
+        <matchseq end="1158" start="1109">
+         LLENGIHMFIWLGSNLNPQWIQSVFGVTTVAQVDTDRTAIPSLDNPINKR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Melampsora larici-populina (strain 98AG31 / pathotype 3-4-7) RepID=" id="UniRef100_F4S294" length="965" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         2.8
+        </expectation>
+        <identity>
+         36.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG+   +++G++V+P  +E ++G +SL    P L +L   +N LS +
+        </pattern>
+        <matchseq end="880" start="831">
+         LLENGDVMLLWLGSSVSPKIIEDLYGVNSLEELDPQLSSLPIRENRLSNQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24A, putative n=1 Tax=Perkinsus marinus (strain ATCC 50983 / TXsc) RepID=" id="UniRef100_C5M0W7" length="787" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         3.7
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="145" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLALEQFDNALSR
+        </queryseq>
+        <pattern>
+         L E+GE   +++G AV+P  L  +F   SL    + LALE  +N L+R
+        </pattern>
+        <matchseq end="569" start="526">
+         LQEDGESILMWIGKAVSPQLLHSLFNIPSL----DQLALEMGENCLAR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Ciona savignyi RepID=" id="UniRef100_H2ZC33" length="889" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         3.7
+        </expectation>
+        <identity>
+         35.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="145" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSR
+        </queryseq>
+        <pattern>
+         +LEN    F+++G +VNP  ++ +FG  S A    +L+ L  +DN  S+
+        </pattern>
+        <matchseq end="825" start="777">
+         ILENSVSMFLWIGQSVNPVWIQNVFGVQSAAQIDIDLVNLVVYDNEDSK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Ciona savignyi RepID=" id="UniRef100_H2ZC32" length="903" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         3.7
+        </expectation>
+        <identity>
+         35.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="145" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP-NLLALEQFDNALSR
+        </queryseq>
+        <pattern>
+         +LEN    F+++G +VNP  ++ +FG  S A    +L+ L  +DN  S+
+        </pattern>
+        <matchseq end="839" start="791">
+         ILENSVSMFLWIGQSVNPVWIQNVFGVQSAAQIDIDLVNLVVYDNEDSK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Taeniopygia guttata RepID=" id="UniRef100_H0Z9G3" length="1041" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         3.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG  V    ++ +FG SS +   N L+ L   +N  S+K
+        </pattern>
+        <matchseq end="978" start="929">
+         LLENGLNIFVWVGVNVQQGLIQNLFGVSSFSQISNALSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C n=1 Tax=Taeniopygia guttata RepID=" id="UniRef100_UPI0002B419BB" length="1121" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         3.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG  V    ++ +FG SS +   N L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1058" start="1009">
+         LLENGLNIFVWVGVNVQQGLIQNLFGVSSFSQISNALSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Mus musculus RepID=" id="UniRef100_Q3V222" length="803" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         4.9
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="740" start="691">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2T6L4" length="921" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.0
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA    ++  L   DN LS+K
+        </pattern>
+        <matchseq end="858" start="809">
+         LLENGHAMFLWLGQASPPDLIQNLFNVPSLAHLQAHMSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2T6L3" length="936" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.0
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA    ++  L   DN LS+K
+        </pattern>
+        <matchseq end="873" start="824">
+         LLENGHAMFLWLGQASPPDLIQNLFNVPSLAHLQAHMSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Coccomyxa subellipsoidea C-169 RepID=" id="UniRef100_I0YS02" length="987" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         46.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="145" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNL------LALEQFDNALSR
+        </queryseq>
+        <pattern>
+         L ENG D  +Y G  V P  +  + G  SL    N+      LAL + D A SR
+        </pattern>
+        <matchseq end="924" start="871">
+         LFENGADALLYFGPRVEPGLVHAVLGQQSLDARGNMEATRRPLALPRLDTAPSR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X3 n=1 Tax=Microtus ochrogaster RepID=" id="UniRef100_UPI00038C2F34" length="1017" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="954" start="905">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C-like isoform 2 n=1 Tax=Cricetulus griseus RepID=" id="UniRef100_UPI00022F36A0" length="1019" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="956" start="907">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X4 n=1 Tax=Chinchilla lanigera RepID=" id="UniRef100_UPI00038EF475" length="1020" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  +S +  A  L  L   DN LS+K
+        </pattern>
+        <matchseq end="957" start="908">
+         LLENGLNLFLWVGASVQQGVVQSLFNVASFSQIASGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="MKIAA0079 protein (Fragment) n=2 Tax=Mus musculus RepID=" id="UniRef100_Q80U83" length="1028" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="965" start="916">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24D-like n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_UPI000298B891" length="1033" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA    ++  L   DN LS+K
+        </pattern>
+        <matchseq end="970" start="921">
+         LLENGHAMFLWLGQASPPDLIQNLFNVPSLAHLQAHMSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2T6L2" length="1039" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG   F+++G A  P  ++ +F   SLA    ++  L   DN LS+K
+        </pattern>
+        <matchseq end="976" start="927">
+         LLENGHAMFLWLGQASPPDLIQNLFNVPSLAHLQAHMSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X2 n=1 Tax=Microtus ochrogaster RepID=" id="UniRef100_UPI00038C03B7" length="1077" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1014" start="965">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Tribolium castaneum RepID=" id="UniRef100_D7EJY5" length="1088" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         35.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="142" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGF-SSLAGAPNLLALEQFDNALS
+        </queryseq>
+        <pattern>
+         +LENG   F+++G   NP  ++++FG  S++      +AL + DN+LS
+        </pattern>
+        <matchseq end="1023" start="976">
+         ILENGIHMFLWIGLEANPDFIQKVFGVPSAIQVDVEKVALPELDNSLS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X1 n=1 Tax=Microtus ochrogaster RepID=" id="UniRef100_UPI00038BFDCB" length="1093" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1030" start="981">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24C n=1 Tax=Cricetulus griseus RepID=" id="UniRef100_G3GWP1" length="1095" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1032" start="983">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="LOC685144 protein n=1 Tax=Rattus norvegicus RepID=" id="UniRef100_B5DEG8" length="1095" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1032" start="983">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X3 n=1 Tax=Chinchilla lanigera RepID=" id="UniRef100_UPI00038EA0BB" length="1096" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  +S +  A  L  L   DN LS+K
+        </pattern>
+        <matchseq end="1033" start="984">
+         LLENGLNLFLWVGASVQQGVVQSLFNVASFSQIASGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sec24 related gene family, member C (S. cerevisiae) n=1 Tax=Mus musculus RepID=" id="UniRef100_Q8CGF4" length="1096" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1033" start="984">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein Sec24c n=2 Tax=Mus musculus RepID=" id="UniRef100_G3X972" length="1096" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1033" start="984">
+         LLENGLNLFVWVGASVQQGVVQSLFNVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Meleagris gallopavo RepID=" id="UniRef100_G1N450" length="1104" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG  V  A ++ +FG SS +   + L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1041" start="992">
+         LLENGLNIFVWVGVNVQQALIQNLFGVSSFSQISSTLSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X2 n=1 Tax=Chinchilla lanigera RepID=" id="UniRef100_UPI00038EDEFE" length="1119" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  +S +  A  L  L   DN LS+K
+        </pattern>
+        <matchseq end="1056" start="1007">
+         LLENGLNLFLWVGASVQQGVVQSLFNVASFSQIASGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C-like isoform 1 n=1 Tax=Meleagris gallopavo RepID=" id="UniRef100_UPI0002035C5D" length="1122" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG  V  A ++ +FG SS +   + L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1059" start="1010">
+         LLENGLNIFVWVGVNVQQALIQNLFGVSSFSQISSTLSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C-like isoform 2 n=1 Tax=Meleagris gallopavo RepID=" id="UniRef100_UPI0002035C5E" length="1150" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.1
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPNLLA-LEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG  V  A ++ +FG SS +   + L+ L   +N  S+K
+        </pattern>
+        <matchseq end="1087" start="1038">
+         LLENGLNIFVWVGVNVQQALIQNLFGVSSFSQISSTLSTLPVLENPFSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Vesicle coat complex COPII, subunit SFB3 n=1 Tax=Pseudozyma antarctica (strain T-34) RepID=" id="UniRef100_M9MFV8" length="1240" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.2
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="91" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSL
+        </queryseq>
+        <pattern>
+         LLENGE   +++G  VNP  LE ++G +SL
+        </pattern>
+        <matchseq end="1143" start="1114">
+         LLENGEMCIVWLGANVNPRLLEDLYGVNSL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Salpingoeca sp. (strain ATCC 50818) RepID=" id="UniRef100_F2UK84" length="1409" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         5.2
+        </expectation>
+        <identity>
+         36.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGA-PNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         L+ENG    I+VG  V  +T++Q+FG   +      + AL +FD  LS++
+        </pattern>
+        <matchseq end="1019" start="970">
+         LVENGATMMIWVGQNVPASTVQQVFGADCVENINVQMTALPKFDTPLSKR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Trichoplax adhaerens RepID=" id="UniRef100_B3S654" length="706" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.4
+        </expectation>
+        <identity>
+         35.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="142" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAPN--LLALEQFDNALS
+        </queryseq>
+        <pattern>
+         LL+ G   FI++G AV+P  L ++F   +    P+  +++L + +NALS
+        </pattern>
+        <matchseq end="646" start="598">
+         LLDAGTIIFIWIGKAVDPRLLNELFDKDNFLSLPDTYMISLPELNNALS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="SEC24 family, member C (Fragment) n=1 Tax=Mustela putorius furo RepID=" id="UniRef100_G9KMU6" length="836" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.6
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="774" start="725">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein SEC24 n=1 Tax=Yarrowia lipolytica (strain CLIB 122 / E 150) RepID=" id="UniRef100_Q6C2T4" length="934" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="103" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAGAP
+        </queryseq>
+        <pattern>
+         L+++G+  F++VG    PA L+ +FG SS+   P
+        </pattern>
+        <matchseq end="854" start="821">
+         LIDDGQVMFLWVGRDAQPALLQDVFGVSSITEVP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X2 n=1 Tax=Echinops telfairi RepID=" id="UniRef100_UPI000333A1EF" length="970" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="907" start="858">
+         LLENGLNLFLWVGASVQQGVVQNLFNVSSFSHITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24C n=3 Tax=Homo sapiens RepID=" id="UniRef100_E7EP00" length="975" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="912" start="863">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 3 n=1 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_UPI00029DCF83" length="975" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="912" start="863">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSHITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Papio anubis RepID=" id="UniRef100_UPI00027F4361" length="975" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="912" start="863">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 3 n=1 Tax=Pan paniscus RepID=" id="UniRef100_UPI000274428D" length="975" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="912" start="863">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 4 n=1 Tax=Pan troglodytes RepID=" id="UniRef100_UPI00020E3C20" length="975" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="912" start="863">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X2 n=1 Tax=Condylura cristata RepID=" id="UniRef100_UPI00033460EE" length="976" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="913" start="864">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Ceratotherium simum simum RepID=" id="UniRef100_UPI0002C6843B" length="976" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="913" start="864">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Odobenus rosmarus divergens RepID=" id="UniRef100_UPI0002C57638" length="976" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="913" start="864">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 3 n=1 Tax=Felis catus RepID=" id="UniRef100_UPI000298CB39" length="976" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="913" start="864">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 3 n=1 Tax=Saimiri boliviensis boliviensis RepID=" id="UniRef100_UPI00027FB4A7" length="976" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="913" start="864">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Callithrix jacchus RepID=" id="UniRef100_F7IIL5" length="976" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="913" start="864">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Macaca fascicularis RepID=" id="UniRef100_G7PF06" length="1001" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="938" start="889">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Macaca mulatta RepID=" id="UniRef100_G7N256" length="1001" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="938" start="889">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Felis catus RepID=" id="UniRef100_M3WE89" length="1019" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="956" start="907">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sec23/Sec24 domain-containing protein, putative n=3 Tax=Toxoplasma gondii RepID=" id="UniRef100_B9PS36" length="1019" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="91" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSL
+        </queryseq>
+        <pattern>
+         LLENGE+  +++G +++P  L  +FG  SL
+        </pattern>
+        <matchseq end="912" start="883">
+         LLENGEEMLLWIGRSISPQWLASVFGAHSL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_UPI000273F84D" length="1020" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="957" start="908">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_H0XH26" length="1042" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="979" start="930">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform X1 n=1 Tax=Echinops telfairi RepID=" id="UniRef100_UPI00033371E1" length="1087" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1024" start="975">
+         LLENGLNLFLWVGASVQQGVVQNLFNVSSFSHITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca RepID=" id="UniRef100_G1MEI4" length="1087" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1024" start="975">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 1 n=1 Tax=Papio anubis RepID=" id="UniRef100_UPI00027F4360" length="1094" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Pan paniscus RepID=" id="UniRef100_UPI000274428C" length="1094" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24C n=1 Tax=Macaca mulatta RepID=" id="UniRef100_H9G287" length="1094" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="SEC24 family, member C n=1 Tax=Pan troglodytes RepID=" id="UniRef100_H2Q241" length="1094" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_G3QTL1" length="1094" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSHITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein transport protein Sec24C n=1 Tax=Homo sapiens RepID=" id="UniRef100_P53992" length="1094" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1031" start="982">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 6 n=1 Tax=Dasypus novemcinctus RepID=" id="UniRef100_UPI00032893AF" length="1095" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1032" start="983">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: protein transport protein Sec24C isoform 2 n=1 Tax=Saimiri boliviensis boliviensis RepID=" id="UniRef100_UPI00027FB4A6" length="1095" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1032" start="983">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Nomascus leucogenys RepID=" id="UniRef100_G1S465" length="1095" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="148" start="2">
+         LLENGEDGFIYVGNAVNPATLEQIFGFSSLAG-APNLLALEQFDNALSRK
+        </queryseq>
+        <pattern>
+         LLENG + F++VG +V    ++ +F  SS +     L  L   DN LS+K
+        </pattern>
+        <matchseq end="1032" start="983">
+         LLENGLNLFLWVGASVQQGVVQSLFSVSSFSQITSGLSVLPVLDNPLSKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Callithrix jacchus RepID=" id="UniRef100_F7IDQ4" length="1095" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.8
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <po>
+        </po>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

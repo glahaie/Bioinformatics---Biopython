@@ -1,0 +1,449 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-164035-0722-90713056-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="134" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:41:09+00:00" search="P0Y0M0DT0H0M33.000S" start="2013-11-25T16:40:36+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="11">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Phanerochaete carnosa (strain HHB-10118-sp) RepID=" id="UniRef100_K5X144" length="1243" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         2.6
+        </expectation>
+        <identity>
+         38.0
+        </identity>
+        <positives>
+         56.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="129">
+         PIKPKAIHPS---HSKSSRISSRRRKNQNKEEEDGVCGASDDPGD
+        </queryseq>
+        <pattern>
+         P+K KA  P    H+K  R  +R+RK +++EEED      D+  D
+        </pattern>
+        <matchseq end="1186" start="1142">
+         PVKRKAAEPKANGHAKKPRTKARKRKAESEEEEDSESEEEDEDED
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Batrachochytrium dendrobatidis (strain JAM81 / FGSC 10211) RepID=" id="UniRef100_F4PC68" length="366" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.8
+        </expectation>
+        <identity>
+         39.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="21" start="134">
+         PTP*NPKPSIHPIPSRVEFQVEEERTRTRKKKMVSAVL
+        </queryseq>
+        <pattern>
+         P P  P PS  PIP R+E ++  E+  T K  ++SA++
+        </pattern>
+        <matchseq end="189" start="152">
+         PPPYAPLPSRLPIPKRIELKIWCEQAATNKNLLLSAIM
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Phytophthora sojae (strain P6497) RepID=" id="UniRef100_G4Z8F8" length="736" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         57.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="93">
+         KSSRISSRRRKNQNKEEEDGVCGASDDPGD
+        </queryseq>
+        <pattern>
+         K S    RRRK +NK  EDG  G SDD  D
+        </pattern>
+        <matchseq end="413" start="384">
+         KKSTDGKRRRKKKNKTLEDGAAGESDDEED
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Hypothetical protein CBG13474 n=1 Tax=Caenorhabditis briggsae RepID=" id="UniRef100_UPI00002204D2" length="895" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         5.9
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="48">
+         PCSGSFFFYLKFDSTWNGMDGWLW
+        </queryseq>
+        <pattern>
+         PCSGS F + + D +W   DG++W
+        </pattern>
+        <matchseq end="103" start="80">
+         PCSGSQFIFPRLDGSWFKSDGYIW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein CBR-CAMT-1 n=1 Tax=Caenorhabditis briggsae RepID=" id="UniRef100_A8XHN8" length="1198" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         6.1
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="48">
+         PCSGSFFFYLKFDSTWNGMDGWLW
+        </queryseq>
+        <pattern>
+         PCSGS F + + D +W   DG++W
+        </pattern>
+        <matchseq end="103" start="80">
+         PCSGSQFIFPRLDGSWFKSDGYIW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=3 Tax=Ajellomyces dermatitidis RepID=" id="UniRef100_C5GFV2" length="212" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         6.3
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="76" start="132">
+         HPIKPKAIHPSHSKSSRIS
+        </queryseq>
+        <pattern>
+         HP+ P  IHPSH+K+ RIS
+        </pattern>
+        <matchseq end="26" start="8">
+         HPLPPTTIHPSHTKTHRIS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sporulation domain protein n=1 Tax=Rhodothermus marinus (strain ATCC 43812 / DSM 4252 / R-10) RepID=" id="UniRef100_D0MIU9" length="361" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         8.6
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="9" start="134">
+         PTP*NPKPSIHPIPSRVEFQVEEERTRTRKKKMVSAVLRTIL
+        </queryseq>
+        <pattern>
+         PTP +P+PS+ P P    F+VEEER R     + +A+L  +L
+        </pattern>
+        <matchseq end="209" start="169">
+         PTPPSPEPSLRP-PRPPRFRVEEERRRGLPVWVPAALLIVVL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sporulation domain-containing protein n=1 Tax=Rhodothermus marinus SG0.5JP17-172 RepID=" id="UniRef100_G2SJC0" length="361" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         8.6
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         2
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="9" start="134">
+         PTP*NPKPSIHPIPSRVEFQVEEERTRTRKKKMVSAVLRTIL
+        </queryseq>
+        <pattern>
+         PTP +P+PS+ P P    F+VEEER R     + +A+L  +L
+        </pattern>
+        <matchseq end="209" start="169">
+         PTPPSPEPSLRP-PRPPRFRVEEERRRGLPVWVPAALLIVVL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Xylose/H+ symporter n=1 Tax=Flavobacterium sp. F52 RepID=" id="UniRef100_J1AAR9" length="469" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         9.4
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="87">
+         STWNGMDGWLWVLWGG
+        </queryseq>
+        <pattern>
+         ++WNG  GW W+LW G
+        </pattern>
+        <matchseq end="190" start="175">
+         ASWNGQTGWRWMLWAG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Trypanosoma cruzi (strain CL Brener) RepID=" id="UniRef100_Q4DTY7" length="130" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         9.5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="100" start="23">
+         APQTPSSSSLFWFFLLLLEIRLDLEW
+        </queryseq>
+        <pattern>
+         AP+ P+   LF FF LLL +RL L W
+        </pattern>
+        <matchseq end="87" start="62">
+         APRPPTPPPLFCFFFLLLCVRLRLRW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="TPT domain-containing protein n=1 Tax=Thanatephorus cucumeris (strain AG1-IA) RepID=" id="UniRef100_L8WPF6" length="519" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         9.6
+        </expectation>
+        <identity>
+         35.0
+        </identity>
+        <positives>
+         60.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="10" start="129">
+         PIKPKAIHPSHSKSSRISSRRRKNQNKEEEDGVCGASDDP
+        </queryseq>
+        <pattern>
+         P+ PK+++P+ + S R S +R  +QN    DG  G++  P
+        </pattern>
+        <matchseq end="380" start="341">
+         PVSPKSVYPARAHSRRASIKRVVDQNYAPVDGPSGSNHLP
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

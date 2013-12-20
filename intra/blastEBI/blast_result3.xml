@@ -1,0 +1,183 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-153640-0404-43125952-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="183" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T15:36:56+00:00" search="P0Y0M0DT0H0M16.000S" start="2013-11-25T15:36:40+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="4">
+     <hit database="UR100" description="Secologanin synthase n=1 Tax=Aegilops tauschii RepID=M8D509_AEGTA" id="UniRef100_M8D509" length="461" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-4
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="61" start="2">
+         PRFPRSNFDHKFNQRDRLQR
+        </queryseq>
+        <pattern>
+         PRFPRSNFDHKFN+RDRL+R
+        </pattern>
+        <matchseq end="113" start="94">
+         PRFPRSNFDHKFNERDRLRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=M8B3S8_AEGTA" id="UniRef100_M8B3S8" length="222" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         0.0010
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         15
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="142" start="5">
+         RFPRSNFDHKFNQRDRLQREKKILKNLLNTNSLGITFAAATVVTLG
+        </queryseq>
+        <pattern>
+         RFPRS FDHKFNQRD+LQ E+K           G+ FA A V  +G
+        </pattern>
+        <matchseq end="222" start="184">
+         RFPRSKFDHKFNQRDQLQWEQKY-------EFSGMIFAPAAVGLVG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=M7ZM93_TRIUA" id="UniRef100_M7ZM93" length="1366" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         3.8
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="2" start="64">
+         LPL*SVSLVKFMVKVGPRKAR
+        </queryseq>
+        <pattern>
+         L + SVSLVKFM+KVGPR+AR
+        </pattern>
+        <matchseq end="376" start="356">
+         LSMESVSLVKFMIKVGPREAR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="L-2-hydroxyisocaproate dehydrogenase n=1 Tax=Clostridium sp. CAG:451 RepID=R7KG48_9CLOT" id="UniRef100_R7KG48" length="305" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         4.9
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="39" start="119">
+         QQKLYPVNSYSKDFSIFFS-PAVVGLVG
+        </queryseq>
+        <pattern>
+         ++K+YPV++Y  D+ ++FS PAV+G  G
+        </pattern>
+        <matchseq end="268" start="241">
+         EKKIYPVSNYQSDYDLYFSMPAVIGKEG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

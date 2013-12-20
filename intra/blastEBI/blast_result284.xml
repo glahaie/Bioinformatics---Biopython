@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-191228-0187-34603078-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="115" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:12:42+00:00" search="P0Y0M0DT0H0M14.000S" start="2013-11-25T19:12:28+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="2">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Mustela putorius furo RepID=" id="UniRef100_M3XSQ5" length="76" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         69
+        </score>
+        <bits>
+         31.2
+        </bits>
+        <expectation>
+         3.5
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="112" start="5">
+         FFFCRQAQIIYTSCFCTSF-YHLVCVCGLHERKRKNN
+        </queryseq>
+        <pattern>
+         FFFCR     +  CFC  F + +V VC + E+  K N
+        </pattern>
+        <matchseq end="50" start="14">
+         FFFCRFFFFCFCFCFCLLFIFVVVVVCFIEEKVSKRN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_H0XXW9" length="702" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         6.4
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="98" start="15">
+         VGRHRLYIHHVSVHHSIILYVCVVCMKG
+        </queryseq>
+        <pattern>
+         +G  +  IHH  +H    LYVC+ C+KG
+        </pattern>
+        <matchseq end="222" start="195">
+         IGHKQALIHHQKIHTGEELYVCIDCVKG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

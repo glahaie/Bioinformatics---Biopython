@@ -1,0 +1,601 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-193602-0192-31571452-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="118" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:36:12+00:00" search="P0Y0M0DT0H0M10.000S" start="2013-11-25T19:36:02+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="15">
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza rufipogon RepID=" id="UniRef100_D5J6W4" length="1056" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.51
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="449" start="413">
+         KKILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative MLA1 n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q7EZV9" length="988" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.67
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="448" start="412">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza rufipogon RepID=" id="UniRef100_D5J6W2" length="1055" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="448" start="412">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="CC-NBS-LRR Pi36 n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_Q09HE2" length="1056" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="449" start="413">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_D5J6W6" length="1056" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="448" start="412">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_D5J6W5" length="1056" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="448" start="412">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza rufipogon RepID=" id="UniRef100_D5J6W3" length="1056" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="449" start="413">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_D5J6W0" length="1056" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="448" start="412">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_B9FZ27" length="1222" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.69
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="475" start="439">
+         KRILSFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Pi36 n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_D5J6W1" length="1056" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="111" start="1">
+         KSTLFYQCFDLPSHL*D*LLCLSMFLED*KIKQAHSI
+        </queryseq>
+        <pattern>
+         K  L +  +DLPSHL + LL LSMF ED KI + H I
+        </pattern>
+        <matchseq end="449" start="413">
+         KRILPFSYYDLPSHLKNCLLYLSMFPEDYKIDKNHLI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="NB-ARC domain containing protein n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q7G605" length="713" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.7
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="99" start="10">
+         LFYQCFDLPSHL*D*LLCLSMFLED*KIKQ
+        </queryseq>
+        <pattern>
+         L +  +DLPSHL   LLCLS+F ED +I++
+        </pattern>
+        <matchseq end="450" start="421">
+         LSFSYYDLPSHLKSCLLCLSVFPEDYEIRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Os10g0124300 protein n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q0IZ79" length="736" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.8
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="99" start="10">
+         LFYQCFDLPSHL*D*LLCLSMFLED*KIKQ
+        </queryseq>
+        <pattern>
+         L +  +DLPSHL   LLCLS+F ED +I++
+        </pattern>
+        <matchseq end="450" start="421">
+         LSFSYYDLPSHLKSCLLCLSVFPEDYEIRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8BFI8" length="973" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.9
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="99" start="10">
+         LFYQCFDLPSHL*D*LLCLSMFLED*KIKQ
+        </queryseq>
+        <pattern>
+         L +  +DLPSHL   LLCLS+F ED +I++
+        </pattern>
+        <matchseq end="449" start="420">
+         LSFSYYDLPSHLKSCLLCLSVFPEDYEIRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza glaberrima RepID=" id="UniRef100_I1QRV6" length="624" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.9
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="99" start="10">
+         LFYQCFDLPSHL*D*LLCLSMFLED*KIKQ
+        </queryseq>
+        <pattern>
+         L +  +DLPSHL   LLCLS+F ED +I++
+        </pattern>
+        <matchseq end="452" start="423">
+         LSFSYYDLPSHLKPCLLCLSVFPEDYEIRR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3MQC6" length="964" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         7.0
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="99" start="4">
+         STLFYQCFDLPSHL*D*LLCLSMFLED*KIKQ
+        </queryseq>
+        <pattern>
+         S L +  +DLPSHL   LL LSMF ED +IK+
+        </pattern>
+        <matchseq end="435" start="404">
+         SILSFSYYDLPSHLKTCLLYLSMFPEDYEIKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

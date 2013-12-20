@@ -1,0 +1,69 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-162539-0064-37507472-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="142" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T16:25:59+00:00" search="P0Y0M0DT0H0M20.000S" start="2013-11-25T16:25:39+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="1">
+     <hit database="UR100" description="PREDICTED: dimethyladenosine transferase 2, mitochondrial n=1 Tax=Mesocricetus auratus RepID=" id="UniRef100_UPI000359F2FB" length="398" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         9.3
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         4
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="36" start="107">
+         VAFINHKVSFVPHLKSMKKRLNAL
+        </queryseq>
+        <pattern>
+         +AF N K SF+PHLKS++++LN L
+        </pattern>
+        <matchseq end="144" start="122">
+         IAFQNEK-SFIPHLKSLRRKLNGL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

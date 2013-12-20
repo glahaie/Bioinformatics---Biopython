@@ -1,0 +1,221 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-194155-0900-42892938-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="128" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:42:07+00:00" search="P0Y0M0DT0H0M11.000S" start="2013-11-25T19:41:56+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="5">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Sus scrofa RepID=" id="UniRef100_K7GQP5" length="149" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         4.2
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="29" start="115">
+         FFHKKGEERSICTEFKTRDAGFSSNSGCK
+        </queryseq>
+        <pattern>
+         F   +G+E+ +C E+ TR    SSN GCK
+        </pattern>
+        <matchseq end="136" start="108">
+         FLKTEGQEQGLCPEYPTRRTLCSSNQGCK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="P2X purinoceptor (Fragment) n=1 Tax=Sus scrofa RepID=" id="UniRef100_Q5EFK5" length="202" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         5.8
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="29" start="115">
+         FFHKKGEERSICTEFKTRDAGFSSNSGCK
+        </queryseq>
+        <pattern>
+         F   +G+E+ +C E+ TR    SSN GCK
+        </pattern>
+        <matchseq end="82" start="54">
+         FLKTEGQEQGLCPEYPTRRTLCSSNQGCK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Sus scrofa RepID=" id="UniRef100_K7GKJ9" length="263" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         7.0
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="29" start="115">
+         FFHKKGEERSICTEFKTRDAGFSSNSGCK
+        </queryseq>
+        <pattern>
+         F   +G+E+ +C E+ TR    SSN GCK
+        </pattern>
+        <matchseq end="136" start="108">
+         FLKTEGQEQGLCPEYPTRRTLCSSNQGCK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="P2X purinoceptor n=1 Tax=Sus scrofa RepID=" id="UniRef100_K7GLQ1" length="352" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         8.1
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="29" start="115">
+         FFHKKGEERSICTEFKTRDAGFSSNSGCK
+        </queryseq>
+        <pattern>
+         F   +G+E+ +C E+ TR    SSN GCK
+        </pattern>
+        <matchseq end="136" start="108">
+         FLKTEGQEQGLCPEYPTRRTLCSSNQGCK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="P2X purinoceptor n=2 Tax=Sus scrofa RepID=" id="UniRef100_F1RNN5" length="595" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         9.4
+        </expectation>
+        <identity>
+         45.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="29" start="115">
+         FFHKKGEERSICTEFKTRDAGFSSNSGCK
+        </queryseq>
+        <pattern>
+         F   +G+E+ +C E+ TR    SSN GCK
+        </pattern>
+        <matchseq end="136" start="108">
+         FLKTEGQEQGLCPEYPTRRTLCSSNQGCK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

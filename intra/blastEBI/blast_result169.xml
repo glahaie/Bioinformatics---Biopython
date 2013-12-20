@@ -1,0 +1,1247 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-175926-0348-40265899-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="81" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:59:45+00:00" search="P0Y0M0DT0H0M19.000S" start="2013-11-25T17:59:26+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="32">
+     <hit database="UR100" description="GDSL esterase/lipase CPRD49 n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7YNS6" length="260" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S GKSTINPSEWTFHRKRSWE
+        </pattern>
+        <matchseq end="260" start="240">
+         SSGKSTINPSEWTFHRKRSWE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GDSL esterase/lipase CPRD49 n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8CRR5" length="290" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S GKSTINPSEWTFHRKRSWE
+        </pattern>
+        <matchseq end="290" start="270">
+         SSGKSTINPSEWTFHRKRSWE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_M0UVU7" length="228" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S GKSTINPSEWTFHRK SWE
+        </pattern>
+        <matchseq end="228" start="208">
+         SSGKSTINPSEWTFHRKISWE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_F2DIQ7" length="254" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         90.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S GKSTINPSEWTFHRK SWE
+        </pattern>
+        <matchseq end="254" start="234">
+         SSGKSTINPSEWTFHRKISWE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: GDSL esterase/lipase CPRD49-like isoform 2 n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_UPI0001C769C2" length="232" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.01
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G+STINPS+WTFHRK  W+
+        </pattern>
+        <matchseq end="232" start="212">
+         SSGQSTINPSQWTFHRKIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8DL71" length="256" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S GK+TINPSEWT+HRK  W+
+        </pattern>
+        <matchseq end="256" start="236">
+         SDGKTTINPSEWTYHRKIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1H9G0" length="258" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G+STINPS+WTFHRK  W+
+        </pattern>
+        <matchseq end="258" start="238">
+         SSGQSTINPSQWTFHRKIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3NAI8" length="260" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.03
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G+STINPS+WTFHR+  W+
+        </pattern>
+        <matchseq end="260" start="240">
+         SSGQSTINPSDWTFHRRIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1C779" length="256" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.054
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GKSTINPS+WT+HR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKSTINPSDWTYHRQIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_I3S343" length="256" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.074
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK T+NPSEWTFHR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKRTLNPSEWTFHREVQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GDSL esterase/lipase CPRD49 n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7JB85" length="256" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.074
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK T+NPSEWTFHR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKRTLNPSEWTFHREVQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoamyl acetate-hydrolyzing esterase, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9T5X7" length="256" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.074
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         G++T+NPSEWTFHR+  WE
+        </pattern>
+        <matchseq end="256" start="238">
+         GETTLNPSEWTFHREVHWE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9HSP3" length="256" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.074
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK T+NPSEWTFHR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKRTLNPSEWTFHREVQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9HHP2" length="256" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.074
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK T+NPSEWTFHR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKQTLNPSEWTFHREVHWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GDSL-like Lipase/Acylhydrolase family protein, expressed n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q7XXR3" length="260" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G+ST+NPS+WTFHR   W+
+        </pattern>
+        <matchseq end="260" start="240">
+         SSGQSTVNPSDWTFHRTIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Vitis vinifera RepID=" id="UniRef100_F6HCD7" length="328" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.12
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK+T+NPS+WTFHR+  W+
+        </pattern>
+        <matchseq end="328" start="310">
+         GKTTLNPSDWTFHREIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4C5W1" length="256" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK+TINPS+WT+HR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKTTINPSDWTYHRQIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: GDSL esterase/lipase CPRD49-like n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032AD15A" length="256" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         G+ T+NPSEWTFHR+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GQKTLNPSEWTFHREIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb02g020850 n=1 Tax=Sorghum bicolor RepID=" id="UniRef100_C5X924" length="256" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G +T+NPSEWT HRK  W+
+        </pattern>
+        <matchseq end="256" start="236">
+         SSGDTTVNPSEWTIHRKLPWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: GDSL esterase/lipase CPRD49 isoform 2 n=1 Tax=Glycine max RepID=" id="UniRef100_UPI000233D2AC" length="248" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK+T+NPSEWTF+R+  W+
+        </pattern>
+        <matchseq end="248" start="230">
+         GKTTLNPSEWTFYREIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1LMR2" length="256" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK+T+NPSEWTF+R+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKTTLNPSEWTFYREIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6TM82" length="256" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK+T+NPSEWTF+R+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKTTLNPSEWTFYREIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_C0HGC9" length="255" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="21" start="80">
+         SIGKSTINPSEWTFHRKRSW
+        </queryseq>
+        <pattern>
+         S G +T+NPSEWT HRK  W
+        </pattern>
+        <matchseq end="254" start="235">
+         SSGDATVNPSEWTIHRKIQW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoamyl acetate-hydrolyzing esterase n=1 Tax=Zea mays RepID=" id="UniRef100_B6T5T9" length="256" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="21" start="80">
+         SIGKSTINPSEWTFHRKRSW
+        </queryseq>
+        <pattern>
+         S G +T+NPSEWT HRK  W
+        </pattern>
+        <matchseq end="255" start="236">
+         SSGDATVNPSEWTIHRKIQW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Glycine max RepID=" id="UniRef100_C6SXL7" length="256" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="21" start="74">
+         GKSTINPSEWTFHRKRSW
+        </queryseq>
+        <pattern>
+         GK+T+NPSEWTF+R+  W
+        </pattern>
+        <matchseq end="255" start="238">
+         GKTTLNPSEWTFYREIQW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K3ZJL7" length="255" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         0.65
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G +T+NPSEWT HR+  W+
+        </pattern>
+        <matchseq end="255" start="235">
+         SSGDATVNPSEWTIHRRIPWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K3ZJL6" length="256" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         0.66
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G +T+NPSEWT HR+  W+
+        </pattern>
+        <matchseq end="256" start="236">
+         SSGDATVNPSEWTIHRRIPWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Lotus japonicus RepID=" id="UniRef100_I3SWD7" length="256" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         0.66
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GKST+NP EWTF+R+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKSTLNPFEWTFYREVQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoamyl acetate-hydrolyzing esterase n=1 Tax=Zea mays RepID=" id="UniRef100_E7DDW2" length="258" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         0.9
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S G +T+NPSEWT HR+  W+
+        </pattern>
+        <matchseq end="258" start="238">
+         SSGDATVNPSEWTVHRRIPWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5XRT2" length="256" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         1.2
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="74">
+         GKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         GK+T+NPS WTF+R+  W+
+        </pattern>
+        <matchseq end="256" start="238">
+         GKTTLNPSSWTFYREIQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: GDSL esterase/lipase CPRD49-like isoform 1 n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C37468" length="254" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         3.1
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="21" start="74">
+         GKSTINPSEWTFHRKRSW
+        </queryseq>
+        <pattern>
+         GK+T+NPSEW F+R   W
+        </pattern>
+        <matchseq end="251" start="234">
+         GKTTLNPSEWAFYRDSHW
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=" id="UniRef100_B8LNG4" length="256" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         4.2
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="18" start="80">
+         SIGKSTINPSEWTFHRKRSWE
+        </queryseq>
+        <pattern>
+         S  KST+N SE+TFHR++ W+
+        </pattern>
+        <matchseq end="256" start="236">
+         SDNKSTVNVSEFTFHREKQWD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

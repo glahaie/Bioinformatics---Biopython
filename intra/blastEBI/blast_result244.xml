@@ -1,0 +1,6759 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-184707-0963-72611568-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="115" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:47:20+00:00" search="P0Y0M0DT0H0M12.000S" start="2013-11-25T18:47:08+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_N1QYD6" length="730" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </pattern>
+        <matchseq end="575" start="539">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_F2DC93" length="739" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         191
+        </score>
+        <bits>
+         78.2
+        </bits>
+        <expectation>
+         1.0E-15
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </pattern>
+        <matchseq end="564" start="528">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative ubiquitin-specific protease (Fragment) n=1 Tax=Lolium perenne RepID=" id="UniRef100_H6BDL1" length="168" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         171
+        </score>
+        <bits>
+         70.5
+        </bits>
+        <expectation>
+         5.0E-14
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDAWETVGRKNKSAIMRTQS VPS+LSAIFGG+LQ
+        </pattern>
+        <matchseq end="81" start="46">
+         DDDAWETVGRKNKSAIMRTQSLVPSELSAIFGGELQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1GRH5" length="536" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         8.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDAWETVGRKNKSAIMRTQSFVPS+LSAIFGG+LQ
+        </pattern>
+        <matchseq end="473" start="438">
+         DDDAWETVGRKNKSAIMRTQSFVPSELSAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1GRH4" length="648" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         9.0E-14
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDAWETVGRKNKSAIMRTQSFVPS+LSAIFGG+LQ
+        </pattern>
+        <matchseq end="473" start="438">
+         DDDAWETVGRKNKSAIMRTQSFVPSELSAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1GRH3" length="654" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         177
+        </score>
+        <bits>
+         72.8
+        </bits>
+        <expectation>
+         1.0E-13
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDAWETVGRKNKSAIMRTQSFVPS+LSAIFGG+LQ
+        </pattern>
+        <matchseq end="473" start="438">
+         DDDAWETVGRKNKSAIMRTQSFVPSELSAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Setaria italica RepID=" id="UniRef100_K3ZR52" length="707" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         173
+        </score>
+        <bits>
+         71.2
+        </bits>
+        <expectation>
+         4.0E-13
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDAWETVGRKNKSAI+RTQSFVPS+LSAIFGG+LQ
+        </pattern>
+        <matchseq end="532" start="497">
+         DDDAWETVGRKNKSAIVRTQSFVPSELSAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Oryza glaberrima RepID=" id="UniRef100_I1QCW5" length="577" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         1.0E-12
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDDAWETVG+KNKSAIMR+QSFVPS+L+AIFGG+LQ
+        </pattern>
+        <matchseq end="391" start="355">
+         NDDDAWETVGKKNKSAIMRSQSFVPSELTAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_Q7EZY9" length="669" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDDAWETVG+KNKSAIMR+QSFVPS+L+AIFGG+LQ
+        </pattern>
+        <matchseq end="491" start="455">
+         NDDDAWETVGKKNKSAIMRSQSFVPSELTAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8B5K0" length="737" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDDAWETVG+KNKSAIMR+QSFVPS+L+AIFGG+LQ
+        </pattern>
+        <matchseq end="491" start="455">
+         NDDDAWETVGKKNKSAIMRSQSFVPSELTAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Oryza sativa subsp. japonica RepID=" id="UniRef100_B9FUP4" length="738" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         168
+        </score>
+        <bits>
+         69.3
+        </bits>
+        <expectation>
+         2.0E-12
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDDAWETVG+KNKSAIMR+QSFVPS+L+AIFGG+LQ
+        </pattern>
+        <matchseq end="492" start="456">
+         NDDDAWETVGKKNKSAIMRSQSFVPSELTAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3MNS5" length="650" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         165
+        </score>
+        <bits>
+         68.2
+        </bits>
+        <expectation>
+         4.0E-12
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDD WETVG+KNKSAI+RTQSFVPS+L+AIFGG+LQ
+        </pattern>
+        <matchseq end="475" start="439">
+         NDDDTWETVGKKNKSAILRTQSFVPSELTAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Zea mays RepID=" id="UniRef100_C4IZK3" length="552" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         162
+        </score>
+        <bits>
+         67.0
+        </bits>
+        <expectation>
+         9.0E-12
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDAWETVGRKNKSAI+RT SFVPS+LSAIFGG+LQ
+        </pattern>
+        <matchseq end="377" start="343">
+         DDAWETVGRKNKSAIVRTHSFVPSELSAIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4E5I3" length="400" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         154
+        </score>
+        <bits>
+         63.9
+        </bits>
+        <expectation>
+         7.0E-11
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDD WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="194" start="158">
+         DDDDEWETVGPKNKSAVTRTQSFVPSELSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7MBK9" length="550" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         155
+        </score>
+        <bits>
+         64.3
+        </bits>
+        <expectation>
+         8.0E-11
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDDD WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="374" start="338">
+         DDDDEWETVGPKNKSAVTRTQSFVPSELSEIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 24-like n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B4A2E6" length="522" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         151
+        </score>
+        <bits>
+         62.8
+        </bits>
+        <expectation>
+         3.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKL
+        </queryseq>
+        <pattern>
+         +DD WETVGRKN++A+MRTQSFVPS+LS IFGG+L
+        </pattern>
+        <matchseq end="345" start="311">
+         EDDEWETVGRKNRTAVMRTQSFVPSELSEIFGGQL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 24-like n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B42B49" length="542" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         151
+        </score>
+        <bits>
+         62.8
+        </bits>
+        <expectation>
+         3.0E-10
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKL
+        </queryseq>
+        <pattern>
+         +DD WETVGRKN++A+MRTQSFVPS+LS IFGG+L
+        </pattern>
+        <matchseq end="365" start="331">
+         EDDEWETVGRKNRTAVMRTQSFVPSELSEIFGGQL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_B9DGE6" length="551" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         7.0E-10
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD D WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="375" start="339">
+         DDGDEWETVGPKNKSAVTRTQSFVPSELSEIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 24 n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_Q9FPS3" length="551" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         7.0E-10
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD D WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="375" start="339">
+         DDGDEWETVGPKNKSAVTRTQSFVPSELSEIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Glycine max RepID=" id="UniRef100_I1L5I7" length="532" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSF+PSDLS IFGG+L+
+        </pattern>
+        <matchseq end="356" start="321">
+         EDDEWETVGPKNKSAVTRTQSFLPSDLSGIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4AX71" length="533" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD+ WETVG KNKSA+ RTQ FVPS+LSAIFGG+L+
+        </pattern>
+        <matchseq end="358" start="322">
+         EDDEEWETVGPKNKSAVTRTQDFVPSNLSAIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4D1B9" length="569" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDD WETVG KNKSA+ RTQSFVPS LS IFGG+L+
+        </pattern>
+        <matchseq end="393" start="357">
+         NDDDEWETVGPKNKSAVTRTQSFVPSQLSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0RYZ7" length="373" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSFVPS LS IFGG+L+
+        </pattern>
+        <matchseq end="198" start="163">
+         EDDGWETVGPKNKSAVTRTQSFVPSQLSGIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7IGQ8" length="532" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         146
+        </score>
+        <bits>
+         60.8
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSF+PS+L+ IFGG+LQ
+        </pattern>
+        <matchseq end="359" start="324">
+         EDDEWETVGPKNKSAVTRTQSFIPSELNGIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 24-like n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032AB970" length="535" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         146
+        </score>
+        <bits>
+         60.8
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="359" start="324">
+         EDDEWETVGPKNKSAVTRTQSFVPSELSGIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4D426" length="590" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         146
+        </score>
+        <bits>
+         60.8
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDD WETVG KNKSA+ RTQSFVPS LS IFGG+L+
+        </pattern>
+        <matchseq end="414" start="379">
+         DDDEWETVGPKNKSAVTRTQSFVPSQLSDIFGGELR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Vitis vinifera RepID=" id="UniRef100_D7SQ20" length="553" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="376" start="341">
+         EDDEWETVGPKNKSAVTRTQSFVPSELSKIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=3 Tax=Capsella rubella RepID=" id="UniRef100_R0GV56" length="653" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         145
+        </score>
+        <bits>
+         60.5
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++DD WETVG KNKSA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="477" start="441">
+         NEDDEWETVGPKNKSAVTRTQSFVPSELSDIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Glycine max RepID=" id="UniRef100_I1LP03" length="530" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSF+PS+LS IFGG+L+
+        </pattern>
+        <matchseq end="354" start="319">
+         EDDEWETVGPKNKSAVTRTQSFLPSELSGIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9RGG1" length="605" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KNKSA+ RTQSF+PS+LS IFGG+L+
+        </pattern>
+        <matchseq end="429" start="394">
+         EDDEWETVGPKNKSAVTRTQSFIPSELSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9GWK0" length="295" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         5.0E-9
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++D WETVG KNKSA+ RTQSF+PS+LS IFGG+L+
+        </pattern>
+        <matchseq end="119" start="84">
+         EEDEWETVGPKNKSAVTRTQSFIPSELSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0TP30" length="428" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         6.0E-9
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DD WETVG KN+SAI RTQSF PS LSAIFGG+L+
+        </pattern>
+        <matchseq end="252" start="217">
+         EDDGWETVGPKNRSAITRTQSFFPSRLSAIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1B0G0" length="534" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++DD WETVG +NK+A+ RTQSFVPS LS IFGG+L+
+        </pattern>
+        <matchseq end="359" start="323">
+         EEDDDWETVGPRNKTAVTRTQSFVPSKLSEIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4D9D4" length="534" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         4.0E-8
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++DD WETVG +N++A+ RTQSFVPS LS IFGG+L+
+        </pattern>
+        <matchseq end="359" start="323">
+         EEDDDWETVGPRNRTAVTRTQSFVPSSLSKIFGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Prunus persica RepID=" id="UniRef100_M5WZL4" length="426" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         134
+        </score>
+        <bits>
+         56.2
+        </bits>
+        <expectation>
+         4.0E-8
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++D WETVG KN SA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="250" start="215">
+         EEDEWETVGPKNTSAVTRTQSFVPSELSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1AYQ4" length="183" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D+ WET+G KNKSA+ RTQ FVPS++SAI GG+L+
+        </pattern>
+        <matchseq end="41" start="7">
+         DEEWETLGPKNKSAVTRTQDFVPSNMSAIIGGQLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 24-like n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C34690" length="544" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         134
+        </score>
+        <bits>
+         56.2
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++D WETVG KN SA+ RTQSFVPS+LS IFGG+L+
+        </pattern>
+        <matchseq end="369" start="334">
+         EEDEWETVGPKNTSAVTRTQSFVPSELSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 24-like protein n=1 Tax=Phaseolus vulgaris RepID=" id="UniRef100_K7W5E6" length="530" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         9.0E-8
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="104">
+         DAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D WETVG KNKSA+ RTQS  PS+LS IFGG+LQ
+        </pattern>
+        <matchseq end="354" start="321">
+         DEWETVGPKNKSAVTRTQSLAPSELSCIFGGQLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1AYQ0" length="355" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="9" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGK
+        </queryseq>
+        <pattern>
+         +DD+ W+TV  KNKS +MRTQ FVPS+LS I GG+
+        </pattern>
+        <matchseq end="164" start="130">
+         EDDEEWKTVSPKNKSVVMRTQDFVPSNLSVIIGGR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Physcomitrella patens subsp. patens RepID=" id="UniRef100_A9SW92" length="271" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKL
+        </queryseq>
+        <pattern>
+         DD+ WE VG KNKSA+ RT   + S LS IFGG+L
+        </pattern>
+        <matchseq end="89" start="55">
+         DDEEWEIVGPKNKSALTRTHMTIKSPLSDIFGGQL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Branchiostoma floridae RepID=" id="UniRef100_C3Z126" length="402" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         2.0E-4
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D+D WE VG KNKS + RT +FV + +S IFGG+L+
+        </pattern>
+        <matchseq end="214" start="179">
+         DEDEWEQVGPKNKSTVTRTANFVRTPVSDIFGGQLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin specific peptidase 10-like n=1 Tax=Saccoglossus kowalevskii RepID=" id="UniRef100_UPI0001CBA36F" length="986" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         6.0E-4
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD++ WE VG KNKS+I R  +F  S +S IFGG+++
+        </pattern>
+        <matchseq end="797" start="761">
+         DDEEEWEQVGPKNKSSITRAANFSKSPISEIFGGQMR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Strongylocentrotus purpuratus RepID=" id="UniRef100_H3JNR9" length="360" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         96
+        </score>
+        <bits>
+         41.6
+        </bits>
+        <expectation>
+         0.0050
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="12" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGG
+        </queryseq>
+        <pattern>
+         DDD WE VG +NK++I R   F  S LS IFGG
+        </pattern>
+        <matchseq end="163" start="131">
+         DDDEWEQVGPRNKTSITRKAQFSSSPLSKIFGG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Galdieria sulphuraria RepID=" id="UniRef100_M2XIG5" length="594" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         94
+        </score>
+        <bits>
+         40.8
+        </bits>
+        <expectation>
+         0.012
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD  WE VGRK KSAI+R   F  S +S IFGG L+
+        </pattern>
+        <matchseq end="402" start="367">
+         DDGFWEEVGRKGKSAIIRPFQFQSSWISFIFGGILR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Dendroctonus ponderosae RepID=" id="UniRef100_N6U221" length="704" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         93
+        </score>
+        <bits>
+         40.4
+        </bits>
+        <expectation>
+         0.016
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD D W+ +G KNK +++R   F  + ++ IFGG L+
+        </pattern>
+        <matchseq end="494" start="458">
+         DDSDMWQVMGNKNKGSVLRKMEFERTPITDIFGGSLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Piriformospora indica (strain DSM 11827) RepID=" id="UniRef100_G4TAE3" length="814" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         92
+        </score>
+        <bits>
+         40.0
+        </bits>
+        <expectation>
+         0.023
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D D W+ VGR+N++ + RT     S ++AIFGGK +
+        </pattern>
+        <matchseq end="623" start="588">
+         DGDEWQEVGRRNRATVTRTTQGTESAITAIFGGKFR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Fibroporia radiculosa (strain TFFH 294) RepID=" id="UniRef100_J4HV30" length="877" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.032
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD W  VG+KN+S + RT     S ++ IFGGK +
+        </pattern>
+        <matchseq end="677" start="643">
+         DDGWYEVGKKNRSVVTRTTKSTESSITRIFGGKFR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 32 (Fragment) n=1 Tax=Homo sapiens RepID=" id="UniRef100_H3BNA1" length="150" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.034
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="123" start="89">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative ubiquitin carboxyl-terminal hydrolase 10 (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=" id="UniRef100_L7MEU6" length="741" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.041
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD+ AW+TV  +N+  + R+  ++PS L  IFGG+++
+        </pattern>
+        <matchseq end="635" start="599">
+         DDEGAWKTVIHRNRHQVTRSAEYLPSPLMDIFGGEMR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Mus musculus RepID=" id="UniRef100_P52479" length="792" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG KNK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="605" start="571">
+         EDEWEQVGPKNKTSITRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 2 of Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Mus musculus RepID=" id="UniRef100_P52479-2" length="793" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG KNK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="606" start="572">
+         EDEWEQVGPKNKTSITRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative ubiquitin carboxyl-terminal hydrolase 10 (Fragment) n=1 Tax=Rhipicephalus pulchellus RepID=" id="UniRef100_L7MI85" length="827" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.042
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD+ AW+TV  +N+  + R+  ++PS L  IFGG+++
+        </pattern>
+        <matchseq end="638" start="602">
+         DDEGAWKTVIHRNRHQVTRSAEYLPSPLMDIFGGEMR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Culex quinquefasciatus RepID=" id="UniRef100_B0WEG8" length="1984" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.047
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETV-GRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD D W+ + G +NK  I RT  F  S +S IFGGKL+
+        </pattern>
+        <matchseq end="1586" start="1549">
+         DDQDDWKVIRGNRNKGTITRTTDFGRSPMSDIFGGKLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Spermophilus tridecemlineatus RepID=" id="UniRef100_I3MPW8" length="580" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.052
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="393" start="359">
+         EDEWEQVGPRNKSSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X2 n=1 Tax=Microtus ochrogaster RepID=" id="UniRef100_UPI00038BD5BC" length="793" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.056
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="606" start="572">
+         EDEWEQVGPRNKSSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X1 n=1 Tax=Microtus ochrogaster RepID=" id="UniRef100_UPI00038C2633" length="794" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.056
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="607" start="573">
+         EDEWEQVGPRNKSSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=2 Tax=Murinae RepID=" id="UniRef100_Q3KR59" length="794" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.056
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG KNK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="607" start="573">
+         EDEWEQVGPKNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8SMW6" length="245" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.057
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKL
+        </queryseq>
+        <pattern>
+         DD WETVG KN++A +RT S + S L+ IF G+L
+        </pattern>
+        <matchseq end="69" start="36">
+         DDEWETVGPKNRTARVRTCSRIWSPLTDIFCGQL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8S5V2" length="245" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.057
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="6" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKL
+        </queryseq>
+        <pattern>
+         DD WETVG KN++A +RT S + S L+ IF G+L
+        </pattern>
+        <matchseq end="69" start="36">
+         DDEWETVGPKNRTARVRTCSRIWSPLTDIFCGQL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Ceratotherium simum simum RepID=" id="UniRef100_UPI0002C6787D" length="848" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.057
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG+++
+        </pattern>
+        <matchseq end="661" start="627">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGRIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="AAEL003733-PA n=1 Tax=Aedes aegypti RepID=" id="UniRef100_Q17EP1" length="1584" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.062
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         3
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETV-GRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD D W+ + G +NK  + RT  F  S +S IFGGKL+
+        </pattern>
+        <matchseq end="1339" start="1302">
+         DDQDDWKVIRGNRNKGTVTRTTDFGRSPMSDIFGGKLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin-specific protease n=1 Tax=Tribolium castaneum RepID=" id="UniRef100_D6WDD8" length="633" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.072
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D D  W+ +G KNK +I R   FV + +S IFGG L+
+        </pattern>
+        <matchseq end="448" start="412">
+         DTDKEWQVMGPKNKGSITRQMEFVKTPISNIFGGFLK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Anolis carolinensis RepID=" id="UniRef100_H9GVU7" length="334" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.073
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="147" start="113">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Pan troglodytes RepID=" id="UniRef100_G2HF75" length="252" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.079
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="65" start="31">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Pelodiscus sinensis RepID=" id="UniRef100_K7GDU3" length="531" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.092
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="503" start="469">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Rhizopus delemar (strain RA 99-880 / ATCC MYA-4621 / FGSC 9543 / NRRL 43880) RepID=" id="UniRef100_I1C0J0" length="562" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.094
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D W  VG KNK++ +RT  F  S +S IFGGK++
+        </pattern>
+        <matchseq end="371" start="337">
+         NDEWLEVGAKNKTSNLRTTGFDESPISKIFGGKVR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=3 Tax=Sus scrofa RepID=" id="UniRef100_F1S5V0" length="309" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.094
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="122" start="88">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Chelonia mydas RepID=" id="UniRef100_M7BGA3" length="735" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="548" start="514">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 (Fragment) n=1 Tax=Anas platyrhynchos RepID=" id="UniRef100_R0K1N8" length="748" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="561" start="527">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Gallus gallus RepID=" id="UniRef100_F1NG89" length="778" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="591" start="557">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Meleagris gallopavo RepID=" id="UniRef100_G3USA2" length="782" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="595" start="561">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Crotalus adamanteus RepID=" id="UniRef100_J3S9U4" length="783" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="596" start="562">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Gallus gallus RepID=" id="UniRef100_Q5ZJN4" length="785" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="598" start="564">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Taeniopygia guttata RepID=" id="UniRef100_H0Z1C8" length="787" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="600" start="566">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Anas platyrhynchos RepID=" id="UniRef100_UPI0003510C94" length="789" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="602" start="568">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Monodelphis domestica RepID=" id="UniRef100_F6S7P0" length="789" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG L+
+        </pattern>
+        <matchseq end="603" start="569">
+         EDKWEQVGPRNKTSVTRQADFIKTPITGIFGGHLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Melopsittacus undulatus RepID=" id="UniRef100_UPI0003833282" length="791" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="604" start="570">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10-A n=1 Tax=Xenopus laevis RepID=" id="UniRef100_Q2NL57" length="791" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D+ WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="604" start="570">
+         DEEWEQVGPRNKSSVTRQADFVQTPITDIFGGHMR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Taeniopygia guttata RepID=" id="UniRef100_UPI0002B47A6D" length="792" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="605" start="571">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X2 n=1 Tax=Chrysemys picta bellii RepID=" id="UniRef100_UPI000388A6B9" length="794" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="607" start="573">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Monodelphis domestica RepID=" id="UniRef100_F6Q4L4" length="800" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG L+
+        </pattern>
+        <matchseq end="613" start="579">
+         EDEWEQVGPRNKTSVTRQADFIQTPITGIFGGHLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10-B n=1 Tax=Xenopus laevis RepID=" id="UniRef100_Q7ZXR7" length="805" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D+ WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="618" start="584">
+         DEEWEQVGPRNKSSVTRQADFVQTPITDIFGGHMR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Meleagris gallopavo RepID=" id="UniRef100_G1N5L4" length="810" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="622" start="588">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Meleagris gallopavo RepID=" id="UniRef100_UPI0002036327" length="816" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="620" start="586">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X1 n=1 Tax=Chrysemys picta bellii RepID=" id="UniRef100_UPI000388C815" length="823" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="636" start="602">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Falco peregrinus RepID=" id="UniRef100_UPI0003872285" length="830" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="643" start="609">
+         EDEWEQVGPRNKSSVTRQADFVQTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Oryzias latipes RepID=" id="UniRef100_H2LV06" length="840" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         + DD WE VG +NK +I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="653" start="617">
+         ESDDEWEQVGPRNKISITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Oryzias latipes RepID=" id="UniRef100_UPI0002A4A248" length="855" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         + DD WE VG +NK +I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="668" start="632">
+         ESDDEWEQVGPRNKISITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X2 n=1 Tax=Danio rerio RepID=" id="UniRef100_UPI000383816A" length="864" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD WE VG +NK++I R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="677" start="643">
+         DDEWEQVGPRNKTSITRQADFIRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Danio rerio RepID=" id="UniRef100_F8W2Y9" length="865" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD WE VG +NK++I R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="678" start="644">
+         DDEWEQVGPRNKTSITRQADFIRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Danio rerio RepID=" id="UniRef100_E7F2D1" length="870" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DD WE VG +NK++I R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="650" start="616">
+         DDEWEQVGPRNKTSITRQADFIRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin-specific protease n=1 Tax=Trichosporon asahii var. asahii (strain ATCC 90039 / CBS 2479 / JCM 2466 / KCTC 7840 / NCYC 2677 / UAMH 7654) RepID=" id="UniRef100_J6EYF5" length="1047" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDD W  VG+K K+ ++RT     S +S IFGG L+
+        </pattern>
+        <matchseq end="850" start="814">
+         NDDDDWLEVGKKQKTHVVRTAETRESSVSRIFGGSLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin-specific protease n=1 Tax=Trichosporon asahii var. asahii (strain CBS 8904) RepID=" id="UniRef100_K1W0Z0" length="1075" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +DDD W  VG+K K+ ++RT     S +S IFGG L+
+        </pattern>
+        <matchseq end="878" start="842">
+         NDDDDWLEVGKKQKTHVVRTAETRESSVSRIFGGSLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Nematostella vectensis RepID=" id="UniRef100_A7S704" length="412" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="113">
+         DDDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D   WE VG +NKS+I R  SF  S +S IFGG L+
+        </pattern>
+        <matchseq end="226" start="190">
+         EDAGDWEQVGPRNKSSITRVASFPSSLISDIFGGCLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Camelus ferus RepID=" id="UniRef100_S9XXX7" length="660" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="495" start="461">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=2 Tax=Ailuropoda melanoleuca RepID=" id="UniRef100_D2GWP4" length="748" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="561" start="527">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform 3 n=1 Tax=Dasypus novemcinctus RepID=" id="UniRef100_UPI000328E97F" length="754" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="648" start="614">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Cricetulus griseus RepID=" id="UniRef100_G3GRX2" length="772" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="585" start="551">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Desmodus rotundus RepID=" id="UniRef100_K9ITW9" length="772" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="585" start="551">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform 2 n=1 Tax=Dasypus novemcinctus RepID=" id="UniRef100_UPI000328A028" length="775" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="648" start="614">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Pan troglodytes RepID=" id="UniRef100_H2QBM7" length="776" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Myotis davidii RepID=" id="UniRef100_L5LZG7" length="777" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="590" start="556">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Pan troglodytes RepID=" id="UniRef100_UPI00020E446A" length="780" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=2 Tax=Mustela putorius furo RepID=" id="UniRef100_G9KWR6" length="788" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="601" start="567">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Cricetulus griseus RepID=" id="UniRef100_UPI00022F3467" length="792" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="605" start="571">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Macaca mulatta RepID=" id="UniRef100_G7NPF5" length="792" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="605" start="571">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X2 n=1 Tax=Mesocricetus auratus RepID=" id="UniRef100_UPI00035A1ED8" length="793" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="606" start="572">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Equus caballus RepID=" id="UniRef100_F7AAM2" length="793" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="606" start="572">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X1 n=1 Tax=Mesocricetus auratus RepID=" id="UniRef100_UPI0003593AA2" length="794" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="607" start="573">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Myotis lucifugus RepID=" id="UniRef100_G1Q0X1" length="796" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="609" start="575">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_UPI0002740D41" length="798" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Callithrix jacchus RepID=" id="UniRef100_F6PHK0" length="798" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Pongo abelii RepID=" id="UniRef100_H2NRN4" length="798" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_H0X0F8" length="798" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Loxodonta africana RepID=" id="UniRef100_G3TCG1" length="798" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_G3S9A2" length="798" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_G3RAK2" length="798" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Ailuropoda melanoleuca RepID=" id="UniRef100_G1MJ12" length="798" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Macaca mulatta RepID=" id="UniRef100_F6WWS6" length="798" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Homo sapiens RepID=" id="UniRef100_Q14694" length="798" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Mustela putorius furo RepID=" id="UniRef100_M3YBG1" length="799" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="612" start="578">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Canis familiaris RepID=" id="UniRef100_F1PEV7" length="799" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="612" start="578">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=2 Tax=Bos RepID=" id="UniRef100_A5PJS6" length="800" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="613" start="579">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Condylura cristata RepID=" id="UniRef100_UPI00033431E6" length="802" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Saimiri boliviensis boliviensis RepID=" id="UniRef100_UPI00027F7B38" length="802" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Pan paniscus RepID=" id="UniRef100_UPI0002745507" length="802" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform 1 n=1 Tax=Pongo abelii RepID=" id="UniRef100_UPI0001D6069E" length="802" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Macaca mulatta RepID=" id="UniRef100_UPI0001D55161" length="802" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Callithrix jacchus RepID=" id="UniRef100_F6PHS2" length="802" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 3 of Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Homo sapiens RepID=" id="UniRef100_Q14694-3" length="802" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="615" start="581">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Pan troglodytes RepID=" id="UniRef100_K7CR65" length="803" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="616" start="582">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Pan troglodytes RepID=" id="UniRef100_K7CQK3" length="803" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="616" start="582">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Pan troglodytes RepID=" id="UniRef100_K7C141" length="803" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="616" start="582">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_UPI00029DC3C9" length="804" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="617" start="583">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Orcinus orca RepID=" id="UniRef100_UPI0002BCC886" length="805" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="618" start="584">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: ubiquitin specific peptidase 10 n=1 Tax=Jaculus jaculus RepID=" id="UniRef100_UPI0003333072" length="808" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="621" start="587">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Myotis brandtii RepID=" id="UniRef100_S7MPX7" length="808" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="621" start="587">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Nomascus leucogenys RepID=" id="UniRef100_G1RKG6" length="821" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="634" start="600">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform 1 n=1 Tax=Dasypus novemcinctus RepID=" id="UniRef100_UPI000328FF26" length="830" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="643" start="609">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Trichechus manatus latirostris RepID=" id="UniRef100_UPI0002C44372" length="830" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="643" start="609">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Canis familiaris RepID=" id="UniRef100_UPI00005A0DE8" length="834" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="647" start="613">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Ovis aries RepID=" id="UniRef100_UPI00029D5FF9" length="844" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="657" start="623">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Isoform 2 of Ubiquitin carboxyl-terminal hydrolase 10 n=2 Tax=Homo sapiens RepID=" id="UniRef100_Q14694-2" length="846" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="659" start="625">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Mustela putorius furo RepID=" id="UniRef100_UPI00034478B8" length="895" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="708" start="674">
+         EDEWEQVGPRNKTSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Papio anubis RepID=" id="UniRef100_UPI00027F68E1" length="926" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="756" start="722">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Loxodonta africana RepID=" id="UniRef100_UPI0002235841" length="958" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="771" start="737">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Thanatephorus cucumeris (strain AG1-IA) RepID=" id="UniRef100_L8WV76" length="1056" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.15
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D  W  VG+KNK AI RT     S ++ IFGGKL+
+        </pattern>
+        <matchseq end="866" start="832">
+         DGDWMEVGKKNKPAITRTTRATESAITRIFGGKLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Sus scrofa RepID=" id="UniRef100_UPI00022CE6D2" length="1147" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.15
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="621" start="587">
+         EDEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_G3VXK5" length="755" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="568" start="534">
+         EDEWEQVGPRNKTSVTRQADFIQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Monodelphis domestica RepID=" id="UniRef100_F6Y299" length="792" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="605" start="571">
+         EDEWEQVGPRNKTSVTRQADFIQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_G3VXK4" length="794" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="607" start="573">
+         EDEWEQVGPRNKTSVTRQADFIQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Odobenus rosmarus divergens RepID=" id="UniRef100_UPI0002C5682D" length="798" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="611" start="577">
+         EDEWEQVGPRNKTSVTRHAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Monodelphis domestica RepID=" id="UniRef100_UPI00020F5C0E" length="825" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="638" start="604">
+         EDEWEQVGPRNKTSVTRQADFIQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Tupaia chinensis RepID=" id="UniRef100_L9KP36" length="881" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++ WE VG +NKS++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="646" start="612">
+         EEEWEQVGPRNKSSVTRQAEFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_UPI0002739569" length="1048" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.2
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   F+ + ++ IFGG ++
+        </pattern>
+        <matchseq end="861" start="827">
+         EDEWEQVGPRNKTSVTRQADFIQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Thanatephorus cucumeris (strain AG1-IB / isolate 7/3/14) RepID=" id="UniRef100_M5BQY5" length="287" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.22
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         66.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="98">
+         WETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         W  VG+KNK AI RT     S ++ IFGGKL+
+        </pattern>
+        <matchseq end="97" start="66">
+         WMEVGKKNKPAITRTTRATESAITRIFGGKLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_H3CVC6" length="818" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="631" start="597">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2V7M6" length="819" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="632" start="598">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_Q4SIC9" length="832" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="645" start="611">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Gasterosteus aculeatus RepID=" id="UniRef100_G3PT97" length="835" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="648" start="614">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2V7M5" length="843" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="656" start="622">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_I3JEY1" length="854" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="667" start="633">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like isoform X2 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI0003296BDE" length="859" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="672" start="638">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like isoform X1 n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_UPI00022B1F87" length="859" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.25
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="672" start="638">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_UPI000298E1B3" length="871" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="684" start="650">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like isoform X1 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI00032A10DB" length="879" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         43.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="692" start="658">
+         EDEWEQVGPRNKTSITRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Cyanidioschyzon merolae strain 10D RepID=" id="UniRef100_M1V675" length="633" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.32
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D  WETV R+ +SAI+RT     + +++IFGG L+
+        </pattern>
+        <matchseq end="415" start="381">
+         DTEWETVDRRGRSAIVRTHQVRKTFITSIFGGALR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Ornithorhynchus anatinus RepID=" id="UniRef100_F7G905" length="760" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.34
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D W+ VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="573" start="539">
+         EDEWKQVGPRNKTSITRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10-like, partial n=1 Tax=Ornithorhynchus anatinus RepID=" id="UniRef100_UPI000155D13C" length="793" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.34
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D W+ VG +NK++I R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="606" start="572">
+         EDEWKQVGPRNKTSITRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Xiphophorus maculatus RepID=" id="UniRef100_M4A0H4" length="855" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.34
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         +D WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="668" start="634">
+         EDEWEQVGPRNKTSVTRQADFVRTPITDIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Ceriporiopsis subvermispora (strain B) RepID=" id="UniRef100_M2PNU9" length="872" number="171">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.34
+        </expectation>
+        <identity>
+         40.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D+ W  VG+KN++ + RT     S ++ IFGGK +
+        </pattern>
+        <matchseq end="674" start="640">
+         DEGWHEVGKKNRAVLTRTVKSTESPITRIFGGKFR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=2 Tax=Komagataella pastoris RepID=" id="UniRef100_C4QYW8" length="591" number="172">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.43
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         DDD W  VG  NK +  RT    PS ++ IFGG+ +
+        </pattern>
+        <matchseq end="372" start="337">
+         DDDGWCEVGSNNKLSAKRTVEVKPSPITEIFGGQFR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Mucor circinelloides f. circinelloides (strain 1006PhL) RepID=" id="UniRef100_S2JGU7" length="607" number="173">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.43
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="104">
+         DAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D W  VG KNK++ +R+  F  S +S IFGGK++
+        </pattern>
+        <matchseq end="416" start="383">
+         DDWLEVGAKNKTSNLRSTGFEESPISKIFGGKVR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase n=1 Tax=Tuber melanosporum (strain Mel28) RepID=" id="UniRef100_D5GK84" length="709" number="174">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         58.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="110">
+         DDDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         D+  W  VG K K+A  RT     S ++ IFGGKL+
+        </pattern>
+        <matchseq end="484" start="449">
+         DESGWMEVGHKQKTATTRTTEISESPITKIFGGKLR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Ubiquitin carboxyl-terminal hydrolase (Fragment) n=1 Tax=Cavia porcellus RepID=" id="UniRef100_H0VLL0" length="766" number="175">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++ WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="585" start="551">
+         EEEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 isoform X3 n=1 Tax=Heterocephalus glaber RepID=" id="UniRef100_UPI00034FECAC" length="769" number="176">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++ WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="582" start="548">
+         EEEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: ubiquitin carboxyl-terminal hydrolase 10 n=1 Tax=Cavia porcellus RepID=" id="UniRef100_UPI00035144F2" length="780" number="177">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         37.0
+        </identity>
+        <positives>
+         69.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="3" start="107">
+         DDAWETVGRKNKSAIMRTQSFVPSDLSAIFGGKLQ
+        </queryseq>
+        <pattern>
+         ++ WE VG +NK+++ R   FV + ++ IFGG ++
+        </pattern>
+        <matchseq end="593" start="559">
+         EEEWEQVGPRNKTSVTRQADFVQTPITGIFGGHIR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="" id="UniRef100_G5BJF2" length="787" number="178">
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

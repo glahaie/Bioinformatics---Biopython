@@ -1,0 +1,365 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-155911-0115-25299189-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="137" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T15:59:27+00:00" search="P0Y0M0DT0H0M16.000S" start="2013-11-25T15:59:11+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="7">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8C2Q7" length="273" number="1">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         122
+        </score>
+        <bits>
+         51.6
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         93.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="137" start="57">
+         SSRSAREICSCHDEVVQPAKQRWSSSA
+        </queryseq>
+        <pattern>
+         SS SAREICSCHDEVVQPAKQR SSSA
+        </pattern>
+        <matchseq end="87" start="61">
+         SSTSAREICSCHDEVVQPAKQRRSSSA
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="57" start="1">
+         PTRSRGFSRLNDLTMSTAS
+        </queryseq>
+        <pattern>
+         PTRSR F RLNDLTMSTAS
+        </pattern>
+        <matchseq end="60" start="42">
+         PTRSRRFCRLNDLTMSTAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7ZK95" length="356" number="2">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         11
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="135" start="58">
+         PQEVPGRSA--RAMMRSFNQQNNGGRRR
+        </queryseq>
+        <pattern>
+         PQ  PG  A  RA+MRSFNQQ NGGRRR
+        </pattern>
+        <matchseq end="356" start="330">
+         PQVAPGGPAPVRALMRSFNQQ-NGGRRR
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         65
+        </score>
+        <bits>
+         29.6
+        </bits>
+        <expectation>
+         0.0070
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         86.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="44" start="3">
+         DEEPGF*PVERPHH
+        </queryseq>
+        <pattern>
+         D+EP F PVERPHH
+        </pattern>
+        <matchseq end="321" start="308">
+         DKEPAFLPVERPHH
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M7Z823" length="58" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.071
+        </expectation>
+        <identity>
+         88.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="56" start="6">
+         EEPGF*PVERPHHVDRL
+        </queryseq>
+        <pattern>
+         EEP F PVERPHHVDRL
+        </pattern>
+        <matchseq end="46" start="30">
+         EEPAFLPVERPHHVDRL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Rhodobacter sphaeroides (strain ATCC 17025 / ATH 2.4.3) RepID=" id="UniRef100_A4WZ27" length="360" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.6
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="9" start="89">
+         ARADLPGTS*GEAVDMVRSFNRLKPRL
+        </queryseq>
+        <pattern>
+         ARADLP  S GEA D+V  FNR+  RL
+        </pattern>
+        <matchseq end="130" start="104">
+         ARADLPPGSFGEARDLVTDFNRMAERL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Integral membrane sensor signal transduction histidine kinase n=1 Tax=Rhodobacter sphaeroides (strain ATCC 17029 / ATH 2.4.9) RepID=" id="UniRef100_A3PM08" length="360" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         3.6
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="9" start="89">
+         ARADLPGTS*GEAVDMVRSFNRLKPRL
+        </queryseq>
+        <pattern>
+         ARADLP  S GEA D+V  FNR+  RL
+        </pattern>
+        <matchseq end="130" start="104">
+         ARADLPPGSFGEARDLVADFNRMAERL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="arsenate reductase n=1 Tax=Psychrobacter sp. PAMC 21119 RepID=" id="UniRef100_UPI000289C183" length="133" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         7.3
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         54.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="114">
+         LLVERPHHGTSRSPWHFLRRGGRHGEVVQPAKTPAPR
+        </queryseq>
+        <pattern>
+         L+   P  GTSR+    ++  G H EVV+  KTP  R
+        </pattern>
+        <matchseq end="40" start="4">
+         LIFHNPKCGTSRNTLAIMKASGEHPEVVEYLKTPPAR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Arsenate reductase (Fragment) n=1 Tax=Sphingomonas sp. LH128 RepID=" id="UniRef100_J8VP43" length="93" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         68
+        </score>
+        <bits>
+         30.8
+        </bits>
+        <expectation>
+         7.5
+        </expectation>
+        <identity>
+         34.0
+        </identity>
+        <positives>
+         51.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="4" start="126">
+         TTVVLLVERPHHGTSRSPWHFLRRGGRHGEVVQPAKTPAPR
+        </queryseq>
+        <pattern>
+         TT +++   P  GTSR+    +R  G    V++  KTP  R
+        </pattern>
+        <matchseq end="42" start="2">
+         TTDIIIYHNPECGTSRNALAMIRNAGTEPHVIEYLKTPPTR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

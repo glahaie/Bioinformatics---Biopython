@@ -1,0 +1,6824 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-174456-0870-59214037-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="121" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:45:16+00:00" search="P0Y0M0DT0H0M19.000S" start="2013-11-25T17:44:57+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="222">
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Triticum RepID=" id="UniRef100_M7YF70" length="168" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         192
+        </score>
+        <bits>
+         78.6
+        </bits>
+        <expectation>
+         5.0E-17
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Triticum aestivum RepID=" id="UniRef100_Q8LRM8" length="168" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         188
+        </score>
+        <bits>
+         77.0
+        </bits>
+        <expectation>
+         2.0E-16
+        </expectation>
+        <identity>
+         97.0
+        </identity>
+        <positives>
+         97.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NLSAKLEGDDLD FKKNVESATKYLLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLSAKLEGDDLDVFKKNVESATKYLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=2 Tax=Hordeum vulgare RepID=" id="UniRef100_Q9M5G3" length="168" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         181
+        </score>
+        <bits>
+         74.3
+        </bits>
+        <expectation>
+         2.0E-15
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+AKLEG++LDAFKKNVESATKYLLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTAKLEGEELDAFKKNVESATKYLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein (Fragment) n=1 Tax=Cyrtandra cordifolia RepID=" id="UniRef100_R4N162" length="108" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         154
+        </score>
+        <bits>
+         63.9
+        </bits>
+        <expectation>
+         6.0E-12
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+AKLEG++L+ FKKN+E ATK+LL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="79" start="42">
+         LAAKLEGEELEVFKKNIEGATKFLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein (Fragment) n=3 Tax=Cyrtandra RepID=" id="UniRef100_R4MSH9" length="114" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         154
+        </score>
+        <bits>
+         63.9
+        </bits>
+        <expectation>
+         7.0E-12
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+AKLEG++L+ FKKN+E ATK+LL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="85" start="48">
+         LTAKLEGEELEVFKKNIEGATKFLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="P23 tumor protein-like protein n=2 Tax=Solanum tuberosum RepID=" id="UniRef100_Q3HVK2" length="168" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         152
+        </score>
+        <bits>
+         63.2
+        </bits>
+        <expectation>
+         2.0E-11
+        </expectation>
+        <identity>
+         77.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KLEG+  DAFKKN+ESATK+LL KLKD QFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLEGEAQDAFKKNIESATKFLLPKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4B112" length="168" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         152
+        </score>
+        <bits>
+         63.2
+        </bits>
+        <expectation>
+         2.0E-11
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KLEG+  +AFKKN+ESATK+LL K+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLEGETQEAFKKNIESATKFLLQKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1IJL0" length="168" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         150
+        </score>
+        <bits>
+         62.4
+        </bits>
+        <expectation>
+         5.0E-11
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KLE D+ + FKKNVE ATK+LLSK+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLEADEQEVFKKNVEGATKFLLSKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4B111" length="168" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         6.0E-11
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KLEG+  +AFKKN+E+ATK+LL K+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLEGETQEAFKKNIEAATKFLLQKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_P43349" length="168" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         6.0E-11
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         NL+ KLEG+  +AFKKN+ESATK+LLSKLKD QFFVGE
+        </pattern>
+        <matchseq end="134" start="97">
+         NLTPKLEGEAQEAFKKNIESATKFLLSKLKDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_Q6DUX3" length="168" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         6.0E-11
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         90.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KLEG+  +AFKKN+E+ATK+LL K+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLEGETQEAFKKNIEAATKFLLQKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_M1CAU2" length="180" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         149
+        </score>
+        <bits>
+         62.0
+        </bits>
+        <expectation>
+         7.0E-11
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         NL+ KLEG+  +AFKKN+ESATK+LLSKLKD QFFVGE
+        </pattern>
+        <matchseq end="146" start="109">
+         NLTPKLEGEAQEAFKKNIESATKFLLSKLKDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=3 Tax=Oryza RepID=" id="UniRef100_P35681" length="168" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         9.0E-11
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NLSAKL+ +  + FKKN+E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLSAKLDAEKQEEFKKNIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=" id="UniRef100_J3NA14" length="167" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         6.0E-10
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LSAKL+ +  + FKKN+E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LSAKLDAEKQEEFKKNIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=" id="UniRef100_B8BLP4" length="498" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         148
+        </score>
+        <bits>
+         61.6
+        </bits>
+        <expectation>
+         7.0E-10
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NLSAKL+ +  + FKKN+E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLSAKLDAEKQEEFKKNIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb04g000750 n=1 Tax=Sorghum bicolor RepID=" id="UniRef100_C5XRL7" length="167" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         141
+        </score>
+        <bits>
+         58.9
+        </bits>
+        <expectation>
+         8.0E-10
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KLE +  D FKK +E ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTGKLEPEKADEFKKGIEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Populus RepID=" id="UniRef100_A9P9S3" length="168" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NLS KL+ D  + F+KN+E ATK+LLSK+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLSEKLDEDQKEHFRKNIEGATKFLLSKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Fragaria ananassa RepID=" id="UniRef100_O03992" length="170" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLEG+  + FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="137" start="100">
+         LTPKLEGEQQETFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Populus RepID=" id="UniRef100_A9P8I8" length="172" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         140
+        </score>
+        <bits>
+         58.5
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         69.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NLS KL+ D  + F+KN+E ATK+LLSK+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLSEKLDEDQKEHFRKNIEGATKFLLSKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_B6TLQ6" length="138" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="105" start="67">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein n=1 Tax=Zea mays RepID=" id="UniRef100_B6UE22" length="156" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="123" start="85">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein n=1 Tax=Zea mays RepID=" id="UniRef100_B6SIF5" length="167" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein n=1 Tax=Zea mays RepID=" id="UniRef100_B6SID8" length="167" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein n=1 Tax=Zea mays RepID=" id="UniRef100_B4FL17" length="167" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Zea mays RepID=" id="UniRef100_Q8H6A5" length="167" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C32353" length="168" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLEG+  + FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLEGEQQEIFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6SWE6" length="168" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+AKLEG+  + FKK++E ATK LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTAKLEGEQQELFKKHIEGATKSLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Amblyomma maculatum RepID=" id="UniRef100_G3MJG8" length="191" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         139
+        </score>
+        <bits>
+         58.2
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS+KL+ +  + FKKN+E ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="168" start="131">
+         LSSKLDAEKQELFKKNIEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Vitis vinifera RepID=" id="UniRef100_A5BM68" length="167" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         2.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLEG+  + FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLEGEKQEEFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=2 Tax=Pisum sativum RepID=" id="UniRef100_P50906" length="167" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         136
+        </score>
+        <bits>
+         57.0
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLE +  + FKKN+E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLEAEKQEHFKKNIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9RFB8" length="168" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         136
+        </score>
+        <bits>
+         57.0
+        </bits>
+        <expectation>
+         4.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+AKLE +  + FKKN+E+ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTAKLEPEKQELFKKNIEAATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative controlled tumor protein n=1 Tax=Elaeis guineensis var. tenera RepID=" id="UniRef100_B3TM15" length="167" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         5.0E-9
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTPKLDAEKQELFKKHIEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor-like protein n=1 Tax=Arachis hypogaea RepID=" id="UniRef100_Q06H31" length="168" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         5.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+AKLE +  + FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTAKLEPEQQEHFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Cucurbita maxima RepID=" id="UniRef100_Q2PS27" length="168" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         5.0E-9
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLEG+  +AFKKN+E ATK+LL KLKD +FFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLEGEKQEAFKKNIEGATKFLLPKLKDFRFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Setaria italica RepID=" id="UniRef100_K3ZJL8" length="254" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         137
+        </score>
+        <bits>
+         57.4
+        </bits>
+        <expectation>
+         6.0E-9
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+AKLE +    FKK +E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="221" start="183">
+         NLTAKLEPEQQAEFKKGIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5XPD7" length="283" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         138
+        </score>
+        <bits>
+         57.8
+        </bits>
+        <expectation>
+         6.0E-9
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLEG+  + FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="250" start="213">
+         LTPKLEGEKQEEFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Vernicia fordii RepID=" id="UniRef100_J3RV95" length="168" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         134
+        </score>
+        <bits>
+         56.2
+        </bits>
+        <expectation>
+         7.0E-9
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+AKL+ +  ++FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTAKLDEEKQESFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=2 Tax=Glycine max RepID=" id="UniRef100_Q944T2" length="168" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         134
+        </score>
+        <bits>
+         56.2
+        </bits>
+        <expectation>
+         7.0E-9
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATKYLLSK+KD QFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLDAEQQELFKKHIEGATKYLLSKIKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_K7MBE9" length="154" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         133
+        </score>
+        <bits>
+         55.8
+        </bits>
+        <expectation>
+         9.0E-9
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATKYLLSK+KD QFFVGES
+        </pattern>
+        <matchseq end="121" start="83">
+         NLTPKLDAEKQELFKKHIEGATKYLLSKIKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1MGM0" length="167" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         133
+        </score>
+        <bits>
+         55.8
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATKYLLSK+KD QFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTPKLDAEKQELFKKHIEGATKYLLSKIKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6SVD8" length="167" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         133
+        </score>
+        <bits>
+         55.8
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATKYLLSK+KD QFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLTPKLDAEKQELFKKHIEGATKYLLSKIKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="hypothetical protein n=1 Tax=Vibrio vulnificus RepID=" id="UniRef100_UPI0002D9E5CD" length="168" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         133
+        </score>
+        <bits>
+         55.8
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++ESATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLDAEKQNLFKKHIESATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally controlled tumor protein n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_Q9M9V9" length="156" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ ++ + FKK++ESATK+L+SKLKD QFFVGES
+        </pattern>
+        <matchseq end="122" start="85">
+         LSPKLDSENQELFKKHIESATKFLMSKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Methionine sulfoxide reductase (MSS4-like) protein n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_F4J8E4" length="168" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ ++ + FKK++ESATK+L+SKLKD QFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LSPKLDSENQELFKKHIESATKFLMSKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Salvia miltiorrhiza RepID=" id="UniRef100_A8VRK8" length="168" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  D FKK++E ATKYL+SK+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDAEKQDEFKKSIEGATKYLVSKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally controlled tumor protein n=1 Tax=Salvia miltiorrhiza RepID=" id="UniRef100_A6ZI67" length="168" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         132
+        </score>
+        <bits>
+         55.5
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  D FKK++E ATKYL+SK+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDAEKQDEFKKSIEGATKYLVSKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally-controlled tumor protein n=1 Tax=Wolffia arrhiza RepID=" id="UniRef100_G4WMW7" length="168" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         131
+        </score>
+        <bits>
+         55.1
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +    FKKN+E ATK+LLSK+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLDEEAQAKFKKNIEGATKFLLSKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9NAI3" length="168" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         131
+        </score>
+        <bits>
+         55.1
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ ++ + FKKN+E ATK+LLSK+KD QFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LSEKLDDENKEHFKKNIEGATKFLLSKIKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_A9PBM4" length="168" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         131
+        </score>
+        <bits>
+         55.1
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ ++ + FKKN+E ATK+LLSK+KD QFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LSEKLDDENKEHFKKNIEGATKFLLSKIKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7L3V7" length="156" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ +  + FKK++ESATK+L+SKLKD QFFVGES
+        </pattern>
+        <matchseq end="122" start="85">
+         LSPKLDSEKQELFKKHIESATKFLMSKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein-like protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7I8Q1" length="168" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L++KLE +  + FKK++E+ATK+LL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTSKLEAEKQELFKKHIEAATKFLLPKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Litchi chinensis RepID=" id="UniRef100_F2XX46" length="168" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLEG+  D FKK++  ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLEGEKQDEFKKSIGGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_B7FGX4" length="168" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L++KLE +  + FKK++E+ATK+LL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTSKLEAEKQELFKKHIEAATKFLLPKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Elaeis guineensis var. tenera RepID=" id="UniRef100_B3TM14" length="168" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLDAEKQELFKKHIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Jatropha curcas RepID=" id="UniRef100_A9LC95" length="168" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +   AFKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDEEKQQAFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=2 Tax=Elaeis guineensis var. tenera RepID=" id="UniRef100_Q5J907" length="168" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ +  + FKK++E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLDAEKQELFKKHIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=" id="UniRef100_R0HTH9" length="169" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         130
+        </score>
+        <bits>
+         54.7
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ +  + FKK++ESATK+L+SKLKD QFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LSPKLDSEKQELFKKHIESATKFLMSKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein (Fragment) n=1 Tax=Citrullus lanatus RepID=" id="UniRef100_Q6I665" length="72" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +L+ KL G+  +AFKKN+E AT YLL+ LKDLQFF GES
+        </pattern>
+        <matchseq end="39" start="1">
+         DLTPKLXGEKQEAFKKNIEGATXYLLAXLKDLQFFXGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_I3T0E1" length="167" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         129
+        </score>
+        <bits>
+         54.3
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDAEKQELFKKHIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_B7FH15" length="167" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         129
+        </score>
+        <bits>
+         54.3
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDAEKQELFKKHIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Lotus japonicus RepID=" id="UniRef100_I3SG51" length="168" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         129
+        </score>
+        <bits>
+         54.3
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL+ ++   FKK++E ATKYLLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLDEENQVLFKKHIEGATKYLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="TCTP.1 n=1 Tax=Hevea brasiliensis RepID=" id="UniRef100_F8SKC4" length="168" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         129
+        </score>
+        <bits>
+         54.3
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  ++FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDEEKQESFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Hevea brasiliensis RepID=" id="UniRef100_B6DRF6" length="168" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         129
+        </score>
+        <bits>
+         54.3
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  ++FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDEEKQESFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Hevea brasiliensis RepID=" id="UniRef100_Q9ZSW9" length="168" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         129
+        </score>
+        <bits>
+         54.3
+        </bits>
+        <expectation>
+         3.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  ++FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDEEKQESFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Medicago sativa RepID=" id="UniRef100_P28014" length="167" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDAEKQELFKKHIEGATKYLLCKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein-like protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7I8P9" length="168" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L++KLE +  + FKK++E+ATK+LL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTSKLEPEKQELFKKHIEAATKFLLPKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Elaeis guineensis var. tenera RepID=" id="UniRef100_B3TLX6" length="168" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATKYLLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDAEKQELFKKHIEGATKYLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Nicotiana tabacum RepID=" id="UniRef100_Q9XHL7" length="168" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         128
+        </score>
+        <bits>
+         53.9
+        </bits>
+        <expectation>
+         5.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL  +  + FK N++ ATKYLLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTPKLGAEQEEVFKNNIQGATKYLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0TEG4" length="167" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         6.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDEEKQELFKKHIEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0SAP1" length="167" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         6.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDEEKQELFKKHIEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0RZY4" length="167" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         6.0E-8
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATK+LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDEEKQELFKKHIEGATKFLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7L655" length="168" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         127
+        </score>
+        <bits>
+         53.5
+        </bits>
+        <expectation>
+         7.0E-8
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +L+ KL  +  ++FKK +E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         SLTPKLNEEQQESFKKGIEGATKYLLPKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8CXP8" length="168" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         126
+        </score>
+        <bits>
+         53.1
+        </bits>
+        <expectation>
+         9.0E-8
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         LS KL+ +  + FKK +E ATK+LL K+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LSGKLDAEKQEEFKKTIEGATKFLLGKIKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9N4J2" length="167" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         124
+        </score>
+        <bits>
+         52.4
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLE +  + FKKN+E ATK+L  KLKD QFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLEPEQQEVFKKNIEGATKFLFPKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein like protein (Fragment) n=1 Tax=Nicotiana tabacum RepID=" id="UniRef100_A2V884" length="162" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +L+ KL  +  + FK N++ ATKYLLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="129" start="91">
+         SLTPKLGAEQEEVFKNNIQGATKYLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0U1Y7" length="167" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E ATK LLSKLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LTPKLDEEKQELFKKHIEGATKLLLSKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9RT61" length="168" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         2.0E-7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++ KL+ +  + FKKN+E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         VTPKLDQETQEHFKKNIEGATKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="26S protease regulatory subunit n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7I8P8" length="259" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         126
+        </score>
+        <bits>
+         53.1
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         87.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L++KLE +  + FKK++E+ATK+LL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="195" start="158">
+         LTSKLELEKQELFKKHIEAATKFLLPKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein-like protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7KQA8" length="161" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         122
+        </score>
+        <bits>
+         51.6
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L  KL+    + FKK++E ATKYLL KLKDLQFFVGES
+        </pattern>
+        <matchseq end="134" start="97">
+         LIPKLDAAKQELFKKHIEGATKYLLGKLKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Hevea brasiliensis RepID=" id="UniRef100_R4HIT3" length="168" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         122
+        </score>
+        <bits>
+         51.6
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLE +  + FKK++E ATK+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLEPEKQELFKKHIEGATKFLLSKLIDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Vitis vinifera RepID=" id="UniRef100_D7U9U6" length="168" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         120
+        </score>
+        <bits>
+         50.8
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLE +  + FKK++E ATK+LL KL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLEPEKQELFKKHIEGATKFLLPKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor-like protein (Fragment) n=2 Tax=Cicer arietinum RepID=" id="UniRef100_Q8LPE3" length="61" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="36">
+         DAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         + FKKN+E+ATKYLL KLKD QFFVGES
+        </pattern>
+        <matchseq end="28" start="1">
+         EVFKKNIEAATKYLLPKLKDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1IJL1" length="130" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="101" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQ
+        </queryseq>
+        <pattern>
+         NL+ KLE D+ + FKKNVE ATK+LLSK+KDLQ
+        </pattern>
+        <matchseq end="129" start="97">
+         NLTPKLEADEQEVFKKNVEGATKFLLSKIKDLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Cucumis melo RepID=" id="UniRef100_Q9M5I8" length="168" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         8.0E-7
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+  L+G+  +AFK  +E A KYLL K+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPLLQGEQQEAFKNKIEGAVKYLLPKVKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=" id="UniRef100_A9NYF7" length="160" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL  +    FKKNVE A K+L+SKL DLQFFVGES
+        </pattern>
+        <matchseq end="127" start="89">
+         NLATKLTEERQAEFKKNVEGAAKWLVSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=" id="UniRef100_A9NTM3" length="167" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL  +    FKKNVE A K+L+SKL DLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLATKLTEERQAEFKKNVEGAAKWLVSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=" id="UniRef100_A9NPE8" length="167" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL  +    FKKNVE A K+L+SKL DLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLATKLTEERQAEFKKNVEGAAKWLVSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032ABC58" length="168" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         82.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + FKK++E+ATK+LL KL DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPKLDQEKQELFKKHIEAATKFLLPKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb05g019035 (Fragment) n=1 Tax=Sorghum bicolor RepID=" id="UniRef100_C5Y2V1" length="139" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFF
+        </queryseq>
+        <pattern>
+         NL+ KLE D  D FKK +E ATK+LLSKLKDLQ +
+        </pattern>
+        <matchseq end="124" start="90">
+         NLTGKLEPDKADEFKKGIEGATKFLLSKLKDLQLY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0SUE6" length="150" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         61.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ KLE +  + FKK++E +TK+LLSKL DLQ FVGES
+        </pattern>
+        <matchseq end="125" start="88">
+         LTPKLEWEKQELFKKHIEQSTKFLLSKLSDLQLFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Pseudotsuga menziesii RepID=" id="UniRef100_Q9ZRX0" length="167" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         64.0
+        </identity>
+        <positives>
+         72.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+ KL  +    FKKNVE A K L+SKL DLQFFVGES
+        </pattern>
+        <matchseq end="134" start="96">
+         NLATKLSEERQAEFKKNVEGAAKMLVSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0RS18" length="159" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L  KLE +  + FKK++E ATK LLS L DLQFFVGES
+        </pattern>
+        <matchseq end="128" start="91">
+         LMPKLEAEKQELFKKHIEQATKILLSMLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4DXE1" length="168" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL  +  + FKK +E ATKYLL KLKD QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLTPEQQEEFKKGIEGATKYLLPKLKDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4CBQ7" length="168" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL  +  + FKK +E ATKYLL KLKD QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLTPEQQEEFKKGIEGATKYLLPKLKDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Glycine max RepID=" id="UniRef100_I1NJ16" length="131" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="107" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFF
+        </queryseq>
+        <pattern>
+         L+AKLEG+  + FKK++E ATK L+SKLKDLQF+
+        </pattern>
+        <matchseq end="97" start="64">
+         LTAKLEGEKQELFKKHIEGATKSLISKLKDLQFY
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B4353C" length="168" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+  L+G+  +AFK  +E A K+LL K+KDLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LTPLLKGEQQEAFKSKIEGAVKFLLPKVKDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4E075" length="168" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL  +D  AFKK +E ATK+LL KL D QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLNEEDQAAFKKGIEGATKFLLPKLNDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Rheum australe RepID=" id="UniRef100_B5M1W1" length="168" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L  KL+ ++   F  N++ ATKYLLSK+ DLQFFVGES
+        </pattern>
+        <matchseq end="135" start="98">
+         LEPKLDAENKKKFMDNIQPATKYLLSKINDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8SHD6" length="168" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         59.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         NL+  L  ++   FKKNVE+A K++LSKL D QFFVGES
+        </pattern>
+        <matchseq end="135" start="97">
+         NLTEILPEEEKAEFKKNVEAAVKWILSKLNDFQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Brassica oleracea RepID=" id="UniRef100_Q944W6" length="168" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         59.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL  +  + FKK +E ATK+LL KLKD QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLTPEQQEEFKKGIEGATKFLLPKLKDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Physcomitrella patens subsp. patens RepID=" id="UniRef100_A9RT49" length="170" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         110
+        </score>
+        <bits>
+         47.0
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="39">
+         AFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +FKK+VESA K+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="137" start="111">
+         SFKKDVESAVKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8CYU2" length="204" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         71.0
+        </identity>
+        <positives>
+         81.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="95" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKD
+        </queryseq>
+        <pattern>
+         NLSAKLEGDDLD FKKNVESAT ++   + D
+        </pattern>
+        <matchseq end="174" start="144">
+         NLSAKLEGDDLDVFKKNVESATNFVGESMHD
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="mRNA, clone: RTFL01-18-I22 n=1 Tax=Thellungiella halophila RepID=" id="UniRef100_E4MWL5" length="168" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         109
+        </score>
+        <bits>
+         46.6
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         59.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL+ +   AFKK +E ATK+LL KL D QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLDEEQQTAFKKGIEGATKFLLPKLGDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_B4FYA4" length="129" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         108
+        </score>
+        <bits>
+         46.2
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="101" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQ
+        </queryseq>
+        <pattern>
+         NL+A LE +  D FKK VE ATK+LLSKLKDLQ
+        </pattern>
+        <matchseq end="128" start="96">
+         NLTAVLEPEKADEFKKGVEGATKFLLSKLKDLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Arabidopsis thaliana RepID=" id="UniRef100_P31265" length="168" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL  +D   FKK +E ATK+LL +L D QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLSEEDQAVFKKGIEGATKFLLPRLSDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Physcomitrella patens subsp. patens RepID=" id="UniRef100_A9RWX8" length="170" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="39">
+         AFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +FKK+VE+A K+LLSKL DLQFFVGES
+        </pattern>
+        <matchseq end="137" start="111">
+         SFKKDVEAAVKFLLSKLSDLQFFVGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Glycine max RepID=" id="UniRef100_UPI0002338D66" length="147" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         62.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="18">
+         LEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L+ + L  FKK++E ATK LLSK+KDLQF +GES
+        </pattern>
+        <matchseq end="94" start="61">
+         LDEEKLKLFKKHIEGATKSLLSKIKDLQFLLGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=" id="UniRef100_R0G7K2" length="168" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL  ++   FKK +E ATKYLL +L D QFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLSEEEQAVFKKGIEGATKYLLPRLGDFQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B48AAD" length="168" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="116" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGE
+        </queryseq>
+        <pattern>
+         L+ KL+ +  + F+K++  ATK+L+SK+ DLQFFVGE
+        </pattern>
+        <matchseq end="134" start="98">
+         LTPKLDEEKQELFRKHIPEATKFLISKIDDLQFFVGE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K3ZJT6" length="216" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="101" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQ
+        </queryseq>
+        <pattern>
+         NL+AKLE +    FKK +E ATKYLL KLKDLQ
+        </pattern>
+        <matchseq end="215" start="183">
+         NLTAKLEPEQQAEFKKGIEGATKYLLGKLKDLQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7LHP2" length="107" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         93
+        </score>
+        <bits>
+         40.4
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         79.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="104" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQF
+        </queryseq>
+        <pattern>
+         LS KL+ +  + FKK+++SATK L+SKL+D QF
+        </pattern>
+        <matchseq end="54" start="22">
+         LSPKLDSEKQELFKKHIKSATKSLMSKLRDFQF
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translational controlled tumor protein n=1 Tax=Danaus plexippus RepID=" id="UniRef100_G6DQU0" length="172" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         94
+        </score>
+        <bits>
+         40.8
+        </bits>
+        <expectation>
+         0.0040
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+    K +LS+ KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKSPDQVDVFKTNMNKVMKDILSRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Apis mellifera RepID=" id="UniRef100_H9KH78" length="172" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.013
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FKKN     K +LS+  DLQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEQAPDQVEVFKKNTNKVMKDILSRFNDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translational controlled tumor protein n=1 Tax=Helicoverpa armigera RepID=" id="UniRef100_D5LTC5" length="172" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         90
+        </score>
+        <bits>
+         39.3
+        </bits>
+        <expectation>
+         0.013
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LIAKLEEKAPDQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Pararge aegeria RepID=" id="UniRef100_S4NVP8" length="79" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.018
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N+    K +LS+ K+LQFF GES
+        </pattern>
+        <matchseq end="44" start="4">
+         LVAKLEETSPDQVEVFKTNMNKVMKDILSRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Bombus terrestris RepID=" id="UniRef100_UPI00021A7359" length="172" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N     K +LS+ KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEEAPDQVEVFKTNTNKVMKDILSRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor-like protein n=1 Tax=Acartia pacifica RepID=" id="UniRef100_R9TFQ7" length="172" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="21">
+         EGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         + D +DAFK N+    K LL K KDL F+ GES
+        </pattern>
+        <matchseq end="137" start="105">
+         KADKVDAFKANINKVMKELLGKFKDLDFYCGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Lutzomyia intermedia RepID=" id="UniRef100_J7HBU0" length="172" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         89
+        </score>
+        <bits>
+         38.9
+        </bits>
+        <expectation>
+         0.019
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVDTFKNNINKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GE26077 n=1 Tax=Drosophila yakuba RepID=" id="UniRef100_B4PLI2" length="172" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEEKSPDQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GK14006 n=1 Tax=Drosophila willistoni RepID=" id="UniRef100_B4NKZ1" length="172" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEENAPDQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GF16738 n=1 Tax=Drosophila ananassae RepID=" id="UniRef100_B3LZ62" length="172" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEENSPDQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally controlled tumor protein n=1 Tax=Maconellicoccus hirsutus RepID=" id="UniRef100_A2I3U6" length="172" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLE---GDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L +KLE    D+++ FK NV    K +L + KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVSKLEENKSDEVELFKTNVNKVMKDVLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Drosophila yakuba RepID=" id="UniRef100_Q6XIN1" length="172" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEEKSPDQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=3 Tax=melanogaster subgroup RepID=" id="UniRef100_Q9VGS2" length="172" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.036
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEEKSPDQVDIFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Microtubule-binding protein n=1 Tax=Glossina morsitans morsitans RepID=" id="UniRef100_D3TNM4" length="172" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.036
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D ++ FK N+    K +LS+ KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVEVFKTNMNKVMKEILSRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GD18736 n=1 Tax=Drosophila simulans RepID=" id="UniRef100_B4QUJ7" length="172" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.036
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEEKSPDQVDIFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GG17957 n=1 Tax=Drosophila erecta RepID=" id="UniRef100_B3NZI2" length="172" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.036
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEEKSPDQVDIFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=2 Tax=pseudoobscura subgroup RepID=" id="UniRef100_Q293Y0" length="172" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.036
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         64.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         A+   D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="102">
+         AEKSPDQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Culex quinquefasciatus RepID=" id="UniRef100_B0W991" length="171" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDD---LDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L  KLE  D   ++ FK N+    K LL++ KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="96">
+         LVTKLEEKDPSQVEVFKTNINKVMKDLLTRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Megachile rotundata RepID=" id="UniRef100_UPI000258D634" length="172" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L A+LE    D ++ FK N     K +LS+ KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVARLEEKAPDQVEVFKTNTNKVMKDILSRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="TCTP/HRF n=1 Tax=Tigriopus japonicus RepID=" id="UniRef100_Q6RJR2" length="172" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FKKN+ +  K LL + KD+QFF GES
+        </pattern>
+        <matchseq end="137" start="108">
+         EVEEFKKNISTVMKDLLGRFKDMQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Papilio polytes RepID=" id="UniRef100_I4DLV2" length="172" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKSPDQVDVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Spodoptera litura RepID=" id="UniRef100_F6LAW2" length="172" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKAPDQVDVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GJ10886 n=1 Tax=Drosophila virilis RepID=" id="UniRef100_B4M470" length="172" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GH18260 n=1 Tax=Drosophila grimshawi RepID=" id="UniRef100_B4JFI4" length="172" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVDVFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Plutella xylostella RepID=" id="UniRef100_Q60FS1" length="172" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEETAPDQVDVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Lonomia obliqua RepID=" id="UniRef100_Q5MGM6" length="172" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.05
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+    K +L++ K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKAPDQVDIFKTNMNKVMKDILARFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein n=1 Tax=Coccomyxa subellipsoidea C-169 RepID=" id="UniRef100_I0Z4F8" length="166" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.065
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         66.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="15">
+         KLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         KL  D  + FK   + A K L+ K+K+LQFF+GES
+        </pattern>
+        <matchseq end="133" start="99">
+         KLPADQQEDFKAKSQPAIKMLMGKIKELQFFLGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4FHG3" length="90" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.066
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="101" start="15">
+         KLEGDDLDAFKKNVESATKYLLSKLKDLQ
+        </queryseq>
+        <pattern>
+         KLE +     KK+++SATK+L+SKLKD Q
+        </pattern>
+        <matchseq end="89" start="61">
+         KLESEKQKIIKKHIDSATKFLVSKLKDFQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally controlled tumor protein n=1 Tax=Rhodnius prolixus RepID=" id="UniRef100_R4FMW9" length="172" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.07
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    + +D FK N+    K LL + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKSPEQVDTFKTNMNKVMKELLGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally controlled tumor protein n=1 Tax=Graphocephala atropunctata RepID=" id="UniRef100_Q1W2B7" length="172" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.07
+        </expectation>
+        <identity>
+         52.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N     K +L + KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVDVFKTNTNKVMKDILGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Caligus rogercresseyi RepID=" id="UniRef100_C1BPJ9" length="172" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.07
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+    K +L + KDLQF+ GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVDTFKTNINKVMKDILGRFKDLQFYTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein, putative n=1 Tax=Pediculus humanus subsp. corporis RepID=" id="UniRef100_E0W223" length="160" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.084
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D+++ FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="125" start="85">
+         LVAKLEETKPDEVEVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally-controlled tumor (Fragment) n=1 Tax=Anopheles aquasalis RepID=" id="UniRef100_T1EA89" length="171" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.096
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="106">
+         EEVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Anopheles darlingi RepID=" id="UniRef100_E3X5X7" length="171" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.096
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="106">
+         EEVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally-controlled tumor n=1 Tax=Psorophora albipes RepID=" id="UniRef100_T1DIW2" length="171" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FK N+    K LL++ KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="107">
+         EVEVFKTNINKVMKDLLTRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally-controlled tumor n=1 Tax=Psorophora albipes RepID=" id="UniRef100_T1DF99" length="171" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         83
+        </score>
+        <bits>
+         36.6
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FK N+    K LL++ KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="107">
+         EVEVFKTNINKVMKDLLTRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative translationally-controlled tumor (Fragment) n=1 Tax=Anopheles aquasalis RepID=" id="UniRef100_T1DS62" length="238" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.15
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="203" start="173">
+         EEVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Bombyx mori RepID=" id="UniRef100_H9J0N6" length="166" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.17
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKAPDQVEVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Megaselia scalaris RepID=" id="UniRef100_T1H255" length="169" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="134" start="104">
+         DQVDVFKTNMNKQMKEILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Microtubule-binding protein n=1 Tax=Anopheles funestus RepID=" id="UniRef100_Q06DG2" length="171" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="107">
+         EVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Anopheles gambiae RepID=" id="UniRef100_Q7QCK2" length="171" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="107">
+         EVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Aedes albopictus RepID=" id="UniRef100_Q5MIP6" length="171" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="107">
+         EVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Aedes aegypti RepID=" id="UniRef100_Q1HR79" length="171" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         +++ FK N+    K LL + KDLQFF GES
+        </pattern>
+        <matchseq end="136" start="107">
+         EVEVFKTNINKVMKDLLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: translationally-controlled tumor protein homolog n=1 Tax=Ceratitis capitata RepID=" id="UniRef100_UPI000329E7CC" length="172" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="12">
+         AKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         AKLE    D ++ FK N+    K +L + KDLQF+ GES
+        </pattern>
+        <matchseq end="137" start="99">
+         AKLEENAPDQVEVFKTNMNKVMKEILGRFKDLQFYTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Riptortus pedestris RepID=" id="UniRef100_R4WDS4" length="172" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDD---LDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L +KLE  D   ++ FK N+    K +L + KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVSKLEEKDPSQVETFKTNMNKVMKDILGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Nasonia vitripennis RepID=" id="UniRef100_K7J1F4" length="172" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKAPDQVEVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Papilio xuthus RepID=" id="UniRef100_I4DIC2" length="172" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVDVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Tribolium castaneum RepID=" id="UniRef100_D6WL33" length="172" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKSPDQVEVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=2 Tax=Bombyx mori RepID=" id="UniRef100_Q75VN3" length="172" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N+    K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKAPDQVEVFKTNMNKVMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein n=1 Tax=Trichoplusia ni RepID=" id="UniRef100_F8UZX1" length="172" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L AKLE    D +D FK N+    K +L + K+L+FF GES
+        </pattern>
+        <matchseq end="137" start="97">
+         LVAKLEEKAPDQVDIFKTNMNKVMKDILGRFKELRFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein-like n=1 Tax=Fenneropenaeus chinensis RepID=" id="UniRef100_B8K1X0" length="172" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++D FK N+    K +L + KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="108">
+         EVDTFKTNINKYMKDVLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GI23659 n=1 Tax=Drosophila mojavensis RepID=" id="UniRef100_B4KDL3" length="172" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D ++ FK N+  A K +L + K+LQFF GES
+        </pattern>
+        <matchseq end="137" start="107">
+         DQVEIFKTNMNKAMKDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=2 Tax=Artemia franciscana RepID=" id="UniRef100_B0ZBA6" length="172" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         81
+        </score>
+        <bits>
+         35.8
+        </bits>
+        <expectation>
+         0.26
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++D FK N+    K +L + KDLQFF GES
+        </pattern>
+        <matchseq end="137" start="108">
+         EVDTFKTNINKYMKDVLGRFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="GD10031 n=1 Tax=Drosophila simulans RepID=" id="UniRef100_B4NW17" length="143" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="27">
+         DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         D +D FK N+  A   +L + K+LQFF GES
+        </pattern>
+        <matchseq end="108" start="78">
+         DQVDIFKTNMNKAMTDILGRFKELQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein-like protein n=1 Tax=Camponotus floridanus RepID=" id="UniRef100_E2AW78" length="172" number="166">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.36
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         61.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         L A+LE    D +D FK N+    K +LS+ K+LQFF G S
+        </pattern>
+        <matchseq end="137" start="97">
+         LVARLEEKAPDQVDVFKTNMNKVMKDILSRFKELQFFTGVS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally-controlled tumor protein homolog n=1 Tax=Lepeophtheirus salmonis RepID=" id="UniRef100_D3PIZ6" length="172" number="167">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.36
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++D FK N+    K LL + KDLQF+ GE+
+        </pattern>
+        <matchseq end="137" start="108">
+         EVDTFKTNINKVMKELLPRFKDLQFYTGET
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Acyrthosiphon pisum RepID=" id="UniRef100_J9K5F5" length="173" number="168">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.36
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="30">
+         DLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         ++D FK N+    K LL++ K+LQFF GE+
+        </pattern>
+        <matchseq end="137" start="108">
+         EVDVFKTNINKVMKDLLTRFKELQFFTGEN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative Tctp (Fragment) n=2 Tax=Cecidostiba semifascia RepID=" id="UniRef100_J7I7H9" length="116" number="169">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         77
+        </score>
+        <bits>
+         34.3
+        </bits>
+        <expectation>
+         0.43
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         8
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="113" start="6">
+         LSAKLEG---DDLDAFKKNVESATKYLLSKLKDLQFFVG
+        </queryseq>
+        <pattern>
+         L AKLE    D ++ FK N+    K +LS+ K+LQFF G
+        </pattern>
+        <matchseq end="116" start="78">
+         LVAKLEEKAPDQVEVFKTNMNKVMKDILSRFKELQFFTG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Penaeus monodon RepID=" id="UniRef100_B5LRD3" length="162" number="170">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.45
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Probable human translationally-controlled tumor protein (TCTP) n=1 Tax=Piriformospora indica (strain DSM 11827) RepID=" id="UniRef100_G4TRL1" length="164" number="171">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.46
+        </expectation>
+        <identity>
+         34.0
+        </identity>
+        <positives>
+         66.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="6">
+         LSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         + A+L  D ++AF+K   +  K +++K KD +F+ GE+
+        </pattern>
+        <matchseq end="131" start="94">
+         IKAQLPADQVEAFEKGAAAYAKVIVAKFKDYEFYTGEN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Fenneropenaeus merguiensis RepID=" id="UniRef100_Q5QD40" length="168" number="172">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Scylla sp. PB-2006 RepID=" id="UniRef100_Q0GQS3" length="168" number="173">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Fenneropenaeus indicus RepID=" id="UniRef100_C5IDN5" length="168" number="174">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Fenneropenaeus chinensis RepID=" id="UniRef100_B5L0W5" length="168" number="175">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Penaeus japonicus RepID=" id="UniRef100_B3TML7" length="168" number="176">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=1 Tax=Penaeus japonicus RepID=" id="UniRef100_B3TML6" length="168" number="177">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Translationally controlled tumor protein n=3 Tax=Penaeidae RepID=" id="UniRef100_B0FC92" length="168" number="178">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="119" start="3">
+         NLSAKLEGDDLDAFKKNVESATKYLLSKLKDLQFFVGES
+        </queryseq>
+        <pattern>
+         N+ AKLEG    +   +++     LL K KDLQFF GES
+        </pattern>
+        <matchseq end="133" start="95">
+         NVKAKLEGTPEASKLTSIQKPLTDLLKKFKDLQFFTGES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Atta cephalotes RepID=" id="UniRef100_H9HR59" length="143" number="179">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         78
+        </score>
+        <bits>
+         34.7
+        </bits>
+        <expectation>
+         0.48
+        </expectation>
+        <identity>
+         46.0
+        </identity>
+        <positives>
+         59.0
+        </positives>
+        <gaps>
+         7
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

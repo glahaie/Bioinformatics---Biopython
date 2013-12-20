@@ -1,0 +1,7083 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-175750-0038-97506466-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="96" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:58:06+00:00" search="P0Y0M0DT0H0M16.000S" start="2013-11-25T17:57:50+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Hordeum vulgare var. distichum RepID=M0ZEQ9_HORVD" id="UniRef100_M0ZEQ9" length="61" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         3.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="33" start="4">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=Digitaria nuda RepID=A6YM14_9POAL" id="UniRef100_A6YM14" length="89" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="54" start="25">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 (Fragment) n=1 Tax=uncultured cyanobacterium RepID=B0JEW6_9CYAN" id="UniRef100_B0JEW6" length="95" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="93" start="64">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 (Fragment) n=1 Tax=uncultured phototrophic eukaryote RepID=B0JF20_9EUKA" id="UniRef100_B0JF20" length="95" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="93" start="64">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=5 Tax=Funariidae RepID=G8G007_9BRYO" id="UniRef100_G8G007" length="104" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="40" start="11">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=28 Tax=Bryopsida RepID=G8G003_9BRYO" id="UniRef100_G8G003" length="104" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="40" start="11">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=11 Tax=Oncidiinae RepID=I7AX93_9ASPA" id="UniRef100_I7AX93" length="108" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="44" start="15">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=2 Tax=Oncidiinae RepID=I6ZNZ6_9ASPA" id="UniRef100_I6ZNZ6" length="108" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="44" start="15">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=2 Tax=Oncidiinae RepID=F2VJ50_9ASPA" id="UniRef100_F2VJ50" length="110" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="44" start="15">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem q(B) protein n=1 Tax=Synechococcus sp. RS9916 RepID=Q05QJ1_9SYNE" id="UniRef100_Q05QJ1" length="112" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="42" start="13">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Medicago truncatula RepID=G7LGK6_MEDTR" id="UniRef100_G7LGK6" length="114" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="50" start="26">
+         FNNFRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction centre protein (Fragment) n=1 Tax=Synechococcus sp. WH 8016 RepID=G4FQM1_9SYNE" id="UniRef100_G4FQM1" length="120" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         4.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="50" start="21">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella teesdalei RepID=C0JL45_9BRYO" id="UniRef100_C0JL45" length="147" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="83" start="54">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1/32 kD photosystem II reaction center protein (Fragment) n=1 Tax=Nostoc ellipsosporum SAG 1453-7 RepID=D0E0F6_NOSEL" id="UniRef100_D0E0F6" length="87" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="71" start="42">
+         FQYASFNNSRQLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Frullania dilatata RepID=A4H1J1_FRUDI" id="UniRef100_A4H1J1" length="156" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="92" start="63">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 protein (Fragment) n=1 Tax=uncultured cyanophage RepID=B5L321_9VIRU" id="UniRef100_B5L321" length="158" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="121" start="92">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=R7W671_AEGTA" id="UniRef100_R7W671" length="117" number="17">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         100
+        </score>
+        <bits>
+         43.1
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="37" start="96">
+         IPKAVNQIPTTGQAAQKKCK
+        </queryseq>
+        <pattern>
+         IPKAVNQIPTTGQAA+KKCK
+        </pattern>
+        <matchseq end="101" start="82">
+         IPKAVNQIPTTGQAAKKKCK
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         63
+        </score>
+        <bits>
+         28.9
+        </bits>
+        <expectation>
+         5.0E-5
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -3
+        <queryseq end="2" start="37">
+         ERELLKLAYWKI
+        </queryseq>
+        <pattern>
+         ERELLKLAYWKI
+        </pattern>
+        <matchseq end="113" start="102">
+         ERELLKLAYWKI
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=3 Tax=Poaceae RepID=K3YDZ2_SETIT" id="UniRef100_K3YDZ2" length="163" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="99" start="70">
+         FQYASFNNSCSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium touretii RepID=I1SNR9_SCLTO" id="UniRef100_I1SNR9" length="165" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="101" start="72">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium touretii RepID=I1SNR7_SCLTO" id="UniRef100_I1SNR7" length="165" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="101" start="72">
+         FQYASFNNXRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium touretii RepID=I1SNR5_SCLTO" id="UniRef100_I1SNR5" length="165" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="101" start="72">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Dumortiera hirsuta RepID=F8RPK4_DUMHI" id="UniRef100_F8RPK4" length="169" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="105" start="76">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32kDa protein (Fragment) n=1 Tax=Scleropodium cespitans RepID=D3XGA2_9BRYO" id="UniRef100_D3XGA2" length="169" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         6.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="105" start="76">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Monoclea forsteri RepID=F8RPM3_MONFO" id="UniRef100_F8RPM3" length="173" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="109" start="80">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=3 Tax=Dumortiera hirsuta RepID=F8RPK8_DUMHI" id="UniRef100_F8RPK8" length="173" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="109" start="80">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Dumortiera hirsuta RepID=F8RPI7_DUMHI" id="UniRef100_F8RPI7" length="173" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="109" start="80">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=Stramenopile sp. solLp13tiss RepID=Q0QXC5_9STRA" id="UniRef100_Q0QXC5" length="82" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTA+G
+        </pattern>
+        <matchseq end="43" start="14">
+         FQYASFNNSRALHFFLAAWPVVGIWFTAMG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Pellia endiviifolia RepID=Q5EWI6_9MARC" id="UniRef100_Q5EWI6" length="174" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="110" start="81">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Metzgeria liebmanniana RepID=Q09W55_9MARC" id="UniRef100_Q09W55" length="174" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="110" start="81">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Ceratolejeunea grandiloba RepID=A4H1I5_9MARC" id="UniRef100_A4H1I5" length="174" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="110" start="81">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 variant (Fragment) n=1 Tax=Bassia scoparia RepID=Q85X80_BASSC" id="UniRef100_Q85X80" length="176" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="127" start="98">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula javanica RepID=A4H1J5_9MARC" id="UniRef100_A4H1J5" length="177" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="113" start="84">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Metzgeria furcata RepID=Q09W56_9MARC" id="UniRef100_Q09W56" length="178" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="114" start="85">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Eurhynchiella zeyheri RepID=C0JL49_9BRYO" id="UniRef100_C0JL49" length="179" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella trichophylla RepID=C0JL48_9BRYO" id="UniRef100_C0JL48" length="179" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Rhynchostegiella litorea RepID=C0JL42_9BRYO" id="UniRef100_C0JL42" length="179" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=3 Tax=Brachytheciaceae RepID=C0JL31_9BRYO" id="UniRef100_C0JL31" length="179" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Oxyrrhynchium vagans RepID=C0JL30_9BRYO" id="UniRef100_C0JL30" length="179" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Eurhynchium savatieri RepID=C0JL29_9BRYO" id="UniRef100_C0JL29" length="179" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=Donrichardsia patulifolia RepID=C0JL26_9BRYO" id="UniRef100_C0JL26" length="179" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="115" start="86">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=2 Tax=Lepidolaenaceae RepID=Q5UVB8_9MARC" id="UniRef100_Q5UVB8" length="180" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="116" start="87">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula appressa RepID=G4VY71_9MARC" id="UniRef100_G4VY71" length="180" number="42">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="116" start="87">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula sp. ND-2011g RepID=G4VY32_9MARC" id="UniRef100_G4VY32" length="180" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         7.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="116" start="87">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=16 Tax=Brachytheciaceae RepID=I1SN99_SCLTO" id="UniRef100_I1SN99" length="181" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="117" start="88">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=3 Tax=Radula RepID=G4VY72_9MARC" id="UniRef100_G4VY72" length="181" number="45">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="117" start="88">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula complanata RepID=Q5UV96_9MARC" id="UniRef100_Q5UV96" length="182" number="46">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula apiculata RepID=G4VY85_9MARC" id="UniRef100_G4VY85" length="182" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula formosa RepID=G4VY77_9MARC" id="UniRef100_G4VY77" length="182" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula ocellata RepID=G4VY38_9MARC" id="UniRef100_G4VY38" length="182" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Radula mazarunensis RepID=G4VY26_9MARC" id="UniRef100_G4VY26" length="182" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSCSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=40 Tax=Radula RepID=G4VY01_9MARC" id="UniRef100_G4VY01" length="182" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=37 Tax=Radula RepID=A4H1J4_9MARC" id="UniRef100_A4H1J4" length="182" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="118" start="89">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: photosystem Q(B) protein-like n=1 Tax=Brachypodium distachyon RepID=UPI000234FECB" id="UniRef100_UPI000234FECB" length="185" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         8.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="121" start="92">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem D1 core reaction center protein (Fragment) n=1 Tax=Synechococcus cyanophage RepID=J7K0K5_9VIRU" id="UniRef100_J7K0K5" length="192" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         9.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="177" start="148">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA protein (Fragment) n=1 Tax=Synechococcus phage S-MM1 RepID=D5H3I2_9CAUD" id="UniRef100_D5H3I2" length="192" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         9.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="191" start="162">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 protein (Fragment) n=1 Tax=Coccobotrys verrucariae RepID=E5KYB4_9CHLO" id="UniRef100_E5KYB4" length="195" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         9.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="162" start="133">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YYW0_9BACT" id="UniRef100_B4YYW0" length="196" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         9.0E-5
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="143" start="114">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1/32 kD photosystem II reaction center protein (Fragment) n=1 Tax=Nannochloris atomus RepID=D0E0F5_NANAT" id="UniRef100_D0E0F5" length="198" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="149" start="120">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z088_9VIRU" id="UniRef100_B4Z088" length="202" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II 32 kDa protein (Fragment) n=1 Tax=Metzgeria furcata RepID=A4H1H4_9MARC" id="UniRef100_A4H1H4" length="180" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="116" start="87">
+         FQYASFNNSRSLHFFSAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured alga RepID=M1FAE6_9EUKA" id="UniRef100_M1FAE6" length="203" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L701_9EUKA" id="UniRef100_E9L701" length="203" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6T8_9EUKA" id="UniRef100_E9L6T8" length="203" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6T2_9EUKA" id="UniRef100_E9L6T2" length="203" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6S2_9EUKA" id="UniRef100_E9L6S2" length="203" number="65">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6Q6_9EUKA" id="UniRef100_E9L6Q6" length="203" number="66">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6P0_9EUKA" id="UniRef100_E9L6P0" length="203" number="67">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6N3_9EUKA" id="UniRef100_E9L6N3" length="203" number="68">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6M9_9EUKA" id="UniRef100_E9L6M9" length="203" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Glycine max RepID=I1LXY5_SOYBN" id="UniRef100_I1LXY5" length="291" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         77.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF+AAWP+VGIWFTALG
+        </pattern>
+        <matchseq end="227" start="198">
+         FQYASFNNSRSLHFFFAAWPIVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZC7_9BACT" id="UniRef100_B4YZC7" length="206" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 protein (Fragment) n=1 Tax=uncultured cyanophage RepID=B5L310_9VIRU" id="UniRef100_B5L310" length="243" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         106
+        </score>
+        <bits>
+         45.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F   + LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="206" start="182">
+         FNNXTSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4Z0Z6_9BACT" id="UniRef100_B4Z0Z6" length="209" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="156" start="127">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z128_9VIRU" id="UniRef100_B4Z128" length="210" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z127_9VIRU" id="UniRef100_B4Z127" length="210" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z116_9VIRU" id="UniRef100_B4Z116" length="210" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Bromus tectorum RepID=Q5XP01_BROTE" id="UniRef100_Q5XP01" length="353" number="77">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="265">
+         FNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYA FNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYAGFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Solanum nigrum RepID=Q33128_SOLNI" id="UniRef100_Q33128" length="353" number="78">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="265">
+         FNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYA FNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYAGFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Ambrosia artemisiifolia RepID=B5MF75_AMBAR" id="UniRef100_B5MF75" length="353" number="79">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="265">
+         FNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYA FNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYAGFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=538 Tax=Magnoliophyta RepID=PSBA_BRANA" id="UniRef100_P18290" length="353" number="80">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="265">
+         FNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYA FNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYAGFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=1 Tax=Tectona grandis RepID=Q8HT61_TECGR" id="UniRef100_Q8HT61" length="318" number="81">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         95.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="38">
+         LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="280" start="262">
+         LHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         58
+        </score>
+        <bits>
+         26.9
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYAS+NNSRS
+        </pattern>
+        <matchseq end="261" start="250">
+         IFQYASYNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R260_9ZZZZ" id="UniRef100_R4R260" length="283" number="82">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="232" start="208">
+         FNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IF+YASFNNSRS
+        </pattern>
+        <matchseq end="213" start="202">
+         IFRYASFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z070_9VIRU" id="UniRef100_B4Z070" length="212" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z017_9VIRU" id="UniRef100_B4Z017" length="212" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4Z068_9BACT" id="UniRef100_B4Z068" length="212" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4Z067_9BACT" id="UniRef100_B4Z067" length="212" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4Z066_9BACT" id="UniRef100_B4Z066" length="212" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZC1_9BACT" id="UniRef100_B4YZC1" length="249" number="88">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="172">
+         FNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IF+YASFNNSRS
+        </pattern>
+        <matchseq end="177" start="166">
+         IFRYASFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z132_9VIRU" id="UniRef100_B4Z132" length="213" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z117_9VIRU" id="UniRef100_B4Z117" length="213" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z0E5_9VIRU" id="UniRef100_B4Z0E5" length="213" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4YYY1_9VIRU" id="UniRef100_B4YYY1" length="213" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R198_9ZZZZ" id="UniRef100_R4R198" length="217" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z0E7_9VIRU" id="UniRef100_B4Z0E7" length="218" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZF6_9BACT" id="UniRef100_B4YZF6" length="218" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R3R2_9ZZZZ" id="UniRef100_R4R3R2" length="219" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="201" start="172">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R3M8_9ZZZZ" id="UniRef100_R4R3M8" length="219" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="201" start="172">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R0U3_9ZZZZ" id="UniRef100_R4R0U3" length="219" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="201" start="172">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QTV0_9ZZZZ" id="UniRef100_R4QTV0" length="219" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="201" start="172">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QTU5_9ZZZZ" id="UniRef100_R4QTU5" length="219" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="201" start="172">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QRR5_9ZZZZ" id="UniRef100_R4QRR5" length="219" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="201" start="172">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Triticum urartu RepID=T1LKW9_TRIUA" id="UniRef100_T1LKW9" length="221" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="157" start="128">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1/32 kD photosystem II reaction center protein (Fragment) n=6 Tax=Chlorophyta RepID=A5HIL6_9CHLO" id="UniRef100_A5HIL6" length="221" number="103">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="178" start="149">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QU90_9ZZZZ" id="UniRef100_R4QU90" length="224" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="203" start="174">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z013_9VIRU" id="UniRef100_B4Z013" length="225" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 (Fragment) n=1 Tax=uncultured cyanobacterium RepID=B0JF01_9CYAN" id="UniRef100_B0JF01" length="95" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF  AWPVVGIWFTALG
+        </pattern>
+        <matchseq end="93" start="64">
+         FQYASFNNSRSLHFFLGAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 (Fragment) n=1 Tax=uncultured cyanobacterium RepID=B0JEZ8_9CYAN" id="UniRef100_B0JEZ8" length="95" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF  AWPVVGIWFTALG
+        </pattern>
+        <matchseq end="93" start="64">
+         FQYASFNNSRSLHFFLGAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="D1 (Fragment) n=1 Tax=uncultured phototrophic eukaryote RepID=B0JF15_9EUKA" id="UniRef100_B0JF15" length="95" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF A WPVVGIWFTALG
+        </pattern>
+        <matchseq end="93" start="64">
+         FQYASFNNSRSLHFFLAVWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z001_9VIRU" id="UniRef100_B4Z001" length="227" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4YZH5_9VIRU" id="UniRef100_B4YZH5" length="230" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R2E9_9ZZZZ" id="UniRef100_R4R2E9" length="230" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="208" start="179">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PSII 32 kDa protein (Fragment) n=1 Tax=Populus tomentosa RepID=Q8HUN3_POPTO" id="UniRef100_Q8HUN3" length="105" number="112">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFT LG
+        </pattern>
+        <matchseq end="41" start="12">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTVLG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZY1_9BACT" id="UniRef100_B4YZY1" length="231" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNTRNLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZE3_9BACT" id="UniRef100_B4YZE3" length="231" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z0J2_9VIRU" id="UniRef100_B4Z0J2" length="232" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z0H8_9VIRU" id="UniRef100_B4Z0H8" length="232" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R3Y2_9ZZZZ" id="UniRef100_R4R3Y2" length="232" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="211" start="182">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QU20_9ZZZZ" id="UniRef100_R4QU20" length="232" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="211" start="182">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4Z112_9BACT" id="UniRef100_B4Z112" length="232" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZF8_9BACT" id="UniRef100_B4YZF8" length="232" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=2 Tax=uncultured marine virus RepID=B4Z018_9VIRU" id="UniRef100_B4Z018" length="233" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R6B0_9ZZZZ" id="UniRef100_R4R6B0" length="233" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="211" start="182">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDZ2_9ZZZZ" id="UniRef100_A6YDZ2" length="233" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDZ0_9ZZZZ" id="UniRef100_A6YDZ0" length="233" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDY9_9ZZZZ" id="UniRef100_A6YDY9" length="233" number="125">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDX3_9ZZZZ" id="UniRef100_A6YDX3" length="233" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDX2_9ZZZZ" id="UniRef100_A6YDX2" length="233" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDX0_9ZZZZ" id="UniRef100_A6YDX0" length="233" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDW9_9ZZZZ" id="UniRef100_A6YDW9" length="233" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDW8_9ZZZZ" id="UniRef100_A6YDW8" length="233" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDW7_9ZZZZ" id="UniRef100_A6YDW7" length="233" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDW6_9ZZZZ" id="UniRef100_A6YDW6" length="233" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDW3_9ZZZZ" id="UniRef100_A6YDW3" length="233" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDV6_9ZZZZ" id="UniRef100_A6YDV6" length="233" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosynthetic reaction center protein (Fragment) n=1 Tax=uncultured marine organism RepID=A6YDV3_9ZZZZ" id="UniRef100_A6YDV3" length="233" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="197" start="168">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4YZI0_9BACT" id="UniRef100_B4YZI0" length="233" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z0G4_9VIRU" id="UniRef100_B4Z0G4" length="234" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4R602_9ZZZZ" id="UniRef100_R4R602" length="234" number="138">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="212" start="183">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=2 Tax=uncultured organism RepID=R4R5J3_9ZZZZ" id="UniRef100_R4R5J3" length="234" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="212" start="183">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QVD8_9ZZZZ" id="UniRef100_R4QVD8" length="234" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="212" start="183">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 apoprotein (Fragment) n=1 Tax=Pseudoscourfieldia marina RepID=E1CIF0_9CHLO" id="UniRef100_E1CIF0" length="234" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="226" start="197">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6Y3_9EUKA" id="UniRef100_E9L6Y3" length="203" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6X8_9EUKA" id="UniRef100_E9L6X8" length="203" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6S3_9EUKA" id="UniRef100_E9L6S3" length="203" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6S1_9EUKA" id="UniRef100_E9L6S1" length="203" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6S0_9EUKA" id="UniRef100_E9L6S0" length="203" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6R7_9EUKA" id="UniRef100_E9L6R7" length="203" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6R4_9EUKA" id="UniRef100_E9L6R4" length="203" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6R1_9EUKA" id="UniRef100_E9L6R1" length="203" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6P2_9EUKA" id="UniRef100_E9L6P2" length="203" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6N7_9EUKA" id="UniRef100_E9L6N7" length="203" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6N5_9EUKA" id="UniRef100_E9L6N5" length="203" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6N4_9EUKA" id="UniRef100_E9L6N4" length="203" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6M7_9EUKA" id="UniRef100_E9L6M7" length="203" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6M5_9EUKA" id="UniRef100_E9L6M5" length="203" number="155">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6M1_9EUKA" id="UniRef100_E9L6M1" length="203" number="156">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6L0_9EUKA" id="UniRef100_E9L6L0" length="203" number="157">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6K8_9EUKA" id="UniRef100_E9L6K8" length="203" number="158">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6K4_9EUKA" id="UniRef100_E9L6K4" length="203" number="159">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6K3_9EUKA" id="UniRef100_E9L6K3" length="203" number="160">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6J8_9EUKA" id="UniRef100_E9L6J8" length="203" number="161">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6J7_9EUKA" id="UniRef100_E9L6J7" length="203" number="162">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PsbA (Fragment) n=1 Tax=uncultured freshwater phytoplankton RepID=E9L6J6_9EUKA" id="UniRef100_E9L6J6" length="203" number="163">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="152" start="123">
+         FQYASFNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured marine virus RepID=B4Z0T2_9VIRU" id="UniRef100_B4Z0T2" length="235" number="164">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II protein D1 (Fragment) n=1 Tax=uncultured bacterium RepID=B4Z062_9BACT" id="UniRef100_B4Z062" length="237" number="165">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         105
+        </score>
+        <bits>
+         45.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         17
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSF-----LHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         FQ  SF     LHFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="196" start="167">
+         FQYASFNNSRSLHFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=45 Tax=Magnoliophyta RepID=PSBA_AETCO" id="UniRef100_A4QJ96" length="353" number="166">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         104
+        </score>
+        <bits>
+         44.7
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         76.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F   S LHFF  AWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="265">
+         FNNSSSLHFFLTAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         55
+        </score>
+        <bits>
+         25.8
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYASFNNS S
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYASFNNSSS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=2 Tax=Hymenophyton RepID=Q5YG97_9MARC" id="UniRef100_Q5YG97" length="353" number="167">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="41">
+         HFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         HFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="272">
+         HFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYASFNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYASFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Jensenia connivens RepID=Q5EWI9_9MARC" id="UniRef100_Q5EWI9" length="353" number="168">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="41">
+         HFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         HFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="272">
+         HFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYASFNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYASFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Jensenia decipiens RepID=Q4QWX2_9MARC" id="UniRef100_Q4QWX2" length="353" number="169">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="41">
+         HFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         HFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="272">
+         HFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYASFNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYASFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Jensenia wallisii RepID=Q4QWX0_9MARC" id="UniRef100_Q4QWX0" length="353" number="170">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         98
+        </score>
+        <bits>
+         42.4
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="41">
+         HFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         HFF AAWPVVGIWFTALG
+        </pattern>
+        <matchseq end="289" start="272">
+         HFFLAAWPVVGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         61
+        </score>
+        <bits>
+         28.1
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYASFNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYASFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein (Fragment) n=2 Tax=Amaranthus powellii RepID=Q8WKP5_AMAPO" id="UniRef100_Q8WKP5" length="349" number="171">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="289" start="265">
+         FNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQYA FNNSRS
+        </pattern>
+        <matchseq end="270" start="259">
+         IFQYAGFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem Q(B) protein n=1 Tax=Amphidinium carterae RepID=Q9TM71_AMPCA" id="UniRef100_Q9TM71" length="340" number="172">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         102
+        </score>
+        <bits>
+         43.9
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         72.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="94" start="20">
+         FQQLSFLHFFWAAWPVVGIWFTALG
+        </queryseq>
+        <pattern>
+         F     LHFF AAWPV+GIWFTALG
+        </pattern>
+        <matchseq end="285" start="261">
+         FNNSRSLHFFLAAWPVIGIWFTALG
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         57
+        </score>
+        <bits>
+         26.6
+        </bits>
+        <expectation>
+         1.0E-4
+        </expectation>
+        <identity>
+         92.0
+        </identity>
+        <positives>
+         92.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="38" start="3">
+         IFQYASFNNSRS
+        </queryseq>
+        <pattern>
+         IFQY SFNNSRS
+        </pattern>
+        <matchseq end="266" start="255">
+         IFQYGSFNNSRS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Photosystem II D1 protein (Fragment) n=1 Tax=uncultured organism RepID=R4QRU2_9ZZZZ" id="UniRef100_R4QRU2" length="240" number="173">
+      <alignments total="1">
+       <alignmen>
+       </alignmen>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

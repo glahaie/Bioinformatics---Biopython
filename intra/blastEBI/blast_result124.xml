@@ -1,0 +1,7109 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-172529-0152-84200719-oy.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="136" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T17:25:43+00:00" search="P0Y0M0DT0H0M14.000S" start="2013-11-25T17:25:29+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="250">
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_N1R1W3" length="249" number="1">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </pattern>
+        <matchseq end="101" start="62">
+         KGQAWVVFEDVASATEALKRMQDFPFYDKPMKIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.021
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="75" start="58">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8AU47" length="249" number="2">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </pattern>
+        <matchseq end="101" start="62">
+         KGQAWVVFEDVASATEALKRMQDFPFYDKPMKIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.021
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="75" start="58">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Hordeum vulgare var. distichum RepID=" id="UniRef100_F2DE93" length="249" number="3">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         9.0E-10
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </pattern>
+        <matchseq end="101" start="62">
+         KGQAWVVFEDVASATEALKRMQDFPFYDKPMKIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.021
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="75" start="58">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=" id="UniRef100_I1HLM8" length="251" number="4">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         143
+        </score>
+        <bits>
+         59.7
+        </bits>
+        <expectation>
+         1.0E-9
+        </expectation>
+        <identity>
+         73.0
+        </identity>
+        <positives>
+         83.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </pattern>
+        <matchseq end="102" start="63">
+         KGQAWVVFEDVASATEALKRMQDFPFYDKPMKIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.022
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="76" start="59">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0S4G4" length="250" number="5">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         135
+        </score>
+        <bits>
+         56.6
+        </bits>
+        <expectation>
+         1.0E-8
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="99" start="60">
+         KGQAWVVFEDVQSATEALKRMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV S+
+        </pattern>
+        <matchseq end="73" start="56">
+         TLKHKGQAWVVFEDVQSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Musa acuminata subsp. malaccensis RepID=" id="UniRef100_M0RS21" length="233" number="6">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         134
+        </score>
+        <bits>
+         56.2
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="82" start="43">
+         KGQAWVVFEDVSSATEALKRMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.051
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV+S+
+        </pattern>
+        <matchseq end="56" start="39">
+         TLKHKGQAWVVFEDVSSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Picea sitchensis RepID=" id="UniRef100_D5A9I1" length="241" number="7">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         81.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         AT AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="65">
+         ATNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         75
+        </score>
+        <bits>
+         33.5
+        </bits>
+        <expectation>
+         2.0E-8
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKH+GQAWVVF++V+++
+        </pattern>
+        <matchseq end="65" start="48">
+         TLKHRGQAWVVFDEVSAA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=" id="UniRef100_K3Y9J7" length="257" number="8">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         131
+        </score>
+        <bits>
+         55.1
+        </bits>
+        <expectation>
+         6.0E-8
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEA+KRMQDFPFY KPM+IQYAKTKS
+        </pattern>
+        <matchseq end="108" start="69">
+         KGQAWVVFEDVASATEAIKRMQDFPFYGKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.022
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="82" start="65">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein (Fragment) n=1 Tax=Amblyomma maculatum RepID=" id="UniRef100_G3MF90" length="199" number="9">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         126
+        </score>
+        <bits>
+         53.1
+        </bits>
+        <expectation>
+         1.0E-7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+EALK+MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="98" start="59">
+         KGQAWVVFEDVSKASEALKQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV+ ++
+        </pattern>
+        <matchseq end="73" start="55">
+         TLKHKGQAWVVFEDVSKAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6TN69" length="232" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         3.0E-7
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ+FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVTAASNAVRQMQNFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_C0PM53" length="254" number="11">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         4.0E-7
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQ FPFYDK M+IQYAKTKS
+        </pattern>
+        <matchseq end="103" start="64">
+         KGQAWVVFEDVASATEALKRMQGFPFYDKTMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.022
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="77" start="60">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Zea mays RepID=" id="UniRef100_B6U285" length="254" number="12">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         4.0E-7
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQ FPFYDK M+IQYAKTKS
+        </pattern>
+        <matchseq end="103" start="64">
+         KGQAWVVFEDVASATEALKRMQGFPFYDKTMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.022
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="77" start="60">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein Sb09g004270 n=1 Tax=Sorghum bicolor RepID=" id="UniRef100_C5Z0J1" length="259" number="13">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         125
+        </score>
+        <bits>
+         52.8
+        </bits>
+        <expectation>
+         4.0E-7
+        </expectation>
+        <identity>
+         65.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALKRMQ FPFYDK M+IQYAKTKS
+        </pattern>
+        <matchseq end="110" start="71">
+         KGQAWVVFEDVASATEALKRMQGFPFYDKTMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.022
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="84" start="67">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C2F0D9" length="244" number="14">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         124
+        </score>
+        <bits>
+         52.4
+        </bits>
+        <expectation>
+         5.0E-7
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  AT A+++MQ FPFYDKPMKIQYAKTKS
+        </pattern>
+        <matchseq end="95" start="56">
+         KGQAWVVFEDVSSATNAIRQMQSFPFYDKPMKIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.053
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV+S+
+        </pattern>
+        <matchseq end="69" start="52">
+         TLKHKGQAWVVFEDVSSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=3 Tax=Oryza RepID=" id="UniRef100_Q0DKM4" length="253" number="15">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         124
+        </score>
+        <bits>
+         52.4
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  ATEALK MQDFPF++KPM+IQYAKTKS
+        </pattern>
+        <matchseq end="104" start="65">
+         KGQAWVVFEDVASATEALKSMQDFPFHNKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         91
+        </score>
+        <bits>
+         39.7
+        </bits>
+        <expectation>
+         0.022
+        </expectation>
+        <identity>
+         94.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDVAS+
+        </pattern>
+        <matchseq end="78" start="61">
+         TLKHKGQAWVVFEDVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=2 Tax=Vitis vinifera RepID=" id="UniRef100_D7U2B0" length="232" number="16">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  AT AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="82" start="43">
+         KGQAWVVFEEVSSATNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFE+V+S+
+        </pattern>
+        <matchseq end="56" start="39">
+         TLKHKGQAWVVFEEVSSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Small nuclear ribonucleoprotein U1a,U2b, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9RVH3" length="233" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVMAASNAVRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Physcomitrella patens subsp. patens RepID=" id="UniRef100_A9SK98" length="235" number="18">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         78.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         AT AL++MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="65">
+         ATSALRQMQGFPFYDKPMRIQYAKTTS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         6.0E-7
+        </expectation>
+        <identity>
+         67.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLK +GQAWVVF+DV ++
+        </pattern>
+        <matchseq end="65" start="48">
+         TLKLRGQAWVVFDDVTAA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B4CF57" length="242" number="19">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         123
+        </score>
+        <bits>
+         52.0
+        </bits>
+        <expectation>
+         7.0E-7
+        </expectation>
+        <identity>
+         60.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  AT AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="96" start="57">
+         KGQAWVVFEEVSSATNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.18
+        </expectation>
+        <identity>
+         83.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFE+V+S+
+        </pattern>
+        <matchseq end="70" start="53">
+         TLKHKGQAWVVFEEVSSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=2 Tax=Medicago truncatula RepID=" id="UniRef100_G7K5T4" length="233" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         121
+        </score>
+        <bits>
+         51.2
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ+FPFY+KPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVTAASNAVRQMQNFPFYEKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Medicago truncatula RepID=" id="UniRef100_I3SFF7" length="234" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         121
+        </score>
+        <bits>
+         51.2
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ+FPFY+KPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVTAASNAVRQMQNFPFYEKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Arabidopsis lyrata subsp. lyrata RepID=" id="UniRef100_D7LGP5" length="249" number="22">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+ +M DFPFYDK M+IQYAKTKS
+        </pattern>
+        <matchseq end="99" start="73">
+         ASTAIAKMNDFPFYDKNMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVF++  S++
+        </pattern>
+        <matchseq end="74" start="56">
+         TLKHKGQAWVVFDNADSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Capsella rubella RepID=" id="UniRef100_R0FYC4" length="247" number="23">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         103
+        </score>
+        <bits>
+         44.3
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+ +M DFPFYDK M+IQYAKTKS
+        </pattern>
+        <matchseq end="97" start="71">
+         ASTAIAKMNDFPFYDKRMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         1.0E-6
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVF++  S++
+        </pattern>
+        <matchseq end="72" start="54">
+         TLKHKGQAWVVFDNADSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1JHJ0" length="232" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         120
+        </score>
+        <bits>
+         50.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ+FPFYDKPM+I YAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVTAASNAVRQMQNFPFYDKPMRIHYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6SY32" length="232" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         120
+        </score>
+        <bits>
+         50.8
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ+FPFYDKPM+I YAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVTAASNAVRQMQNFPFYDKPMRIHYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative RNA recognition motif protein n=1 Tax=Trichinella spiralis RepID=" id="UniRef100_E5SXM9" length="220" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L+ AT AL+ MQ FPFYDKPM+IQYAK++S
+        </pattern>
+        <matchseq end="89" start="49">
+         MRGQAFIVFKDLNSATNALRSMQGFPFYDKPMRIQYAKSES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Amblyomma maculatum RepID=" id="UniRef100_G3MT47" length="183" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         2.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K ++ AT AL+ MQ FPFYDKPM+IQYAK++S
+        </pattern>
+        <matchseq end="41" start="1">
+         MRGQAFVAFKDINSATNALRSMQGFPFYDKPMRIQYAKSES
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Blattella germanica RepID=" id="UniRef100_C9D9G5" length="105" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C K +  ++ AL+ MQ FPFYDKPM+IQYAK  S
+        </pattern>
+        <matchseq end="42" start="2">
+         MRGQAFVCFKEIQSSSTALRSMQGFPFYDKPMRIQYAKVDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1snRNP-specific protein, U1A n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_Q41498" length="253" number="29">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="104" start="65">
+         KGQAWVVFEEVSSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFE+V+S++
+        </pattern>
+        <matchseq end="79" start="61">
+         TLKHKGQAWVVFEEVSSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Solanum tuberosum RepID=" id="UniRef100_M1D4N8" length="253" number="30">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         119
+        </score>
+        <bits>
+         50.4
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="104" start="65">
+         KGQAWVVFEEVSSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.14
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFE+V+S++
+        </pattern>
+        <matchseq end="79" start="61">
+         TLKHKGQAWVVFEEVSSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=2 Tax=Populus trichocarpa RepID=" id="UniRef100_B9I9Q4" length="231" number="31">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+ A+++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="82" start="43">
+         KGQAWVIFEDVQSASNAIRQMQSFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.094
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWV+FEDV S++
+        </pattern>
+        <matchseq end="57" start="39">
+         TLKHKGQAWVIFEDVQSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U2 small nuclear ribonucleoprotein B'' n=2 Tax=Attini RepID=" id="UniRef100_F4WTB5" length="184" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="41" start="1">
+         MRGQAFVIFKEIASATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Nannochorista sp. BMW-2009 RepID=" id="UniRef100_C9D9G3" length="61" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQY KT S
+        </pattern>
+        <matchseq end="43" start="3">
+         MRGQAFVIFKEISSATNALRSMQGFPFYDKPMRIQYCKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U2 small nuclear ribonucleoprotein B'', putative n=1 Tax=Pediculus humanus subsp. corporis RepID=" id="UniRef100_E0W1I4" length="190" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         3.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ AT+AL  MQ FPFYDKPM+IQY KT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MKGQAFVIFKEINSATKALMSMQGFPFYDKPMRIQYCKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Macaca fascicularis brain cDNA clone: QorA-13614, similar to human small nuclear ribonucleoprotein polypeptide A (SNRPA), mRNA, RefSeq: NM_004596.3 n=1 Tax=Macaca fascicularis RepID=" id="UniRef100_I7GK73" length="197" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9GSB4" length="251" number="36">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+ A+++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="103" start="64">
+         KGQAWVVFEDVQSASNAMRQMQSFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.075
+        </expectation>
+        <identity>
+         84.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV S++
+        </pattern>
+        <matchseq end="78" start="60">
+         TLKHKGQAWVVFEDVQSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Micromonas sp. (strain RCC299 / NOUM17) RepID=" id="UniRef100_C1EBP4" length="224" number="37">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         111
+        </score>
+        <bits>
+         47.4
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         AT A++ MQ+FPFYDKPM+I YAKTKS
+        </pattern>
+        <matchseq end="89" start="63">
+         ATAAMRAMQEFPFYDKPMRIAYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         62
+        </score>
+        <bits>
+         28.5
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         75.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="8">
+         KHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         K +GQAWVVF DVAS+
+        </pattern>
+        <matchseq end="63" start="48">
+         KLRGQAWVVFADVASA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Spliceosomal protein (Fragment) n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8BTX3" length="208" number="38">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         93.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="67" start="41">
+         ASNAVRQMQSFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         60
+        </score>
+        <bits>
+         27.7
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         70.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         5
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDV-ASSN
+        </queryseq>
+        <pattern>
+         T K +GQAWVVF DV A+SN
+        </pattern>
+        <matchseq end="43" start="24">
+         TSKLRGQAWVVFSDVPAASN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like n=1 Tax=Loxodonta africana RepID=" id="UniRef100_UPI00022360F8" length="200" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B'''''''' 2-like n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032AB101" length="230" number="40">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +C   +  A+ A+++MQ+FPFY+KPM+IQYAK+KS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVCFSEVTSASNAVRQMQNFPFYEKPMRIQYAKSKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like isoform X4 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI0003597706" length="232" number="41">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         4.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEMSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Genlisea aurea RepID=" id="UniRef100_S8E1W8" length="237" number="42">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         5.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A  AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="96" start="57">
+         KGQAWVVFEDVSSANSALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         94
+        </score>
+        <bits>
+         40.8
+        </bits>
+        <expectation>
+         0.0080
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV+S+N
+        </pattern>
+        <matchseq end="71" start="53">
+         TLKHKGQAWVVFEDVSSAN
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oreochromis niloticus RepID=" id="UniRef100_I3J792" length="282" number="43">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         118
+        </score>
+        <bits>
+         50.1
+        </bits>
+        <expectation>
+         5.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ A+ AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MKGQAFVIFKEINSASNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Ornithorhynchus anatinus RepID=" id="UniRef100_F7G136" length="169" number="44">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         5.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K ++ AT AL+ MQ FPFYDKPM+IQYAK+ S
+        </pattern>
+        <matchseq end="67" start="27">
+         MRGQAFVIFKEVNSATNALRSMQGFPFYDKPMRIQYAKSDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1NCF9" length="218" number="45">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         5.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  +    A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="72" start="33">
+         KGQAWVVFEDASSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.12
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFED +S++
+        </pattern>
+        <matchseq end="47" start="29">
+         TLKHKGQAWVVFEDASSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum lycopersicum RepID=" id="UniRef100_K4CV97" length="253" number="46">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         5.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +    +  A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="104" start="65">
+         KGQAWVVFDEVSSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         82
+        </score>
+        <bits>
+         36.2
+        </bits>
+        <expectation>
+         0.35
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVF++V+S++
+        </pattern>
+        <matchseq end="79" start="61">
+         TLKHKGQAWVVFDEVSSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform 2 n=1 Tax=Odobenus rosmarus divergens RepID=" id="UniRef100_UPI0002C57BAB" length="224" number="47">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform X3 n=1 Tax=Heterocephalus glaber RepID=" id="UniRef100_UPI00034F39CF" length="225" number="48">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Callithrix jacchus RepID=" id="UniRef100_F7HA81" length="225" number="49">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform X3 n=1 Tax=Chinchilla lanigera RepID=" id="UniRef100_UPI00038EFC9B" length="227" number="50">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform 1 n=1 Tax=Pan troglodytes RepID=" id="UniRef100_UPI00020E4851" length="227" number="51">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform X3 n=1 Tax=Cavia porcellus RepID=" id="UniRef100_UPI000350E1D2" length="228" number="52">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like isoform 2 n=1 Tax=Dasypus novemcinctus RepID=" id="UniRef100_UPI0003288592" length="228" number="53">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Tursiops truncatus RepID=" id="UniRef100_UPI0002C36AC9" length="228" number="54">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform 2 n=1 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_UPI00029DCA8A" length="229" number="55">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A isoform 2 n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_UPI00027428BB" length="231" number="56">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B''''''''-like n=1 Tax=Megachile rotundata RepID=" id="UniRef100_UPI000258D50D" length="231" number="57">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEIASATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B''''''''-like n=1 Tax=Apis florea RepID=" id="UniRef100_UPI000252BCC8" length="231" number="58">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEIASATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Apis mellifera RepID=" id="UniRef100_UPI0001BE8109" length="231" number="59">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEIASATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U2 small nuclear ribonucleoprotein B'' n=1 Tax=Harpegnathos saltator RepID=" id="UniRef100_E2C3U3" length="231" number="60">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEIGSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: u2 small nuclear ribonucleoprotein B''''''''-like n=1 Tax=Bombus terrestris RepID=" id="UniRef100_UPI00021A816C" length="233" number="61">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         6.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="90" start="50">
+         MRGQAFVIFKEIASATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Dendroctonus ponderosae RepID=" id="UniRef100_N6U985" length="213" number="62">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  +T AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEIQSSTNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like isoform X3 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI0003596DBB" length="282" number="63">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEMSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Canis familiaris RepID=" id="UniRef100_J9NXJ9" length="165" number="64">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM IQYAKT S
+        </pattern>
+        <matchseq end="110" start="70">
+         MRGQAFVIFKEVSRATNALRSMQGFPFYDKPMSIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1NCF8" length="241" number="65">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  +    A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="95" start="56">
+         KGQAWVVFEDASSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFED +S++
+        </pattern>
+        <matchseq end="70" start="52">
+         TLKHKGQAWVVFEDASSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_I1JRV0" length="241" number="66">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  +    A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="95" start="56">
+         KGQAWVVFEDASSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFED +S++
+        </pattern>
+        <matchseq end="70" start="52">
+         TLKHKGQAWVVFEDASSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6TMN2" length="241" number="67">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  +    A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="95" start="56">
+         KGQAWVVFEDASSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFED +S++
+        </pattern>
+        <matchseq end="70" start="52">
+         TLKHKGQAWVVFEDASSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Glycine max RepID=" id="UniRef100_C6SZ90" length="241" number="68">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         58.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  +    A+ AL++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="95" start="56">
+         KGQAWVVFEDASSASNALRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         85
+        </score>
+        <bits>
+         37.4
+        </bits>
+        <expectation>
+         0.13
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFED +S++
+        </pattern>
+        <matchseq end="70" start="52">
+         TLKHKGQAWVVFEDASSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like isoform X2 n=1 Tax=Ficedula albicollis RepID=" id="UniRef100_UPI00035986D8" length="283" number="69">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         117
+        </score>
+        <bits>
+         49.7
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="92" start="52">
+         MRGQAFVIFKEMSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Tribolium castaneum RepID=" id="UniRef100_D6WG78" length="214" number="70">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  +T AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEIQSSTNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like isoform X6 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI00032A1B50" length="221" number="71">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         7.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ A+ AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MKGQAFVIFKEINSASNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Dasypus novemcinctus RepID=" id="UniRef100_UPI000328CA2A" length="253" number="72">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         8.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative spliceosomal protein snrnp-u1a/u2b (Fragment) n=1 Tax=Desmodus rotundus RepID=" id="UniRef100_K9IR84" length="258" number="73">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         8.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="67" start="27">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryzias latipes RepID=" id="UniRef100_H2LQ68" length="227" number="74">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         8.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ A+ AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MKGQAFVIFKEINSASNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Myotis brandtii RepID=" id="UniRef100_S7MG87" length="262" number="75">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         8.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryctolagus cuniculus RepID=" id="UniRef100_G1TM83" length="265" number="76">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         8.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Loxodonta africana RepID=" id="UniRef100_G3UAT1" length="269" number="77">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Selaginella moellendorffii RepID=" id="UniRef100_D8RBP4" length="235" number="78">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  + +  AT AL++MQ+FPFYDK ++IQYAKTKS
+        </pattern>
+        <matchseq end="110" start="70">
+         LKGQAWVVFEDVTAATNALRQMQEFPFYDKALRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Nematostella vectensis RepID=" id="UniRef100_A7RKX3" length="209" number="79">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAK KS
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVVFKDIGSATNALRSMQGFPFYDKPMRIQYAKGKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: U1 small nuclear ribonucleoprotein A-like n=1 Tax=Callithrix jacchus RepID=" id="UniRef100_UPI00026564A4" length="275" number="80">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryctolagus cuniculus RepID=" id="UniRef100_G1TKL0" length="276" number="81">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Protein Snrpa n=1 Tax=Rattus norvegicus RepID=" id="UniRef100_Q5U214" length="281" number="82">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=2 Tax=Heterocephalus glaber RepID=" id="UniRef100_G5C9W9" length="282" number="83">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Condylura cristata RepID=" id="UniRef100_UPI000334371C" length="282" number="84">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Octodon degus RepID=" id="UniRef100_UPI000333FD4F" length="282" number="85">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Echinops telfairi RepID=" id="UniRef100_UPI000333D662" length="282" number="86">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Jaculus jaculus RepID=" id="UniRef100_UPI000332F28B" length="282" number="87">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Sorex araneus RepID=" id="UniRef100_UPI0003315C4F" length="282" number="88">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Ochotona princeps RepID=" id="UniRef100_UPI00032B12D0" length="282" number="89">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Trichechus manatus latirostris RepID=" id="UniRef100_UPI0002C4678D" length="282" number="90">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Nuclear ribonucleoprotein A n=1 Tax=Oryctolagus cuniculus RepID=" id="UniRef100_Q6TU31" length="282" number="91">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Felis catus RepID=" id="UniRef100_M3WNA8" length="282" number="92">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Tupaia chinensis RepID=" id="UniRef100_L9LBS9" length="282" number="93">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=3 Tax=Bovidae RepID=" id="UniRef100_Q2KIR1" length="282" number="94">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Pteropus alecto RepID=" id="UniRef100_L5L4N0" length="282" number="95">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Otolemur garnettii RepID=" id="UniRef100_H0WLM2" length="282" number="96">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=2 Tax=Myotis RepID=" id="UniRef100_L5M5W7" length="282" number="97">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=4 Tax=Laurasiatheria RepID=" id="UniRef100_F6ZVU0" length="282" number="98">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=5 Tax=Catarrhini RepID=" id="UniRef100_F7GVF3" length="282" number="99">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Sus scrofa RepID=" id="UniRef100_Q06AA4" length="282" number="100">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=4 Tax=Homo sapiens RepID=" id="UniRef100_P09012" length="282" number="101">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: U1 small nuclear ribonucleoprotein A-like n=1 Tax=Cricetulus griseus RepID=" id="UniRef100_UPI00022F4DF2" length="284" number="102">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like n=1 Tax=Cicer arietinum RepID=" id="UniRef100_UPI00032AC7EA" length="241" number="103">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+ AL++MQ FPFYDKPM+IQYA+TKS
+        </pattern>
+        <matchseq end="95" start="56">
+         KGQAWVIFEDVSSASNALRQMQGFPFYDKPMRIQYARTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         88
+        </score>
+        <bits>
+         38.5
+        </bits>
+        <expectation>
+         0.053
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWV+FEDV+S++
+        </pattern>
+        <matchseq end="70" start="52">
+         TLKHKGQAWVIFEDVSSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Loxodonta africana RepID=" id="UniRef100_G3TX12" length="285" number="104">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         9.0E-6
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="96" start="56">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=2 Tax=Spermophilus tridecemlineatus RepID=" id="UniRef100_I3MZD6" length="288" number="105">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=2 Tax=Hystricognathi RepID=" id="UniRef100_H0VHX0" length="288" number="106">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=3 Tax=Mustela putorius furo RepID=" id="UniRef100_M3Z1V7" length="288" number="107">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=2 Tax=Gorilla gorilla gorilla RepID=" id="UniRef100_G3QFU4" length="288" number="108">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Cricetulus griseus RepID=" id="UniRef100_G3HNR3" length="291" number="109">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         116
+        </score>
+        <bits>
+         49.3
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille-like protein n=1 Tax=Daphnia pulex RepID=" id="UniRef100_E9HAA5" length="227" number="110">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEVTSATNALRGMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5VZY5" length="232" number="111">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         96.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+++MQ+FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="65">
+         ASNAVRQMQNFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Medicago truncatula RepID=" id="UniRef100_I3S8R6" length="232" number="112">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  A+ AL++MQ FPFYDKPM+IQYA+TKS
+        </pattern>
+        <matchseq end="82" start="43">
+         KGQAWVIFEDVTSASNALRQMQGFPFYDKPMRIQYARTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.069
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         95.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWV+FEDV S++
+        </pattern>
+        <matchseq end="57" start="39">
+         TLKHKGQAWVIFEDVTSAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Camponotus floridanus RepID=" id="UniRef100_E1ZWA3" length="184" number="113">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  A+ AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="41" start="1">
+         MRGQAFVIFKEIASASNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B''''''''-like n=1 Tax=Fragaria vesca subsp. vesca RepID=" id="UniRef100_UPI0002C2EA4B" length="233" number="114">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         96.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+++MQ+FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="65">
+         ASNAVRQMQNFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Prunus persica RepID=" id="UniRef100_M5WJP5" length="233" number="115">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         74.0
+        </identity>
+        <positives>
+         96.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+++MQ+FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="65">
+         ASNAVRQMQNFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryzias latipes RepID=" id="UniRef100_H2LQ65" length="272" number="116">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ A+ AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MKGQAFVIFKEINSASNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Xiphophorus maculatus RepID=" id="UniRef100_M4AVY3" length="273" number="117">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ A+ AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MKGQAFVIFKEINSASNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Vitis vinifera RepID=" id="UniRef100_D7SJN7" length="234" number="118">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         114
+        </score>
+        <bits>
+         48.5
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +    +  A+ A+++MQ+FPFYDKPM++QYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVVFSEVTAASNAVRQMQNFPFYDKPMRVQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A-like isoform X4 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI000329E930" length="280" number="119">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +KG+  +  K ++ A+ AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="91" start="51">
+         MKGQAFVIFKEINSASNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: U2 small nuclear ribonucleoprotein B''''''''-like n=1 Tax=Metaseiulus occidentalis RepID=" id="UniRef100_UPI0002658B5B" length="212" number="120">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K ++ A+EAL+ MQ FPF+DKPM+IQYAK+ S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVAFKEINAASEALRSMQGFPFFDKPMRIQYAKSDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Mus musculus RepID=" id="UniRef100_Q9CXX7" length="287" number="121">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVTSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=2 Tax=Mus musculus RepID=" id="UniRef100_Q62189" length="287" number="122">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         115
+        </score>
+        <bits>
+         48.9
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEVTSATNALRSMQGFPFYDKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Bombylius major RepID=" id="UniRef100_K7Z570" length="115" number="123">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         110
+        </score>
+        <bits>
+         47.0
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+I YAKT S
+        </pattern>
+        <matchseq end="42" start="2">
+         MRGQAFVIFKEIGXATNALRTMQGFPFYDKPMRIAYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Danio rerio RepID=" id="UniRef100_R4GDR2" length="220" number="124">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELSAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brassica rapa subsp. pekinensis RepID=" id="UniRef100_M4CJR1" length="258" number="125">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         95
+        </score>
+        <bits>
+         41.2
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         59.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="54">
+         ATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         A+ A+ +M  +PFY+KPM+IQ+AKTKS
+        </pattern>
+        <matchseq end="108" start="82">
+         ASNAISKMNGYPFYNKPMRIQFAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         1.0E-5
+        </expectation>
+        <identity>
+         68.0
+        </identity>
+        <positives>
+         89.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="58" start="2">
+         TLKHKGQAWVVFEDVASSN
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVF++  S++
+        </pattern>
+        <matchseq end="83" start="65">
+         TLKHKGQAWVVFDNPESAS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Populus trichocarpa RepID=" id="UniRef100_B9INS5" length="233" number="126">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +    +  A+ A+++MQ FPFYDKPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVVFSEVTAASNAVRQMQGFPFYDKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Hydropsyche phalerata RepID=" id="UniRef100_C9D9G2" length="102" number="127">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         109
+        </score>
+        <bits>
+         46.6
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         66.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="39">
+         KMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         K +  AT AL+ MQ FPFYDKPM+IQY KT S
+        </pattern>
+        <matchseq end="39" start="8">
+         KEISSATVALRNMQGFPFYDKPMRIQYCKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U1 small nuclear ribonucleoprotein A n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_UPI000273B205" length="241" number="128">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAK+ S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEISSATNALRSMQGFPFYDKPMRIQYAKSDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Oryzias latipes RepID=" id="UniRef100_H2MYS2" length="214" number="129">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVVFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Asilus crabroniformis RepID=" id="UniRef100_K7ZDT5" length="115" number="130">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         109
+        </score>
+        <bits>
+         46.6
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPMKI Y KT S
+        </pattern>
+        <matchseq end="42" start="2">
+         MRGQAFVVFKEIASATNALRTMQGFPFYDKPMKIAYGKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Clogmia albipunctata RepID=" id="UniRef100_K7ZDT3" length="116" number="131">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         109
+        </score>
+        <bits>
+         46.6
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         55.0
+        </identity>
+        <positives>
+         70.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +G+  +  K L  AT AL+ MQ FPFYDKPM+IQY+K  S
+        </pattern>
+        <matchseq end="40" start="1">
+         RGQAFVIFKELGSATNALRTMQGFPFYDKPMRIQYSKVDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B''''''''-like isoform X3 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI000329EBC5" length="216" number="132">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=2 Tax=Amphimedon queenslandica RepID=" id="UniRef100_I1GIR5" length="217" number="133">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  + +  AT AL+ MQ FPFYDKPM+I YAKTKS
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVVFRDIGSATNALRSMQGFPFYDKPMRIAYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B''''''''-like isoform X1 n=1 Tax=Maylandia zebra RepID=" id="UniRef100_UPI000329C74F" length="218" number="134">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B''''''''-like isoform 2 n=1 Tax=Oryzias latipes RepID=" id="UniRef100_UPI0002A4C5B9" length="218" number="135">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVVFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Chromosome undetermined SCAF7170, whole genome shotgun sequence. (Fragment) n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_Q4TBA4" length="218" number="136">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELTAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U2 small nuclear ribonucleoprotein b'' n=2 Tax=Ictalurus RepID=" id="UniRef100_E3TDA2" length="219" number="137">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVVFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Small nuclear ribonucleoprotein U1a,U2b, putative n=1 Tax=Ricinus communis RepID=" id="UniRef100_B9SAT1" length="254" number="138">
+      <alignments total="2">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         75.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="15">
+         KGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         KG+  +  + +  AT A+++MQ FPFYDKPM+I +AKTKS
+        </pattern>
+        <matchseq end="106" start="67">
+         KGQAWVVFEDVQSATNAIRQMQSFPFYDKPMRIHFAKTKS
+        </matchseq>
+       </alignment>
+       <alignment number="2">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.1
+        </expectation>
+        <identity>
+         89.0
+        </identity>
+        <positives>
+         94.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +2
+        <queryseq end="55" start="2">
+         TLKHKGQAWVVFEDVASS
+        </queryseq>
+        <pattern>
+         TLKHKGQAWVVFEDV S+
+        </pattern>
+        <matchseq end="80" start="63">
+         TLKHKGQAWVVFEDVQSA
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Tetraodon nigroviridis RepID=" id="UniRef100_H3CAM3" length="221" number="139">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELTAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="SNF n=1 Tax=Antheraea pernyi RepID=" id="UniRef100_L7R9W5" length="222" number="140">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKEISSATVALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille (Fragment) n=1 Tax=Panorpa sp. BMW-2009 RepID=" id="UniRef100_C9D9G4" length="52" number="141">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         107
+        </score>
+        <bits>
+         45.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="39">
+         KMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         K +  +T AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="34" start="3">
+         KEIPSSTNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="LOC495019 protein n=1 Tax=Xenopus laevis RepID=" id="UniRef100_Q5XHF0" length="223" number="142">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQGFVIFKELSSATNALRQLQGFPFYSKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2TDM9" length="223" number="143">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELTAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sans fille n=1 Tax=Pararge aegeria RepID=" id="UniRef100_S4P0Z9" length="223" number="144">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="90" start="50">
+         MRGQAFVIFKEISSATVALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Sarcophilus harrisii RepID=" id="UniRef100_G3VM00" length="263" number="145">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAK+ S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKEISSATNALRSMQGFPFYDKPMRIQYAKSDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=2 Tax=Oreochromis niloticus RepID=" id="UniRef100_I3JI71" length="227" number="146">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="97" start="57">
+         MRGQAFVIFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2TDM7" length="227" number="147">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="96" start="56">
+         MRGQAFVIFKELTAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Oryzias latipes RepID=" id="UniRef100_H2MYS1" length="227" number="148">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="95" start="55">
+         MRGQAFVVFKELAAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="U1 small nuclear ribonucleoprotein A n=1 Tax=Medicago truncatula RepID=" id="UniRef100_G7J3K2" length="151" number="149">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         109
+        </score>
+        <bits>
+         46.6
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         57.0
+        </identity>
+        <positives>
+         80.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="30">
+         LCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         +C   +  A+ A+++MQ+FPFY KPM+IQYAKTKS
+        </pattern>
+        <matchseq end="107" start="73">
+         VCFSEVTAASNAVRQMQNFPFYVKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Strigamia maritima RepID=" id="UniRef100_T1IP18" length="229" number="150">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         51.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K ++  T AL+ MQ FPFYDKPM+IQY+KT S
+        </pattern>
+        <matchseq end="94" start="54">
+         MRGQAFVIFKEINSGTNALRSMQGFPFYDKPMRIQYSKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: U2 small nuclear ribonucleoprotein B'''''''' 2-like n=1 Tax=Cucumis sativus RepID=" id="UniRef100_UPI0002B47050" length="231" number="151">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +    +  A+ A+++MQ+FPFY+KPM+IQYAKTKS
+        </pattern>
+        <matchseq end="91" start="51">
+         LRGQAWVAFSEVTAASNAVRQMQNFPFYEKPMRIQYAKTKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Spliceosomal protein n=1 Tax=Solanum tuberosum RepID=" id="UniRef100_Q41499" length="231" number="152">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         49.0
+        </identity>
+        <positives>
+         78.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +    +  A+ A+++MQ+FPFYDKPM+IQYAK+KS
+        </pattern>
+        <matchseq end="92" start="52">
+         LRGQSWVVFSEVTAASNAVRQMQNFPFYDKPMRIQYAKSKS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Pelodiscus sinensis RepID=" id="UniRef100_K7GA89" length="273" number="153">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         113
+        </score>
+        <bits>
+         48.1
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         73.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K +  AT AL+ MQ FPFYDKPM+IQYAK+ S
+        </pattern>
+        <matchseq end="91" start="51">
+         MRGQAFVIFKEISSATNALRSMQGFPFYDKPMRIQYAKSDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Takifugu rubripes RepID=" id="UniRef100_H2TDM8" length="232" number="154">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         112
+        </score>
+        <bits>
+         47.8
+        </bits>
+        <expectation>
+         2.0E-5
+        </expectation>
+        <identity>
+         54.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +3
+        <queryseq end="134" start="12">
+         IKGKHGLCSKMLHPATEALKRMQDFPFYDKPMKIQYAKTKS
+        </queryseq>
+        <pattern>
+         ++G+  +  K L  AT AL+++Q FPFY+KPM+IQYAKT S
+        </pattern>
+        <matchseq end="88" start="48">
+         MRGQAFVIFKELTAATNALRQLQGFPFYNKPMRIQYAKTDS
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Solanum" id="UniRef100_M1CZR5" length="232" number="155">
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

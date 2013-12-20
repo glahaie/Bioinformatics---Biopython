@@ -1,0 +1,145 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-190920-0727-73460866-pg.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="95" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11077485688" sequences="30938908" total="1">
+      <database created="2013-10-15T12:56:00+01:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T19:11:09+00:00" search="P0Y0M0DT0H1M49.000S" start="2013-11-25T19:09:20+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="3">
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_M8C0B8" length="103" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         67
+        </score>
+        <bits>
+         30.4
+        </bits>
+        <expectation>
+         7.7
+        </expectation>
+        <identity>
+         100.0
+        </identity>
+        <positives>
+         100.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="11" start="52">
+         VFLEISTSDYIQSK
+        </queryseq>
+        <pattern>
+         VFLEISTSDYIQSK
+        </pattern>
+        <matchseq end="101" start="88">
+         VFLEISTSDYIQSK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Aegilops tauschii RepID=" id="UniRef100_R7W8A4" length="331" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         7.7
+        </expectation>
+        <identity>
+         85.0
+        </identity>
+        <positives>
+         85.0
+        </positives>
+        <gaps>
+         5
+        </gaps>
+        <strand>
+         plus/none
+        </strand>
+        <frame/>
+        +1
+        <queryseq end="78" start="19">
+         VCSHLLKSLERQIF*NGGST
+        </queryseq>
+        <pattern>
+         VC HLLKSLER IF NGGST
+        </pattern>
+        <matchseq end="259" start="241">
+         VC-HLLKSLERLIFGNGGST
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Triticum urartu RepID=" id="UniRef100_M8A6C5" length="731" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         9.7
+        </expectation>
+        <identity>
+         63.0
+        </identity>
+        <positives>
+         84.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -1
+        <queryseq end="30" start="86">
+         Q*YVLPPF*NICLSRDFNK
+        </queryseq>
+        <pattern>
+         Q ++LPPF N CL+RDFN+
+        </pattern>
+        <matchseq end="79" start="61">
+         QKHILPPFSNFCLARDFNR
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>

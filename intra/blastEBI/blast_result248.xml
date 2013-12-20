@@ -1,0 +1,1513 @@
+<html>
+ <body>
+  <ebiapplicationresult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+   <header>
+    <program name="BLASTX" version="2.2.28+">
+    </program>
+    <commandline command='/ebi/extserv/bin/ncbi-blast-2.2.28+/bin/blastx -db "uniref100" -query ncbiblast-R20131125-184844-0881-59467070-es.sequence  -num_threads 16 -max_hsps_per_subject 1000 -seg no -comp_based_stats F -outfmt 0'>
+    </commandline>
+    <parameters>
+     <sequences total="1">
+      <sequence length="103" name="EMBOSS_001" number="1" type="NUCLEOTIDE">
+      </sequence>
+     </sequences>
+     <databases letters="11382996464" sequences="31705216" total="1">
+      <database created="2013-11-12T12:51:00+00:00" name="uniref100" number="1" type="PROTEIN">
+      </database>
+     </databases>
+     <filter>
+      F
+     </filter>
+    </parameters>
+    <timeinfo end="2013-11-25T18:48:58+00:00" search="P0Y0M0DT0H0M13.000S" start="2013-11-25T18:48:45+00:00">
+    </timeinfo>
+   </header>
+   <sequencesimilaritysearchresult>
+    <hits total="39">
+     <hit database="UR100" description="Serine carboxypeptidase-like 19 n=1 Tax=Aegilops tauschii RepID=N1QRV8_AEGTA" id="UniRef100_N1QRV8" length="443" number="1">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         158
+        </score>
+        <bits>
+         65.5
+        </bits>
+        <expectation>
+         2.0E-11
+        </expectation>
+        <identity>
+         91.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LLEEIYDS IL KKCNYLSPTPNDETT GRILQQ
+        </pattern>
+        <matchseq end="281" start="248">
+         LLEEIYDSQILYKKCNYLSPTPNDETTYGRILQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=M0XT09_HORVD" id="UniRef100_M0XT09" length="321" number="2">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         147
+        </score>
+        <bits>
+         61.2
+        </bits>
+        <expectation>
+         4.0E-10
+        </expectation>
+        <identity>
+         82.0
+        </identity>
+        <positives>
+         91.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LLEEIYDS IL KKCNYL+P PN+ETT+GRILQQ
+        </pattern>
+        <matchseq end="306" start="273">
+         LLEEIYDSQILYKKCNYLAPKPNNETTEGRILQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Predicted protein n=1 Tax=Hordeum vulgare var. distichum RepID=F2DVH4_HORVD" id="UniRef100_F2DVH4" length="468" number="3">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         142
+        </score>
+        <bits>
+         59.3
+        </bits>
+        <expectation>
+         3.0E-9
+        </expectation>
+        <identity>
+         79.0
+        </identity>
+        <positives>
+         88.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LLEEIYDS IL K CNYL+P PN+ETT+GRILQQ
+        </pattern>
+        <matchseq end="306" start="273">
+         LLEEIYDSQILYKNCNYLAPKPNNETTEGRILQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1IMB8_BRADI" id="UniRef100_I1IMB8" length="391" number="4">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         0.0010
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E+   HIL KKC Y+SP PND TT+ +IL++
+        </pattern>
+        <matchseq end="369" start="336">
+         LLQEVSKPHILYKKCIYVSPRPNDGTTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI000234F0E8" id="UniRef100_UPI000234F0E8" length="412" number="5">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         101
+        </score>
+        <bits>
+         43.5
+        </bits>
+        <expectation>
+         0.0010
+        </expectation>
+        <identity>
+         56.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E+   HIL KKC Y+SP PND TT+ +IL++
+        </pattern>
+        <matchseq end="318" start="285">
+         LLQEVSKPHILYKKCIYVSPRPNDGTTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI000234F452" id="UniRef100_UPI000234F452" length="480" number="6">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         99
+        </score>
+        <bits>
+         42.7
+        </bits>
+        <expectation>
+         0.0020
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         76.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L +EI + HIL KKC ++SP PND TT+ +IL++
+        </pattern>
+        <matchseq end="317" start="284">
+         LFQEIQEGHILYKKCIFISPRPNDWTTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1IMC0_BRADI" id="UniRef100_I1IMC0" length="342" number="7">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         93
+        </score>
+        <bits>
+         40.4
+        </bits>
+        <expectation>
+         0.011
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E+   HIL KKC Y SP PND T + +IL++
+        </pattern>
+        <matchseq end="312" start="279">
+         LLQEVSRPHILYKKCIYTSPRPNDGTAERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI000234F0EA" id="UniRef100_UPI000234F0EA" length="475" number="8">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         93
+        </score>
+        <bits>
+         40.4
+        </bits>
+        <expectation>
+         0.013
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L EE    HIL K+C Y+SP PND+TT+ ++L +
+        </pattern>
+        <matchseq end="313" start="280">
+         LFEENSKPHILYKRCIYVSPRPNDDTTERKVLME
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI000234F453" id="UniRef100_UPI000234F453" length="478" number="9">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         93
+        </score>
+        <bits>
+         40.4
+        </bits>
+        <expectation>
+         0.013
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E+   HIL KKC Y SP PND T + +IL++
+        </pattern>
+        <matchseq end="315" start="282">
+         LLQEVSRPHILYKKCIYTSPRPNDGTAERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Oryza glaberrima RepID=I1QZQ0_ORYGL" id="UniRef100_I1QZQ0" length="137" number="10">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.025
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E+   HIL +KC YLSP PN E+   +IL++
+        </pattern>
+        <matchseq end="66" start="33">
+         LLDEVSKPHILYRKCIYLSPRPNLESIHRKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Sinapoylglucose:choline sinapoyltransferase, putative n=1 Tax=Oryza sativa subsp. japonica RepID=Q53PJ6_ORYSJ" id="UniRef100_Q53PJ6" length="138" number="11">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.026
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E+   HIL +KC YLSP PN E+   +IL++
+        </pattern>
+        <matchseq end="67" start="34">
+         LLDEVSKPHILYRKCIYLSPRPNLESIHRKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1ITI0_BRADI" id="UniRef100_I1ITI0" length="453" number="12">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.081
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L  EI + HIL KKC Y S  PND TT+ +IL++
+        </pattern>
+        <matchseq end="329" start="296">
+         LRNEISEPHILYKKCVYASDRPNDGTTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI000234F43F" id="UniRef100_UPI000234F43F" length="464" number="13">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.081
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L  EI + HIL KKC Y S  PND TT+ +IL++
+        </pattern>
+        <matchseq end="302" start="269">
+         LRNEISEPHILYKKCVYASDRPNDGTTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1ITH9_BRADI" id="UniRef100_I1ITH9" length="491" number="14">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         87
+        </score>
+        <bits>
+         38.1
+        </bits>
+        <expectation>
+         0.083
+        </expectation>
+        <identity>
+         53.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L  EI + HIL KKC Y S  PND TT+ +IL++
+        </pattern>
+        <matchseq end="329" start="296">
+         LRNEISEPHILYKKCVYASDRPNDGTTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Serine carboxypeptidase family protein, expressed n=1 Tax=Oryza sativa subsp. japonica RepID=H2KW76_ORYSJ" id="UniRef100_H2KW76" length="455" number="15">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E+ ++HIL KKC Y+SP P+D T   +IL++
+        </pattern>
+        <matchseq end="318" start="285">
+         LMGEVSEAHILYKKCIYVSPKPDDGTIGRKILEE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Serine carboxypeptidase n=1 Tax=Oryza sativa subsp. japonica RepID=Q53PA1_ORYSJ" id="UniRef100_Q53PA1" length="477" number="16">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E+ ++HIL KKC Y+SP P+D T   +IL++
+        </pattern>
+        <matchseq end="340" start="307">
+         LMGEVSEAHILYKKCIYVSPKPDDGTIGRKILEE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Os11g0432900 protein n=1 Tax=Oryza sativa subsp. japonica RepID=Q2R5M2_ORYSJ" id="UniRef100_Q2R5M2" length="479" number="17">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E+ ++HIL KKC Y+SP P+D T   +IL++
+        </pattern>
+        <matchseq end="318" start="285">
+         LMGEVSEAHILYKKCIYVSPKPDDGTIGRKILEE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza glaberrima RepID=I1QZR3_ORYGL" id="UniRef100_I1QZR3" length="479" number="18">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E+ ++HIL KKC Y+SP P+D T   +IL++
+        </pattern>
+        <matchseq end="318" start="285">
+         LMGEVSEAHILYKKCIYVSPKPDDGTIGRKILEE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. japonica RepID=B9GAJ1_ORYSJ" id="UniRef100_B9GAJ1" length="480" number="19">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.11
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E+ ++HIL KKC Y+SP P+D T   +IL++
+        </pattern>
+        <matchseq end="318" start="285">
+         LMGEVSEAHILYKKCIYVSPKPDDGTIGRKILEE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein n=1 Tax=Oryza sativa subsp. indica RepID=B8BKA4_ORYSI" id="UniRef100_B8BKA4" length="597" number="20">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         86
+        </score>
+        <bits>
+         37.7
+        </bits>
+        <expectation>
+         0.12
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         74.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E+ ++HIL KKC Y+SP P+D T   +IL++
+        </pattern>
+        <matchseq end="318" start="285">
+         LMGEVSEAHILYKKCIYVSPKPDDGTIGRKILEE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3N7X7_ORYBR" id="UniRef100_J3N7X7" length="384" number="21">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         84
+        </score>
+        <bits>
+         37.0
+        </bits>
+        <expectation>
+         0.19
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L +E+   HIL ++CNYLSP PN  T   +IL +
+        </pattern>
+        <matchseq end="304" start="271">
+         LKDEVSAPHILYRRCNYLSPNPNIHTIDRKILTE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1ITH8_BRADI" id="UniRef100_I1ITH8" length="454" number="22">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.67
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL EI+  HIL KKC  +S  PND +T  +IL++
+        </pattern>
+        <matchseq end="292" start="259">
+         LLNEIWKEHILYKKCISVSARPNDGSTGRKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Serine carboxypeptidase-like 19 n=1 Tax=Aegilops tauschii RepID=R7W701_AEGTA" id="UniRef100_R7W701" length="465" number="23">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.67
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L  EI   HIL KKC Y S  PND +T+ +IL++
+        </pattern>
+        <matchseq end="317" start="284">
+         LWNEISHPHILYKKCVYASSRPNDGSTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI0001C717FB" id="UniRef100_UPI0001C717FB" length="482" number="24">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         80
+        </score>
+        <bits>
+         35.4
+        </bits>
+        <expectation>
+         0.68
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         68.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL EI+  HIL KKC  +S  PND +T  +IL++
+        </pattern>
+        <matchseq end="320" start="287">
+         LLNEIWKEHILYKKCISVSARPNDGSTGRKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="PREDICTED: LOW QUALITY PROTEIN: serine carboxypeptidase-like 19-like n=1 Tax=Brachypodium distachyon RepID=UPI000234F0E9" id="UniRef100_UPI000234F0E9" length="458" number="25">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.9
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L EE  ++HIL K+C Y+S  PN +TT+ ++L +
+        </pattern>
+        <matchseq end="316" start="283">
+         LREENAEAHILYKRCIYVSSRPNVDTTERKVLME
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Serine carboxypeptidase-like 19 n=1 Tax=Triticum urartu RepID=M7YK41_TRIUA" id="UniRef100_M7YK41" length="462" number="26">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.91
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L  EI   HIL KKC Y S  PND +T+ +IL++
+        </pattern>
+        <matchseq end="300" start="267">
+         LWNEISHPHILYKKCVYASSGPNDGSTERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Brachypodium distachyon RepID=I1IMC3_BRADI" id="UniRef100_I1IMC3" length="540" number="27">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         79
+        </score>
+        <bits>
+         35.0
+        </bits>
+        <expectation>
+         0.95
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         71.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L EE  ++HIL K+C Y+S  PN +TT+ ++L +
+        </pattern>
+        <matchseq end="398" start="365">
+         LREENAEAHILYKRCIYVSSRPNVDTTERKVLME
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Serine carboxypeptidase-like protein 8 n=1 Tax=Aegilops tauschii RepID=M8CA92_AEGTA" id="UniRef100_M8CA92" length="234" number="28">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         1.5
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         63.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="7" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRIL
+        </queryseq>
+        <pattern>
+         L+ EI D+H+L KKC   +P P D+ T G  L
+        </pattern>
+        <matchseq end="134" start="103">
+         LISEITDAHVLYKKCVVATPKPIDDATYGYYL
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Serine carboxypeptidase-like 19 n=1 Tax=Aegilops tauschii RepID=M8BQV8_AEGTA" id="UniRef100_M8BQV8" length="469" number="29">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         76
+        </score>
+        <bits>
+         33.9
+        </bits>
+        <expectation>
+         2.2
+        </expectation>
+        <identity>
+         47.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L +EIY  HIL KKC Y S   ND + + +IL++
+        </pattern>
+        <matchseq end="294" start="261">
+         LYDEIYRPHILFKKCVYASSGTNDGSIERKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3Z784_SETIT" id="UniRef100_K3Z784" length="370" number="30">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         3.7
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL E    HIL KKC Y+SP  NDE+ +  IL++
+        </pattern>
+        <matchseq end="286" start="253">
+         LLGECSKPHILYKKCFYVSPGQNDESPRRIILKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3Z6I6_SETIT" id="UniRef100_K3Z6I6" length="420" number="31">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         3.9
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL E    HIL KKC Y+SP  NDE+ +  IL++
+        </pattern>
+        <matchseq end="258" start="225">
+         LLGECSKPHILYKKCFYVSPGQNDESPRRIILKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3Z661_SETIT" id="UniRef100_K3Z661" length="448" number="32">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.0
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL E    HIL KKC Y+SP  NDE+ +  IL++
+        </pattern>
+        <matchseq end="286" start="253">
+         LLGECSKPHILYKKCFYVSPGQNDESPRRIILKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3Z605_SETIT" id="UniRef100_K3Z605" length="465" number="33">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         74
+        </score>
+        <bits>
+         33.1
+        </bits>
+        <expectation>
+         4.0
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL E    HIL KKC Y+SP  NDE+ +  IL++
+        </pattern>
+        <matchseq end="303" start="270">
+         LLGECSKPHILYKKCFYVSPGQNDESPRRIILKK
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Setaria italica RepID=K3YUD5_SETIT" id="UniRef100_K3YUD5" length="309" number="34">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         4.6
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL+E   +HIL K C Y+SP P D T + + L++
+        </pattern>
+        <matchseq end="305" start="272">
+         LLDECMMAHILYKTCVYVSPRPKDGTEKRKSLKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Putative uncharacterized protein DKFZp727E011 (Fragment) n=1 Tax=Homo sapiens RepID=Q9NTF0_HUMAN" id="UniRef100_Q9NTF0" length="475" number="35">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         73
+        </score>
+        <bits>
+         32.7
+        </bits>
+        <expectation>
+         5.5
+        </expectation>
+        <identity>
+         50.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L  EI +SHILD+  N  +P P+ +TT   ILQQ
+        </pattern>
+        <matchseq end="167" start="134">
+         LKNEIPNSHILDQYRNASNPLPHYDTTADEILQQ
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=M0VSA5_HORVD" id="UniRef100_M0VSA5" length="319" number="36">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         6.4
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="22" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETT
+        </queryseq>
+        <pattern>
+         L+ EI D+++LDKKC +  P P D  T
+        </pattern>
+        <matchseq end="268" start="242">
+         LISEIVDANVLDKKCVFSMPKPIDNVT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Hordeum vulgare var. distichum RepID=M0VSA8_HORVD" id="UniRef100_M0VSA8" length="364" number="37">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         72
+        </score>
+        <bits>
+         32.3
+        </bits>
+        <expectation>
+         6.7
+        </expectation>
+        <identity>
+         48.0
+        </identity>
+        <positives>
+         67.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="22" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETT
+        </queryseq>
+        <pattern>
+         L+ EI D+++LDKKC +  P P D  T
+        </pattern>
+        <matchseq end="298" start="272">
+         LISEIVDANVLDKKCVFSMPKPIDNVT
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein (Fragment) n=1 Tax=Oryza glaberrima RepID=I1QZQ3_ORYGL" id="UniRef100_I1QZQ3" length="232" number="38">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         70
+        </score>
+        <bits>
+         31.6
+        </bits>
+        <expectation>
+         9.6
+        </expectation>
+        <identity>
+         44.0
+        </identity>
+        <positives>
+         62.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         LL E+   HIL KKC Y+S  P  E+   +IL++
+        </pattern>
+        <matchseq end="150" start="117">
+         LLNEVSKPHILYKKCIYMSLIPKFESMDRKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+     <hit database="UR100" description="Uncharacterized protein n=1 Tax=Oryza brachyantha RepID=J3N7U4_ORYBR" id="UniRef100_J3N7U4" length="482" number="39">
+      <alignments total="1">
+       <alignment number="1">
+        <score>
+         71
+        </score>
+        <bits>
+         32.0
+        </bits>
+        <expectation>
+         9.9
+        </expectation>
+        <identity>
+         41.0
+        </identity>
+        <positives>
+         65.0
+        </positives>
+        <gaps>
+         0
+        </gaps>
+        <strand>
+         minus/none
+        </strand>
+        <frame/>
+        -2
+        <queryseq end="1" start="102">
+         LLEEIYDSHILDKKCNYLSPTPNDETTQGRILQQ
+        </queryseq>
+        <pattern>
+         L+ E++ +HIL K C   SP P+D T   +IL++
+        </pattern>
+        <matchseq end="320" start="287">
+         LIGEVWGAHILYKNCIDASPKPDDATAGRKILKE
+        </matchseq>
+       </alignment>
+      </alignments>
+     </hit>
+    </hits>
+   </sequencesimilaritysearchresult>
+  </ebiapplicationresult>
+ </body>
+</html>
