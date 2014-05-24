@@ -1,0 +1,1 @@
+((Saimiri_bolivensis:0.021460,(Macaca_fasicularis:0.000440,Macaca_mulatta:0.000550):0.010490):0.000275,(Pongo_abelii:0.004590,(Nomascus_leucogenys:0.007130,(Gorilla_gorilla:0.004430,(Pan_troglodytes:0.013630,Pan_paniscus:0.000840):0.004060):0.001860):0.000150):0.002035);
