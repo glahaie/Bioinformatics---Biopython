@@ -1,4 +1,10 @@
-INF4500
+Bioinformatics - Biopython
 =======
 
-Essaie d'exercices et devoirs avec biojava et biopython
+A series of reports for a bioinformatics class. Most of the scripts were written
+in python, with biopython and other python libraries to connect to online
+databases.
+
+***
+
+Essaie d'exercices et devoirs avec biopython
